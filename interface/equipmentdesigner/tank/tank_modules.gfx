@@ -1,0 +1,108 @@
+spriteTypes = {
+	### Navigation
+	# Chassis
+	# Gun
+	# Armor
+	# Modules
+
+	# Chassis
+
+	spriteType = {
+		name = "GFX_EMI_tank_modules_movement_type"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/chassis/chassis_chassis.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_movement_chassis"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/chassis/chassis_chassis.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_movement_wheels"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/chassis/chassis_wheels.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_movement_chassis_and_wheels"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/chassis/chassis_chassis_and_wheels.png"
+	}
+
+	# Gun
+
+	spriteType = {
+		name = "GFX_EMI_tank_modules_gun_type"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/gun/gun_one.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_gun_one"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/gun/gun_one.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_gun_two"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/gun/gun_two.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_gun_fire"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/gun/gun_fire.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_gun_two_with_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/gun/gun_two_air.png"
+	}
+
+	# Armor
+
+	spriteType = {
+		name = "GFX_EMI_tank_modules_armor_type"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/armor/armor_default.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_default"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/armor/armor_default.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_layers"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/armor/armor_layers.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_plates"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/armor/armor_plates.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_armor_two_layers"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/armor/armor_two_layers.png"
+	}
+
+	# Modules
+
+	spriteType = {
+		name = "GFX_EMI_tank_modules_module_type"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/modules/module_better_tech.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_modules_air_attack"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/modules/module_air_attack.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_modules_smoke"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/modules/module_smoke.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_modules_rifle"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/modules/module_rifle.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_modules_radio"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/modules/module_radio.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_modules_fuel_big"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/modules/module_fuel.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_modules_fuel_small"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/modules/module_mini_fuel.png"
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_modules_rockets"
+		textureFile = "gfx/interface/equipmentdesigner/tank/modules/modules/module_rockets.png"
+	}
+	
+}

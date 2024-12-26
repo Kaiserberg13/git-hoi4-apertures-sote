@@ -1,0 +1,36 @@
+
+state={
+	id=330
+	name="STATE_330"
+
+	history={
+		owner = USB
+		victory_points = {
+			7527 3 
+		}
+		victory_points = {
+			7202 2 
+		}
+		victory_points = {
+			4653 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			7202 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = USB
+
+	}
+
+	provinces={
+		1485 1547 3994 4491 4653 7012 7134 7202 7527 10029 10047 11927 
+	}
+	manpower=876608
+	buildings_max_level_factor=1.000
+	state_category=city
+}

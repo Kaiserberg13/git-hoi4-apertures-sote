@@ -1,0 +1,25 @@
+
+state={
+	id=210
+	name="STATE_210"
+
+	history={
+		owner = RDR
+		victory_points = {
+			11159 2 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+
+		}
+		add_core_of = RDR
+	}
+
+	provinces={
+		90 92 2356 3033 3084 3144 6057 6106 9118 11092 11153 11159 13198 
+	}
+	manpower=3835583
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

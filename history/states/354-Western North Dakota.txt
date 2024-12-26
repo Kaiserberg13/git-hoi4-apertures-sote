@@ -1,0 +1,29 @@
+
+state={
+	id=354
+	name="STATE_354"
+	resources={
+		steel=17.000
+		oil=7.000
+	}
+
+	history={
+		owner = USB
+		victory_points = {
+			1836 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = USB
+
+	}
+
+	provinces={
+		1836 4759 4772 6722 7877 10709 12566 
+	}
+	manpower=1967215
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,26 @@
+state={
+	id=1070
+	name="STATE_1070"
+
+	history={
+		owner = RAJ
+		victory_points = {
+			8005 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = RAJ
+		add_core_of = PRC
+
+	}
+	
+	provinces={
+		7273 7316 8005 12884 14319 
+	}
+	manpower=933563
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

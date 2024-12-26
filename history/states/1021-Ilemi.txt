@@ -1,0 +1,30 @@
+
+state={
+	id=1021
+	name="STATE_1021"
+
+	history={
+		owner = UGA
+		buildings = {
+			infrastructure = 2
+			14117 = {
+				bunker = 2
+			}
+
+		}
+		add_core_of = UGA
+		victory_points = {
+			10859 7
+		}
+		
+
+	}
+
+	provinces={
+		2096 10859 14117 14120 14121 15957 15967 15997 
+	}
+	manpower=1350496
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

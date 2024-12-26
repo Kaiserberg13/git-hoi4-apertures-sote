@@ -1,0 +1,76 @@
+﻿division_template = {
+	name = "Bergjäger"
+
+	division_names_group = HOL_mnt_01
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+
+        mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "Sturmfeste 1"
+		location = 636
+		division_template = "Bergjäger"
+		start_equipment_factor = 1.0
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "Sturmfeste 2"
+		location = 663
+		division_template = "Bergjäger"
+		start_equipment_factor = 1.0
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "Sturmfeste 4"
+		location = 9600
+		division_template = "Bergjäger"
+		start_equipment_factor = 1.0
+		start_experience_factor = 1.0
+	}
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "SWI"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 40
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_armor_equipment_0
+			creator = "SWI"
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_artillery_equipment_1
+			creator = "SWI"
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 80
+	}
+}

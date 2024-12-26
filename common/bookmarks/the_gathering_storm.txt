@@ -1,0 +1,337 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 2967.6.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "OAS"
+		default = yes
+		
+		"ENG"={
+			ideology = democratic
+			history = "ENG_bookmark_desc"
+		}
+		"OAS"={
+			ideology = democratic
+			history = "GER_bookmark_DESC"
+		}
+		"SOV"={
+			ideology = democratic
+			history = "GER_bookmark_DESC"
+		}
+		"SAF"={
+			ideology = democratic
+			history = "GER_bookmark_DESC"
+		}
+		"GER"={
+			ideology = democratic
+			history = "GER_bookmark_DESC"
+		}
+		"ROM"={
+			ideology = democratic
+			history = "GER_bookmark_DESC"
+		}
+		# Empire
+		"FRA"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"USA"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"CSA"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"USB"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"NN0"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		# Hypocrestrial
+		"JAP"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"PRC"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"KOR"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"AST"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"NN0"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		# Russia
+		"RDR"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"RSF"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"RSE"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"BKO"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"NN0"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		# Africa
+		"MAD"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"ETH"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"LIB"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"CMR"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"NN0"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		# Europe
+		"AUS"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"LAT"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"POL"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"UKR"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"NN0"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		# Balcan
+		"BOS"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"CRO"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"SLV"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"HUN"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		# Empire
+		"MEX"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"BRT"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"CAN"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"POR"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"NN0"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		# Hypocrestrial
+		"SIA"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"PHI"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"RAJ"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"NZL"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"NN0"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		# Russia
+		"KAZ"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"KOM"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"BRH"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"FER"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"NN0"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		# Africa
+		"COG"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"ZAM"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"TZN"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"UGA"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"NN0"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		# Europe
+		"BLR"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"FIN"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"ITA"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"CZE"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"NN0"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		# Balcans
+		"SER"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"GRE"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"BUL"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+		"CRO"={
+			ideology = democratic
+			history = "CAN_bookmark_DESC"
+			minor = yes
+		}
+	}
+}

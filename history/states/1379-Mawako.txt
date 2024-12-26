@@ -1,0 +1,45 @@
+state={
+	id=1379
+	name="STATE_1379"
+	provinces={
+		1234 1293 1379 1407 1421 4241 4266 4399 4427 7284 7360 7389 7417 7445 10184 10214 10243 10300 10328 12116 12158 12160 12188 12217 12245 12273 16070 16074 
+	}
+	history={
+		owner = PHI
+		victory_points = {
+			10243 5 
+		}
+		victory_points = {
+			1293 5
+		}
+		victory_points = {
+			7284 3
+		}
+		victory_points = {
+			12158 1
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			industrial_complex = 1
+			arms_factory = 2
+			dockyard = 1
+			16070 = {
+				naval_base = 2
+
+			}
+			1421 = {
+				naval_base = 2
+			}
+			4266 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = PHI
+
+	}
+	manpower=3586309
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

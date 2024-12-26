@@ -1,0 +1,203 @@
+GetCorporationInfluencePercentages = {
+	set_variable = { CorporationInfluenceTotal = 0 } 
+    add_to_variable = {	CorporationInfluenceTotal = CI_Camelia }
+	add_to_variable = {	CorporationInfluenceTotal = CI_Artsotzka }
+	add_to_variable = {	CorporationInfluenceTotal = CI_Rotatosk }
+	add_to_variable = {	CorporationInfluenceTotal = CI_Zaphkiel }
+	add_to_variable = {	CorporationInfluenceTotal = CI_Equonics }
+	add_to_variable = {	CorporationInfluenceTotal = CI_Others }
+	add_to_variable = {	CorporationInfluenceTotal = CI_Self }
+
+	set_variable = { CountryCamelia = CorporationCamelia }
+    set_variable = { CountryArtsotzka = CorporationArtsotzka }
+    set_variable = { CountryCI_Rotatosk = CorporationRotatosk }
+    set_variable = { CountryZaphkiel = CorporationZaphkiel }
+    set_variable = { CountryEquonics= CorporationEquonics }
+    set_variable = { CountryOthers = CorporationOthers }
+    set_variable = { CountrySelf = CorporationSelf }
+
+	#divide_variable = {  CorporationCamelia = CorporationInfluenceTotal }
+    #divide_variable = {  CorporationArtsotzka = CorporationInfluenceTotal }
+    #divide_variable = {  CorporationRotatosk = CorporationInfluenceTotal }
+    #divide_variable = {  CorporationZaphkiel = CorporationInfluenceTotal }
+    #divide_variable = {  CorporationEquonics = CorporationInfluenceTotal }
+    #divide_variable = {  CorporationSelf = CorporationInfluenceTotal }
+    #divide_variable = {  CorporationOthers = CorporationInfluenceTotal }
+    #divide_variable = {  CorporateDynalar_Technologies = CorporationInfluenceTotal }
+    #divide_variable = {  CorporateRocklin_Augments = CorporationInfluenceTotal }
+    #divide_variable = {  CorporateLazarus = CorporationInfluenceTotal }
+    #divide_variable = {  CorporateAsukaga_Finch = CorporationInfluenceTotal }
+    #divide_variable = {  CorporateIllegitimate = CorporationInfluenceTotal }
+
+	clear_array = corporation_influence_percentage
+
+	multiply_variable = { CountryCamelia = 100 }
+	round_variable = CountryCamelia
+	add_to_array = { corporation_influence_percentage = CountryCamelia }
+    
+	multiply_variable = { CountryArtsotzka = 100 }
+	round_variable = CountryArtsotzka
+	add_to_array = { corporation_influence_percentage = CountryArtsotzka }
+    
+	multiply_variable = { CountryCI_Rotatosk = 100 }
+	round_variable = CountryCI_Rotatosk
+	add_to_array = { corporation_influence_percentage = CountryCI_Rotatosk }
+    
+	multiply_variable = { CountryZaphkiel = 100 }
+	round_variable = CountryZaphkiel
+	add_to_array = { corporation_influence_percentage = CountryZaphkiel }
+    
+	multiply_variable = { CountryEquonics = 100 }
+	round_variable = CountryEquonics
+	add_to_array = { corporation_influence_percentage = CountryEquonics }
+    
+	multiply_variable = { CountrySelf = 100 }
+	round_variable = CountrySelf
+	add_to_array = { corporation_influence_percentage = CountryPMicrotech }
+    
+	clear_array = corporation_id 
+
+    add_to_array = { corporation_id = 1 }
+    add_to_array = { corporation_id = 2 }
+    add_to_array = { corporation_id = 3 }
+    add_to_array = { corporation_id = 4 }
+    add_to_array = { corporation_id = 5 }
+    add_to_array = { corporation_id = 6 }
+    add_to_array = { corporation_id = 7 }
+    add_to_array = { corporation_id = 8 }
+    add_to_array = { corporation_id = 9 }
+    add_to_array = { corporation_id = 10 }
+    add_to_array = { corporation_id = 11 }
+    add_to_array = { corporation_id = 12 }
+
+	set_temp_variable = { length_temp = corporation_influence_percentage^num }
+	for_loop_effect = {
+		start = 0
+		end = length_temp
+		add = 1
+		value = v
+		break = b
+		
+		find_highest_in_array = {
+			array = corporation_influence_percentage
+			value = v
+			index = ii
+		}
+		remove_from_array = {
+			array = corporation_influence_percentage
+			index = ii
+		}
+		add_to_temp_array = { 
+			array = corporation_influence_percentage_temp
+			value = v
+		}
+		set_temp_variable = { corporation_id_temp_var = corporation_id^ii }
+		remove_from_array = {
+			array = corporation_id
+			index = ii
+		}
+		add_to_temp_array = { 
+			array = corporation_id_temp
+			value = corporation_id_temp_var  
+		}
+	}
+	for_loop_effect = {
+		start = 0
+		end = length_temp
+		add = 1
+		value = v
+		break = b
+		
+		add_to_array = { 
+			array = corporation_influence_percentage
+			value = corporation_influence_percentage_temp^v
+		}
+		add_to_array = { 
+			array = corporation_id
+			value = corporation_id_temp^v 
+		}
+	}
+}
+
+## Following code courtesy of Yard1 Scripted-GUI-Pie-Chart master
+create_pie_chart = {
+	clear_array = pie_chart
+	resize_array = {
+		array = pie_chart
+		value = 1 # 1 is value for nationalised frame, so we don't have to make a loop for it
+		size = 100 # 100 pieces, each percent is one piece
+	} 
+	set_temp_variable = { Camelia_percent = CorporationCamelia }
+	#multiply_temp_variable = { Camelia_percent = 100 }
+	round_temp_variable = Camelia_percent
+
+	set_temp_variable = { Artsotzka_percent = CorporationArtsotzka }
+	#multiply_temp_variable = { Artsotzka_percent = 100 }
+	round_temp_variable = Artsotzka_percent 
+	set_variable = { ROOT.last_idx = Artsotzka_percent }
+	add_to_temp_variable = { Artsotzka_percent = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = Artsotzka_percent
+		set_variable = { pie_chart^v = 2 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { Rotatosk_percent = CorporationRotatosk }
+	#multiply_temp_variable = { Rotatosk_percent = 100 }
+	round_temp_variable = Rotatosk_percent
+	add_to_temp_variable = { Rotatosk_percent = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = Rotatosk_percent
+		set_variable = { pie_chart^v = 3 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { Zaphiel_percent = CorporationZaphkiel }
+	#multiply_temp_variable = { Zaphiel_percent = 100 }
+	round_temp_variable = Zaphiel_percent 
+	add_to_temp_variable = { Zaphiel_percent = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = Zaphiel_percent
+		set_variable = { pie_chart^v = 4 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+	set_temp_variable = { Equonics_percent = CorporationEquonics }
+	#multiply_temp_variable = { Equonics_percent = 100 }
+	round_temp_variable = Equonics_percent 
+	add_to_temp_variable = { Equonics_percent = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = Equonics_percent
+		set_variable = { pie_chart^v = 5 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { Others_percent = CorporationOthers }
+	#multiply_temp_variable = { Others_percent = 100 }
+	round_temp_variable = Others_percent 
+	add_to_temp_variable = { Others_percent = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = Others_percent
+		set_variable = { pie_chart^v = 6 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { Self_percent = CorporationSelf }
+	#multiply_temp_variable = { Self_percent = 100 }
+	round_temp_variable = Self_percent 
+	add_to_temp_variable = { Self_percent = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = Self_percent
+		set_variable = { pie_chart^v = 7 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+
+	clear_variable = ROOT.last_idx
+	add_to_variable = { pie_chart_dirty = 1 }
+}

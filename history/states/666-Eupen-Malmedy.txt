@@ -1,0 +1,37 @@
+
+state={
+	id=666
+	name="STATE_666"
+
+	history={
+		owner = BEL
+		victory_points = {
+			3488 2 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = BEL
+		1939.9.1 = {
+
+		}
+		1940.5.10 = {
+			controller = GER
+
+		}
+		1946.1.1 = {
+			controller = BEL
+			remove_claim_by = GER
+
+		}
+
+	}
+
+	provinces={
+		3488 
+	}
+	manpower=348195
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

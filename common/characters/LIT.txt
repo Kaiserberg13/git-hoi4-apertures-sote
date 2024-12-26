@@ -1,0 +1,40 @@
+characters={
+
+    LIT_president_Kristupas_Gausa={ 
+        name = "Kristupas Gausa" 
+        portraits = {
+            civilian = {
+                large = "GFX_LIT_president_Kristupas_Gausa"
+            }
+            army = {
+                large = "GFX_LIT_president_Kristupas_Gausa"
+                small = "GFX_idea_GFX_LIT_president_Kristupas_Gausa_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+
+    LIT_president_Skomantas_Achbertas={ 
+        name = "Skomantas Achbertas" 
+        portraits = {
+            civilian = {
+                large = "GFX_LIT_president_Skomantas_Achbertas"
+            }
+            army = {
+                large = "GFX_LIT_president_Skomantas_Achbertas"
+                small = "GFX_idea_GFX_LIT_president_Skomantas_Achbertas_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

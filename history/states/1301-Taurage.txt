@@ -1,0 +1,28 @@
+state={
+	id=1301
+	name="STATE_1301"
+	provinces={
+		3337 6314 9499 
+	}
+	history={
+		owner = LAT
+		add_core_of = LAT
+		add_core_of = LIT
+		victory_points = {
+			6314 1
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			6314 = {
+				naval_base = 1
+			}
+
+		}
+
+	}
+	manpower=125589
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=1.000
+}

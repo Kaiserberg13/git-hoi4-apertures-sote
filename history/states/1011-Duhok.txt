@@ -1,0 +1,26 @@
+state={
+	id=1011
+	name="STATE_1011"
+	resources={
+		oil=1.000
+	}
+	history={
+		owner = IRQ
+		victory_points = {
+			10811 2 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = IRQ
+
+	}
+
+	provinces={
+		10811 13346 
+	}
+	manpower=399333
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

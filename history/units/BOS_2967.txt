@@ -1,0 +1,108 @@
+﻿division_template = {
+	name = "Пехотная дивизия"
+
+	division_names_group = BOS_Inf_01
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+
+		irregular_infantry = { x = 1 y = 0 }
+
+
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+
+		turret = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Службы территареальной обороны"
+
+	division_names_group = BOS_mil_01
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+
+
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Горская Пехотная дивизия"
+
+	division_names_group = BOS_mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "1-я пехотная дивизия"
+		location = 11899
+		division_template = "Пехотная дивизия"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2-я дивизия территареальной обороны"
+		location = 6614
+		division_template = "Службы территареальной обороны"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3-я дивизия территареальной обороны"
+		location = 606
+		division_template = "Службы территареальной обороны"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "4-я Горская Пехотная дивизия"
+		location = 9588
+		division_template = "Горская Пехотная дивизия"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+	}
+
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "BOS"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 100
+	}
+}

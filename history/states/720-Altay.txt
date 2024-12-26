@@ -1,0 +1,25 @@
+
+state={
+	id=720
+	name="STATE_720"
+
+	history={
+		owner = PRC
+		victory_points = {
+			14872 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = PRC
+
+	}
+
+	provinces={
+		4714 4788 4823 4849 7693 7737 12590 12737 14868 14870 14872 14873 15199 
+	}
+	manpower=6349572
+	buildings_max_level_factor=1.000
+	state_category=town
+}

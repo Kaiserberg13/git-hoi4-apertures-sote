@@ -1,0 +1,21 @@
+characters={
+
+    BRA_president_Yomas_Tigikonsens={ 
+        name = "Yomas Tigikonsens" 
+        portraits = {
+            civilian = {
+                large = "GFX_BRA_president_Yomas_Tigikonsens"
+            }
+            army = {
+                large = "GFX_BRA_president_Yomas_Tigikonsens"
+                small = "GFX_idea_GFX_BRA_president_Yomas_Tigikonsens_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

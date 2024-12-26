@@ -1,0 +1,37 @@
+
+state={
+	id=274
+	name="STATE_274"
+	resources={
+		rubber=3.000
+	}
+
+	history={
+		owner = SIA
+		victory_points = {
+			1330 10
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			air_base = 1
+			10267 = {
+				naval_base = 4
+
+			}
+			1330 = {
+				bunker = 2
+			}
+
+		}
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		1330 10267 14983 
+	}
+	manpower=437585
+	buildings_max_level_factor=1.000
+	state_category=town
+}

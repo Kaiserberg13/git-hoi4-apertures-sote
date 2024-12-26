@@ -1,0 +1,204 @@
+sub_units = {
+	turret = {
+		abbreviation = "TRT"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 2
+		entrenchment = 2
+		max_organisation = -2
+		default_morale = 0.05
+		manpower = 250
+		training_time = 120
+
+		soft_attack = 0.07
+
+		#Misc Abilities
+		weight = 0.1
+		casualty_trickleback = 0.15
+		supply_consumption = 0.01
+		can_be_parachuted = yes
+		
+		# Important Ability
+		initiative = -0.04
+		
+		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
+		
+		essential = {
+			support_equipment
+		}
+
+		need = {
+			support_equipment = 50
+		}
+
+		battalion_mult = {
+			category = category_light_infantry
+			defense = 0.03
+		}
+		battalion_mult = {
+			category = category_blocade_infantry
+			defense = 0.075
+		}
+		battalion_mult = {
+			category = category_motorized
+			defense = -0.04
+			soft_attack = 0.03
+		}
+		battalion_mult = {
+			category = category_blue_lock
+			defense = 0.02
+			soft_attack = 0.05
+		}
+		
+		
+		forest = {
+			movement = -0.055
+		}
+		hills = {
+			movement = -0.15
+		}
+		mountain = {
+			movement = -0.15
+		}
+		jungle = {
+			movement = -0.15
+		}
+		marsh = {
+			movement = -0.15
+		}
+		plains = {
+			movement = -0.1
+		}
+		desert = {
+			movement = -0.1
+		}
+		river = {
+			movement = -0.15
+		}
+
+
+		same_support_type = turret 
+	}
+	automatic_turret = {
+		abbreviation = "TRA"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+	
+		combat_width = 1
+	
+		#Size Definitions
+		max_strength = 2
+		entrenchment = 1
+		max_organisation = -4
+		default_morale = 0.03
+		manpower = 250
+		training_time = 150
+
+		soft_attack = 0.07
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.01
+		suppression_factor = 0.1
+		can_be_parachuted = yes
+		experience_loss_factor = 0.1
+		breakthrough = 0.05
+		
+		# Important Ability
+		initiative = 0.02
+		
+		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
+		
+		essential = {
+			support_equipment
+		}
+
+		need = {
+			support_equipment = 90
+		}
+
+		battalion_mult = {
+			category = category_light_infantry
+			soft_attack = 0.07
+		}
+		battalion_mult = {
+			category = category_blocade_infantry
+			soft_attack = 0.04
+		}
+		battalion_mult = {
+			category = category_motorized
+			soft_attack = 0.07
+		}
+		battalion_mult = {
+			category = category_blue_lock
+			soft_attack = 0.05
+		}
+		
+		
+		forest = {
+			movement = 0.03
+		}
+		hills = {
+			movement = 0.04
+		}
+		mountain = {
+			movement = 0.04
+		}
+		jungle = {
+			movement = 0.04
+		}
+		marsh = {
+			movement = 0.04
+		}
+		plains = {
+			movement = 0.05
+		}
+		desert = {
+			movement = 0.06
+		}
+		river = {
+			movement = 0.06
+		}
+
+
+		same_support_type = turret 
+	}
+}

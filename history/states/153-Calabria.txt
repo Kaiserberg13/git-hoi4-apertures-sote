@@ -1,0 +1,29 @@
+
+state={
+	id=153
+	name="STATE_153"
+
+	history={
+		owner = ITA
+		victory_points = {
+			12098 5 
+		}
+		victory_points = {
+			9990 4 
+		}
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+
+		}
+		add_core_of = ITA
+
+	}
+
+	provinces={
+		3901 9990 10027 12066 12098 
+	}
+	manpower=812594
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

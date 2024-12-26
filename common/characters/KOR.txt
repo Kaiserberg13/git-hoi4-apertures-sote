@@ -1,0 +1,21 @@
+characters={
+
+    KOR_president_Ha_rin={ 
+        name = "Ha rin" 
+        portraits = {
+            civilian = {
+                large = "GFX_KOR_president_Ha_rin"
+            }
+            army = {
+                large = "GFX_KOR_president_Ha_rin"
+                small = "GFX_idea_GFX_KOR_president_Ha_rin_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

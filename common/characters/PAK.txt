@@ -1,0 +1,21 @@
+characters={
+
+    PAK_president_Isolam_Musol={ 
+        name = "Isolam Musol" 
+        portraits = {
+            civilian = {
+                large = "GFX_PAK_president_Isolam_Musol"
+            }
+            army = {
+                large = "GFX_PAK_president_Isolam_Musol"
+                small = "GFX_idea_GFX_PAK_president_Isolam_Musol_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

@@ -1,0 +1,21 @@
+characters={
+
+    SWE_king_Mats_Lindquist={ 
+        name = "Mats Lindquist" 
+        portraits = {
+            civilian = {
+                large = "GFX_SWE_king_Mats_Lindquist"
+            }
+            army = {
+                large = "GFX_SWE_king_Mats_Lindquist"
+                small = "GFX_idea_GFX_SWE_king_Mats_Lindquist_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=1132
+	name="STATE_1132"
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ETH
+		1939.9.1 = {
+			owner = ITA
+
+		}
+		1942.11.22 = {
+			owner = ETH
+
+		}
+
+	}
+
+	provinces={
+		13216 13522 13523 16076 16085 16087 
+	}
+	manpower=1672182
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

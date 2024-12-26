@@ -1,0 +1,35 @@
+
+state={
+	id=1040
+	name="STATE_1040"
+
+	history={
+		owner = POR
+		victory_points = {
+			2120 5
+		}
+		victory_points = {
+			12935 3 
+		}
+		victory_points = {
+			14269 2 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		1974.1.1 = {
+			owner = MZB
+
+		}
+
+	}
+
+	provinces={
+		2120 5155 12935 12950 14264 
+	}
+	manpower=708539
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

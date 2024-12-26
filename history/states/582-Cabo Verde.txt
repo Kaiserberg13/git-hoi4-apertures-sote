@@ -1,0 +1,29 @@
+
+state={
+	id=582
+	name="STATE_582"
+
+	history={
+		owner = MAD
+		victory_points = {
+			13014 2
+		}
+		buildings = {
+			infrastructure = 1
+			13014 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = MAD
+
+	}
+
+	provinces={
+		13014 
+	}
+	manpower=370261
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

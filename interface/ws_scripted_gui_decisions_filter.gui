@@ -1,0 +1,102 @@
+guiTypes = {
+	containerWindowType = {
+		name = "decisions_filter_buttons"
+		position = { x = 20  y = 60 }
+		size = { width = 50 height = 50 }
+
+		buttonType = {
+			name = "filter_political_active"
+			position = { x = 0 y = 30 }
+			spriteType = "GFX_ws_decisions_political_button"
+			frame = 1
+			pdx_tooltip = "decisions_filter_political"
+		}
+		buttonType = {
+			name = "filter_political_deactive"
+			position = { x = 0 y = 30  }
+			spriteType = "GFX_ws_decisions_political_button"
+			frame = 2
+			pdx_tooltip = "decisions_filter_political_d"
+		}
+
+
+		buttonType = {
+			name = "filter_influence_active"
+			position = { x = 100 y = 30 }
+			spriteType = "GFX_ws_decisions_influence_button"
+			frame = 1
+			pdx_tooltip = "decisions_filter_influence"
+		}
+		buttonType = {
+			name = "filter_influence_deactive"
+			position = { x = 100 y = 30  }
+			spriteType = "GFX_ws_decisions_influence_button"
+			frame = 2
+			pdx_tooltip = "decisions_filter_influence_d"
+		}
+
+
+		buttonType = {
+			name = "filter_industry_active"
+			position = { x = 200 y = 30 }
+			spriteType = "GFX_ws_decisions_industry_button"
+			frame = 1
+			pdx_tooltip = "decisions_filter_industry"
+		}
+		buttonType = {
+			name = "filter_industry_deactive"
+			position = { x = 200 y = 30  }
+			spriteType = "GFX_ws_decisions_industry_button"
+			frame = 2
+			pdx_tooltip = "decisions_filter_industry_d"
+		}
+
+		buttonType = {
+			name = "filter_mobilization_active"
+			position = { x = 300 y = 30 }
+			spriteType = "GFX_ws_decisions_mobilization_button"
+			frame = 1
+			pdx_tooltip = "decisions_filter_mobilization"
+		}
+		buttonType = {
+			name = "filter_mobilization_deactive"
+			position = { x = 300 y = 30  }
+			spriteType = "GFX_ws_decisions_mobilization_button"
+			frame = 2
+			pdx_tooltip = "decisions_filter_mobilization_d"
+		}
+
+		buttonType = {
+			name = "filter_war_active"
+			position = { x = 400 y = 30 }
+			spriteType = "GFX_ws_decisions_war_button"
+			frame = 1
+			pdx_tooltip = "decisions_filter_war"
+		}
+		buttonType = {
+			name = "filter_war_deactive"
+			position = { x = 400 y = 30  }
+			spriteType = "GFX_ws_decisions_war_button"
+			frame = 2
+			pdx_tooltip = "decisions_filter_war_d"
+		}
+
+		buttonType = {
+			name = "filter_other_active"
+			position = { x = 500 y = 30 }
+			spriteType = "GFX_ws_decisions_other_button"
+			frame = 1
+			pdx_tooltip = "decisions_filter_other"
+		}
+		buttonType = {
+			name = "filter_other_deactive"
+			position = { x = 500 y = 30  }
+			spriteType = "GFX_ws_decisions_other_button"
+			frame = 2
+			pdx_tooltip = "decisions_filter_other_d"
+		}
+		
+		
+	}
+	
+}

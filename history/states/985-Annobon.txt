@@ -1,0 +1,25 @@
+state={
+	id=985
+	name="STATE_985"
+	
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 0
+			13750 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = MAD
+
+	}
+	
+	provinces={
+		13750 
+	}
+	manpower=447962
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

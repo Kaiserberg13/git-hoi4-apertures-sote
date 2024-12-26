@@ -1,0 +1,21 @@
+characters={
+
+    SPR_president_Amir_Obrero={ 
+        name = "Amir Obrero" 
+        portraits = {
+            civilian = {
+                large = "GFX_SPR_president_Amir_Obrero"
+            }
+            army = {
+                large = "GFX_SPR_president_Amir_Obrero"
+                small = "GFX_idea_GFX_SPR_president_Amir_Obrero_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

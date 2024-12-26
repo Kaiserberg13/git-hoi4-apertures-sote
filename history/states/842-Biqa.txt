@@ -1,0 +1,24 @@
+
+state={
+	id=842
+	name="STATE_842"
+
+	history={
+		owner = SYR
+		victory_points = {
+			13311 2
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		13311 13312 
+	}
+	manpower=231650
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

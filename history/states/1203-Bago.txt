@@ -1,0 +1,30 @@
+state={
+	id=1203
+	name="STATE_1203"
+
+	history={
+		owner = SIA
+		victory_points = {
+			12127 3
+		}
+		victory_points = {
+			10344 2
+		}
+		victory_points = {
+			12256 2
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SIA
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		1417 4293 10154 10283 10344 12127 12256 
+	}
+	manpower=1993969
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

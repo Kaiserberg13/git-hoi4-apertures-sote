@@ -1,0 +1,25 @@
+state={
+	id=1245
+	name="STATE_1245"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 0
+
+		}
+		1950.1.1 = {
+			owner = ISR
+			set_state_name = STATE_1612_2
+
+		}
+
+	}
+
+	provinces={
+		13351 
+	}
+	manpower=340143
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

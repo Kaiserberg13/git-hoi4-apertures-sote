@@ -1,0 +1,25 @@
+
+state={
+	id=792
+	name="STATE_792"
+
+	history={
+		owner = ISR
+		victory_points = {
+			4486 2 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ISR
+
+	}
+
+	provinces={
+		1901 4486 
+	}
+	manpower=137959
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

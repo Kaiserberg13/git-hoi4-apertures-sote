@@ -1,0 +1,27 @@
+state={
+	id=893
+	name="STATE_893"
+	
+	history={
+		owner = BOT
+		victory_points = {
+			13537 2
+		}
+		victory_points = {
+			2151 2
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = BOT
+
+	}
+	
+	provinces={
+		2151 7842 13530 13537 
+	}
+	manpower=403034
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

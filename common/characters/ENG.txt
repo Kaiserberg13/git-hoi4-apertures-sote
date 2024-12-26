@@ -1,0 +1,267 @@
+characters={
+
+    ENG_british_council={ 
+        name = "british council" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_british_council"
+            }
+            army = {
+                large = "GFX_ENG_british_council"
+                small = "GFX_idea_GFX_ENG_british_council_small"
+            }
+        }
+    }
+
+    ENG_king_BRS_Sebastian_Graves={ 
+        name = "Sebastian Graves" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_king_BRS_Sebastian_Graves"
+            }
+            army = {
+                large = "GFX_ENG_king_BRS_Sebastian_Graves"
+                small = "GFX_idea_GFX_ENG_king_BRS_Sebastian_Graves_small"
+            }
+        }
+    }
+
+    ENG_king_dictator_Samuel_Knight={ 
+        name = "Samuel Knight" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_king_dictator_Samuel_Knight"
+            }
+            army = {
+                large = "GFX_ENG_king_dictator_Samuel_Knight"
+                small = "GFX_idea_GFX_ENG_king_dictator_Samuel_Knight_small"
+            }
+        }
+    }
+
+    ENG_king_president_Zestial_Morgan={ 
+        name = "Zestial Morgan" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_king_president_Zestial_Morgan"
+            }
+            army = {
+                large = "GFX_ENG_king_president_Zestial_Morgan"
+                small = "GFX_idea_GFX_ENG_king_president_Zestial_Morgan_small"
+            }
+        }
+    }
+
+    ENG_king_Roosvel_The_Britania_old={ 
+        name = "Roosvel The Britania old" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_king_Roosvel_The_Britania_old"
+            }
+            army = {
+                large = "GFX_ENG_king_Roosvel_The_Britania_old"
+                small = "GFX_idea_GFX_ENG_king_Roosvel_The_Britania_old_small"
+            }
+        }
+    }
+
+    ENG_king_Roosvel_The_Britania_young={ 
+        name = "Roosvel The Britania young" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_king_Roosvel_The_Britania_young"
+            }
+            army = {
+                large = "GFX_ENG_king_Roosvel_The_Britania_young"
+                small = "GFX_idea_GFX_ENG_king_Roosvel_The_Britania_young_small"
+            }
+        }
+    }
+
+    ENG_portrait_advisor_BRS_Emily_Moolain={ 
+        name = "advisor Emily Moolain" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_portrait_advisor_BRS_Emily_Moolain"
+            }
+            army = {
+                large = "GFX_ENG_portrait_advisor_BRS_Emily_Moolain"
+                small = "GFX_idea_GFX_ENG_portrait_advisor_BRS_Emily_Moolain_small"
+            }
+        }
+    }
+
+    ENG_portrait_army_advisors_Scott_Millow={ 
+        name = "advisors Scott Millow" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_portrait_army_advisors_Scott_Millow"
+            }
+            army = {
+                large = "GFX_ENG_portrait_army_advisors_Scott_Millow"
+                small = "GFX_idea_GFX_ENG_portrait_army_advisors_Scott_Millow_small"
+            }
+        }
+    }
+
+    ENG_portrait_army_Christine_Lomange={ 
+        name = "Christine Lomange" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_portrait_army_Christine_Lomange"
+            }
+            army = {
+                large = "GFX_ENG_portrait_army_Christine_Lomange"
+                small = "GFX_idea_GFX_ENG_portrait_army_Christine_Lomange_small"
+            }
+        }
+    }
+
+    ENG_portrait_army_MAD_German_Sugerioir={ 
+        name = "German Sugerioir" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_portrait_army_MAD_German_Sugerioir"
+            }
+            army = {
+                large = "GFX_ENG_portrait_army_MAD_German_Sugerioir"
+                small = "GFX_idea_GFX_ENG_portrait_army_MAD_German_Sugerioir_small"
+            }
+        }
+    }
+
+    ENG_portrait_army_SCO_Oswald_Moreday={ 
+        name = "Oswald Moreday" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_portrait_army_SCO_Oswald_Moreday"
+            }
+            army = {
+                large = "GFX_ENG_portrait_army_SCO_Oswald_Moreday"
+                small = "GFX_idea_GFX_ENG_portrait_army_SCO_Oswald_Moreday_small"
+            }
+        }
+    }
+
+    ENG_portrait_BRS_Chloe_Benson={ 
+        name = "Chloe Benson" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_portrait_BRS_Chloe_Benson"
+            }
+            army = {
+                large = "GFX_ENG_portrait_BRS_Chloe_Benson"
+                small = "GFX_idea_GFX_ENG_portrait_BRS_Chloe_Benson_small"
+            }
+        }
+    }
+
+    ENG_portrait_BRS_Samuel_Brooks={ 
+        name = "Samuel Brooks" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_portrait_BRS_Samuel_Brooks"
+            }
+            army = {
+                large = "GFX_ENG_portrait_BRS_Samuel_Brooks"
+                small = "GFX_idea_GFX_ENG_portrait_BRS_Samuel_Brooks_small"
+            }
+        }
+    }
+
+    ENG_portrait_BRS_Sulman_Rozgh={ 
+        name = "Sulman Rozgh" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_portrait_BRS_Sulman_Rozgh"
+            }
+            army = {
+                large = "GFX_ENG_portrait_BRS_Sulman_Rozgh"
+                small = "GFX_idea_GFX_ENG_portrait_BRS_Sulman_Rozgh_small"
+            }
+        }
+    }
+
+    ENG_portrait_BRS_Walter_Hill={ 
+        name = "Walter Hill" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_portrait_BRS_Walter_Hill"
+            }
+            army = {
+                large = "GFX_ENG_portrait_BRS_Walter_Hill"
+                small = "GFX_idea_GFX_ENG_portrait_BRS_Walter_Hill_small"
+            }
+        }
+    }
+
+    ENG_portrait_BRS_William_Afton={ 
+        name = "William Afton" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_portrait_BRS_William_Afton"
+            }
+            army = {
+                large = "GFX_ENG_portrait_BRS_William_Afton"
+                small = "GFX_idea_GFX_ENG_portrait_BRS_William_Afton_small"
+            }
+        }
+    }
+
+    ENG_portrait_Erwin_Mouel={ 
+        name = "Erwin Mouel" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_portrait_Erwin_Mouel"
+            }
+            army = {
+                large = "GFX_ENG_portrait_Erwin_Mouel"
+                small = "GFX_idea_GFX_ENG_portrait_Erwin_Mouel_small"
+            }
+        }
+    }
+
+    ENG_portrait_Joseph_Scarlett_Lawson={ 
+        name = "Joseph Scarlett Lawson" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_portrait_Joseph_Scarlett_Lawson"
+            }
+            army = {
+                large = "GFX_ENG_portrait_Joseph_Scarlett_Lawson"
+                small = "GFX_idea_GFX_ENG_portrait_Joseph_Scarlett_Lawson_small"
+            }
+        }
+    }
+
+    ENG_portrait_Nicolas_Brown={ 
+        name = "Nicolas Brown" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_portrait_Nicolas_Brown"
+            }
+            army = {
+                large = "GFX_ENG_portrait_Nicolas_Brown"
+                small = "GFX_idea_GFX_ENG_portrait_Nicolas_Brown_small"
+            }
+        }
+    }
+
+    ENG_president_Arthur_Winslow={ 
+        name = "Arthur Winslow" 
+        portraits = {
+            civilian = {
+                large = "GFX_ENG_president_Arthur_Winslow"
+            }
+            army = {
+                large = "GFX_ENG_president_Arthur_Winslow"
+                small = "GFX_idea_GFX_ENG_president_Arthur_Winslow_small"
+            }
+        }
+        country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+        }
+    }
+}

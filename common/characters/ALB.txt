@@ -1,0 +1,21 @@
+characters={
+
+    ALB_president_Ritos_Mii={ 
+        name = "Ritos Mii" 
+        portraits = {
+            civilian = {
+                large = "GFX_ALB_president_Ritos_Mii"
+            }
+            army = {
+                large = "GFX_ALB_president_Ritos_Mii"
+                small = "GFX_idea_GFX_ALB_president_Ritos_Mii_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

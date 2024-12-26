@@ -1,0 +1,23 @@
+state={
+	id=1394
+	name="STATE_1394"
+	provinces={
+		6008 13813 13814 13816 13818 15861 15864 15930 15932 
+	}
+	history={
+		owner = GAB
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_claim_by = GAB
+		add_core_of = COG
+		victory_points = {
+			15861 7 
+		}
+
+	}
+	manpower=1716771
+	buildings_max_level_factor=1.000
+	state_category=town
+}

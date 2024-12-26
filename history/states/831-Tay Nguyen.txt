@@ -1,0 +1,31 @@
+
+state={
+	id=831
+	name="STATE_831"
+	resources={
+		rubber=33.000
+	}
+
+	history={
+		owner = OAS
+		add_core_of = OAS
+		victory_points = {
+			1605 2
+		}
+		victory_points = {
+			7271 2
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+		}
+
+	}
+
+	provinces={
+		1248 1328 1400 1605 4363 7271 7380 12109 12176 13294 
+	}
+	manpower=1830868
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,27 @@
+state={
+	id=957
+	name="STATE_957"
+	
+	history={
+		set_demilitarized_zone = yes
+		owner = ROM
+		victory_points = {
+			13676 2
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		add_core_of = ROM
+		add_core_of = UKR
+    }
+	
+	provinces={
+		13676 13677 13678 
+	}
+	manpower=422960
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

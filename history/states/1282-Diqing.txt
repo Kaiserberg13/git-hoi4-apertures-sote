@@ -1,0 +1,26 @@
+state={
+	id=1282
+	name="STATE_1282"
+
+	history={
+		owner = PRC
+		victory_points = {
+			8126 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		set_demilitarized_zone = yes
+		add_core_of = PRC
+		
+
+	}
+
+	provinces={
+		8126 12425 
+	}
+	manpower=204065
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

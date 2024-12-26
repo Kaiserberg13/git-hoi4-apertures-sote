@@ -1,0 +1,19 @@
+state={
+	id=1369
+	name="STATE_1369"
+	provinces={
+		1574 10342 10409 15639 15647 15655 15656 15675 15680 15690 15691 15698 15699 15700 15701 15709 15712 15716 15723 15726 15727 15735 15741 15743 15748 15750 15763 15768 15777 15780 15783 15800 
+	}
+	history={
+		owner = OAS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = OAS
+
+	}
+	manpower=6830137
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

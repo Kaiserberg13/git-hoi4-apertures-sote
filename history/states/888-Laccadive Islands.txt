@@ -1,0 +1,24 @@
+state={
+	id=888
+	name="STATE_888"
+	
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 0
+			13511 = {
+				naval_base = 1
+
+			}
+		}
+
+	}
+	
+	provinces={
+		13511 
+	}
+	manpower=125827
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

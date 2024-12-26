@@ -1,0 +1,20 @@
+
+state={
+	id=1452
+	name="STATE_1452"
+	provinces={
+		10869 16309 16310 16311 16312 16327 
+	}
+	history={
+		owner = ICE
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = ICE
+
+	}
+	manpower=624940
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

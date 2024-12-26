@@ -1,0 +1,29 @@
+
+state={
+	id=70
+	name="STATE_70"
+
+	history={
+		owner = UKR
+		victory_points = {
+			3548 1
+		}
+		victory_points = {
+			11691 1
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = UKR
+		add_claim_by = HUN
+		
+	}
+
+	provinces={
+		3548 6571 9563 11536 11691 
+	}
+	manpower=654301
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

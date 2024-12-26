@@ -1,0 +1,31 @@
+
+state={
+	id=539
+	name="STATE_539"
+
+	history={
+		owner = SIA
+		victory_points = {
+			1492 5
+		}
+		victory_points = {
+			12449 2
+		}
+		victory_points = {
+			12404 1
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+
+		}
+		add_core_of = SIA
+	}
+
+	provinces={
+		1492 4202 4626 7469 12404 12449 
+	}
+	manpower=575246
+	buildings_max_level_factor=1.000
+	state_category=town
+}

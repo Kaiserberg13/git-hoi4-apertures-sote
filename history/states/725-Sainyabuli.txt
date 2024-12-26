@@ -1,0 +1,23 @@
+state={
+	id=725
+	name="STATE_725"
+	
+	history = {
+		set_demilitarized_zone = yes
+		owner = OAS
+		victory_points = {
+		    10330 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = OAS
+	}
+	
+	provinces={
+		10330 10356 10456
+	}
+	manpower=378792
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,23 @@
+state={
+	id=1346
+	name="STATE_1346"
+	provinces={
+		15758 15769 15787 15792 15805 15821 15824 15828 15839 15844 15858 
+	}
+	history={
+		owner = OAS
+		buildings = {
+			infrastructure = 3
+			air_base = 6
+			industrial_complex = 4
+			arms_factory = 1
+			dockyard = 1
+
+		}
+		add_core_of = OAS
+
+	}
+	manpower=5299686
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

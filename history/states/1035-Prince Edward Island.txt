@@ -1,0 +1,24 @@
+state={
+	id=1035
+	name="STATE_1035"
+
+	history={
+		owner = CAN
+		victory_points = {
+			4360 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		4360 
+	}
+	manpower=280167
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

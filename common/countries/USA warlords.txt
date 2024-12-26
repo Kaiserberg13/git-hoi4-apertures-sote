@@ -1,0 +1,4 @@
+graphical_culture = usa_warlords_gfx
+graphical_culture_2d = usa_warlords_2d
+
+color= { 155 200 100 }

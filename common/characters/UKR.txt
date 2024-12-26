@@ -1,0 +1,21 @@
+characters={
+
+    UKR_president_Vasilisa_Kravlo={ 
+        name = "Vasilisa Kravlo" 
+        portraits = {
+            civilian = {
+                large = "GFX_UKR_president_Vasilisa_Kravlo"
+            }
+            army = {
+                large = "GFX_UKR_president_Vasilisa_Kravlo"
+                small = "GFX_idea_GFX_UKR_president_Vasilisa_Kravlo_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

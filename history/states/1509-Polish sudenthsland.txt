@@ -1,0 +1,27 @@
+state={
+	id=1509
+	name="STATE_1509"
+	provinces={
+		9414 11414 
+	}
+	history={
+		owner = CZE
+		victory_points = {
+			9414 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			anti_air_building = 1
+
+		}
+		add_core_of = CZE
+		add_claim_by = POL
+
+	}
+
+	manpower=100687
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

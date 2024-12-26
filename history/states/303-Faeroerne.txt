@@ -1,0 +1,41 @@
+
+state={
+	id=303
+	name="STATE_303"
+
+	history={
+		owner = DEN
+		victory_points = {
+			13003 1 
+		}
+		buildings = {
+			infrastructure = 2
+			13003 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = DEN
+		1936.1.1 = {
+			add_manpower = 900
+
+		}
+		1940.5.10 = {
+			owner = ENG
+
+		}
+		1946.1.1 = {
+			owner = DEN
+
+		}
+
+	}
+
+	provinces={
+		13003 
+	}
+	manpower=313427
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

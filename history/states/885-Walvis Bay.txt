@@ -1,0 +1,27 @@
+state={
+	id=885
+	name="STATE_885"
+	
+	history={
+		owner = SAF
+		victory_points = {
+		    13454 2
+		}
+		buildings = {
+			infrastructure = 2
+			13454 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = SAF
+	}
+	
+	provinces={
+		13454 
+	}
+	manpower=278901
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

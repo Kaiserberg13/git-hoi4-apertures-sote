@@ -1,0 +1,21 @@
+characters={
+
+    ERI_president_Nicolas_Trousm={ 
+        name = "Nicolas Trousm" 
+        portraits = {
+            civilian = {
+                large = "GFX_ERI_president_Nicolas_Trousm"
+            }
+            army = {
+                large = "GFX_ERI_president_Nicolas_Trousm"
+                small = "GFX_idea_GFX_ERI_president_Nicolas_Trousm_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

@@ -1,0 +1,160 @@
+﻿division_template = {
+	name = "Infantrie diviseon"
+
+	division_names_group = KEN_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 1 y = 2 }
+
+		irregular_infantry = { x = 2 y = 0 }
+		irregular_infantry = { x = 2 y = 1 }
+		irregular_infantry = { x = 2 y = 2 }
+
+	}
+	
+	support = {
+		turret = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+
+		artillery = { x = 0 y = 0 }
+		helicopter_support = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Motori diviseon"
+
+	division_names_group = KEN_mot_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+
+		light_armor = { x = 3 y = 0 }
+
+
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+
+		light_tank_recon = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Cavalerie diviseon"
+
+	division_names_group = KEN_cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+
+	}
+	
+	support = {
+	}
+}
+
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "1. Infantrie diviseon"
+		location = 1939
+		division_template = "Infantrie diviseon"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Infantrie diviseon"
+		location = 5210
+		division_template = "Infantrie diviseon"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3. Infantrie diviseon"
+		location = 10761
+		division_template = "Infantrie diviseon"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "1. Cavalerie diviseon"
+		location = 5079
+		division_template = "Cavalerie diviseon"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "KEN"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "KEN"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_armor_equipment_0
+			creator = "KEN"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_motorized_equipment_0
+			creator = "KEN"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "KEN"
+			version_name = "Muintag"
+		}
+		requested_factories = 1
+		progress = 0.6
+		efficiency = 100
+	}
+}

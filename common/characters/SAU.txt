@@ -1,0 +1,21 @@
+characters={
+
+    SAU_president_People={ 
+        name = "People" 
+        portraits = {
+            civilian = {
+                large = "GFX_SAU_president_People"
+            }
+            army = {
+                large = "GFX_SAU_president_People"
+                small = "GFX_idea_GFX_SAU_president_People_small"
+            }
+        }
+
+    country_leader = {
+        ideology = marxism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

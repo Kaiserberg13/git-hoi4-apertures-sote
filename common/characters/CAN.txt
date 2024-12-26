@@ -1,0 +1,21 @@
+characters={
+
+    CAN_president_Herald_Manover={ 
+        name = "Herald Manover" 
+        portraits = {
+            civilian = {
+                large = "GFX_CAN_president_Herald_Manover"
+            }
+            army = {
+                large = "GFX_CAN_president_Herald_Manover"
+                small = "GFX_idea_GFX_CAN_president_Herald_Manover_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

@@ -1,0 +1,22 @@
+state={
+	id=1573
+	name="STATE_1573"
+	provinces={
+		7930 14018 16763 16771 16785 16786 
+	}
+	history={
+		owner = VOL
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			7930 8
+		}
+		add_core_of = VOL
+
+	}
+	manpower=1348770
+	buildings_max_level_factor=1.000
+	state_category=town
+}

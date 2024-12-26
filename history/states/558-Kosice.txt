@@ -1,0 +1,32 @@
+
+state={
+	id=558
+	name="STATE_558"
+	resources={
+		steel=13.000
+		chromium=3.000
+	}
+
+	history={
+		owner = SLO
+		victory_points = {
+			6573 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+		add_core_of = SLO
+		add_core_of = HUN
+
+	}
+
+	provinces={
+		3565 6573 9537 
+	}
+	manpower=217499
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

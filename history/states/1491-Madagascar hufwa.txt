@@ -1,0 +1,22 @@
+state={
+	id=1491
+	name="STATE_1491"
+	provinces={
+		5185 8188 9170 11015 13497 13499 13501 13502 13882 13894 14096 14248 14249 14262 14268 14269 14272 
+	}
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 3
+			14269 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = MAD
+
+	}
+	manpower=5319172
+	buildings_max_level_factor=1.000
+	state_category=town
+}

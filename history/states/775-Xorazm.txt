@@ -1,0 +1,24 @@
+state={
+	id=775
+	name="STATE_775"
+	
+	history={
+		owner = KAZ
+		victory_points = {
+			1576 1
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		
+		add_core_of = KAZ
+	}
+	
+	provinces={
+		1576 
+	}
+	manpower=459466
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

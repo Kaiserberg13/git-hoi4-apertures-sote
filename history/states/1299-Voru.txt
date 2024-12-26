@@ -1,0 +1,27 @@
+
+state={
+	id=1299
+	name="STATE_1299"
+
+	history={
+		owner = LAT
+		add_core_of = LAT
+		add_core_of = EST
+		victory_points = {
+			592 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		592 6408 9485 13491 
+	}
+	manpower=365360
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=1.000
+}

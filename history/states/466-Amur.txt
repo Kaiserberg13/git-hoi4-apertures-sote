@@ -1,0 +1,26 @@
+
+state={
+	id=466
+	name="STATE_466"
+
+	history={
+		owner = FER
+		victory_points = {
+			7763 2 
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+
+		}
+		add_core_of = FER
+
+	}
+
+	provinces={
+		1730 1739 1802 1842 1845 4725 4731 4779 4829 4847 7754 7763 7801 7851 10655 10678 12543 12654 12657 14484 
+	}
+	manpower=4941477
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

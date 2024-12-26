@@ -1,0 +1,40 @@
+
+state={
+	id=295
+	name="STATE_295"
+
+	history={
+		owner = JAP
+		victory_points = {
+			14087 10
+		}
+		victory_points = {
+			10062 2
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			14087 = {
+				naval_base = 6
+				coastal_bunker = 1
+
+			}
+			10062 = {
+				naval_base = 2
+				coastal_bunker = 1
+
+			}
+
+		}
+		add_core_of = JAP
+		add_core_of = PRC
+
+	}
+
+	provinces={
+		10062 14087 
+	}
+	manpower=361395
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

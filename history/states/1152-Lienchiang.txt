@@ -1,0 +1,26 @@
+
+state={
+	id=1152
+	name="STATE_1152"
+
+	history={
+		owner = PRC
+		buildings = {
+			infrastructure = 1
+			14747 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = PRC
+
+	}
+
+	provinces={
+		14747 
+	}
+	manpower=216905
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=544
+	name="STATE_544"
+
+	history={
+		owner = JAP
+		victory_points = {
+			13024 1
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 3
+			13024 = {
+				naval_base = 1
+
+			}
+
+		}
+		1945.1.1 = {
+			controller = USA
+			
+		}
+		1946.1.1 = {
+			owner = USA
+
+		}
+
+	}
+
+	provinces={
+		3995 13023 13024 
+	}
+	manpower=288970
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

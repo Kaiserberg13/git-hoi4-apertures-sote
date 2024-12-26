@@ -1,0 +1,72 @@
+state={
+	id=1172
+	name="STATE_1172"
+
+	history={
+		owner = FRA
+		victory_points = {
+			11483 5 
+		}
+		victory_points = {
+			575 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 10
+			575 = {
+				naval_base = 6
+
+			}
+			11483 = {
+				bunker = 1
+
+			}
+			575 = {
+				bunker = 1
+
+			}
+
+		}
+		add_core_of = FRA
+		1936.1.1 = {
+			buildings = {
+				11483 = {
+					bunker = 2
+
+				}
+				575 = {
+					bunker = 2
+
+				}
+				
+			}
+			
+		}
+		1941.6.22 = {
+			controller = GER
+
+		}
+		1945.1.1 = {
+			controller = FRA
+			GER = {
+				set_province_controller = 575
+
+			}
+
+		}
+		1946.1.1 = {
+			controller = FRA
+			remove_core_of = FFL
+
+		}
+
+	}
+
+	provinces={
+		575 11483 
+	}
+	manpower=150024
+	buildings_max_level_factor=1.000
+	state_category=city
+}

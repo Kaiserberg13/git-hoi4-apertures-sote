@@ -1,0 +1,78 @@
+characters={
+
+    GRM_kaiser_Frieda_Kaiser={ 
+        name = "Frieda Kaiser" 
+        portraits = {
+            civilian = {
+                large = "GFX_GRM_kaiser_Frieda_Kaiser"
+            }
+            army = {
+                large = "GFX_GRM_kaiser_Frieda_Kaiser"
+                small = "GFX_idea_GFX_GRM_kaiser_Frieda_Kaiser_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+
+    GRM_kaiser_Gabriel_Kaiser={ 
+        name = "Gabriel Kaiser" 
+        portraits = {
+            civilian = {
+                large = "GFX_GRM_kaiser_Gabriel_Kaiser"
+            }
+            army = {
+                large = "GFX_GRM_kaiser_Gabriel_Kaiser"
+                small = "GFX_idea_GFX_GRM_kaiser_Gabriel_Kaiser_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+
+    GRM_kaiser_Issac_Kaiser={ 
+        name = "Issac Kaiser" 
+        portraits = {
+            civilian = {
+                large = "GFX_GRM_kaiser_Issac_Kaiser"
+            }
+            army = {
+                large = "GFX_GRM_kaiser_Issac_Kaiser"
+                small = "GFX_idea_GFX_GRM_kaiser_Issac_Kaiser_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+
+    GRM_portrait_Stephan_Heidemann={ 
+        name = "Stephan Heidemann" 
+        portraits = {
+            civilian = {
+                large = "GFX_GRM_portrait_Stephan_Heidemann"
+            }
+            army = {
+                large = "GFX_GRM_portrait_Stephan_Heidemann"
+                small = "GFX_idea_GFX_GRM_portrait_Stephan_Heidemann_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

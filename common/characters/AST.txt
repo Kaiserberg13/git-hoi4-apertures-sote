@@ -1,0 +1,21 @@
+characters={
+
+    AST_president_Mikuro_Akizu={ 
+        name = "Mikuro Akizu" 
+        portraits = {
+            civilian = {
+                large = "GFX_AST_president_Mikuro_Akizu"
+            }
+            army = {
+                large = "GFX_AST_president_Mikuro_Akizu"
+                small = "GFX_idea_GFX_AST_president_Mikuro_Akizu_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

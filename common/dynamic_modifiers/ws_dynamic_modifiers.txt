@@ -1,0 +1,15 @@
+unit_quality_effects = {
+	enable = { always = yes }
+
+	#icon = GFX_fall
+
+	army_strength_factor = unit_quality_variable
+	army_morale_factor = unit_quality_variable
+	dig_in_speed_factor = unit_quality_variable
+	max_planning_factor = unit_quality_variable
+
+	### high quality
+
+	### low quality
+
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=1022
+	name="STATE_1022"
+
+	history={
+		owner = SUD
+		victory_points = {
+			14149 2 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SUD
+
+	}
+
+	provinces={
+		4033 12744 12800 12887 14144 14147 14149 14150 14157 14159 
+	}
+	manpower=822839
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

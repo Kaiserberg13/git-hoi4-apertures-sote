@@ -1,0 +1,125 @@
+﻿division_template = {
+	name = "Donnerschilde"
+
+	division_names_group = HOL_Inf_01
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	
+	support = {
+		maintenance_company = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Kriegswölfe"
+
+	division_names_group = HOL_pnz_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+
+division_template = {
+	name = "Nordklauen"
+
+	division_names_group = HOL_bic_01
+
+	regiments = {
+		bicycle_battalion = { x = 0 y = 0 }
+		bicycle_battalion = { x = 0 y = 1 }
+		bicycle_battalion = { x = 0 y = 2 }
+		bicycle_battalion = { x = 0 y = 3 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "Frostadler"
+		location = 68
+		division_template = "Donnerschilde"
+		start_equipment_factor = 0.75
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Schwarzzorn"
+		location = 9498
+		division_template = "Kriegswölfe"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.08
+	}
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "HOL"
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 40
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_armor_equipment_0
+			creator = "HOL"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "HOL"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "HOL"
+			version_name = "Schwarzer Blitz"
+		}
+		requested_factories = 2
+		progress = 0.9
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_artillery_equipment_1
+			creator = "HOL"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 80
+	}
+}

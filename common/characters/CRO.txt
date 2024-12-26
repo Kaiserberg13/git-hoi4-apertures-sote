@@ -1,0 +1,21 @@
+characters={
+
+    CRO_president_Nicolas_Svyatoi={ 
+        name = "Nicolas Svyatoi" 
+        portraits = {
+            civilian = {
+                large = "GFX_CRO_president_Nicolas_Svyatoi"
+            }
+            army = {
+                large = "GFX_CRO_president_Nicolas_Svyatoi"
+                small = "GFX_idea_GFX_CRO_president_Nicolas_Svyatoi_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

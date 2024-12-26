@@ -1,0 +1,4 @@
+graphical_culture = empire_gfx
+graphical_culture_2d = empire_2d
+
+color= { 155 200 100 }

@@ -1,0 +1,21 @@
+characters={
+
+    KEN_president_Salah_Simon={ 
+        name = "Salah Simon" 
+        portraits = {
+            civilian = {
+                large = "GFX_KEN_president_Salah_Simon"
+            }
+            army = {
+                large = "GFX_KEN_president_Salah_Simon"
+                small = "GFX_idea_GFX_KEN_president_Salah_Simon_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

@@ -1,0 +1,31 @@
+state={
+	id=1490
+	name="STATE_1490"
+	provinces={
+		5128 5222 8124 13496 13498 13500 13503 13751 13752 13883 13893 14273 14274 14275 14276 
+	}
+	history={
+		owner = MAD
+		buildings = {
+			infrastructure = 3
+			14273 = {
+				naval_base = 3
+				landmark_arstotzka_office = {
+                    level = 1
+                    allowed = {
+                        has_dlc = "Gotterdammerung"
+                    }
+                }
+			}
+
+		}
+		add_core_of = MAD
+		victory_points = {
+			14273 20
+		}
+
+	}
+	manpower=3178728
+	buildings_max_level_factor=1.000
+	state_category=town
+}

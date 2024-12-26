@@ -1,0 +1,28 @@
+
+state={
+	id=685
+	name="STATE_685"
+
+	history={
+		owner = ISR
+		victory_points = {
+			7107 2 
+		}
+		victory_points = {
+			1086 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ISR
+
+	}
+
+	provinces={
+		1 1086 7107 12147 
+	}
+	manpower=425104
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

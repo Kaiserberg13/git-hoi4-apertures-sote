@@ -1,0 +1,28 @@
+
+state={
+	id=768
+	name="STATE_768"
+
+	history={
+		owner = PRC
+		victory_points = {
+			12797 1 
+		}
+		victory_points = {
+			531 1
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = PRC
+
+	}
+
+	provinces={
+		531 4313 7397 7911 12797 12882 14795 14796 
+	}
+	manpower=624355
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

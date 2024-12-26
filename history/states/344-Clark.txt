@@ -1,0 +1,33 @@
+
+state={
+	id=344
+	name="STATE_344"
+	resources={
+		steel=70.000
+		tungsten=32.000
+		aluminium=25.000
+	}
+
+	history={
+		owner = CSA
+		victory_points = {
+			4799 10 
+		}
+		victory_points = {
+			1651 2
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = CSA
+
+	}
+
+	provinces={
+		1651 4799 7667 
+	}
+	manpower=430858
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

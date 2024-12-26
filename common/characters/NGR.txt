@@ -1,0 +1,21 @@
+characters={
+
+    NGR_president_Samir_Salihu={ 
+        name = "Samir Salihu" 
+        portraits = {
+            civilian = {
+                large = "GFX_NGR_president_Samir_Salihu"
+            }
+            army = {
+                large = "GFX_NGR_president_Samir_Salihu"
+                small = "GFX_idea_GFX_NGR_president_Samir_Salihu_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

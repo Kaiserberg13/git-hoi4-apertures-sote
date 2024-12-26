@@ -1,0 +1,35 @@
+state={
+	id=1123
+	name="STATE_1123"
+
+	history={
+		owner = FRA
+		victory_points = {
+			7140 2 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		1950.1.1 = {
+			owner = SYR
+
+		}
+		1960.1.1 = {
+			owner = EGY
+
+		}
+		1972.1.1 = {
+			owner = SYR
+
+		}
+
+	}
+
+	provinces={
+		7140 14582 
+	}
+	manpower=151997
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

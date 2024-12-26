@@ -1,0 +1,26 @@
+
+state={
+	id=1039
+	name="STATE_1039"
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+			15266 = {
+				naval_base = 3
+			}
+			bunker = 2
+		}
+		add_core_of = SAF
+		add_core_of = MAD
+	}
+
+	provinces={
+		15266 
+	}
+	manpower=297149
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

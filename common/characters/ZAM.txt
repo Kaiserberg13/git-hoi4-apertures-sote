@@ -1,0 +1,21 @@
+characters={
+
+    ZAM_president_Aliyu_dos_Santos={ 
+        name = "Aliyu dos Santos" 
+        portraits = {
+            civilian = {
+                large = "GFX_ZAM_president_Aliyu_dos_Santos"
+            }
+            army = {
+                large = "GFX_ZAM_president_Aliyu_dos_Santos"
+                small = "GFX_idea_GFX_ZAM_president_Aliyu_dos_Santos_small"
+            }
+        }
+
+    country_leader = {
+        ideology = falangism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

@@ -1,0 +1,42 @@
+state={
+	id=790
+	name="STATE_790"
+	
+	history={
+		owner = FRA
+		victory_points = {
+			1088 3
+		}
+		victory_points = {
+			10087 1
+		}
+		buildings = {
+			infrastructure = 1
+			1088 = {
+				naval_base = 2
+
+			}
+
+		}
+		1950.1.1 = {
+			owner = SYR
+
+		}
+		1960.1.1 = {
+			owner = EGY
+
+		}
+		1972.1.1 = {
+			owner = SYR
+
+		}
+
+	}
+	
+	provinces={
+		1088 10087 
+	}
+	manpower=237700
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

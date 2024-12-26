@@ -1,0 +1,25 @@
+
+state={
+	id=530
+	name="STATE_530"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 1
+			13052 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		13052 
+	}
+	manpower=135059
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=689
+	name="STATE_689"
+	resources={
+		steel=14.000
+	}
+
+	history={
+		owner = SHX
+		victory_points = {
+			14794 2
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SHX
+		1939.9.1 = {
+			controller = MEN
+
+		}
+		1946.1.1 = {
+			controller = SHX
+
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+			remove_core_of = SHX
+
+		}
+
+	}
+
+	provinces={
+		10480 12432 14794 
+	}
+	manpower=348783
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

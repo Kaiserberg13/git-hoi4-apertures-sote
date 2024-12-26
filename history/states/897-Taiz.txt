@@ -1,0 +1,24 @@
+state={
+	id=897
+	name="STATE_897"
+	
+	history={
+		owner = OMA
+	    victory_points = {
+			13552 2
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = OMA
+
+	}
+	
+	provinces={
+		1973 10752 13552 
+	}
+	manpower=294312
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

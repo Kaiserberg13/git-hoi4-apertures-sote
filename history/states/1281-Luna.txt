@@ -1,0 +1,20 @@
+state={
+	id=1281
+	name="STATE_1281"
+
+	history={
+		owner = CSA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CSA
+	}
+
+	provinces={
+		7879 
+	}
+	manpower=117765
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,30 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_pie_chart_camelia"
+		texturefile = "gfx/interface/corporations/pie_segments/pie_chart_segment_camelia_synesis.dds"
+	}
+	SpriteType = {
+		name = "GFX_pie_chart_artsotzka"
+		texturefile = "gfx/interface/corporations/pie_segments/pie_chart_segment_artsotzka.dds"
+	}
+	SpriteType = {
+		name = "GFX_pie_chart_rotatosk"
+		texturefile = "gfx/interface/corporations/pie_segments/pie_chart_segment_rotatosk.dds"
+	}
+	SpriteType = {
+		name = "GFX_pie_chart_zaphkiel_enterprises"
+		texturefile = "gfx/interface/corporations/pie_segments/pie_chart_segment_zaphkiel_enterprises.dds"
+	}
+	SpriteType = {
+		name = "GFX_pie_chart_equonics"
+		texturefile = "gfx/interface/corporations/pie_segments/pie_chart_segment_equonics.dds"
+	}
+	SpriteType = {
+		name = "GFX_pie_chart_others"
+		texturefile = "gfx/interface/corporations/pie_segments/pie_chart_segment_others.dds"
+	}
+	SpriteType = {
+		name = "GFX_pie_chart_self"
+		texturefile = "gfx/interface/corporations/pie_segments/pie_chart_segment_self.dds"
+	}
+}

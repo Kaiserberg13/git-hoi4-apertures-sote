@@ -1,0 +1,25 @@
+
+state={
+	id=609
+	name="STATE_609"
+
+	history={
+		owner = KAZ
+		victory_points = {
+			4768 2
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		
+		add_core_of = KAZ
+	}
+
+	provinces={
+		1591 1675 1825 4316 4391 4768 5062 12370 12511 13147 
+	}
+	manpower=1619065
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

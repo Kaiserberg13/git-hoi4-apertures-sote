@@ -1,0 +1,148 @@
+﻿division_template = {
+	name = "Divisione di fanteria"
+
+	division_names_group = GRE_Inf_01
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 1 y = 2 }
+
+		irregular_infantry = { x = 2 y = 0 }
+		irregular_infantry = { x = 2 y = 1 }
+		irregular_infantry = { x = 2 y = 2 }
+
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		turret = { x = 0 y = 1 }
+
+		engineer = { x = 1 y = 0 }
+		recon = { x = 1 y = 1 }
+	}
+}
+
+
+division_template = {
+	name = "Divisioni montane"
+
+	division_names_group = GRE_mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		turret = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "1. Divisione di fanteria"
+		location = 4109
+		division_template = "Divisione di fanteria"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Divisione di fanteria"
+		location = 11818
+		division_template = "Divisione di fanteria"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3. Divisione di fanteria"
+		location = 9940
+		division_template = "Divisione di fanteria"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4. Divisione di fanteria"
+		location = 11905
+		division_template = "Divisione di fanteria"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "1. Divisioni montane"
+		location = 9930
+		division_template = "Divisioni montane"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Divisioni montane"
+		location = 9837
+		division_template = "Divisioni montane"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.3
+	}
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "GRE"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 40
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_artillery_equipment_1
+			creator = "GRE"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 40
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_armor_equipment_0
+			creator = "GRE"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_2
+			creator = "GRE"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "GRE"
+			version_name = "Fragoroso"
+		}
+		requested_factories = 1
+		progress = 0.9
+		efficiency = 100
+	}
+}

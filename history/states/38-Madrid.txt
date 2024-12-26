@@ -1,0 +1,32 @@
+
+state={
+	id=38
+	name="STATE_38"
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			9767 30 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 6
+
+		}
+		add_core_of = SPR
+		
+
+	}
+
+	provinces={
+		977 3794 3858 9767 14961 14962 
+	}
+	manpower=1434351
+	buildings_max_level_factor=1.000
+	state_category=city
+}

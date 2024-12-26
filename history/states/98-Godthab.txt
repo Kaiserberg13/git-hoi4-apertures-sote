@@ -1,0 +1,30 @@
+
+state={
+	id=98
+	name="STATE_98"
+
+	history={
+		owner = DEN
+		victory_points = {
+			10245 1 
+		}
+		buildings = {
+			infrastructure = 1
+			10245 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = DEN
+
+	}
+
+	provinces={
+		10245 13058 16318 16320 
+	}
+	manpower=308611
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

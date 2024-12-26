@@ -1,0 +1,30 @@
+
+state={
+	id=679
+	name="STATE_679"
+
+	history={
+		owner = CRO
+		victory_points = {
+			11564 2
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			11564 = {
+				bunker = 1
+				naval_base = 5
+			}
+
+		}
+		add_core_of = CRO
+		add_core_of = AUS		
+	}
+
+	provinces={
+		11564
+	}
+	manpower=444243
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,27 @@
+state={
+	id=960
+	name="STATE_960"
+	
+	history={
+		owner = HOL
+		victory_points = {
+			13694 1
+		}
+		buildings = {
+			infrastructure = 1
+			13694 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		13694 
+	}
+	manpower=439768
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

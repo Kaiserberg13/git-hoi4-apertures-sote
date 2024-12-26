@@ -1,0 +1,35 @@
+
+state={
+	id=686
+	name="STATE_686"
+
+	history={
+		owner = ISR
+		victory_points = {
+			13212 3 
+		}
+		victory_points = {
+			1015 2 
+		}
+		victory_points = {
+			11970 2 
+		}
+		buildings = {
+			infrastructure = 1
+			1015 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = ISR
+
+	}
+
+	provinces={
+		1015 7176 10104 11970 13212 
+	}
+	manpower=1925083
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

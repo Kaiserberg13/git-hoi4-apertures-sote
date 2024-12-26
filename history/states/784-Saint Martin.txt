@@ -1,0 +1,27 @@
+state={
+	id=784
+	name="STATE_784"
+	
+	history={
+		owner = FRA
+		victory_points = {
+			13084 1
+		}
+		buildings = {
+			infrastructure = 1
+			13084 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		13084 
+	}
+	manpower=312320
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

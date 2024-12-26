@@ -1,0 +1,107 @@
+spriteTypes = {
+	#topbar
+	spriteType = {
+		name = "GFX_IB_states"
+		texturefile = "gfx/texticons/IB_states_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_IB_office"
+		texturefile = "gfx/texticons/IB_office_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_IB_manpower"
+		texturefile = "gfx/texticons/IB_manpower_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_IB_casualties"
+		texturefile = "gfx/texticons/IB_casualties_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_IB_war_support"
+		texturefile = "gfx/texticons/IB_war_support_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_IB_total_infrastructure"
+		texturefile = "gfx/texticons/IB_total_infrastructure_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_IB_total_tech"
+		texturefile = "gfx/texticons/IB_total_tech_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_IB_stability"
+		texturefile = "gfx/texticons/IB_stability_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_IB_political"
+		texturefile = "gfx/texticons/IB_political_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_IB_money"
+		texturefile = "gfx/texticons/IB_money_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_IB_debt"
+		texturefile = "gfx/texticons/IB_debt_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	
+	spriteType = {
+		name = "GFX_IB_civ_fac"
+		texturefile = "gfx/texticons/IB_civ_fac_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_IB_mil_fac"
+		texturefile = "gfx/texticons/IB_mil_fac_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_IB_dockyard"
+		texturefile = "gfx/texticons/IB_dockyard_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_IB_divison"
+		texturefile = "gfx/texticons/IB_divison_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_IB_planes"
+		texturefile = "gfx/texticons/IB_planes_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_IB_ships"
+		texturefile = "gfx/texticons/IB_ships_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = { #resouces_background
+		name = "GFX_ib_bg_half"
+		texturefile = "gfx/interface/ib_background_extended_half.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = { #resouces_botton
+		name = "GFX_ib_res_icon"
+		texturefile = "gfx/interface/ib_res_botton_icon.dds"
+		legacy_lazy_load = no
+	}
+}

@@ -1,0 +1,21 @@
+characters={
+
+    FER_president_Alexander_Shinigai={ 
+        name = "Alexander Shinigai" 
+        portraits = {
+            civilian = {
+                large = "GFX_FER_president_Alexander_Shinigai"
+            }
+            army = {
+                large = "GFX_FER_president_Alexander_Shinigai"
+                small = "GFX_idea_GFX_FER_president_Alexander_Shinigai_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

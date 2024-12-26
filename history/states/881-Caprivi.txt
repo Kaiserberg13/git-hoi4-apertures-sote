@@ -1,0 +1,25 @@
+state={
+	id=881
+	name="STATE_881"
+	
+	history={
+		owner = ZAM
+		victory_points = {
+		    13467 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ZAM
+		add_core_of = BOT
+		add_core_of = NAM
+    }
+	
+	provinces={
+		13467 13468 
+	}
+	manpower=272833
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

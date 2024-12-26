@@ -1,0 +1,40 @@
+#Category allowed for JAP
+camelia_influence = {
+
+	s_JAP_china_step_up_war_effort = {
+
+		icon = jap_conquer_china
+
+		available = {
+		}
+
+		visible = {
+			has_country_flag = filter_political_selected
+		}
+
+	}
+	s_JAP_china_step_up_war_effort_s = {
+
+		icon = jap_conquer_china
+
+		available = {
+		}
+
+		visible = {
+			has_country_flag = filter_political_selected
+		}
+
+	}
+	s_JAP_china_step_up_war_effort_s = {
+
+		icon = jap_conquer_china
+
+		available = {
+		}
+
+		visible = {
+			has_country_flag = filter_political_selected
+		}
+
+	}
+}

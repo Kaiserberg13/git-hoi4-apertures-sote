@@ -1,0 +1,40 @@
+characters={
+
+    JAP_president_Kobe_Akira={ 
+        name = "Kobe Akira" 
+        portraits = {
+            civilian = {
+                large = "GFX_JAP_president_Kobe_Akira"
+            }
+            army = {
+                large = "GFX_JAP_president_Kobe_Akira"
+                small = "GFX_idea_GFX_JAP_president_Kobe_Akira_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+
+    JAP_president_Muramoto_Michi={ 
+        name = "Muramoto Michi" 
+        portraits = {
+            civilian = {
+                large = "GFX_JAP_president_Muramoto_Michi"
+            }
+            army = {
+                large = "GFX_JAP_president_Muramoto_Michi"
+                small = "GFX_idea_GFX_JAP_president_Muramoto_Michi_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

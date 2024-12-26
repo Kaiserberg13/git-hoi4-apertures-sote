@@ -1,0 +1,25 @@
+
+state={
+	id=707
+	name="STATE_707"
+
+	history={
+		owner = ISR
+		victory_points = {
+			11919 2
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ISR
+
+	}
+
+	provinces={
+		11919 
+	}
+	manpower=419013
+	buildings_max_level_factor=1.000
+	state_category=town
+}

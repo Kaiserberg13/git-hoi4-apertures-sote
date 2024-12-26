@@ -1,0 +1,23 @@
+state={
+	id=1488
+	name="STATE_1488"
+	provinces={
+		15231 
+	}
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+			15231 = {
+				naval_base = 1
+			}
+
+		}
+		add_claim_by = ENG
+		add_core_of = SAF
+
+	}
+	manpower=336690
+	buildings_max_level_factor=1.000
+	state_category=town
+}

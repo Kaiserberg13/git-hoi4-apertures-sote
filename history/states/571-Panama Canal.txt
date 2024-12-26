@@ -1,0 +1,33 @@
+
+state={
+	id=571
+	name="STATE_571"
+
+	history={
+		owner = CSA
+		victory_points = {
+			7617 3
+		}
+		victory_points = {
+			14046 2
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 6
+			7617 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = CSA
+
+	}
+
+	provinces={
+		7617 14046 
+	}
+	manpower=430987
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

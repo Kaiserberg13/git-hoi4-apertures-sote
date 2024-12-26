@@ -1,0 +1,30 @@
+
+state={
+	id=610
+	name="STATE_610"
+
+	history={
+		owner = SIA
+		victory_points = {
+			12251 1 
+		}
+		buildings = {
+			infrastructure = 1
+			12251 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = RAJ
+		add_claim_by = SIA
+
+	}
+
+	provinces={
+		10321 12251 
+	}
+	manpower=299374
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

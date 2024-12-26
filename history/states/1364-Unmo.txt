@@ -1,0 +1,19 @@
+state={
+	id=1364
+	name="STATE_1364"
+	provinces={
+		10222 15385 15392 15406 15414 15422 15439 15447 15451 15471 15478 15490 
+	}
+	history={
+		owner = OAS
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = OAS
+
+	}
+	manpower=4328579
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

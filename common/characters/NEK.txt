@@ -1,0 +1,21 @@
+characters={
+
+    NEK_president_Ivan_Kovalenko={ 
+        name = "Ivan Kovalenko" 
+        portraits = {
+            civilian = {
+                large = "GFX_NEK_president_Ivan_Kovalenko"
+            }
+            army = {
+                large = "GFX_NEK_president_Ivan_Kovalenko"
+                small = "GFX_idea_GFX_NEK_president_Ivan_Kovalenko_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

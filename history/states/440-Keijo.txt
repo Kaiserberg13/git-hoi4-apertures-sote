@@ -1,0 +1,37 @@
+
+state={
+	id=440
+	name="STATE_440"
+	resources = {
+		steel = 9
+		aluminium = 7
+	}
+
+	history={
+		owner = KOR
+		victory_points = {
+			7125 15
+		}
+		victory_points = {
+			7221 5
+		}
+		victory_points = {
+			1100 4
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			dockyard = 2
+
+		}
+		add_core_of = KOR
+
+	}
+
+	provinces={
+		1100 1148 7125 7221 12040 13288 13290 
+	}
+	manpower=1450269
+	buildings_max_level_factor=1.000
+	state_category=city
+}

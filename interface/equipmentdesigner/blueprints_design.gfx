@@ -1,0 +1,103 @@
+spriteTypes = {
+	### Light Armor
+    spriteType = {
+		name = "GFX_TC_ws_light_tank_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_light_armor_blueprint.png"
+	}
+
+    spriteType = {
+		name = "GFX_TM_tank_modules_gun_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_light_armor_gun.png"
+	}
+	spriteType = {
+		name = "GFX_TM_tank_modules_movement_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_light_armor_movement.png"
+	}
+	spriteType = {
+		name = "GFX_TM_tank_modules_armor_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_light_armor_armor.png"
+	}
+	spriteType = {
+		name = "GFX_TM_tank_modules_modules_1_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_light_armor_modules.png"
+	}
+	spriteType = {
+		name = "GFX_TM_tank_modules_modules_2_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_light_armor_modules.png"
+	}
+	spriteType = {
+		name = "GFX_TM_tank_modules_modules_3_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_light_armor_modules.png"
+	}
+
+	### Medium Armor
+	spriteType = {
+		name = "GFX_TC_ws_medium_tank_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_medium_armor_blueprint.png"
+	}
+
+    spriteType = {
+		name = "GFX_TM_medium_tank_modules_gun_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_medium_armor_gun.png"
+	}
+	spriteType = {
+		name = "GFX_TM_medium_tank_modules_movement_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_medium_armor_movement.png"
+	}
+	spriteType = {
+		name = "GFX_TM_medium_tank_modules_armor_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_medium_armor_armor.png"
+	}
+	spriteType = {
+		name = "GFX_TM_medium_tank_modules_modules_1_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_medium_armor_modules.png"
+	}
+	spriteType = {
+		name = "GFX_TM_medium_tank_modules_modules_2_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_medium_armor_modules.png"
+	}
+	spriteType = {
+		name = "GFX_TM_medium_tank_modules_modules_3_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_medium_armor_modules.png"
+	}
+	spriteType = {
+		name = "GFX_TM_medium_tank_modules_modules_4_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_medium_armor_modules.png"
+	}
+	spriteType = {
+		name = "GFX_TM_medium_tank_modules_modules_5_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_medium_armor_modules.png"
+	}
+
+
+	### Modern Armor
+	spriteType = {
+		name = "GFX_TC_ws_modern_tank_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_modern_armor_blueprint.png"
+	}
+
+    spriteType = {
+		name = "GFX_TM_modern_tank_modules_gun_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_modern_armor_gun.png"
+	}
+	spriteType = {
+		name = "GFX_TM_modern_tank_modules_movement_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_modern_armor_movement.png"
+	}
+	spriteType = {
+		name = "GFX_TM_modern_tank_modules_armor_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_modern_armor_armor.png"
+	}
+	spriteType = {
+		name = "GFX_TM_modern_tank_modules_modules_1_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_modern_armor_modules.png"
+	}
+	spriteType = {
+		name = "GFX_TM_modern_tank_modules_modules_2_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_modern_armor_modules.png"
+	}
+	spriteType = {
+		name = "GFX_TM_modern_tank_modules_modules_3_slot"
+		textureFile = "gfx/interface/equipmentdesigner/tank/generic_modern_armor_modules.png"
+	}
+}

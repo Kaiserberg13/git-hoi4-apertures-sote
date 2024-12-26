@@ -1,0 +1,40 @@
+characters={
+
+    MAD_president_George_Usman={ 
+        name = "George Usman" 
+        portraits = {
+            civilian = {
+                large = "GFX_MAD_president_George_Usman"
+            }
+            army = {
+                large = "GFX_MAD_president_George_Usman"
+                small = "GFX_idea_GFX_MAD_president_George_Usman_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+
+    MAD_president_Government={ 
+        name = "Government" 
+        portraits = {
+            civilian = {
+                large = "GFX_MAD_president_Government"
+            }
+            army = {
+                large = "GFX_MAD_president_Government"
+                small = "GFX_idea_GFX_MAD_president_Government_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

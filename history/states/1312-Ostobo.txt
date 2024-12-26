@@ -1,0 +1,30 @@
+state={
+	id=1312
+	name="STATE_1312"
+	provinces={
+		1286 1301 1329 4304 4332 7251 7324 7352 10166 10206 12222 
+	}
+	history={
+		owner = OAS
+		victory_points = {
+			4332 4 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			industrial_complex = 1
+			4332 = {
+				naval_base = 2
+			}
+			7251 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = OAS
+
+	}
+	manpower=5775146
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

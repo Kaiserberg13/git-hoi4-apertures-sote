@@ -1,0 +1,22 @@
+state={
+	id=1640
+	name="STATE_1640"
+	provinces={
+		14023 16845 16859 
+	}
+	history={
+		owner = MLI
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			16859 7
+		}
+		add_core_of = MLI
+
+	}
+	manpower=251023
+	buildings_max_level_factor=1.000
+	state_category=town
+}

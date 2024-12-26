@@ -1,0 +1,21 @@
+state={
+	id=1254
+	name="STATE_1254"
+
+	history={
+		owner = USB
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = USB
+
+	}
+
+	provinces={
+		1972 10645 12552 
+	}
+	manpower=150654
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

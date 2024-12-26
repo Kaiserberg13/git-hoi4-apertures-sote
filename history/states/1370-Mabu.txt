@@ -1,0 +1,31 @@
+
+state={
+	id=1370
+	name="STATE_1370"
+	provinces={
+		5366 7557 15431 15435 15436 15440 15448 15458 15468 15472 15473 15479 15491 15498 15519 15520 15524 15529 15532 15539 15540 15565 15566 15571 15582 15587 15592 15593 15594 15605 15615 15622 15626 15638 15641 15646 15654 15665 15668 15682 15686 15687 15689 15695 15704 15708 15711 15715 15725 15738 
+	}
+	resources = {
+		steel = 3
+		oil = 3
+		tungsten = 3
+		chromium = 3
+		aluminium = 4
+		rubber = 3
+	}
+	history={
+		owner = OAS
+		victory_points = {
+			5366 4 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = OAS
+
+	}
+	manpower=8599016
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

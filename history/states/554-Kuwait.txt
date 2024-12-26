@@ -1,0 +1,29 @@
+
+state={
+	id=554
+	name="STATE_554"
+
+	history={
+		owner = ENG
+		victory_points = {
+			8085 3 
+		}
+		buildings = {
+			infrastructure = 2
+			8085 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		8085 13309 15114 
+	}
+	manpower=303487
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

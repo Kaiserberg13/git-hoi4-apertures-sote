@@ -1,0 +1,32 @@
+
+state={
+	id=132
+	name="STATE_132"
+
+	history={
+		owner = ENG
+		victory_points = {
+			7394 3
+		}
+		victory_points = {
+			6289 2
+		}
+		victory_points = {
+			11237 2
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		6289 6313 6405 7394 9284 9310 9405 11237 11267 11334 13544 
+	}
+	manpower=2657423
+	buildings_max_level_factor=1.000
+	state_category=town
+}

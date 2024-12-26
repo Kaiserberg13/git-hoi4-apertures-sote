@@ -1,0 +1,15 @@
+focus_tree = {
+	id = UGA_start_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = UGA
+		}
+	}
+	
+	default = no
+
+}		

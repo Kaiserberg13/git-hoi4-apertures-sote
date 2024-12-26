@@ -1,0 +1,26 @@
+state={
+	id=1090
+	name="STATE_1090"
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = RAJ
+		1950.1.1 = {
+			owner = PAK
+			remove_core_of = RAJ
+
+		}
+
+	}
+
+	provinces={
+		14386 14387 14390 
+	}
+	manpower=319367
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=710
+	name="STATE_710"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = OMA
+		victory_points = {
+			10868 2
+		}
+		buildings = {
+			infrastructure = 1
+			10868 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = OMA
+
+	}
+
+	provinces={
+		10868 
+	}
+	manpower=178051
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

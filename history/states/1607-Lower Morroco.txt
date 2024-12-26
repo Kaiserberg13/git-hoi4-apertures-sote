@@ -1,0 +1,23 @@
+
+state={
+	id=1607
+	name="STATE_1607"
+	provinces={
+		1111 1152 1207 4154 4933 7116 7908 7958 8046 12018 13669 13863 13864 13868 17110 17111 17115 
+	}
+	history={
+		owner = MOR
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			13868 13
+		}
+		add_core_of = MOR
+
+	}
+	manpower=7294352
+	buildings_max_level_factor=1.000
+	state_category=town
+}

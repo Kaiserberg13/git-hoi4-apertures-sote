@@ -1,0 +1,21 @@
+characters={
+
+    EST_president_Ragnar_Puu={ 
+        name = "Ragnar Puu" 
+        portraits = {
+            civilian = {
+                large = "GFX_EST_president_Ragnar_Puu"
+            }
+            army = {
+                large = "GFX_EST_president_Ragnar_Puu"
+                small = "GFX_idea_GFX_EST_president_Ragnar_Puu_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

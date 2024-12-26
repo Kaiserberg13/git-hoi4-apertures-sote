@@ -1,0 +1,184 @@
+sub_units = {
+	light_helicopter_brigade = {
+		abbreviation = "HELT"
+		sprite = helicopter_brigade
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+		affects_speed = yes
+
+		type = {
+			infantry
+			motorized
+		}
+		
+		group = air
+		
+		categories = {
+			category_army
+			category_helicopter
+			category_air
+		}
+		battalion_mult = {
+			category = category_all_infantry
+			max_strength = 0.02
+			soft_attack = 0.06
+		}
+
+		
+
+		combat_width = 0
+		soft_attack = 0.02
+
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 5
+		default_morale = 0.05
+		manpower = 1000
+		training_time = 185
+
+		#Misc Abilities
+		weight = 0.13
+		supply_consumption = 0.080
+		can_be_parachuted = no
+
+		# Important Ability
+		casualty_trickleback = 0.15
+
+		own_equipment_fuel_consumption_mult = 0.1 # no fuel use
+		
+		essential = {
+			support_equipment
+			ws_helicopter_equipment
+		}
+		
+		need = {
+			support_equipment = 55
+			ws_helicopter_equipment = 35
+		}
+	}
+
+	heavy_helicopter_brigade = {
+		abbreviation = "HHEL"
+		sprite = helicopter_brigade
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+		affects_speed = yes
+
+		type = {
+			infantry
+			motorized
+		}
+		
+		group = air
+		
+		categories = {
+			category_army
+			category_helicopter
+			category_air
+		}
+
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 3
+		max_organisation = 9
+		default_morale = 0.1
+		manpower = 2000
+		training_time = 225
+
+		#Misc Abilities
+		weight = 0.13
+		supply_consumption = 0.080
+		can_be_parachuted = no
+
+		# Important Ability
+		casualty_trickleback = 0.15
+
+		own_equipment_fuel_consumption_mult = 0.2 # no fuel use
+		
+		essential = {
+			support_equipment
+			ws_heavy_helicopter_equipment
+		}
+		
+		need = {
+			support_equipment = 55
+			ws_heavy_helicopter_equipment = 35
+		}
+	}
+
+	helicopter_support = {
+		abbreviation = "HELB"
+		sprite = helicopter_brigade
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = yes
+		affects_speed = yes
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+			category_helicopter_support_companies
+			category_air
+		}
+
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = -1
+		max_organisation = 5
+		default_morale = 0.05
+		manpower = 500
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.070
+		can_be_parachuted = no
+		recon = 1
+
+		# Important Ability
+		casualty_trickleback = 0.1
+		experience_loss_factor = 0.07
+		supply_consumption_factor = -0.07
+
+		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
+		
+		battalion_mult = {
+			category = category_all_infantry
+			max_strength = 0.05
+		}
+		battalion_mult = {
+			category = category_motorized
+			soft_attack = 0.04
+			breakthrough = 0.04
+		}
+		
+		essential = {
+			support_equipment
+			ws_helicopter_equipment
+		}
+		
+		need = {
+			support_equipment = 20
+			ws_helicopter_equipment = 10
+		}
+	}
+
+}
+
+

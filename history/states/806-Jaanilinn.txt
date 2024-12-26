@@ -1,0 +1,22 @@
+state={
+	id=806
+	name="STATE_806"
+	
+	history={
+		owner = LAT
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = LAT
+		add_claim_by = EST
+	}
+	
+	provinces={
+		13270 
+	}
+	manpower=236960
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

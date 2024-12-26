@@ -1,0 +1,21 @@
+characters={
+
+    RSE_president_Artur_Romanov={ 
+        name = "Artur Romanov" 
+        portraits = {
+            civilian = {
+                large = "GFX_RSE_president_Artur_Romanov"
+            }
+            army = {
+                large = "GFX_RSE_president_Artur_Romanov"
+                small = "GFX_idea_GFX_RSE_president_Artur_Romanov_small"
+            }
+        }
+
+    country_leader = {
+        ideology = falangism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

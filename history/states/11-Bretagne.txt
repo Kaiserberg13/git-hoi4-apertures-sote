@@ -1,0 +1,56 @@
+
+state={
+	id=11
+	name="STATE_11"
+
+	history={
+		owner = BRT
+		victory_points = {
+			3552 5 
+		}
+		victory_points = {
+			6536 2 
+		}
+		victory_points = {
+			9495 1 
+		}
+		victory_points = {
+			9525 1 
+		}
+		victory_points = {
+			11508 1 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 3
+			arms_factory = 3
+			air_base = 5
+			3552 = {
+				naval_base = 10
+				coastal_bunker = 1
+
+			}
+			6536 = {
+				naval_base = 4
+				coastal_bunker = 1
+
+			}
+			9525 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = BRT
+		add_claim_by = FRA
+
+	}
+
+	provinces={
+		527 542 3552 3758 6536 6548 6572 9495 9510 9525 11508 
+	}
+	manpower=3167469
+	buildings_max_level_factor=1.000
+	state_category=city
+}

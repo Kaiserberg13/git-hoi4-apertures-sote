@@ -1,0 +1,22 @@
+state={
+	id=1306
+	name="STATE_1306"
+	provinces={
+		11666 14225 
+	}
+	history={
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			anti_air_building = 2
+			air_base = 3
+		}
+	}
+	manpower=433394
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=1.000
+}

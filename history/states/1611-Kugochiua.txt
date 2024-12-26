@@ -1,0 +1,22 @@
+state={
+	id=1611
+	name="STATE_1611"
+	provinces={
+		1958 13856 17054 17055 17070 17071 17082 17087 17096 
+	}
+	history={
+		owner = ALG
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			17096 5
+		}
+		add_core_of = ALG
+
+	}
+	manpower=919074
+	buildings_max_level_factor=1.000
+	state_category=town
+}

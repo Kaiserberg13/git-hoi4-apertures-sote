@@ -1,0 +1,26 @@
+
+state={
+	id=1406
+	name="STATE_1406"
+	provinces={
+		1846 10594 13484 13884 13885 14059 14060 14432 15294 15299 15305 15308 15309 15315 15316 15320 15322 15324 15332 
+	}
+	history={
+		owner = ZAM
+		buildings = {
+			infrastructure = 3
+			15320 = {
+				bunker = 1
+			}
+			1846 = {
+				bunker = 1
+			}
+
+		}
+		add_core_of = ZAM
+
+	}
+	manpower=3169746
+	buildings_max_level_factor=1.000
+	state_category=town
+}

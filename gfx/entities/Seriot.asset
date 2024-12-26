@@ -1,0 +1,5 @@
+entity = {
+	name = juggernaut_entity
+	pdxmesh = juggernaut_mesh
+	scale = 1
+}

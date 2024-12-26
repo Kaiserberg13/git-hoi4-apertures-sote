@@ -1,0 +1,31 @@
+
+state={
+	id=67
+	name="STATE_67"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = FOC
+		victory_points = {
+			9692 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 3
+		}
+		add_core_of = FOC
+		add_Core_of = CZE
+		add_core_of = AUS
+		add_core_of = HUN
+	}
+
+	provinces={
+		9692 
+	}
+	manpower=124138
+	buildings_max_level_factor=1.000
+	state_category=town
+}

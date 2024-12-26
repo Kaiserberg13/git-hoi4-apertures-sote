@@ -1,0 +1,30 @@
+
+state={
+	id=185
+	name="STATE_185"
+
+	history={
+		owner = LAT
+		victory_points = {
+			3288 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			3288 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = LAT
+		add_core_of = LIT
+	}
+
+	provinces={
+		3288 14543 
+	}
+	manpower=338544
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

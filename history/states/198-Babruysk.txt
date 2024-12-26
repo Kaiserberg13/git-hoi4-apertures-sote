@@ -1,0 +1,30 @@
+
+state={
+	id=198
+	name="STATE_198"
+
+	history={
+		owner = BLR
+		victory_points = {
+			3350 2
+		}
+		victory_points = {
+			294 2
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+
+		}
+		add_core_of = BLR
+
+	}
+
+	provinces={
+		216 294 304 331 342 386 3350 3378 6292 6373 9289 11322 13739 
+	}
+	manpower=4480648
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,19 @@
+state={
+	id=1477
+	name="STATE_1477"
+	provinces={
+		1852 7765 7817 10589 10641 12611 
+	}
+	history={
+		owner = FER
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = FER
+
+	}
+	manpower=526858
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

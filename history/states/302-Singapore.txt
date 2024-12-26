@@ -1,0 +1,40 @@
+
+state={
+	id=302
+	name="STATE_302"
+	resources={
+		rubber=142.000
+		steel=20.000
+		tungsten=89.000
+		aluminium=15.000
+	}
+
+	history={
+		set_demilitarized_zone = yes
+		owner = OAS
+		victory_points = {
+			12299 20 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			air_base = 6
+			12299 = {
+				naval_base = 8
+				coastal_bunker = 3
+
+			}
+
+		}
+		add_core_of = OAS
+
+	}
+
+	provinces={
+		12113 12299 
+	}
+	manpower=9921232
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=1.000
+}

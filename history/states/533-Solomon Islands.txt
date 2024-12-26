@@ -1,0 +1,29 @@
+
+state={
+	id=533
+	name="STATE_533"
+
+	history={
+		owner = OAS
+		victory_points = {
+			1269 1 
+		}
+		buildings = {
+			infrastructure = 1
+			1269 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = OAS
+
+	}
+
+	provinces={
+		1042 1085 1269 1370 4252 4292 7437 10291 10319 12265 
+	}
+	manpower=1824314
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

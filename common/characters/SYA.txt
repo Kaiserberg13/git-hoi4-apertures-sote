@@ -1,0 +1,21 @@
+characters={
+
+    SYA_president_Artem_Ussi={ 
+        name = "Artem Ussi" 
+        portraits = {
+            civilian = {
+                large = "GFX_SYA_president_Artem_Ussi"
+            }
+            army = {
+                large = "GFX_SYA_president_Artem_Ussi"
+                small = "GFX_idea_GFX_SYA_president_Artem_Ussi_small"
+            }
+        }
+
+    country_leader = {
+        ideology = leninism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

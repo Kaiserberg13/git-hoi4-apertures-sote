@@ -1,0 +1,28 @@
+state={
+	id=1355
+	name="STATE_1355"
+	provinces={
+		15876 15879 15888 15897 15898 15904 15909 15925 15929 15942 15944 15946 15949 15960 15962 15963 15971 15976 15979 15983 
+	}
+	resources = {
+		oil = 4
+		chromium = 31
+		steel = 2
+	}
+	history={
+		owner = OAS
+		victory_points = {
+			15897 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = OAS
+
+	}
+	manpower=4384208
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

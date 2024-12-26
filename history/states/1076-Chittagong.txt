@@ -1,0 +1,28 @@
+state={
+	id=1076
+	name="STATE_1076"
+
+	history={
+		owner = RAJ
+		victory_points = {
+			9991 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			9991 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = RAJ
+	}
+
+	provinces={
+		1142 9991 11968 14337 14338 
+	}
+	manpower=1828231
+	buildings_max_level_factor=1.000
+	state_category=town
+}

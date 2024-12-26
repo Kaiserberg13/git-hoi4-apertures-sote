@@ -1,0 +1,29 @@
+
+state={
+	id=473
+	name="STATE_473"
+
+	history={
+		owner = BKO
+		victory_points = {
+			7757 2 
+		}
+		victory_points = {
+			1369 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = BKO
+
+	}
+
+	provinces={
+		1369 1685 4665 4789 4793 7757 7822 7886 12631 
+	}
+	manpower=1302919
+	buildings_max_level_factor=1.000
+	state_category=town
+}

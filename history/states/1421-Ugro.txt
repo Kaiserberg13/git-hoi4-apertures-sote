@@ -1,0 +1,19 @@
+state={
+	id=1421
+	name="STATE_1421"
+	provinces={
+		7872 14049 14050 15245 15249 15255 
+	}
+	history={
+		owner = ZAM
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ZAM
+
+	}
+	manpower=1995129
+	buildings_max_level_factor=1.000
+	state_category=town
+}

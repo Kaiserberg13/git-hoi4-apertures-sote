@@ -1,0 +1,32 @@
+state={
+	id=1084
+	name="STATE_1084"
+
+	history={
+		owner = SOV
+		victory_points = {
+			685 2
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+		1942.11.22 = {
+			controller = GER
+
+		}
+		1943.7.26 = {
+			controller = SOV
+
+		}
+
+	}
+
+	provinces={
+		685 6674 9647 14368 
+	}
+	manpower=103067
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

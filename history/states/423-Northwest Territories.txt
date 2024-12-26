@@ -1,0 +1,23 @@
+
+state={
+	id=423
+	name="STATE_423"
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		4272 7813 8653 10703 13189 
+	}
+	manpower=1500517
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

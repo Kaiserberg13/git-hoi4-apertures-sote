@@ -1,0 +1,174 @@
+﻿division_template = {
+	name = "Infantrie diviseon"
+
+	division_names_group = TUR_Inf_01
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 1 y = 2 }
+
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+
+	}
+	
+	support = {
+	}
+}
+
+
+division_template = {
+	name = "Cavalerie diviseon"
+
+	division_names_group = TUR_cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		turret = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "1. Infantrie diviseon"
+		location = 11842
+		division_template = "Infantrie diviseon"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.15
+	}
+	division = {
+		name = "2. Infantrie diviseon"
+		location = 13250
+		division_template = "Infantrie diviseon"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.1
+	}	
+	division = {
+		name = "3. Infantrie diviseon"
+		location = 13249
+		division_template = "Infantrie diviseon"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.0
+	}
+	division = {
+		name = "4. Infantrie diviseon"
+		location = 12029
+		division_template = "Infantrie diviseon"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "1. Cavalerie diviseon"
+		location = 11784
+		division_template = "Cavalerie diviseon"
+		start_equipment_factor = 0.4
+		start_experience_factor = 0.0
+	}
+	division = {
+		name = "2. Cavalerie diviseon"
+		location = 11853
+		division_template = "Cavalerie diviseon"
+		start_equipment_factor = 0.4
+		start_experience_factor = 0.0
+	}
+	division = {
+		name = "3. Cavalerie diviseon"
+		location = 9932
+		division_template = "Cavalerie diviseon"
+		start_equipment_factor = 0.4
+		start_experience_factor = 0.0
+	}
+	division = {
+		name = "4. Cavalerie diviseon"
+		location = 6935
+		division_template = "Cavalerie diviseon"
+		start_equipment_factor = 0.4
+		start_experience_factor = 0.0
+	}
+	division = {
+		name = "5. Cavalerie diviseon"
+		location = 1005
+		division_template = "Cavalerie diviseon"
+		start_equipment_factor = 0.4
+		start_experience_factor = 0.0
+	}
+	division = {
+		name = "6. Cavalerie diviseon"
+		location = 4112
+		division_template = "Cavalerie diviseon"
+		start_equipment_factor = 0.4
+		start_experience_factor = 0.0
+	}
+	division = {
+		name = "7. Cavalerie diviseon"
+		location = 6813
+		division_template = "Cavalerie diviseon"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.0
+	}
+	division = {
+		name = "8. Cavalerie diviseon"
+		location = 961
+		division_template = "Cavalerie diviseon"
+		start_equipment_factor = 0.75
+		start_experience_factor = 0.0
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "TUR"
+		}
+		requested_factories = 1
+		proTURss = 0.2
+		efficiency = 40
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_artillery_equipment_1
+			creator = "TUR"
+		}
+		requested_factories = 1
+		proTURss = 0.2
+		efficiency = 40
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_armor_equipment_0
+			creator = "TUR"
+		}
+		requested_factories = 1
+		proTURss = 0.5
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_2
+			creator = "TUR"
+		}
+		requested_factories = 1
+		proTURss = 0.5
+		efficiency = 80
+	}
+}

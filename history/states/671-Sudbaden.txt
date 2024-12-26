@@ -1,0 +1,33 @@
+
+state={
+	id=671
+	name="STATE_671"
+
+	history={
+		owner = GER
+		victory_points = {
+			11640 2 
+		}
+		victory_points = {
+			6934 2 
+		}
+		victory_points = {
+			6542 1 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		3679 3692 6542 6712 6934 11640 13126 
+	}
+	manpower=1214705
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

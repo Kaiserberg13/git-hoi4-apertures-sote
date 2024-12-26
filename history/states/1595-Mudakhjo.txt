@@ -1,0 +1,23 @@
+state={
+	id=1595
+	name="STATE_1595"
+	provinces={
+		2012 2068 4957 10771 10829 10915 12751 14017 16697 16698 16709 16711 16715 16723 16727 16733 16736 16738 16741 16746 16748 
+	}
+	history={
+		owner = LIB
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			16711 10
+		}
+		add_core_of = LIB
+		add_core_of = MLI
+
+	}
+	manpower=4662605
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,39 @@
+state={
+	id=1328
+	name="STATE_1328"
+	provinces={
+		16022 16033 
+	}
+	resources = {
+		steel = 4
+		oil = 4
+		tungsten = 4
+		chromium = 5
+		aluminium = 53
+		rubber = 42
+	}
+	history={
+		set_demilitarized_zone = yes
+		owner = OAS
+		victory_points = {
+			16033 15 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			industrial_complex = 4
+			arms_factory = 1
+			dockyard = 2
+			16022 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = OAS
+
+	}
+	manpower=10234511
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

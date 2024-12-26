@@ -1,0 +1,32 @@
+
+state={
+	id=863
+	name="STATE_863"
+
+	history={
+		owner = ISR
+		victory_points = {
+			4115 2 
+		}
+		victory_points = {
+			10089 2 
+		}
+		buildings = {
+			infrastructure = 1
+			4115 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = ISR
+
+	}
+
+	provinces={
+		4017 4115 4591 10089 11976 14665 
+	}
+	manpower=1024166
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

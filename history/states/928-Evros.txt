@@ -1,0 +1,31 @@
+state={
+	id=928
+	name="STATE_928"
+	
+	history={
+		owner = GRE
+		victory_points = {
+			11905 1
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = GRE
+		1941.6.22 = {
+			controller = GER
+
+		}
+		1945.1.1 = {
+			controller = GRE
+
+		}
+	}
+	
+	provinces={
+		11905 
+	}
+	manpower=319434
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

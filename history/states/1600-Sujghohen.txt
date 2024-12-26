@@ -1,0 +1,23 @@
+state={
+	id=1600
+	name="STATE_1600"
+	provinces={
+		5012 7943 8111 10875 13231 13232 17008 17014 17081 
+	}
+	history={
+		owner = SAH
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			17014 1
+		}
+		add_core_of = MLI
+		add_core_of = SAH
+
+	}
+	manpower=659695
+	buildings_max_level_factor=1.000
+	state_category=town
+}

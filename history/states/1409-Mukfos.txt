@@ -1,0 +1,23 @@
+state={
+	id=1409
+	name="STATE_1409"
+	provinces={
+		2255 12986 15296 
+	}
+	history={
+		owner = UGA
+		add_claim_by = TZN
+		add_core_of = MZB
+		buildings = {
+			infrastructure = 1
+			12986 = {
+				naval_base = 1
+			}
+
+		}
+
+	}
+	manpower=182348
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,22 @@
+state={
+	id=591
+	name="STATE_591"
+	manpower=314494
+	state_category = tiny_island
+	
+	history=
+	{
+		owner = OAS
+		buildings = {
+			infrastructure = 1
+			13005 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = OAS
+	}
+	
+	provinces={
+		13005 
+	}
+}

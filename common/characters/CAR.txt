@@ -1,0 +1,21 @@
+characters={
+
+    CAR_president_Simon_Kone={ 
+        name = "Simon Kone" 
+        portraits = {
+            civilian = {
+                large = "GFX_CAR_president_Simon_Kone"
+            }
+            army = {
+                large = "GFX_CAR_president_Simon_Kone"
+                small = "GFX_idea_GFX_CAR_president_Simon_Kone_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

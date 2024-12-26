@@ -1,0 +1,951 @@
+technologies = {
+
+	ws_basic_chassis = {
+		enable_equipments = {
+			ws_light_tank_equipment_0
+		}
+		enable_subunits = {
+			light_armor
+		}
+		enable_equipment_modules = {
+			tank_movement_chassis
+			tank_movement_wheels
+			tank_movement_chassis_and_wheels
+			tank_gun_one
+			tank_gun_two
+			tank_gun_fire
+			tank_gun_two_with_anti_air
+			tank_armor_default
+			tank_armor_layers
+			tank_armor_plates
+			tank_armor_two_layers
+			tank_modules_air_attack
+			tank_modules_rockets
+			tank_modules_fuel_small
+			tank_modules_fuel_big
+			tank_modules_radio
+			tank_modules_rifle
+			tank_modules_smoke
+		}
+		
+		
+		path = {
+			leads_to_tech = ws_light_chassis
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_medium_chassis
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_heavy_chassis
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = -1 y = 8 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_light_chassis = {
+
+		enable_equipments = {
+			ws_infantry_equipment_0
+		}
+		
+		
+		path = {
+			leads_to_tech = ws_light_chassis2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 1 y = 2 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_light_chassis2 = {
+
+		enable_equipments = {
+			ws_infantry_equipment_0
+		}
+		
+		
+		path = {
+			leads_to_tech = ws_light_chassis3
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = ws_light_chassis2_effort
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = ws_air_light_chassis_tech
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 3 y = 2 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+	ws_light_chassis2_effort = {
+
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 3 y = 0 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+	ws_air_light_chassis_tech = {
+
+	
+		path = {
+			leads_to_tech = ws_air_light_chassis3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 5 y = 5 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+ws_light_chassis3 = {
+
+		enable_equipments = {
+			ws_infantry_equipment_0
+		}
+		
+		
+		path = {
+			leads_to_tech = ws_light_chassis4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_air_light_chassis3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_light_chassis3_effort
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 7 y = 2 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_light_chassis3_effort = {
+
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 7 y = 0 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_air_light_chassis3 = {
+
+		enable_equipments = {
+			ws_infantry_equipment_0
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 7 y = 5 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_light_chassis4 = {
+
+		enable_equipments = {
+			ws_infantry_equipment_0
+		}
+		
+		
+		path = {
+			leads_to_tech = ws_light_chassis5
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_air_light_chassis4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_light_chassis4_effort
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 13 y = 2 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_light_chassis4_effort = {
+		
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 13 y = 0 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_air_light_chassis4 = {
+
+		enable_equipments = {
+			ws_infantry_equipment_0
+		}
+	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 13 y = 5 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_light_chassis5 = {
+
+		enable_equipments = {
+			ws_infantry_equipment_0
+		}
+		
+		path = {
+			leads_to_tech = ws_air_light_chassis5
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_air_light_chassis6
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_light_chassis5_effort
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 19 y = 2 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_light_chassis5_effort = {
+
+
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 19 y = 0 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_air_light_chassis5 = {
+
+		enable_equipments = {
+			ws_infantry_equipment_0
+		}
+		
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 19 y = 5 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+
+
+	ws_air_light_chassis6 = {
+
+		enable_equipments = {
+			ws_infantry_equipment_0
+		}
+		
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 21 y = 5 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+
+	ws_medium_chassis = {
+
+		enable_equipments = {
+			ws_medium_tank_equipment_0
+		}
+		enable_subunits = {
+			medium_armor
+		}
+		
+		
+		path = {
+			leads_to_tech = ws_medium_chassis2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_medium_chassis_effort
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 5 y = 8 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_medium_chassis_effort = {
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 5 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+
+	ws_medium_chassis2 = {
+
+		enable_equipments = {
+			ws_infantry_equipment_0
+		}
+		
+		
+		path = {
+			leads_to_tech = ws_medium_chassis3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_medium_chassis2_effort
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 9 y = 8 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_medium_chassis2_effort = {
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 9 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_medium_chassis3 = {
+
+		enable_equipments = {
+			ws_infantry_equipment_0
+		}
+		
+		
+		path = {
+			leads_to_tech = ws_medium_chassis4
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = ws_medium_chassis3_effort
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 15 y = 8 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_medium_chassis3_effort = {
+
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 15 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_medium_chassis4 = {
+
+		enable_equipments = {
+			ws_infantry_equipment_0
+		}
+		
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 21 y = 8 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+	ws_heavy_chassis = {
+
+		enable_equipments = {
+			ws_modern_tank_equipment_0
+		}
+		enable_subunits = {
+			modern_armor
+		}
+		
+		
+		path = {
+			leads_to_tech = ws_heavy_chassis2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 1 y = 14 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+	ws_heavy_chassis2 = {
+
+		enable_equipments = {
+			ws_infantry_equipment_0
+		}
+		
+		
+		path = {
+			leads_to_tech = ws_heavy_chassis3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_heavy_chassis2_effort
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 9 y = 14 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_heavy_chassis2_effort = {
+
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 9 y = 12 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_heavy_chassis3 = {
+
+		enable_equipments = {
+			ws_infantry_equipment_0
+		}
+		
+		
+		path = {
+			leads_to_tech = ws_heavy_chassis4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_heavy_chassis5
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_heavy_chassis3_effort
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 17 y = 14 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+	ws_heavy_chassis3_effort = {
+		
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 17 y = 12 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+	ws_heavy_chassis4 = {
+
+		enable_equipments = {
+			ws_infantry_equipment_0
+		}
+	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 23 y = 14 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+	ws_heavy_chassis5 = {
+
+		enable_equipments = {
+			ws_infantry_equipment_0
+		}
+	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 21 y = 19 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_armored_car = {
+
+		enable_equipments = {
+			ws_motorized_equipment_0
+		}
+		
+		path = {
+			leads_to_tech = ws_armored_car_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_armored_car_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = -1 y = 19 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_armored_car_2 = {
+
+		enable_equipments = {
+			ws_motorized_equipment_1
+		}
+		path = {
+			leads_to_tech = ws_armored_car_3_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 5 y = 19 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_armored_car_3_1 = {
+
+		enable_equipments = {
+			ws_motorized_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = ws_armored_car_3_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 5 y = 22 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+	ws_armored_car_3_2 = {
+
+		enable_equipments = {
+			ws_motorized_equipment_3
+		}
+	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 7 y = 22 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_armored_car_3 = {
+
+		enable_equipments = {
+			ws_mechanized_equipment_1
+		}
+		
+		
+		path = {
+			leads_to_tech = ws_armored_car4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 3 y = 16 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_armored_car4 = {
+
+		enable_equipments = {
+			ws_mechanized_equipment_2
+		}
+		
+		
+		path = {
+			leads_to_tech = ws_armored_car5
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 7 y = 19 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+	ws_armored_car5 = {
+
+		enable_equipments = {
+			ws_mechanized_equipment_3
+		}
+	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_tanks_folder
+			position = { x = 17 y = 19 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+}

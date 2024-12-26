@@ -1,0 +1,19 @@
+state={
+	id=996
+	name="STATE_996"
+
+	history={
+		owner = KAR
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces={
+		80 2998 11146 14001 14002 
+	}
+	manpower=755612
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

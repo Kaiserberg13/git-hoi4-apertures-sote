@@ -1,0 +1,40 @@
+
+state={
+	id=648
+	name="STATE_648"
+
+	history={
+		owner = ENG
+		victory_points = {
+			4073 5
+		}
+		victory_points = {
+			12049 2
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			4073 = {
+				naval_base = 2
+
+			}
+			12049 = {
+				naval_base = 2
+
+			}
+
+		}
+		1960.1.1 = {
+			owner = EGY
+
+		}
+
+	}
+
+	provinces={
+		4073 12049 
+	}
+	manpower=164417
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

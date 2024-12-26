@@ -1,0 +1,20 @@
+state={
+	id=1450
+	name="STATE_1450"
+	provinces={
+		14223 15025 15026 16319 16321 16325 16326 
+	}
+	history={
+		owner = DEN
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = DEN
+	}
+
+	manpower=1776362
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

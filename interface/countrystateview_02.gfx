@@ -1,0 +1,607 @@
+spriteTypes = {
+
+
+	# CITIES ----------------------------------------------------------------------------------------------------
+	
+	# AUSTRALIA PERTH
+	
+	spriteType = {
+		name = "GFX_terrain_moscow"
+		textureFile = "gfx/interface/terrains/terrain_city_moscow.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_koninsberg"
+		textureFile = "gfx/interface/terrains/terrain_city_koninsberg.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_riga"
+		textureFile = "gfx/interface/terrains/terrain_city_riga.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_tallinn"
+		textureFile = "gfx/interface/terrains/terrain_city_tallinn.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_london"
+		textureFile = "gfx/interface/terrains/terrain_city_london.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_wien"
+		textureFile = "gfx/interface/terrains/terrain_city_wien.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_berlin"
+		textureFile = "gfx/interface/terrains/terrain_city_berlin.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_minsk"
+		textureFile = "gfx/interface/terrains/terrain_city_minsk.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_kiev"
+		textureFile = "gfx/interface/terrains/terrain_city_kiev.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_tokyo"
+		textureFile = "gfx/interface/terrains/terrain_city_tokyo.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_tura"
+		textureFile = "gfx/interface/terrains/terrain_city_tura.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_pacifica"
+		textureFile = "gfx/interface/terrains/terrain_city_pacifica.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_leningrad"
+		textureFile = "gfx/interface/terrains/terrain_city_leningrad.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_paradise"
+		textureFile = "gfx/interface/terrains/terrain_city_paradise.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_sirius"
+		textureFile = "gfx/interface/terrains/terrain_city_sirius.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_paris"
+		textureFile = "gfx/interface/terrains/terrain_city_paris.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_wilno"
+		textureFile = "gfx/interface/terrains/terrain_city_wilno.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_warszawa"
+		textureFile = "gfx/interface/terrains/terrain_city_warszawa.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_opera"
+		textureFile = "gfx/interface/terrains/terrain_city_opera.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_kasaki"
+		textureFile = "gfx/interface/terrains/terrain_city_kasaki.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_sainguwara"
+		textureFile = "gfx/interface/terrains/terrain_city_sainguwara.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_rome"
+		textureFile = "gfx/interface/terrains/terrain_city_rome.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_praha"
+		textureFile = "gfx/interface/terrains/terrain_city_praha.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_trieste"
+		textureFile = "gfx/interface/terrains/terrain_city_trieste.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_focalors"
+		textureFile = "gfx/interface/terrains/terrain_city_focalors.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_budapest"
+		textureFile = "gfx/interface/terrains/terrain_city_budapest.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_munchen"
+		textureFile = "gfx/interface/terrains/terrain_city_munchen.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_presov"
+		textureFile = "gfx/interface/terrains/terrain_city_presov.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_akmolinsk"
+		textureFile = "gfx/interface/terrains/terrain_city_akmolinsk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_amsterdam"
+		textureFile = "gfx/interface/terrains/terrain_city_amsterdam.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_ankara"
+		textureFile = "gfx/interface/terrains/terrain_city_ankara.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_arkhangelsk"
+		textureFile = "gfx/interface/terrains/terrain_city_arkhangelsk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_athina"
+		textureFile = "gfx/interface/terrains/terrain_city_athina.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_baghdad"
+		textureFile = "gfx/interface/terrains/terrain_city_baghdad.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_bangkok"
+		textureFile = "gfx/interface/terrains/terrain_city_bangkok.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_bejing"
+		textureFile = "gfx/interface/terrains/terrain_city_bejing.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_beograd"
+		textureFile = "gfx/interface/terrains/terrain_city_beograd.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_bern"
+		textureFile = "gfx/interface/terrains/terrain_city_bern.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_brest"
+		textureFile = "gfx/interface/terrains/terrain_city_brest.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_brno"
+		textureFile = "gfx/interface/terrains/terrain_city_brno.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_brussels"
+		textureFile = "gfx/interface/terrains/terrain_city_brussels.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_bucuresti"
+		textureFile = "gfx/interface/terrains/terrain_city_bucuresti.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_canberra"
+		textureFile = "gfx/interface/terrains/terrain_city_canberra.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_chongqing"
+		textureFile = "gfx/interface/terrains/terrain_city_chongqing.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_damas"
+		textureFile = "gfx/interface/terrains/terrain_city_damas.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_daresal"
+		textureFile = "gfx/interface/terrains/terrain_city_daresal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_frankfurt"
+		textureFile = "gfx/interface/terrains/terrain_city_frankfurt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_gdansk"
+		textureFile = "gfx/interface/terrains/terrain_city_gdansk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_graz"
+		textureFile = "gfx/interface/terrains/terrain_city_graz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_hamburg"
+		textureFile = "gfx/interface/terrains/terrain_city_hamburg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_helsinki"
+		textureFile = "gfx/interface/terrains/terrain_city_helsinki.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_istanbul"
+		textureFile = "gfx/interface/terrains/terrain_city_istambul.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_jerusalem"
+		textureFile = "gfx/interface/terrains/terrain_city_jerusalem.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_jinan"
+		textureFile = "gfx/interface/terrains/terrain_city_jinan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_kaunas"
+		textureFile = "gfx/interface/terrains/terrain_city_kaunas.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_khabarovsk"
+		textureFile = "gfx/interface/terrains/terrain_city_khabarovsk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_khartoum"
+		textureFile = "gfx/interface/terrains/terrain_city_khartoum.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_khiban"
+		textureFile = "gfx/interface/terrains/terrain_city_khiban.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_kisumu"
+		textureFile = "gfx/interface/terrains/terrain_city_kisumu.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_kitamu"
+		textureFile = "gfx/interface/terrains/terrain_city_kitamu.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_kivuzana"
+		textureFile = "gfx/interface/terrains/terrain_city_kivuzana.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_kiyamo"
+		textureFile = "gfx/interface/terrains/terrain_city_kiyamo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_kotor"
+		textureFile = "gfx/interface/terrains/terrain_city_kotor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_krakow"
+		textureFile = "gfx/interface/terrains/terrain_city_krakow.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_kurumi"
+		textureFile = "gfx/interface/terrains/terrain_city_kurumi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_lisabon"
+		textureFile = "gfx/interface/terrains/terrain_city_lisabon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_ljubljana"
+		textureFile = "gfx/interface/terrains/terrain_city_ljubljana.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_lwow"
+		textureFile = "gfx/interface/terrains/terrain_city_lwow.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_mabel"
+		textureFile = "gfx/interface/terrains/terrain_city_mabel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_madrid"
+		textureFile = "gfx/interface/terrains/terrain_city_madrid.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_melbourne"
+		textureFile = "gfx/interface/terrains/terrain_city_melbourne.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_midzuki"
+		textureFile = "gfx/interface/terrains/terrain_city_midzuki.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_miyowo"
+		textureFile = "gfx/interface/terrains/terrain_city_miyowo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_mizuki"
+		textureFile = "gfx/interface/terrains/terrain_city_mizuki.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_moderna"
+		textureFile = "gfx/interface/terrains/terrain_city_moderna.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_muramvya"
+		textureFile = "gfx/interface/terrains/terrain_city_muramvya.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_murmansk"
+		textureFile = "gfx/interface/terrains/terrain_city_murmansk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_nagoya"
+		textureFile = "gfx/interface/terrains/terrain_city_nagoya.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_nairobi"
+		textureFile = "gfx/interface/terrains/terrain_city_nairobi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_nanjing"
+		textureFile = "gfx/interface/terrains/terrain_city_nanjing.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_narva"
+		textureFile = "gfx/interface/terrains/terrain_city_narva.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_odessa"
+		textureFile = "gfx/interface/terrains/terrain_city_odessa.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_osaka"
+		textureFile = "gfx/interface/terrains/terrain_city_osaka.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_oslo"
+		textureFile = "gfx/interface/terrains/terrain_city_oslo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_ottawa"
+		textureFile = "gfx/interface/terrains/terrain_city_ottawa.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_palermo"
+		textureFile = "gfx/interface/terrains/terrain_city_palermo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_rangoon"
+		textureFile = "gfx/interface/terrains/terrain_city_rangoon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_salzburg"
+		textureFile = "gfx/interface/terrains/terrain_city_salzburg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_sarajevo"
+		textureFile = "gfx/interface/terrains/terrain_city_sarajevo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_sevastopol"
+		textureFile = "gfx/interface/terrains/terrain_city_sevastopol.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_skopje"
+		textureFile = "gfx/interface/terrains/terrain_city_skopje.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_sofia"
+		textureFile = "gfx/interface/terrains/terrain_city_sofia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_stockholm"
+		textureFile = "gfx/interface/terrains/terrain_city_stockholm.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_sydney"
+		textureFile = "gfx/interface/terrains/terrain_city_sydney.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_taranto"
+		textureFile = "gfx/interface/terrains/terrain_city_taranto.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_tehran"
+		textureFile = "gfx/interface/terrains/terrain_city_tehran.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_tirana"
+		textureFile = "gfx/interface/terrains/terrain_city_tirana.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_tomsk"
+		textureFile = "gfx/interface/terrains/terrain_city_tomsk.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_tsargrad"
+		textureFile = "gfx/interface/terrains/terrain_city_tsargrad.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_tyumen"
+		textureFile = "gfx/interface/terrains/terrain_city_tyumen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_ulaanbaatar"
+		textureFile = "gfx/interface/terrains/terrain_city_ulaanbaatar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_vladivostok"
+		textureFile = "gfx/interface/terrains/terrain_city_vladivostok.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_washington"
+		textureFile = "gfx/interface/terrains/terrain_city_washington.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_wembali"
+		textureFile = "gfx/interface/terrains/terrain_city_wembali.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_yokohama"
+		textureFile = "gfx/interface/terrains/terrain_city_yokohama.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_zafimena"
+		textureFile = "gfx/interface/terrains/terrain_city_zafimena.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_zagreb"
+		textureFile = "gfx/interface/terrains/terrain_city_zagreb.dds"
+	}	
+	
+spriteType = {
+	name = "GFX_terrain_antwerpen"
+	textureFile = "gfx/interface/terrains/terrain_city_antwerpen.dds"
+}
+
+spriteType = {
+	name = "GFX_terrain_bordeaux"
+	textureFile = "gfx/interface/terrains/terrain_city_bordeaux.dds"
+}
+
+spriteType = {
+	name = "GFX_terrain_breslau"
+	textureFile = "gfx/interface/terrains/terrain_city_breslau.dds"
+}
+
+spriteType = {
+	name = "GFX_terrain_bristol"
+	textureFile = "gfx/interface/terrains/terrain_city_bristol.dds"
+}
+
+spriteType = {
+	name = "GFX_terrain_dover"
+	textureFile = "gfx/interface/terrains/terrain_city_dover.dds"
+}
+
+spriteType = {
+	name = "GFX_terrain_gomel"
+	textureFile = "gfx/interface/terrains/terrain_city_gomel.dds"
+}
+
+spriteType = {
+	name = "GFX_terrain_hannover"
+	textureFile = "gfx/interface/terrains/terrain_city_hannover.dds"
+}
+
+
+spriteType = {
+	name = "GFX_terrain_liverpool"
+	textureFile = "gfx/interface/terrains/terrain_city_liverpool.dds"
+}
+
+spriteType = {
+	name = "GFX_terrain_lyon"
+	textureFile = "gfx/interface/terrains/terrain_city_lyon.dds"
+}
+
+spriteType = {
+	name = "GFX_terrain_marseille"
+	textureFile = "gfx/interface/terrains/terrain_city_marseille.dds"
+}
+
+spriteType = {
+	name = "GFX_terrain_metz"
+	textureFile = "gfx/interface/terrains/terrain_city_metz.dds"
+}
+
+spriteType = {
+	name = "GFX_terrain_nantes"
+	textureFile = "gfx/interface/terrains/terrain_city_nantes.dds"
+}
+
+spriteType = {
+	name = "GFX_terrain_qingdao"
+	textureFile = "gfx/interface/terrains/terrain_city_qingdao.dds"
+}
+
+spriteType = {
+	name = "GFX_terrain_rotterdam"
+	textureFile = "gfx/interface/terrains/terrain_city_rotterdam.dds"
+}
+
+spriteType = {
+	name = "GFX_terrain_sapporo"
+	textureFile = "gfx/interface/terrains/terrain_city_sapporo.dds"
+}
+
+spriteType = {
+	name = "GFX_terrain_sendai"
+	textureFile = "gfx/interface/terrains/terrain_city_sendai.dds"
+}
+
+spriteType = {
+	name = "GFX_terrain_smolensk"
+	textureFile = "gfx/interface/terrains/terrain_city_smolensk.dds"
+}
+
+spriteType = {
+	name = "GFX_terrain_tver"
+	textureFile = "gfx/interface/terrains/terrain_city_tver.dds"
+}
+	
+	
+}

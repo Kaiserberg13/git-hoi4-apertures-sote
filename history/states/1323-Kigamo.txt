@@ -1,0 +1,26 @@
+
+state={
+	id=1323
+	name="STATE_1323"
+	provinces={
+		1332 1345 1373 1533 4364 4381 5615 10225 12184 12212 12268 14253 15728 15781 15786 15799 15820 
+	}
+	history={
+		owner = OAS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			15820 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = OAS
+
+	}
+	manpower=9711115
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

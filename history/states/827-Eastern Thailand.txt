@@ -1,0 +1,37 @@
+
+state={
+	id=827
+	name="STATE_827"
+
+	history={
+		owner = SIA
+		victory_points = {
+			4433 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			7292 = {
+				bunker = 1
+			}
+			1244 = {
+				bunker = 1
+			}
+			10293 = {
+				bunker = 1
+			}
+			7292 = {
+				bunker = 1
+			}
+		}
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		1244 4433 7225 7292 10293 12224 
+	}
+	manpower=1017003
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

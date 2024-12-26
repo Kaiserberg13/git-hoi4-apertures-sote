@@ -1,0 +1,15 @@
+focus_tree = {
+	id = OAS_start_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = OAS
+		}
+	}
+	
+	default = no
+
+}		

@@ -1,0 +1,21 @@
+characters={
+
+    TUN_president_Astolfo_Ioch={ 
+        name = "Astolfo Ioch" 
+        portraits = {
+            civilian = {
+                large = "GFX_TUN_president_Astolfo_Ioch"
+            }
+            army = {
+                large = "GFX_TUN_president_Astolfo_Ioch"
+                small = "GFX_idea_GFX_TUN_president_Astolfo_Ioch_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

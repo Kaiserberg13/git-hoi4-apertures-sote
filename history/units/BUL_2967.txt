@@ -1,0 +1,108 @@
+﻿division_template = {
+	name = "Пехотна дивизия"
+
+	division_names_group = BUL_Inf_01
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 1 y = 2 }
+
+
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+
+		turret = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Прорывъна дивизия"
+
+	division_names_group = BUL_mot_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "1-я пехотна столичная дивизия"
+		location = 949
+		division_template = "Пехотна дивизия"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "2-я пехотна дивизия"
+		location = 9783
+		division_template = "Пехотна дивизия"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3-я пехотна дивизия"
+		location = 6923
+		division_template = "Пехотна дивизия"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "BUL"
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_artillery_equipment_1
+			creator = "BUL"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_armor_equipment_0
+			creator = "BUL"
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_2
+			creator = "BUL"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}

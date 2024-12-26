@@ -1,0 +1,44 @@
+state={
+	id=1327
+	name="STATE_1327"
+	provinces={
+		1337 1366 1394 4312 4371 7236 10156 12131 12144 12286 
+	}
+	resources = {
+		aluminium = 12
+		steel = 3
+		chromium = 1
+		rubber = 81
+	}
+	history={
+		owner = SIA
+		victory_points = {
+			4312 14 
+		}
+		buildings = {
+			infrastructure = 6
+			air_base = 4
+			industrial_complex = 1
+			arms_factory = 2
+			4312 = {
+				naval_base = 3
+			}
+			10156 = {
+				naval_base = 1
+			}
+			10156 = {
+				bunker = 1
+			}
+			4371 = {
+				bunker = 1
+			}
+
+		}
+		add_claim_by = SIA
+		add_core_of = OAS
+
+	}
+	manpower=1929770
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

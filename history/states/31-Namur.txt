@@ -1,0 +1,41 @@
+
+state={
+	id=31
+	name="STATE_31"
+
+	history={
+		owner = BEL
+		victory_points = {
+			3516 5
+		}
+		victory_points = {
+			13081 3
+		}
+		victory_points = {
+			9536 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+
+		}
+		add_core_of = BEL
+		1941.6.22 = {
+			controller = GER
+
+		}
+		1945.1.1 = {
+			controller = BEL
+
+		}
+
+	}
+
+	provinces={
+		3516 9536 11519 13081 
+	}
+	manpower=331366
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

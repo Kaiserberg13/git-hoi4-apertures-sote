@@ -1,0 +1,21 @@
+characters={
+
+    EGY_president_Fatma_Ba={ 
+        name = "Fatma Ba" 
+        portraits = {
+            civilian = {
+                large = "GFX_EGY_president_Fatma_Ba"
+            }
+            army = {
+                large = "GFX_EGY_president_Fatma_Ba"
+                small = "GFX_idea_GFX_EGY_president_Fatma_Ba_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

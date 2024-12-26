@@ -1,0 +1,26 @@
+
+state={
+	id=724
+	name="STATE_724"
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = RAJ
+		1972.1.1 = {
+			owner = PRC
+
+		}
+
+	}
+
+	provinces={
+		5042 14322 
+	}
+	manpower=113739
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

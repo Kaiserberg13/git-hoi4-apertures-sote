@@ -1,0 +1,30 @@
+state={
+	id=795
+	name="STATE_795"
+	
+	history={
+		owner = MAD
+		victory_points = {
+			9945 1
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 3
+			9945 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_claim_by = MAD
+		add_core_of = MOR
+
+	}
+	
+	provinces={
+		9945 
+	}
+	manpower=491426
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

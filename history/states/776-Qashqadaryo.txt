@@ -1,0 +1,24 @@
+state={
+	id=776
+	name="STATE_776"
+	
+	history={
+		owner = KAZ
+		victory_points = {
+			7639 2
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		
+		add_core_of = KAZ
+	}
+	
+	provinces={
+		7639 10671 12239 12722 
+	}
+	manpower=380882
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

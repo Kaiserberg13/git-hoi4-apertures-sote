@@ -1,0 +1,20 @@
+state={
+	id=1466
+	name="STATE_1466"
+	provinces={
+		154 1295 3155 4298 6177 7712 9121 9225 10579 12558 16421 16424 16425 16430 16432 16434 16435 
+	}
+	history={
+		owner = NEK
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = NEK
+
+	}
+
+	manpower=9123746
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

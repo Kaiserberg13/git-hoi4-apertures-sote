@@ -1,0 +1,30 @@
+
+state={
+	id=464
+	name="STATE_464"
+
+	history={
+		owner = SOM
+		add_core_of = SOM
+		victory_points = {
+			12991 10
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 1
+			12991 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		12991 
+	}
+	manpower=393173
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

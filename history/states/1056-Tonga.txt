@@ -1,0 +1,29 @@
+
+state={
+	id=1056
+	name="STATE_1056"
+
+	history={
+		owner = AST
+		victory_points = {
+			14304 1 
+		}
+		buildings = {
+			infrastructure = 1
+			14304 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = AST
+
+	}
+
+	provinces={
+		14304 
+	}
+	manpower=255395
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

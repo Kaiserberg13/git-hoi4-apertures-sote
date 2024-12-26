@@ -1,0 +1,21 @@
+characters={
+
+    PER_president_Maimun_Omer={ 
+        name = "Maimun Omer" 
+        portraits = {
+            civilian = {
+                large = "GFX_PER_president_Maimun_Omer"
+            }
+            army = {
+                large = "GFX_PER_president_Maimun_Omer"
+                small = "GFX_idea_GFX_PER_president_Maimun_Omer_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

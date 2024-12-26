@@ -1,0 +1,20 @@
+state={
+	id=1470
+	name="STATE_1470"
+	provinces={
+		1664 1684 1757 3415 4761 7689 7738 7809 9142 10536 10561 12517 12545 
+	}
+	history={
+		owner = YAM
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = YAM
+
+	}
+
+	manpower=5957043
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

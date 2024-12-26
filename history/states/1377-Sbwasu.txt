@@ -1,0 +1,46 @@
+
+state={
+	id=1377
+	name="STATE_1377"
+
+	history={
+		owner = TZN
+		buildings = {
+			infrastructure = 4
+			10988 = {
+				naval_base = 1
+			}
+			16495 = {
+				bunker = 2
+			}
+			14098 = {
+				bunker = 2
+			}
+
+		}
+		add_core_of = TZN
+		victory_points = {
+			10988 8
+		}
+		victory_points = {
+			16495 5
+		}
+		victory_points = {
+			15409 9
+		}
+		ZAM = {
+			set_province_controller = 2176
+			set_province_controller = 15416
+			set_province_controller = 13886
+		} 
+
+	}
+
+	provinces={
+		2176 10988 13136 13886 14098 14099 14101 15340 15409 15416 16495 
+	}
+	manpower=2228820
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

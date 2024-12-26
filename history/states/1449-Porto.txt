@@ -1,0 +1,22 @@
+state={
+	id=1449
+	name="STATE_1449"
+	provinces={
+		16322 
+	}
+	history={
+		owner = DEN
+		buildings = {
+			infrastructure = 1
+			16322 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = DEN
+	}
+
+	manpower=245803
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

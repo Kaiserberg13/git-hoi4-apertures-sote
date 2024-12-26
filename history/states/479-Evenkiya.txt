@@ -1,0 +1,26 @@
+
+state={
+	id=479
+	name="STATE_479"
+
+	history={
+		owner = RSF
+		victory_points = {
+			12687 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+
+		}
+		add_core_of = RSF
+
+	}
+
+	provinces={
+		1741 4692 4743 4812 4831 7805 10631 11328 12687 13065 
+	}
+	manpower=694926
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

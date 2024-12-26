@@ -1,0 +1,21 @@
+characters={
+
+    POR_president_Heriberto_Silvestre={ 
+        name = "Heriberto Silvestre" 
+        portraits = {
+            civilian = {
+                large = "GFX_POR_president_Heriberto_Silvestre"
+            }
+            army = {
+                large = "GFX_POR_president_Heriberto_Silvestre"
+                small = "GFX_idea_GFX_POR_president_Heriberto_Silvestre_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

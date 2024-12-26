@@ -1,0 +1,26 @@
+ideas = {
+
+	country = {
+
+		AUS_idea_national_burn = {
+					
+			allowed = {
+				original_tag = AUS 
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = AUS_idea_national_burn
+			
+			modifier = {
+				heat_attrition_factor = -0.3
+			}
+		}
+
+
+}
+}

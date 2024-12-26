@@ -1,0 +1,24 @@
+
+state={
+	id=645
+	name="STATE_645"
+
+	history={
+		owner = SLV
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SLV
+		add_claim_by = AUS
+		add_claim_by = HUN
+
+	}
+
+	provinces={
+		6672 
+	}
+	manpower=337807
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

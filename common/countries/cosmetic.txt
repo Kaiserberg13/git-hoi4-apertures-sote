@@ -1,0 +1,18 @@
+#Baltic
+BALTIC_DUCHY = {
+	color = rgb { 65 67 140 }
+	color_ui = rgb { 124 125 184 }
+}
+#SAF
+NAM_SAF_UNION = {
+	color = rgb { 138 78 111 }
+	color_ui = rgb { 140 80 113 }
+}
+BOT_SAF_UNION = {
+	color = rgb { 119 59 88 }
+	color_ui = rgb { 140 60 93 }
+}
+ANG_SAF_UNION = {
+	color = rgb { 149 89 121 }
+	color_ui = rgb { 140 80 113 }
+}

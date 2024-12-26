@@ -1,0 +1,21 @@
+characters={
+
+    KAR_president_Lauren_Savolainen={ 
+        name = "Lauren Savolainen" 
+        portraits = {
+            civilian = {
+                large = "GFX_KAR_president_Lauren_Savolainen"
+            }
+            army = {
+                large = "GFX_KAR_president_Lauren_Savolainen"
+                small = "GFX_idea_GFX_KAR_president_Lauren_Savolainen_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

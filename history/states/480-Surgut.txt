@@ -1,0 +1,37 @@
+
+state={
+	id=480
+	name="STATE_480"
+	resources={
+		oil=14.000
+	}
+
+	history={
+		owner = RSE
+		victory_points = {
+			1812 1 
+		}
+		victory_points = {
+			4817 1 
+		}
+		victory_points = {
+			12672 1 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = RSE
+
+	}
+
+	provinces={
+		1659 1744 1768 1784 1812 1856 4710 4715 4746 4774 4817 4846 7685 7733 7768 7796 7837 7867 7882 7895 10592 10604 10620 10663 10692 12542 12574 12602 12630 12639 12672 12700 
+	}
+	manpower=3150200
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

@@ -1,0 +1,21 @@
+characters={
+
+    TZN_president_Mustafa_Williams={ 
+        name = "Mustafa Williams" 
+        portraits = {
+            civilian = {
+                large = "GFX_TZN_president_Mustafa_Williams"
+            }
+            army = {
+                large = "GFX_TZN_president_Mustafa_Williams"
+                small = "GFX_idea_GFX_TZN_president_Mustafa_Williams_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

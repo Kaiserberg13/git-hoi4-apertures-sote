@@ -1,0 +1,41 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+technology_categories = {
+	infantry_weapons
+	industry
+	armor
+	support_tech
+	electronics
+	land_doctrine
+	air_doctrine
+	naval_doctrine
+	ws_motorized_equipment
+
+}
+
+technology_folders = {
+	ws_air_folder = {
+		ledger = army
+	}
+	infantry_folder = {
+		ledger = army
+	}
+	ws_tanks_folder = {
+		ledger = army
+	}
+	ws_support_folder = {
+		ledger = army
+	}
+	ws_artillery_folder = {
+		ledger = army
+	}
+	ws_industry_folder = {
+		ledger = civilian
+	}
+	ws_electronics_folder = {
+		ledger = civilian
+	}
+}
+
+ 

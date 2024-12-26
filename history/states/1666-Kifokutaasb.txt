@@ -1,0 +1,24 @@
+state={
+	id=1666
+	name="STATE_1666"
+	provinces={
+		16176 16194 16198 16205 16226 16244 16963 16968 16982 16997 16998 17001 17002 17015 17020 17029 
+	}
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+
+		}
+
+		victory_points = {
+			16226 4
+		}
+		add_core_of = EGY
+
+	}
+	manpower=7248221
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,30 @@
+state={
+	id=999
+	name="STATE_999"
+
+	history={
+		owner = KEN
+		victory_points = {
+			5210 3
+		}
+		victory_points = {
+			14035 2
+		}
+		buildings = {
+			infrastructure = 4
+			5210 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		5210 14034 14035 14037 
+	}
+	manpower=118880
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

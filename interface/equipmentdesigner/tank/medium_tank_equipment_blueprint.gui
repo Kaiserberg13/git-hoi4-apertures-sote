@@ -1,0 +1,221 @@
+guiTypes = {
+	containerWindowType = {
+		name = "equipment_designer_ws_medium_tank_equipment"
+		position = { x=0 y=0 }
+		size = { width=2000 height=2000 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_ws_medium_tank_equipment"
+			position = { x=-12 y=170 }
+		}
+
+		containerWindowType = {
+			name = "module_slots"
+			position = { x=-12 y=170 }
+			size = { width=100% height=100% }
+
+			### Gun
+			containerWindowType = {
+				name = "medium_tank_modules_gun_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "medium_tank_modules_gun_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "medium_tank_modules_gun_slot@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_medium_tank_modules_gun_slot"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+			### Chassis
+			containerWindowType = {
+				name = "medium_tank_modules_movement_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "medium_tank_modules_movement_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "medium_tank_modules_movement_slot@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_medium_tank_modules_movement_slot"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+			### Armor
+			containerWindowType = {
+				name = "medium_tank_modules_armor_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "medium_tank_modules_armor_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "medium_tank_modules_armor_slot@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_medium_tank_modules_armor_slot"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+			### Module
+			containerWindowType = {
+				name = "medium_tank_modules_modules_1_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "medium_tank_modules_module_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "medium_tank_modules_modules_slot@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_medium_tank_modules_modules_1_slot"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+			### Module
+			containerWindowType = {
+				name = "medium_tank_modules_modules_2_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "medium_tank_modules_module_2_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "medium_tank_modules_modules_2_slot@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_medium_tank_modules_modules_2_slot"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+			### Module
+			containerWindowType = {
+				name = "medium_tank_modules_modules_3_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "medium_tank_modules_modules_3_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "medium_tank_modules_modules_3_slot@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_medium_tank_modules_modules_3_slot"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+			### Module
+			containerWindowType = {
+				name = "medium_tank_modules_modules_4_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "medium_tank_modules_module_4_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "medium_tank_modules_modules_4_slot@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_medium_tank_modules_modules_4_slot"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+			### Module
+			containerWindowType = {
+				name = "medium_tank_modules_modules_5_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "medium_tank_modules_modules_5_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "medium_tank_modules_modules_5_slot@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_medium_tank_modules_modules_5_slot"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+		}
+		
+	}
+}

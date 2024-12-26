@@ -1,0 +1,604 @@
+spriteTypes = {	
+	spriteType = {
+	    name = "GFX_AFG_president_Yahir_Sarwar"
+	    textureFile = "gfx/leaders/AFG/AFG_president_Yahir_Sarwar.dds"
+	}
+	spriteType = {
+	    name = "GFX_ALB_president_Ritos_Mii"
+	    textureFile = "gfx/leaders/ALB/ALB_president_Ritos_Mii.dds"
+	}
+	spriteType = {
+	    name = "GFX_ALG_president_Ernest_Domingos"
+	    textureFile = "gfx/leaders/ALG/ALG_president_Ernest_Domingos.dds"
+	}
+	spriteType = {
+	    name = "GFX_ARG_president_Lucas_Morgan"
+	    textureFile = "gfx/leaders/ARG/ARG_president_Lucas_Morgan.dds"
+	}
+	spriteType = {
+	    name = "GFX_AST_president_Mikuro_Akizu"
+	    textureFile = "gfx/leaders/AST/AST_president_Mikuro_Akizu.dds"
+	}
+
+	#AUS
+	#leaders
+	spriteType = {
+	    name = "GFX_AUS_kaiser_Ferdinand_Wilhelm_von_Habsburg"
+	    textureFile = "gfx/leaders/AUS/AUS_kaiser_Ferdinand_Wilhelm_von_Habsburg.dds"
+	}
+	spriteType = {
+	    name = "GFX_AUS_kaiser_Ferdinand_Wilhelm_von_Habsburg_crazy"
+	    textureFile = "gfx/leaders/AUS/AUS_kaiser_Ferdinand Wilhelm_von_Habsburg_crazy.dds"
+	}
+	spriteType = {
+	    name = "GFX_AUS_king_Otto_Friedrich_von_Osterreich"
+	    textureFile = "gfx/leaders/AUS/AUS_king_Otto_Friedrich_von_Osterreich.dds"
+	}
+	spriteType = {
+	    name = "GFX_AUS_president_Robert_Zioph"
+	    textureFile = "gfx/leaders/AUS/AUS_president_Robert_Zioph.dds"
+	}
+	#generals
+
+	#advisors
+	spriteType = {
+	    name = "GFX_AUS_portrait_advisor_Anna_Meyer"
+	    textureFile = "gfx/leaders/AUS/advisors/AUS_portrait_advisor_Anna_Meyer.dds"
+	}
+
+
+	#BAY
+	spriteType = {
+	    name = "GFX_BAY_president_Lera_Murnikova"
+	    textureFile = "gfx/leaders/BAY/BAY_president_Lera_Murnikova.dds"
+	}
+	spriteType = {
+	    name = "GFX_BEL_president_Nick_Naessens"
+	    textureFile = "gfx/leaders/BEL/BEL_president_Nick_Naessens.dds"
+	}
+	spriteType = {
+	    name = "GFX_BKO_president_Leonard_Travin"
+	    textureFile = "gfx/leaders/BKO/BKO_president_Leonard_Travin.dds"
+	}
+	spriteType = {
+	    name = "GFX_BLR_president_Vadim_Ierohov"
+	    textureFile = "gfx/leaders/BLR/BLR_president_Vadim_Ierohov.dds"
+	}
+	spriteType = {
+	    name = "GFX_BOS_president_Vladimir_Kikayev"
+	    textureFile = "gfx/leaders/BOS/BOS_president_Vladimir_Kikayev.dds"
+	}
+	spriteType = {
+	    name = "GFX_BRA_president_Yomas_Tigikonsens"
+	    textureFile = "gfx/leaders/BRA/BRA_president_Yomas_Tigikonsens.dds"
+	}
+	spriteType = {
+	    name = "GFX_BRH_president_Timur_Akladenko"
+	    textureFile = "gfx/leaders/BRH/BRH_president_Timur_Akladenko.dds"
+	}
+	spriteType = {
+	    name = "GFX_BRT_president_Silvain_Figuier"
+	    textureFile = "gfx/leaders/BRT/BRT_president_Silvain_Figuier.dds"
+	}
+	spriteType = {
+	    name = "GFX_BUL_president_Anton_Ognena"
+	    textureFile = "gfx/leaders/BUL/BUL_president_Anton_Ognena.dds"
+	}
+	spriteType = {
+	    name = "GFX_CAL_president_Mister_Z"
+	    textureFile = "gfx/leaders/CAL/CAL_president_Mister_Z.dds"
+	}
+	spriteType = {
+	    name = "GFX_CAN_president_Herald_Manover"
+	    textureFile = "gfx/leaders/CAN/CAN_president_Herald_Manover.dds"
+	}
+	spriteType = {
+	    name = "GFX_CAR_president_Simon_Kone"
+	    textureFile = "gfx/leaders/CAR/CAR_president_Simon_Kone.dds"
+	}
+	spriteType = {
+	    name = "GFX_CKK_president_Igor_Muhaev"
+	    textureFile = "gfx/leaders/CKK/CKK_president_Igor_Muhaev.dds"
+	}
+	spriteType = {
+	    name = "GFX_CMR_president_Simon_Kone"
+	    textureFile = "gfx/leaders/CMR/CMR_president_Simon_Kone.dds"
+	}
+	spriteType = {
+	    name = "GFX_COG_president_Hailu_Diouf"
+	    textureFile = "gfx/leaders/COG/COG_president_Hailu_Diouf.dds"
+	}
+	spriteType = {
+	    name = "GFX_COL_president_Robert_Robinzon"
+	    textureFile = "gfx/leaders/COL/COL_president_Robert_Robinzon.dds"
+	}
+	spriteType = {
+	    name = "GFX_CRO_president_Nicolas_Svyatoi"
+	    textureFile = "gfx/leaders/CRO/CRO_president_Nicolas_Svyatoi.dds"
+	}
+	spriteType = {
+	    name = "GFX_CSA_president_fallen_government"
+	    textureFile = "gfx/leaders/CSA/CSA_president_fallen_government.dds"
+	}
+	spriteType = {
+	    name = "GFX_CUB_president_Rovano_Lockrl"
+	    textureFile = "gfx/leaders/CUB/CUB_president_Rovano_Lockrl.dds"
+	}
+	spriteType = {
+	    name = "GFX_CZE_president_Arne_Auch"
+	    textureFile = "gfx/leaders/CZE/CZE_president_Arne_Auch.dds"
+	}
+	spriteType = {
+	    name = "GFX_DEN_king_Stefan_Petersen"
+	    textureFile = "gfx/leaders/DEN/DEN_king_Stefan_Petersen.dds"
+	}
+	spriteType = {
+	    name = "GFX_EGY_president_Fatma_Ba"
+	    textureFile = "gfx/leaders/EGY/EGY_president_Fatma_Ba.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_british_council"
+	    textureFile = "gfx/leaders/ENG/ENG_british_council.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_king_BRS_Sebastian_Graves"
+	    textureFile = "gfx/leaders/ENG/ENG_king_BRS_Sebastian_Graves.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_king_dictator_Samuel_Knight"
+	    textureFile = "gfx/leaders/ENG/ENG_king_dictator_Samuel_Knight.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_king_president_Zestial_Morgan"
+	    textureFile = "gfx/leaders/ENG/ENG_king_president_Zestial_Morgan.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_king_Roosvel_The_Britania_old"
+	    textureFile = "gfx/leaders/ENG/ENG_king_Roosvel_The_Britania_old.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_king_Roosvel_The_Britania_young"
+	    textureFile = "gfx/leaders/ENG/ENG_king_Roosvel_The_Britania_young.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_portrait_advisor_BRS_Emily_Moolain"
+	    textureFile = "gfx/leaders/ENG/ENG_portrait_advisor_BRS_Emily_Moolain.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_portrait_army_advisors_Scott_Millow"
+	    textureFile = "gfx/leaders/ENG/ENG_portrait_army_advisors_Scott_Millow.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_portrait_army_Christine_Lomange"
+	    textureFile = "gfx/leaders/ENG/ENG_portrait_army_Christine_Lomange.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_portrait_army_MAD_German_Sugerioir"
+	    textureFile = "gfx/leaders/ENG/ENG_portrait_army_MAD_German_Sugerioir.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_portrait_army_SCO_Oswald_Moreday"
+	    textureFile = "gfx/leaders/ENG/ENG_portrait_army_SCO_Oswald_Moreday.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_portrait_BRS_Chloe_Benson"
+	    textureFile = "gfx/leaders/ENG/ENG_portrait_BRS_Chloe_Benson.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_portrait_BRS_Samuel_Brooks"
+	    textureFile = "gfx/leaders/ENG/ENG_portrait_BRS_Samuel_Brooks.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_portrait_BRS_Sulman_Rozgh"
+	    textureFile = "gfx/leaders/ENG/ENG_portrait_BRS_Sulman_Rozgh.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_portrait_BRS_Walter_Hill"
+	    textureFile = "gfx/leaders/ENG/ENG_portrait_BRS_Walter_Hill.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_portrait_BRS_William_Afton"
+	    textureFile = "gfx/leaders/ENG/ENG_portrait_BRS_William_Afton.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_portrait_Erwin_Mouel"
+	    textureFile = "gfx/leaders/ENG/ENG_portrait_Erwin_Mouel.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_portrait_Joseph_Scarlett_Lawson"
+	    textureFile = "gfx/leaders/ENG/ENG_portrait_Joseph_Scarlett_Lawson.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_portrait_Nicolas_Brown"
+	    textureFile = "gfx/leaders/ENG/ENG_portrait_Nicolas_Brown.dds"
+	}
+	spriteType = {
+	    name = "GFX_ENG_president_Arthur_Winslow"
+	    textureFile = "gfx/leaders/ENG/ENG_president_Arthur_Winslow.dds"
+	}
+	spriteType = {
+	    name = "GFX_ERI_president_Nicolas_Trousm"
+	    textureFile = "gfx/leaders/ERI/ERI_president_Nicolas_Trousm.dds"
+	}
+	spriteType = {
+	    name = "GFX_EST_president_Ragnar_Puu"
+	    textureFile = "gfx/leaders/EST/EST_president_Ragnar_Puu.dds"
+	}
+	spriteType = {
+	    name = "GFX_ETH_president_Bekele_Langa"
+	    textureFile = "gfx/leaders/ETH/ETH_president_Bekele_Langa.dds"
+	}
+	spriteType = {
+	    name = "GFX_FER_president_Alexander_Shinigai"
+	    textureFile = "gfx/leaders/FER/FER_president_Alexander_Shinigai.dds"
+	}
+	spriteType = {
+	    name = "GFX_FIN_queen_Eine_Savolainen"
+	    textureFile = "gfx/leaders/FIN/FIN_queen_Eine_Savolainen.dds"
+	}
+	spriteType = {
+	    name = "GFX_FOC_president_Marc_Tilgner"
+	    textureFile = "gfx/leaders/FOC/FOC_president_Marc_Tilgner.dds"
+	}
+	spriteType = {
+	    name = "GFX_FRA_president_Tristan_Bozonnet"
+	    textureFile = "gfx/leaders/FRA/FRA_president_Tristan_Bozonnet.dds"
+	}
+	spriteType = {
+	    name = "GFX_GAB_president_Yao_Girma"
+	    textureFile = "gfx/leaders/GAB/GAB_president_Yao_Girma.dds"
+	}
+	spriteType = {
+	    name = "GFX_GER_portrait_advisor_Clara_Vertag"
+	    textureFile = "gfx/leaders/GER/GER_portrait_advisor_Clara_Vertag.dds"
+	}
+	spriteType = {
+	    name = "GFX_GER_president_Felizia_Manteuffel"
+	    textureFile = "gfx/leaders/GER/GER_president_Felizia_Manteuffel.dds"
+	}
+	spriteType = {
+	    name = "GFX_GRE_president_Vasso_Stamatelis"
+	    textureFile = "gfx/leaders/GRE/GRE_president_Vasso_Stamatelis.dds"
+	}
+	spriteType = {
+	    name = "GFX_GRM_kaiser_Frieda_Kaiser"
+	    textureFile = "gfx/leaders/GRM/GRM_kaiser_Frieda_Kaiser.dds"
+	}
+	spriteType = {
+	    name = "GFX_GRM_kaiser_Gabriel_Kaiser"
+	    textureFile = "gfx/leaders/GRM/GRM_kaiser_Gabriel_Kaiser.dds"
+	}
+	spriteType = {
+	    name = "GFX_GRM_kaiser_Issac_Kaiser"
+	    textureFile = "gfx/leaders/GRM/GRM_kaiser_Issac_Kaiser.dds"
+	}
+	spriteType = {
+	    name = "GFX_GRM_portrait_Stephan_Heidemann"
+	    textureFile = "gfx/leaders/GRM/GRM_portrait_Stephan_Heidemann.dds"
+	}
+	spriteType = {
+	    name = "GFX_HOL_president_Ronald_Nicht"
+	    textureFile = "gfx/leaders/HOL/HOL_president_Ronald_Nicht.dds"
+	}
+	spriteType = {
+	    name = "GFX_HUN_president_Barna_Marton"
+	    textureFile = "gfx/leaders/HUN/HUN_president_Barna_Marton.dds"
+	}
+	spriteType = {
+	    name = "GFX_ICE_president_Ari_Diokharosdottir"
+	    textureFile = "gfx/leaders/ICE/ICE_president_Ari_Diokharosdottir.dds"
+	}
+	spriteType = {
+	    name = "GFX_IRQ_president_Jamal_Mansur"
+	    textureFile = "gfx/leaders/IRQ/IRQ_president_Jamal_Mansur.dds"
+	}
+	spriteType = {
+	    name = "GFX_ISR_portrait_Maria_Duels"
+	    textureFile = "gfx/leaders/ISR/ISR_portrait_Maria_Duels.dds"
+	}
+	spriteType = {
+	    name = "GFX_ITA_president_Alessio_Silvestre"
+	    textureFile = "gfx/leaders/ITA/ITA_president_Alessio_Silvestre.dds"
+	}
+	spriteType = {
+	    name = "GFX_JAP_president_Kobe_Akira"
+	    textureFile = "gfx/leaders/JAP/JAP_president_Kobe_Akira.dds"
+	}
+	spriteType = {
+	    name = "GFX_JAP_president_Muramoto_Michi"
+	    textureFile = "gfx/leaders/JAP/JAP_president_Muramoto_Michi.dds"
+	}
+	spriteType = {
+	    name = "GFX_KAR_president_Lauren_Savolainen"
+	    textureFile = "gfx/leaders/KAR/KAR_president_Lauren_Savolainen.dds"
+	}
+	spriteType = {
+	    name = "GFX_KAZ_president_Armen_Mugaliev"
+	    textureFile = "gfx/leaders/KAZ/KAZ_president_Armen_Mugaliev.dds"
+	}
+	spriteType = {
+	    name = "GFX_KEN_president_Salah_Simon"
+	    textureFile = "gfx/leaders/KEN/KEN_president_Salah_Simon.dds"
+	}
+	spriteType = {
+	    name = "GFX_KOM_president_Georgii_Mikhailov"
+	    textureFile = "gfx/leaders/KOM/KOM_president_Georgii_Mikhailov.dds"
+	}
+	spriteType = {
+	    name = "GFX_KOR_president_Ha_rin"
+	    textureFile = "gfx/leaders/KOR/KOR_president_Ha_rin.dds"
+	}
+	spriteType = {
+	    name = "GFX_LAT_gercog_Edward_Riiga"
+	    textureFile = "gfx/leaders/LAT/LAT_gercog_Edward_Riiga.dds"
+	}
+	spriteType = {
+	    name = "GFX_LAT_president_Rikos_Magjes"
+	    textureFile = "gfx/leaders/LAT/LAT_president_Rikos_Magjes.dds"
+	}
+	spriteType = {
+	    name = "GFX_LBA_president_Angela_Igwe"
+	    textureFile = "gfx/leaders/LBA/LBA_president_Angela_Igwe.dds"
+	}
+	spriteType = {
+	    name = "GFX_LIB_president_Samson_Nkulu"
+	    textureFile = "gfx/leaders/LIB/LIB_president_Samson_Nkulu.dds"
+	}
+	spriteType = {
+	    name = "GFX_LIT_president_Kristupas_Gausa"
+	    textureFile = "gfx/leaders/LIT/LIT_president_Kristupas_Gausa.dds"
+	}
+	spriteType = {
+	    name = "GFX_LIT_president_Skomantas_Achbertas"
+	    textureFile = "gfx/leaders/LIT/LIT_president_Skomantas_Achbertas.dds"
+	}
+	spriteType = {
+	    name = "GFX_MAC_president_Kiril_Uzelov"
+	    textureFile = "gfx/leaders/MAC/MAC_president_Kiril_Uzelov.dds"
+	}
+	spriteType = {
+	    name = "GFX_MAD_president_George_Usman"
+	    textureFile = "gfx/leaders/MAD/MAD_president_George_Usman.dds"
+	}
+	spriteType = {
+	    name = "GFX_MAD_president_Government"
+	    textureFile = "gfx/leaders/MAD/MAD_president_Government.dds"
+	}
+	spriteType = {
+	    name = "GFX_MEX_president_fallen_government"
+	    textureFile = "gfx/leaders/MEX/MEX_president_fallen_government.dds"
+	}
+	spriteType = {
+	    name = "GFX_MLI_president_Abdi_Nwankwo"
+	    textureFile = "gfx/leaders/MLI/MLI_president_Abdi_Nwankwo.dds"
+	}
+	spriteType = {
+	    name = "GFX_MNT_president_Alexander_Ikonkev"
+	    textureFile = "gfx/leaders/MNT/MNT_president_Alexander_Ikonkev.dds"
+	}
+	spriteType = {
+	    name = "GFX_MON_president_Chin_Ugral"
+	    textureFile = "gfx/leaders/MON/MON_president_Chin_Ugral.dds"
+	}
+	spriteType = {
+	    name = "GFX_MOR_president_Government"
+	    textureFile = "gfx/leaders/MOR/MOR_president_Government.dds"
+	}
+	spriteType = {
+	    name = "GFX_MRT_president_Felix_Aly"
+	    textureFile = "gfx/leaders/MRT/MRT_president_Felix_Aly.dds"
+	}
+	spriteType = {
+	    name = "GFX_MZB_president_Government"
+	    textureFile = "gfx/leaders/MZB/MZB_president_Government.dds"
+	}
+	spriteType = {
+	    name = "GFX_NEK_president_Ivan_Kovalenko"
+	    textureFile = "gfx/leaders/NEK/NEK_president_Ivan_Kovalenko.dds"
+	}
+	spriteType = {
+	    name = "GFX_NGR_president_Samir_Salihu"
+	    textureFile = "gfx/leaders/NGR/NGR_president_Samir_Salihu.dds"
+	}
+	spriteType = {
+	    name = "GFX_NIC_president_Nordan_Lavash"
+	    textureFile = "gfx/leaders/NIC/NIC_president_Nordan_Lavash.dds"
+	}
+	spriteType = {
+	    name = "GFX_NOR_king_Mats_Lindquist"
+	    textureFile = "gfx/leaders/NOR/NOR_king_Mats_Lindquist.dds"
+	}
+	spriteType = {
+	    name = "GFX_NZL_president_Kiromo_Ayuki"
+	    textureFile = "gfx/leaders/NZL/NZL_president_Kiromo_Ayuki.dds"
+	}
+	spriteType = {
+	    name = "GFX_OAS_president_Dazai_De_Fales"
+	    textureFile = "gfx/leaders/OAS/OAS_president_Dazai_De_Fales.dds"
+	}
+	spriteType = {
+	    name = "GFX_OAS_president_Fukimoto_De_Fales"
+	    textureFile = "gfx/leaders/OAS/OAS_president_Fukimoto_De_Fales.dds"
+	}
+	spriteType = {
+	    name = "GFX_OHO_president_Cristoph_Seattle"
+	    textureFile = "gfx/leaders/OHO/OHO_president_Cristoph_Seattle.dds"
+	}
+	spriteType = {
+	    name = "GFX_OMA_president_Rabah_Sharif"
+	    textureFile = "gfx/leaders/OMA/OMA_president_Rabah_Sharif.dds"
+	}
+	spriteType = {
+	    name = "GFX_PAK_president_Isolam_Musol"
+	    textureFile = "gfx/leaders/PAK/PAK_president_Isolam_Musol.dds"
+	}
+	spriteType = {
+	    name = "GFX_PER_president_Maimun_Omer"
+	    textureFile = "gfx/leaders/PER/PER_president_Maimun_Omer.dds"
+	}
+	spriteType = {
+	    name = "GFX_PHI_president_Muyuse_De_Fales"
+	    textureFile = "gfx/leaders/PHI/PHI_president_Muyuse_De_Fales.dds"
+	}
+	spriteType = {
+	    name = "GFX_POL_portrait_Nikitich_Krokoviec"
+	    textureFile = "gfx/leaders/POL/POL_portrait_Nikitich_Krokoviec.dds"
+	}
+	spriteType = {
+	    name = "GFX_POR_president_Heriberto_Silvestre"
+	    textureFile = "gfx/leaders/POR/POR_president_Heriberto_Silvestre.dds"
+	}
+	spriteType = {
+	    name = "GFX_PRC_president_Wan_Huiqing"
+	    textureFile = "gfx/leaders/PRC/PRC_president_Wan_Huiqing.dds"
+	}
+	spriteType = {
+	    name = "GFX_PRS_kaiser_Issac_Muller"
+	    textureFile = "gfx/leaders/PRS/PRS_kaiser_Issac_Muller.dds"
+	}
+	spriteType = {
+	    name = "GFX_PRS_kaiser_Ronald_Mowrodi"
+	    textureFile = "gfx/leaders/PRS/PRS_kaiser_Ronald_Mowrodi.dds"
+	}
+	spriteType = {
+	    name = "GFX_PRU_president_Puerto_Macron"
+	    textureFile = "gfx/leaders/PRU/PRU_president_Puerto_Macron.dds"
+	}
+	spriteType = {
+	    name = "GFX_RAJ_president_Kabir_Rattan"
+	    textureFile = "gfx/leaders/RAJ/RAJ_president_Kabir_Rattan.dds"
+	}
+	spriteType = {
+	    name = "GFX_RAJ_president_Rajani_Halder"
+	    textureFile = "gfx/leaders/RAJ/RAJ_president_Rajani_Halder.dds"
+	}
+	spriteType = {
+	    name = "GFX_RDR_president_Vladimir_Rukachinskii"
+	    textureFile = "gfx/leaders/RDR/RDR_president_Vladimir_Rukachinskii.dds"
+	}
+	spriteType = {
+	    name = "GFX_ROM_president_Servius_Plotius_Varus"
+	    textureFile = "gfx/leaders/ROM/ROM_president_Servius_Plotius_Varus.dds"
+	}
+	spriteType = {
+	    name = "GFX_RSE_president_Artur_Romanov"
+	    textureFile = "gfx/leaders/RSE/RSE_president_Artur_Romanov.dds"
+	}
+	spriteType = {
+	    name = "GFX_RSF_president_Adrian_Karas"
+	    textureFile = "gfx/leaders/RSF/RSF_president_Adrian_Karas.dds"
+	}
+	spriteType = {
+	    name = "GFX_SAF_president_Mongrad_Kinograff"
+	    textureFile = "gfx/leaders/SAF/SAF_president_Mongrad_Kinograff.dds"
+	}
+	spriteType = {
+	    name = "GFX_SAU_president_People"
+	    textureFile = "gfx/leaders/SAU/SAU_president_People.dds"
+	}
+	spriteType = {
+	    name = "GFX_SER_president_Stanislav_Rudskoii"
+	    textureFile = "gfx/leaders/SER/SER_president_Stanislav_Rudskoii.dds"
+	}
+	spriteType = {
+	    name = "GFX_SIA_portrait_Rosey_Ikozuku"
+	    textureFile = "gfx/leaders/SIA/SIA_portrait_Rosey_Ikozuku.dds"
+	}
+	spriteType = {
+	    name = "GFX_SLO_president_Irina_Mozaikovna"
+	    textureFile = "gfx/leaders/SLO/SLO_president_Irina_Mozaikovna.dds"
+	}
+	spriteType = {
+	    name = "GFX_SLV_president_Natalya_Svernova"
+	    textureFile = "gfx/leaders/SLV/SLV_president_Natalya_Svernova.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOM_president_Listoph_Wolfder"
+	    textureFile = "gfx/leaders/SOM/SOM_president_Listoph_Wolfder.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_portrait_Ivan_Kirskii"
+	    textureFile = "gfx/leaders/SOV/SOV_portrait_Ivan_Kirskii.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_president_Fyodor_Arian_Iris"
+	    textureFile = "gfx/leaders/SOV/SOV_president_Fyodor_Arian_Iris.dds"
+	}
+	spriteType = {
+	    name = "GFX_SOV_queen_Sophia_Arian_Iris"
+	    textureFile = "gfx/leaders/SOV/SOV_queen_Sophia_Arian_Iris.dds"
+	}
+	spriteType = {
+	    name = "GFX_SPR_president_Amir_Obrero"
+	    textureFile = "gfx/leaders/SPR/SPR_president_Amir_Obrero.dds"
+	}
+	spriteType = {
+	    name = "GFX_SUD_president_Lawrence_Taha"
+	    textureFile = "gfx/leaders/SUD/SUD_president_Lawrence_Taha.dds"
+	}
+	spriteType = {
+	    name = "GFX_SWE_king_Mats_Lindquist"
+	    textureFile = "gfx/leaders/SWE/SWE_king_Mats_Lindquist.dds"
+	}
+	spriteType = {
+	    name = "GFX_SYA_president_Artem_Ussi"
+	    textureFile = "gfx/leaders/SYA/SYA_president_Artem_Ussi.dds"
+	}
+	spriteType = {
+	    name = "GFX_SYR_president_Sadiq_Farooq"
+	    textureFile = "gfx/leaders/SYR/SYR_president_Sadiq_Farooq.dds"
+	}
+	spriteType = {
+	    name = "GFX_TAY_president_Timofei_Bashmakov"
+	    textureFile = "gfx/leaders/TAY/TAY_president_Timofei_Bashmakov.dds"
+	}
+	spriteType = {
+	    name = "GFX_TEX_president_Mike_Dick"
+	    textureFile = "gfx/leaders/TEX/TEX_president_Mike_Dick.dds"
+	}
+	spriteType = {
+	    name = "GFX_TUN_president_Astolfo_Ioch"
+	    textureFile = "gfx/leaders/TUN/TUN_president_Astolfo_Ioch.dds"
+	}
+	spriteType = {
+	    name = "GFX_TUR_president_Michalis_Barbidis"
+	    textureFile = "gfx/leaders/TUR/TUR_president_Michalis_Barbidis.dds"
+	}
+	spriteType = {
+	    name = "GFX_TZN_president_Mustafa_Williams"
+	    textureFile = "gfx/leaders/TZN/TZN_president_Mustafa_Williams.dds"
+	}
+	spriteType = {
+	    name = "GFX_UGA_president_Khalid_Mutombo"
+	    textureFile = "gfx/leaders/UGA/UGA_president_Khalid_Mutombo.dds"
+	}
+	spriteType = {
+	    name = "GFX_UKR_president_Vasilisa_Kravlo"
+	    textureFile = "gfx/leaders/UKR/UKR_president_Vasilisa_Kravlo.dds"
+	}
+	spriteType = {
+	    name = "GFX_USA_president_Armani_Weber"
+	    textureFile = "gfx/leaders/USA/USA_president_Armani_Weber.dds"
+	}
+	spriteType = {
+	    name = "GFX_USB_president_Donald_Jeaessey"
+	    textureFile = "gfx/leaders/USB/USB_president_Donald_Jeaessey.dds"
+	}
+	spriteType = {
+	    name = "GFX_VOL_president_Nancy_Abba"
+	    textureFile = "gfx/leaders/VOL/VOL_president_Nancy_Abba.dds"
+	}
+	spriteType = {
+	    name = "GFX_YAK_president_Simon_Krugachev"
+	    textureFile = "gfx/leaders/YAK/YAK_president_Simon_Krugachev.dds"
+	}
+	spriteType = {
+	    name = "GFX_YAM_president_Kiril_Lepihin"
+	    textureFile = "gfx/leaders/YAM/YAM_president_Kiril_Lepihin.dds"
+	}
+	spriteType = {
+	    name = "GFX_ZAM_president_Aliyu_dos_Santos"
+	    textureFile = "gfx/leaders/ZAM/ZAM_president_Aliyu_dos_Santos.dds"
+	}
+
+}

@@ -1,0 +1,72 @@
+scripted_gui = {
+	ws_top_bar_swap_default = {
+		window_name = "ws_top_bar_swap_default_window"
+
+		visible = {
+			ROOT = {
+				NOT = {
+					has_country_flag = ws_switch_army
+					has_country_flag = ws_switch_industry
+					has_country_flag = ws_switch_country
+				}
+			}
+		}
+
+		effects = {
+			swap_buttons_default_click = {
+				ROOT = {set_country_flag = ws_switch_industry}
+			}
+		}
+		triggers = {
+			
+		}
+	}
+	ws_top_bar_swap_industry = {
+		window_name = "ws_top_bar_swap_industry_window"
+
+		visible = {
+			ROOT = {has_country_flag = ws_switch_industry}
+		}
+
+		effects = {
+			swap_buttons_industry_click = {
+				ROOT = {
+					clr_country_flag = ws_switch_industry
+					set_country_flag = ws_switch_army
+				}
+			}
+		}
+	}
+	ws_top_bar_swap_army = {
+		window_name = "ws_top_bar_swap_army_window"
+
+		visible = {
+			ROOT = {has_country_flag = ws_switch_army}
+		}
+
+		effects = {
+			swap_buttons_army_click = {
+				ROOT = {
+					clr_country_flag = ws_switch_army
+					set_country_flag = ws_switch_country
+				}
+			}
+		}
+	}
+	ws_top_bar_swap_country = {
+		window_name = "ws_top_bar_swap_country_window"
+
+		visible = {
+			ROOT = {has_country_flag = ws_switch_country}
+		}
+
+		effects = {
+			swap_buttons_country_click = {
+				ROOT = {
+					clr_country_flag = ws_switch_country
+				}
+			}
+		}
+	}
+}
+

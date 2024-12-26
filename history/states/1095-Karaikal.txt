@@ -1,0 +1,31 @@
+state={
+	id=1095
+	name="STATE_1095"
+
+	history={
+		owner = FRA
+		victory_points = {
+			14410 1
+		}
+		buildings = {
+			infrastructure = 1
+			14410 = {
+				naval_base = 1
+
+			}
+
+		}
+		1956.1.1 = {
+			owner = RAJ
+
+		}
+
+	}
+
+	provinces={
+		14410 
+	}
+	manpower=130490
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

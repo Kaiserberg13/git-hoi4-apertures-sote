@@ -1,0 +1,21 @@
+characters={
+
+    SIA_portrait_Rosey_Ikozuku={ 
+        name = "Rosey Ikozuku" 
+        portraits = {
+            civilian = {
+                large = "GFX_SIA_portrait_Rosey_Ikozuku"
+            }
+            army = {
+                large = "GFX_SIA_portrait_Rosey_Ikozuku"
+                small = "GFX_idea_GFX_SIA_portrait_Rosey_Ikozuku_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

@@ -1,0 +1,22 @@
+state={
+	id=1569
+	name="STATE_1569"
+	provinces={
+		1951 12843 13803 
+	}
+	history={
+		owner = CMR
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			1951 6
+		}
+		add_core_of = CMR
+
+	}
+	manpower=470469
+	buildings_max_level_factor=1.000
+	state_category=town
+}

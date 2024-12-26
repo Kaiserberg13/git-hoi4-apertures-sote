@@ -1,0 +1,24 @@
+
+state={
+	id=1446
+	name="STATE_1446"
+
+	history={
+		owner = TUN
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+		add_core_of = TUN
+
+	}
+
+	provinces={
+		3987 4992 7005 9983 10082 12000 17106 
+	}
+	manpower=1607574
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

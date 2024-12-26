@@ -1,0 +1,30 @@
+state={
+	id=1316
+	name="STATE_1316"
+	provinces={
+		2156 2162 2210 2212 2225 2226 5120 5162 5166 5190 5202 8199 10940 10942 10970 12953 12969 12983 12997 14339 14754 14757 14759 14760 14761 14762 14763 14764 14765 14766 14767 14768 14770 14772 14773 14774 14776 14777 14779 14780 14781 14782 14783 14787 
+	}
+	history={
+		owner = PRU
+		victory_points = {
+			2156 15 
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 6
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 4
+			2156 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = PRU
+
+	}
+	manpower=4651805
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

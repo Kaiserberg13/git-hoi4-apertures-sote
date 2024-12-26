@@ -1,0 +1,21 @@
+characters={
+
+    GRE_president_Vasso_Stamatelis={ 
+        name = "Vasso Stamatelis" 
+        portraits = {
+            civilian = {
+                large = "GFX_GRE_president_Vasso_Stamatelis"
+            }
+            army = {
+                large = "GFX_GRE_president_Vasso_Stamatelis"
+                small = "GFX_idea_GFX_GRE_president_Vasso_Stamatelis_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

@@ -1,0 +1,244 @@
+﻿division_template = {
+	name = "Группа Восток"
+
+	division_names_group = POL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Малопольская дивизия"
+
+	division_names_group = POL_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
+        infantry = { x = 1 y = 0 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Млавское построение"
+
+	division_names_group = POL_mot_01
+
+	regiments = {
+		mot_artillery_brigade = { x = 0 y = 0 }
+		mot_artillery_brigade = { x = 0 y = 1 }
+
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		light_tank_recon = { x = 0 y = 1 }
+		attack_drones = { x = 0 y = 2 }
+
+		helicopter_support = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Варшавские мстители"
+
+	division_names_group = POL_pnz_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		light_tank_recon = { x = 0 y = 1 }
+		attack_drones = { x = 0 y = 2 }
+
+		helicopter_support = { x = 1 y = 0 }
+	}
+}
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "4-я Великопольская бригада территориальной обороны"
+		location = 3434
+		division_template = "Группа Восток"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2-я Великопольская бригада территориальной обороны"
+		location = 6580
+		division_template = "Группа Восток"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "5-я Великопольская бригада территориальной обороны"
+		location = 9452
+		division_template = "Группа Восток"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "6-я Столичная бригада территориальной обороны"
+		location = 347
+		division_template = "Малопольская дивизия"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "7-я Малопольская бригада территориальной обороны"
+		location = 348
+		division_template = "Малопольская дивизия"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1-я Млавская бригада"
+		location = 3544
+		division_template = "Млавское построение"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2-я Млавская бригада"
+		location = 6558
+		division_template = "Млавское построение"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3-я Млавская бригада"
+		location = 9570
+		division_template = "Млавское построение"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4-я Млавская бригада"
+		location = 9427
+		division_template = "Млавское построение"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4-я Млавская бригада"
+		location = 362
+		division_template = "Млавское построение"
+		start_equipment_factor = 0.2
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Белый лис"
+		location = 3458
+		division_template = "Варшавские мстители"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2-я Танковая бригада"
+		location = 6309
+		division_template = "Варшавские мстители"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "POL"
+		}
+		requested_factories = 4
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_artillery_equipment_1
+			creator = "POL"
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 55
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_armor_equipment_0
+			creator = "POL"
+		}
+		requested_factories = 4
+		progress = 0.1
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_2
+			creator = "POL"
+		}
+		requested_factories = 2
+		progress = 0.8
+		efficiency = 68
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_motorized_equipment_0
+			creator = "POL"
+		}
+		requested_factories = 4
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "POL"
+			version_name = "КРИЗ-1"
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 100
+	}
+}

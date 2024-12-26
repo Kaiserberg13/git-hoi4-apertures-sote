@@ -1,0 +1,21 @@
+characters={
+
+    COL_president_Robert_Robinzon={ 
+        name = "Robert Robinzon" 
+        portraits = {
+            civilian = {
+                large = "GFX_COL_president_Robert_Robinzon"
+            }
+            army = {
+                large = "GFX_COL_president_Robert_Robinzon"
+                small = "GFX_idea_GFX_COL_president_Robert_Robinzon_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

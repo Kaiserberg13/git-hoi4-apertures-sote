@@ -1,0 +1,35 @@
+state={
+	id=1334
+	name="STATE_1334"
+	provinces={
+		1306 4282 7358 10143 10199 10212 10240 12228 
+	}
+	resources = {
+		rubber = 76
+		elysium = 2
+		tungsten = 3
+	}
+	history={
+		set_demilitarized_zone = yes
+		owner = OAS
+		victory_points = {
+			1306 5 
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 6
+			industrial_complex = 1
+			arms_factory = 2
+			1306 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = OAS
+
+	}
+	manpower=977081
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

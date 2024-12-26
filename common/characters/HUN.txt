@@ -1,0 +1,21 @@
+characters={
+
+    HUN_president_Barna_Marton={ 
+        name = "Barna Marton" 
+        portraits = {
+            civilian = {
+                large = "GFX_HUN_president_Barna_Marton"
+            }
+            army = {
+                large = "GFX_HUN_president_Barna_Marton"
+                small = "GFX_idea_GFX_HUN_president_Barna_Marton_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

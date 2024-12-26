@@ -1,0 +1,30 @@
+state={
+	id=800
+	name="STATE_800"
+	
+	history={
+		owner = MAD
+		victory_points = {
+			1155 1
+		}
+		buildings = {
+			infrastructure = 1
+			1155 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_claim_by = MAD
+		add_core_of = EGY
+
+
+	}
+	
+	provinces={
+		1155 9947 
+	}
+	manpower=444648
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

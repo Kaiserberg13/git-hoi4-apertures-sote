@@ -1,0 +1,35 @@
+state={
+	id=1044
+	name="STATE_1044"
+
+	history={
+		owner = AST
+		victory_points = {
+			10234 1
+		}
+		buildings = {
+			infrastructure = 1
+			10234 = {
+				naval_base = 1
+
+			}
+
+		}
+		1942.11.22 = {
+			controller = JAP
+
+		}
+		1946.1.1 = {
+			controller = AST
+
+		}
+
+	}
+
+	provinces={
+		1358 4378 10234 
+	}
+	manpower=238019
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

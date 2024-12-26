@@ -1,0 +1,21 @@
+characters={
+
+    VOL_president_Nancy_Abba={ 
+        name = "Nancy Abba" 
+        portraits = {
+            civilian = {
+                large = "GFX_VOL_president_Nancy_Abba"
+            }
+            army = {
+                large = "GFX_VOL_president_Nancy_Abba"
+                small = "GFX_idea_GFX_VOL_president_Nancy_Abba_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

@@ -1,0 +1,17 @@
+
+defined_text = {
+	name = IB_OIL_TEXT
+	text = {
+		trigger = {
+			check_variable = {resource_imported@oil > 0 }
+			check_variable = {resource@oil > resource_imported@oil }
+		}
+		localization_key = "[?resource@oil|0Y]"
+	}
+	text = {
+		trigger = {
+			always=yes
+		}
+		localization_key = "[?resource@oil|0+]"
+	}
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=620
+	name="STATE_620"
+
+	history={
+		owner = JAP
+		victory_points = {
+			1150 5
+		}
+		victory_points = {
+			15229 2
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			industrial_complex = 1
+			15229 = {
+				naval_base = 5
+				coastal_bunker = 1
+
+			}
+
+		}
+		add_core_of = JAP
+		add_core_of = PRC
+	}
+
+	provinces={
+		1150 6851 15229 
+	}
+	manpower=219178
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

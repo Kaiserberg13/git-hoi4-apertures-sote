@@ -1,0 +1,25 @@
+
+state={
+	id=799
+	name="STATE_799"
+
+	history={
+		owner = SER
+		victory_points = {
+			11868 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SER
+
+	}
+
+	provinces={
+		11857 11868 
+	}
+	manpower=381064
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

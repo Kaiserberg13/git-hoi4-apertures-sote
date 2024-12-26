@@ -1,0 +1,125 @@
+scripted_gui = {
+    decisions_filter_buttons = {
+        context_type = player_context
+        parent_window_token = decision_tab
+		window_name = "decisions_filter_buttons"
+         
+        visible = {
+            ROOT = {
+				is_ai = no
+			}
+        }
+        
+        effects = {
+			filter_political_active_click = {
+				ROOT = { set_country_flag = filter_political_selected }
+			}
+			filter_political_deactive_click = {
+				ROOT = { clr_country_flag = filter_political_selected }
+			}
+
+			filter_influence_active_click = {
+				ROOT = { set_country_flag = filter_influence_selected }
+			}
+			filter_influence_deactive_click = {
+				ROOT = { clr_country_flag = filter_influence_selected }
+			}
+
+			filter_industry_active_click = {
+				ROOT = { set_country_flag = filter_industry_selected }
+			}
+			filter_industry_deactive_click = {
+				ROOT = { clr_country_flag = filter_industry_selected }
+			}
+
+			filter_mobilization_active_click = {
+				ROOT = { set_country_flag = filter_mobilization_selected }
+			}
+			filter_mobilization_deactive_click = {
+				ROOT = { clr_country_flag = filter_mobilization_selected }
+			}
+
+			filter_war_active_click = {
+				ROOT = { set_country_flag = filter_war_selected }
+			}
+			filter_war_deactive_click = {
+				ROOT = { clr_country_flag = filter_war_selected }
+			}
+
+			filter_other_active_click = {
+				ROOT = { set_country_flag = filter_other_selected }
+			}
+			filter_other_deactive_click = {
+				ROOT = { clr_country_flag = filter_other_selected }
+			}
+		}
+        
+        triggers = {
+			filter_political_active_visible = {
+				ROOT = {
+					NOT = { has_country_flag = filter_political_selected }
+				}
+			}
+			filter_political_deactive_visible = {
+				ROOT = {
+					has_country_flag = filter_political_selected
+				}
+			}
+
+			filter_influence_active_visible = {
+				ROOT = {
+					NOT = { has_country_flag = filter_influence_selected }
+				}
+			}
+			filter_influence_deactive_visible = {
+				ROOT = {
+					has_country_flag = filter_influence_selected
+				}
+			}
+
+			filter_industry_active_visible = {
+				ROOT = {
+					NOT = { has_country_flag = filter_industry_selected }
+				}
+			}
+			filter_industry_deactive_visible = {
+				ROOT = {
+					has_country_flag = filter_industry_selected
+				}
+			}
+
+			filter_mobilization_active_visible = {
+				ROOT = {
+					NOT = { has_country_flag = filter_mobilization_selected }
+				}
+			}
+			filter_mobilization_deactive_visible = {
+				ROOT = {
+					has_country_flag = filter_mobilization_selected
+				}
+			}
+
+			filter_war_active_visible = {
+				ROOT = {
+					NOT = { has_country_flag = filter_war_selected }
+				}
+			}
+			filter_war_deactive_visible = {
+				ROOT = {
+					has_country_flag = filter_war_selected
+				}
+			}
+
+			filter_other_active_visible = {
+				ROOT = {
+					NOT = { has_country_flag = filter_other_selected }
+				}
+			}
+			filter_other_deactive_visible = {
+				ROOT = {
+					has_country_flag = filter_other_selected
+				}
+			}
+		}
+    }
+}

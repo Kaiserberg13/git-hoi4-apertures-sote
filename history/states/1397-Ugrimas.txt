@@ -1,0 +1,22 @@
+state={
+	id=1397
+	name="STATE_1397"
+	provinces={
+		2192 5139 8207 12975 13765 13766 13767 13768 13769 13772 13807 13808 15778 15795 
+	}
+	history={
+		owner = GAB
+		buildings = {
+			infrastructure = 1
+			8207 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = GAB
+
+	}
+	manpower=3417471
+	buildings_max_level_factor=1.000
+	state_category=town
+}

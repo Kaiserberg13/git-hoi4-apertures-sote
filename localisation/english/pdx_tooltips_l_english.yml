@@ -1,0 +1,15 @@
+﻿l_english:
+ 
+ decisions_filter_political:0 "Will show §ZPOLITICAL§! decisions"
+ decisions_filter_influence:0 "Will show §ZINFLUENCE§! decisions"
+ decisions_filter_industry:0 "Will show §ZINDUSTRY§! decisions"
+ decisions_filter_mobilization:0 "Will show §ZMOBILIZATION§! decisions"
+ decisions_filter_war:0 "Will show §ZWAR§! decisions"
+ decisions_filter_other:0 "Will show §ZPOLITICAL§! decisions"
+
+ decisions_filter_political_d:0 "Will hide §ZPOLITICAL§! decisions"
+ decisions_filter_influence_d:0 "Will hide §ZINFLUENCE§! decisions"
+ decisions_filter_industry_d:0 "Will hide §ZINDUSTRY§! decisions"
+ decisions_filter_mobilization_d:0 "Will hide §ZMOBILIZATION§! decisions"
+ decisions_filter_war_d:0 "Will hide §ZWAR§! decisions"
+ decisions_filter_other_d:0 "Will hide §ZPOLITICAL§! decisions"

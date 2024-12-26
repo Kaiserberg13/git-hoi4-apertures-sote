@@ -1,0 +1,22 @@
+state={
+	id=1576
+	name="STATE_1576"
+	provinces={
+		8006 10762 13647 13648 13962 
+	}
+	history={
+		owner = LIB
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			13648 5
+		}
+		add_core_of = LIB
+
+	}
+	manpower=1933359
+	buildings_max_level_factor=1.000
+	state_category=town
+}

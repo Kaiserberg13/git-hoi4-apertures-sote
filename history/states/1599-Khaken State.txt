@@ -1,0 +1,23 @@
+state={
+	id=1599
+	name="STATE_1599"
+	provinces={
+		8038 13229 13230 16933 16947 16974 16980 
+	}
+	history={
+		owner = SAH
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			16974 5
+		}
+		add_core_of = MLI
+		add_core_of = SAH
+
+	}
+	manpower=1656839
+	buildings_max_level_factor=1.000
+	state_category=town
+}

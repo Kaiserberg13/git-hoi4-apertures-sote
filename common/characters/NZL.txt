@@ -1,0 +1,21 @@
+characters={
+
+    NZL_president_Kiromo_Ayuki={ 
+        name = "Kiromo Ayuki" 
+        portraits = {
+            civilian = {
+                large = "GFX_NZL_president_Kiromo_Ayuki"
+            }
+            army = {
+                large = "GFX_NZL_president_Kiromo_Ayuki"
+                small = "GFX_idea_GFX_NZL_president_Kiromo_Ayuki_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

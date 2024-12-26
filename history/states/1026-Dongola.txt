@@ -1,0 +1,29 @@
+
+state={
+	id=1026
+	name="STATE_1026"
+
+	history={
+		owner = SUD
+		victory_points = {
+			14178 2 
+		}
+		victory_points = {
+			12836 1 
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = SUD
+
+	}
+
+	provinces={
+		10900 12826 14178 
+	}
+	manpower=469642
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

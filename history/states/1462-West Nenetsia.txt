@@ -1,0 +1,22 @@
+state={
+	id=1462
+	name="STATE_1462"
+	provinces={
+		3147 6192 9099 9230 10207 12530 14834 16422 16427 16431 16433 16439 16440 16442 16444 16445 16447 16449 16450 16452 16454 16455 16457 16458 16462 16463 16465 16466 16469 16473 16476 
+	}
+	history={
+		owner = KOM
+		victory_points = {
+			3338 15 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KOM
+
+	}
+
+	manpower=1491285
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

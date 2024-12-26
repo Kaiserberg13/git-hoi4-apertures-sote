@@ -1,0 +1,21 @@
+characters={
+
+    CZE_president_Arne_Auch={ 
+        name = "Arne Auch" 
+        portraits = {
+            civilian = {
+                large = "GFX_CZE_president_Arne_Auch"
+            }
+            army = {
+                large = "GFX_CZE_president_Arne_Auch"
+                small = "GFX_idea_GFX_CZE_president_Arne_Auch_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

@@ -1,0 +1,21 @@
+characters={
+
+    CUB_president_Rovano_Lockrl={ 
+        name = "Rovano Lockrl" 
+        portraits = {
+            civilian = {
+                large = "GFX_CUB_president_Rovano_Lockrl"
+            }
+            army = {
+                large = "GFX_CUB_president_Rovano_Lockrl"
+                small = "GFX_idea_GFX_CUB_president_Rovano_Lockrl_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

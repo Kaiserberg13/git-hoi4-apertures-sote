@@ -1,0 +1,21 @@
+characters={
+
+    BRT_president_Silvain_Figuier={ 
+        name = "Silvain Figuier" 
+        portraits = {
+            civilian = {
+                large = "GFX_BRT_president_Silvain_Figuier"
+            }
+            army = {
+                large = "GFX_BRT_president_Silvain_Figuier"
+                small = "GFX_idea_GFX_BRT_president_Silvain_Figuier_small"
+            }
+        }
+
+    country_leader = {
+        ideology = globalism_globalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

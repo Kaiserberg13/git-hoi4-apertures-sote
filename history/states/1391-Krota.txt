@@ -1,0 +1,25 @@
+state={
+	id=1391
+	name="STATE_1391"
+	provinces={
+		988 2073 7931 10883 12741 12824 14474 14477 14479 14480 15872 15883 15892 15903 15910 15916 15926 15948 15955 
+	}
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = COG
+		victory_points = {
+			14477 4
+		}
+		victory_points = {
+			15910 7
+		}
+
+	}
+	manpower=2479551
+	buildings_max_level_factor=1.000
+	state_category=town
+}

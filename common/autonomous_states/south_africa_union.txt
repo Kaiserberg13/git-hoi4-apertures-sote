@@ -1,0 +1,49 @@
+autonomy_state = {
+	id = autonomy_south_africa_union
+	min_freedom_level = 0.5
+	
+	manpower_influence = 0.5
+	
+	rule = {
+		desc = "RULE_DESC_IS_A_SUBJECT"
+	
+		can_not_declare_war = yes
+		can_decline_call_to_war = no
+		can_be_spymaster = no
+	}
+	
+	modifier = {
+		autonomy_manpower_share = 0.1
+		extra_trade_to_overlord_factor = 0.25
+		overlord_trade_cost_factor = -0.25
+		peace_score_ratio_transferred_to_overlord = 0.9
+	}
+	
+	ai_subject_wants_higher = {
+		factor = 0.6
+	}
+	
+	ai_overlord_wants_lower = {
+		factor = 0.5
+	}
+
+	ai_overlord_wants_garrison = {
+		always = yes
+	}
+
+	allowed = {
+		AND = {
+			has_government = democratic
+			OR = {
+				OVERLORD = { original_tag = SAF }
+			}
+		}		
+	}
+	
+	can_take_level = {
+	}
+
+	can_lose_level = {
+		
+	}
+}

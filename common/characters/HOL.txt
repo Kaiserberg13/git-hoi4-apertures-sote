@@ -1,0 +1,21 @@
+characters={
+
+    HOL_president_Ronald_Nicht={ 
+        name = "Ronald Nicht" 
+        portraits = {
+            civilian = {
+                large = "GFX_HOL_president_Ronald_Nicht"
+            }
+            army = {
+                large = "GFX_HOL_president_Ronald_Nicht"
+                small = "GFX_idea_GFX_HOL_president_Ronald_Nicht_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

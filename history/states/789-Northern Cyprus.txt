@@ -1,0 +1,29 @@
+
+state={
+	id=789
+	name="STATE_789"
+
+	history={
+		owner = ENG
+        victory_points = {
+			13349 2
+		}
+		buildings = {
+			infrastructure = 1
+			11984 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		11984 13349 
+	}
+	manpower=119711
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

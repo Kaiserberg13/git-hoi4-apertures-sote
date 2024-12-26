@@ -1,0 +1,26 @@
+
+state={
+	id=188
+	name="STATE_188"
+
+	history={
+		owner = BLR
+		victory_points = {
+			6232 2
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			industrial_complex = 2
+		}
+		add_core_of = BLR
+
+	}
+
+	provinces={
+		215 3203 3293 3507 6232 6319 6556 9249 9554 11313 11453 13736 
+	}
+	manpower=2087347
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,26 @@
+﻿l_english:
+
+ # TOPBAR
+ TOPBAR_CIV_FAC:0 "[?ROOT.num_of_civilian_factories|0]"
+ TOPBAR_MIL_FAC:0 "[?ROOT.num_of_military_factories|0]"
+ TOPBAR_DOCKYARD:0 "[?ROOT.num_of_naval_factories|0]"
+ TOPBAR_OFFICE:0 "[?TOTAL_OFFICE]"
+ TOPBAR_STATES:0 "[?ROOT.num_owned_states|0]"
+ TOPBAR_TOTAL_INFRASTRUCTURE:0 " [?TOTAL_INFRASTRUCTURE_VAR]%"
+ TOPBAR_TOTAL_TECH:0 "[?ROOT.num_researched_technologies|0]"
+ TOPBAR_CAPITAL:0 "[?ROOT.amount_research_slots|0]"
+
+ TOPBAR_DIVISIONS:0 "[?ROOT.num_divisions|0]"
+ TOPBAR_PLANES:0 "[?ROOT.num_deployed_planes|0]"
+ TOPBAR_SHIPS:0 "[?ROOT.num_ships|0]"
+ TOPBAR_MANPOWER:0 "[?garrison_manpower_need]"
+ TOPBAR_CASUALTIES:0 "[?TOTAL_CASUALTIES]K"
+ TOPBAR_WAR_SUPPORT:0 "[?ROOT.has_war_support|0]%"
+
+ TOPBAR_STABILITY:0 "[?s]"
+ TOPBAR_POLITICAL_POWER:0 "[?ROOT.political_power|0]"
+ TOPBAR_MONEY:0 ""
+ TOPBAR_DEBT:0 ""
+
+ 
+ TOPBAR_CIV_FAC_TOOLTIP:0 ""

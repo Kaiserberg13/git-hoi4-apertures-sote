@@ -1,0 +1,28 @@
+
+state={
+	id=643
+	name="STATE_643"
+
+	history={
+		owner = POL
+		victory_points = {
+			6375 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			anti_air_building = 2
+			air_base = 6
+
+		}
+		add_core_of = POL
+
+	}
+
+	provinces={
+		6375 9346 9372 11386 15067 15068 15069 15070 
+	}
+	manpower=1845806
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

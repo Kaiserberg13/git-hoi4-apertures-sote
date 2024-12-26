@@ -1,0 +1,814 @@
+technologies = {
+
+	ws_basic_electromics = {
+		
+		path = {
+			leads_to_tech = ws_quantum_veil
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = ws_plasmo_loom
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = ws_tech_research
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = ws_fusioncrete
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_quantum_veil = {
+		
+		path = {
+			leads_to_tech = ws_quantum_veil2
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 2 y = 0 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_quantum_veil2 = {
+		
+		path = {
+			leads_to_tech = ws_quantum_veil3
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 4 y = 0 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_quantum_veil3 = {
+		
+		path = {
+			leads_to_tech = ws_quantum_veil4
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 6 y = 0 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_quantum_veil4 = {
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 8 y = 0 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_plasmo_loom = {
+		
+		path = {
+			leads_to_tech = ws_plasmo_loom2
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_plasmo_loom2 = {
+		
+		path = {
+			leads_to_tech = ws_plasmo_loom3
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 4 y = 2 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_plasmo_loom3 = {
+		
+		path = {
+			leads_to_tech = ws_plasmo_loom4
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 6 y = 2 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_plasmo_loom4 = {
+		
+		path = {
+			leads_to_tech = ws_plasmo_loom5
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 8 y = 2 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_plasmo_loom5 = {
+		
+		path = {
+			leads_to_tech = ws_plasmo_loom6
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 10 y = 2 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_plasmo_loom6 = {
+
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 12 y = 2 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+	ws_fusioncrete = {
+		
+		path = {
+			leads_to_tech = ws_fusioncrete2
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_fusioncrete2 = {
+		
+		path = {
+			leads_to_tech = ws_fusioncrete3
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 4 y = 4 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_fusioncrete3 = {
+		
+		path = {
+			leads_to_tech = ws_fusioncrete4
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 6 y = 4 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_fusioncrete4 = {
+		
+		path = {
+			leads_to_tech = ws_fusioncrete5
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 8 y = 4 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_fusioncrete5 = {
+		
+		path = {
+			leads_to_tech = ws_fusioncrete6
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 10 y = 4 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_fusioncrete6 = {
+
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 12 y = 4 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+	ws_tech_research = {
+		
+		path = {
+			leads_to_tech = ws_tech_research2
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = ws_neural_coating
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_tech_research2 = {
+		path = {
+			leads_to_tech = ws_tech_research3
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_tech_research3 = {
+		path = {
+			leads_to_tech = ws_tech_research4
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 4 y = 6 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_tech_research4 = {
+		path = {
+			leads_to_tech = ws_tech_research5
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 6 y = 6 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_neural_coating = {
+		path = {
+			leads_to_tech = ws_neural_coating2
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_neural_coating2 = {
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 8 y = 8 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+
+	#smart_link
+	ws_cyberimplants = {
+		
+		path = {
+			leads_to_tech = ws_cyberimplants2
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_cyberimplants2 = {
+		
+		path = {
+			leads_to_tech = ws_cyberimplants3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_reflex_tunner
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 2 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_cyberimplants3 = {
+		
+		path = {
+			leads_to_tech = ws_cyberimplants4
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 4 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_cyberimplants4 = {
+		
+		path = {
+			leads_to_tech = ws_cyberimplants5
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_custom_brain
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 6 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_cyberimplants5 = {
+			path = {
+			leads_to_tech = ws_cyberimplants6
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 8 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_cyberimplants6 = {
+		
+
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 10 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_reflex_tunner = {
+		
+		path = {
+			leads_to_tech = ws_reflex_tunner2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_revulsor
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 2 y = 12}
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_revulsor = {
+		
+		path = {
+			leads_to_tech = ws_neck_revulsor
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 2 y = 14}
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_neck_revulsor = {
+		
+
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 4 y = 14}
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	ws_reflex_tunner2 = {
+		
+		path = {
+			leads_to_tech = ws_reflex_tunner3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_reflex_tunner3= {
+		
+
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+	ws_custom_brain = {
+		
+		path = {
+			leads_to_tech = ws_custom_brain2
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = ws_AI_human
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 6 y = 12 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_AI_human = {
+		
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 8 y = 12 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_custom_brain2 = {
+		
+		path = {
+			leads_to_tech = ws_custom_brain3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 6 y = 14 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	ws_custom_brain3 = {
+		
+		research_cost = 1.0
+		start_year = 2969
+		folder = {
+			name = ws_electronics_folder
+			position = { x = 6 y = 16 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+}

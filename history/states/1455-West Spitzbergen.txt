@@ -1,0 +1,19 @@
+state={
+	id=1455
+	name="STATE_1455"
+	provinces={
+		16339 16340 
+	}
+	history={
+		owner = SWE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SWE
+
+	}
+
+	manpower=274978
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=637
+	name="STATE_637"
+	resources={
+		steel=56.000
+		aluminium=11.000
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			11548 3 
+		}
+		victory_points = {
+			6504 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			11548 = {
+				naval_base = 5
+
+			}
+			11606 = {
+				bunker = 1
+
+			}
+
+		}
+		add_core_of = FRA
+
+	}
+
+	provinces={
+		3536 6504 11548 11606 
+	}
+	manpower=389279
+	buildings_max_level_factor=1.000
+	state_category=town
+}

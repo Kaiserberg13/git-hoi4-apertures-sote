@@ -1,0 +1,21 @@
+characters={
+
+    MON_president_Chin_Ugral={ 
+        name = "Chin Ugral" 
+        portraits = {
+            civilian = {
+                large = "GFX_MON_president_Chin_Ugral"
+            }
+            army = {
+                large = "GFX_MON_president_Chin_Ugral"
+                small = "GFX_idea_GFX_MON_president_Chin_Ugral_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

@@ -1,0 +1,103 @@
+capital = 13
+
+set_oob = "FRA_2967" 
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1933.3.5"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    fascism = 9
+    darwinism = 4
+    democratic = 59
+    globalism = 26
+    communism = 2
+}
+recruit_character = FRA_Tristan_Bozonnet
+
+recruit_character = FRA_president_Tristan_Bozonnet
+
+
+set_variable = { CorporationCamelia = 30 }
+set_variable = { CorporationArtsotzka = 30 }
+set_variable = { CorporationRotatosk = 30 }
+set_variable = { CorporationZaphkiel = 4 }
+set_variable = { CorporationEquonics = 4 }
+set_variable = { CorporationOthers = 1 }
+set_variable = { CorporationSelf = 1 }
+
+
+
+set_technology = {
+    ws_engineer_company = 1
+    ws_recon_company = 1
+    ws_logistics_company = 1
+    ws_military_police = 1
+    maintenance_company = 1
+    helicopter_technology = 1
+    drones_technology = 1
+    infantry_armor = 1
+    energy_weapons = 1
+    special_forces = 1
+    marines = 1
+    mountaineers = 1
+    common_support = 1
+    ws_modern_support = 1
+    ws_support_drones = 1
+    ws_common_train = 1
+    ws_basic_chassis = 1
+    gw_artillery = 1
+    ws_modern_anti_air = 1
+    ws_basic_electromics = 1
+    basic_new_era_tech = 1
+    ws_cyberimplants = 1
+    ws_armored_car = 1
+    ws_armored_car_3 = 1
+
+    ws_armored_car_2 = 1
+    ws_modern_anti_tank = 1
+    support_drones = 1
+    ws_nanotechnology = 1
+    ws_automation = 1
+    blue_lock = 1
+    ws_armored_train = 1
+    ws_medium_chassis = 1
+}
+
+if = {
+    limit = {
+        has_dlc = "No Step Back"
+    }
+    create_equipment_variant = {
+         name = "Griffon"
+         type = ws_light_tank_equipment_0
+         modules = {
+             tank_modules_gun_slot = tank_gun_fire
+             tank_modules_movement_slot = tank_movement_chassis
+             tank_modules_armor_slot = tank_armor_default
+         }
+         icon = "GFX_ENG_improved_light_tank_medium"
+    }
+    create_equipment_variant = {
+        name = "Panache"
+        type = ws_light_tank_equipment_0
+        modules = {
+            tank_modules_gun_slot = tank_gun_one
+            tank_modules_movement_slot = tank_movement_chassis
+            tank_modules_armor_slot = tank_armor_default
+        }
+        icon = "GFX_ENG_improved_light_tank_medium"
+   }
+    create_equipment_variant = {
+        name = "Trident"
+        type = ws_medium_tank_equipment_0
+        modules = {
+            tank_modules_gun_slot = tank_gun_two
+            tank_modules_movement_slot = tank_movement_chassis
+            tank_modules_armor_slot = tank_armor_default
+        }
+        icon = "GFX_ENG_improved_light_tank_medium"
+   }
+}

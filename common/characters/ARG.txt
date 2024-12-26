@@ -1,0 +1,21 @@
+characters={
+
+    ARG_president_Lucas_Morgan={ 
+        name = "Lucas Morgan" 
+        portraits = {
+            civilian = {
+                large = "GFX_ARG_president_Lucas_Morgan"
+            }
+            army = {
+                large = "GFX_ARG_president_Lucas_Morgan"
+                small = "GFX_idea_GFX_ARG_president_Lucas_Morgan_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

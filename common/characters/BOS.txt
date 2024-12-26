@@ -1,0 +1,21 @@
+characters={
+
+    BOS_president_Vladimir_Kikayev={ 
+        name = "Vladimir Kikayev" 
+        portraits = {
+            civilian = {
+                large = "GFX_BOS_president_Vladimir_Kikayev"
+            }
+            army = {
+                large = "GFX_BOS_president_Vladimir_Kikayev"
+                small = "GFX_idea_GFX_BOS_president_Vladimir_Kikayev_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

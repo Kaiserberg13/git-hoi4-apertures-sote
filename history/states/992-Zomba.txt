@@ -1,0 +1,26 @@
+
+state={
+	id=992
+	name="STATE_992"
+
+	history={
+		owner = MZB
+		victory_points = {
+			13893 2 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = MZB
+
+	}
+
+	provinces={
+		12908 
+	}
+	manpower=371750
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

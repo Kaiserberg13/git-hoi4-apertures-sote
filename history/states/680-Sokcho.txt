@@ -1,0 +1,25 @@
+
+state={
+	id=680
+	name="STATE_680"
+
+	history={
+		owner = KOR
+		victory_points = {
+			11958 1
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+		add_core_of = KOR		
+	}
+
+	provinces={
+		9981 11958 
+	}
+	manpower=200241
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

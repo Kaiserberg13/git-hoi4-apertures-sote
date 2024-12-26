@@ -1,0 +1,41 @@
+
+state={
+	id=143
+	name="STATE_143"
+
+	history={
+		owner = FIN
+		victory_points = {
+			9206 2
+		}
+		victory_points = {
+			3187 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			9100 = {
+				bunker = 2
+
+			}
+			9105 = {
+				bunker = 2
+
+			}
+			9206 = {
+				coastal_bunker = 1
+
+			}
+
+		}
+		add_core_of = FIN
+
+	}
+
+	provinces={
+		3050 3133 3187 6052 6150 6153 8103 9100 9105 9150 9176 9206 11046 11156 11162 
+	}
+	manpower=5878878
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

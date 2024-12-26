@@ -1,0 +1,83 @@
+capital = 43
+
+set_oob = "ROM_2967" 
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1933.3.5"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    fascism = 11
+    darwinism = 4
+    democratic = 76
+    globalism = 8
+    communism = 1
+}
+give_guarantee = SLO
+create_faction = FACTION_NAME_BALKAN_CONSORTIUM
+add_to_faction = ROM
+add_to_faction = HUN
+add_to_faction = SER
+add_to_faction = BUL
+
+recruit_character = ROM_Servius_Plotius_Varus
+
+
+recruit_character = ROM_president_Servius_Plotius_Varus
+
+
+set_variable = { CorporationCamelia = 55 }
+set_variable = { CorporationArtsotzka = 30 }
+set_variable = { CorporationRotatosk = 10 }
+set_variable = { CorporationZaphkiel = 3 }
+set_variable = { CorporationEquonics = 1 }
+set_variable = { CorporationOthers = 1 }
+set_variable = { CorporationSelf = 0 }
+
+
+
+
+set_technology = {
+    ws_engineer_company = 1
+    ws_recon_company = 1
+    ws_logistics_company = 1
+    ws_military_police = 1
+    maintenance_company = 1
+    helicopter_technology = 1
+    drones_technology = 1
+    infantry_armor = 1
+    energy_weapons = 1
+    special_forces = 1
+    marines = 1
+    mountaineers = 1
+    common_support = 1
+    ws_modern_support = 1
+    ws_support_drones = 1
+    ws_common_train = 1
+    ws_basic_chassis = 1
+    gw_artillery = 1
+    ws_modern_anti_air = 1
+    ws_basic_electromics = 1
+    basic_new_era_tech = 1
+    ws_cyberimplants = 1
+    ws_armored_car = 1
+    ws_armored_car_3 = 1
+}
+
+if = {
+    limit = {
+        has_dlc = "No Step Back"
+    }
+    create_equipment_variant = {
+         name = "Flamma Ardealului"
+         type = ws_light_tank_equipment_0
+         modules = {
+             tank_modules_gun_slot = tank_gun_fire
+             tank_modules_movement_slot = tank_movement_chassis
+             tank_modules_armor_slot = tank_armor_default
+         }
+         icon = "GFX_ENG_improved_light_tank_medium"
+    }
+}

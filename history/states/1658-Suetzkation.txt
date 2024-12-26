@@ -1,0 +1,24 @@
+state={
+	id=1658
+	name="STATE_1658"
+	provinces={
+		1064 4068 4910 5069 7156 10097 10844 11999 
+	}
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+
+		}
+
+		victory_points = {
+			1064 5
+		}
+		add_core_of = EGY
+
+	}
+	manpower=654915
+	buildings_max_level_factor=1.000
+	state_category=town
+}

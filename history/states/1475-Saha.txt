@@ -1,0 +1,21 @@
+state={
+	id=1475
+	name="STATE_1475"
+	provinces={
+		1722 2853 6085 9224 11122 13059 13060 14808 14810 16362 16364 16365 16381 16383 16384 16385 16406 16409 16489 16491 
+	}
+	history={
+		owner = TAY
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = TAY
+
+	}
+	manpower=612486
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

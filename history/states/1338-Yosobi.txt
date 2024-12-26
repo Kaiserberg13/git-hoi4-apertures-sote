@@ -1,0 +1,43 @@
+
+state={
+	id=1338
+	name="STATE_1338"
+	provinces={
+		3218 3797 16003 16014 16020 16026 16027 16031 16036 16037 16041 16044 16045 16047 16050 16057 16058 
+	}
+	resources = {
+		steel = 4
+		oil = 1
+		tungsten = 4
+		chromium = 0
+		aluminium = 3
+		rubber = 0
+	}
+	history={
+		owner = OAS
+		victory_points = {
+			12209 50 
+		}
+		victory_points = {
+			7308 30
+		}
+		victory_points = {
+			4320 15
+		}
+		victory_points = {
+			1313 15
+		}
+		victory_points = {
+			1274 10
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+		}
+		add_core_of = OAS
+
+	}
+	manpower=4088697
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

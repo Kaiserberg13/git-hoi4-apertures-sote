@@ -1,0 +1,41 @@
+
+state={
+	id=361
+	name="STATE_361"
+
+	history={
+		owner = USA
+		victory_points = {
+			1595 5 
+		}
+		victory_points = {
+			870 2 
+		}
+		victory_points = {
+			11635 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+
+		}
+		add_core_of = USA
+		OHO = {
+			set_province_controller = 9796
+			set_province_controller = 1595
+			set_province_controller = 12437
+			set_province_controller = 4527
+			set_province_controller = 10448
+			set_province_controller = 9810
+			set_province_controller = 870
+		}
+
+	}
+
+	provinces={
+		870 1595 1881 4437 4527 4531 6713 7551 9653 9654 9796 9810 10448 11621 11635 11637 12437 
+	}
+	manpower=2863181
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

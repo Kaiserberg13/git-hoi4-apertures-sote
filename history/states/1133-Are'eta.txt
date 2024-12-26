@@ -1,0 +1,21 @@
+state={
+	id=1133
+	name="STATE_1133"
+
+	history={
+		owner = ERI
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ERI
+
+	}
+
+	provinces={
+		8043 13439 
+	}
+	manpower=229344
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

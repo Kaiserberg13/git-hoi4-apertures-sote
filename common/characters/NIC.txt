@@ -1,0 +1,21 @@
+characters={
+
+    NIC_president_Nordan_Lavash={ 
+        name = "Nordan Lavash" 
+        portraits = {
+            civilian = {
+                large = "GFX_NIC_president_Nordan_Lavash"
+            }
+            army = {
+                large = "GFX_NIC_president_Nordan_Lavash"
+                small = "GFX_idea_GFX_NIC_president_Nordan_Lavash_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

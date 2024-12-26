@@ -1,0 +1,21 @@
+characters={
+
+    YAM_president_Kiril_Lepihin={ 
+        name = "Kiril Lepihin" 
+        portraits = {
+            civilian = {
+                large = "GFX_YAM_president_Kiril_Lepihin"
+            }
+            army = {
+                large = "GFX_YAM_president_Kiril_Lepihin"
+                small = "GFX_idea_GFX_YAM_president_Kiril_Lepihin_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

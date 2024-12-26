@@ -1,0 +1,35 @@
+
+state={
+	id=543
+	name="STATE_543"
+
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 0
+			air_base = 1
+			13025 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = JAP
+		1946.1.1 = {
+			owner = USA
+
+		}
+		1972.1.1 = {
+			owner = JAP
+
+		}
+
+	}
+
+	provinces={
+		13025 
+	}
+	manpower=340009
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

@@ -1,0 +1,21 @@
+characters={
+
+    MRT_president_Felix_Aly={ 
+        name = "Felix Aly" 
+        portraits = {
+            civilian = {
+                large = "GFX_MRT_president_Felix_Aly"
+            }
+            army = {
+                large = "GFX_MRT_president_Felix_Aly"
+                small = "GFX_idea_GFX_MRT_president_Felix_Aly_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

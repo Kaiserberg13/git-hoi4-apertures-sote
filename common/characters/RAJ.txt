@@ -1,0 +1,40 @@
+characters={
+
+    RAJ_president_Kabir_Rattan={ 
+        name = "Kabir Rattan" 
+        portraits = {
+            civilian = {
+                large = "GFX_RAJ_president_Kabir_Rattan"
+            }
+            army = {
+                large = "GFX_RAJ_president_Kabir_Rattan"
+                small = "GFX_idea_GFX_RAJ_president_Kabir_Rattan_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+
+    RAJ_president_Rajani_Halder={ 
+        name = "Rajani Halder" 
+        portraits = {
+            civilian = {
+                large = "GFX_RAJ_president_Rajani_Halder"
+            }
+            army = {
+                large = "GFX_RAJ_president_Rajani_Halder"
+                small = "GFX_idea_GFX_RAJ_president_Rajani_Halder_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

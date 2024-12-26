@@ -1,0 +1,28 @@
+
+state={
+	id=594
+	name="STATE_594"
+
+	history={
+		owner = PRC
+		victory_points = {
+			7832 2 
+		}
+		victory_points = {
+			7848 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = PRC
+
+	}
+
+	provinces={
+		1588 1693 4592 7613 7832 7848 7897 10541 10675 10698 12548 12618 
+	}
+	manpower=5677073
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

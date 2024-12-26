@@ -1,0 +1,22 @@
+state={
+	id=1683
+	name="STATE_1683"
+	provinces={
+		16212 16254 16262 16264 16267 16276 17010 17013 17034 17036 17049 17061 17062 
+	}
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			16267 7
+		}
+		add_core_of = LBA
+
+	}
+	manpower=3891587
+	buildings_max_level_factor=1.000
+	state_category=town
+}

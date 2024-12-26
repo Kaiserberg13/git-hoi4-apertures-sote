@@ -1,0 +1,11 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = juggernaut_mesh
+		file = gfx/models/juggernaut.mesh	
+		scale = 0.1
+	}
+	
+}	
+	
+	

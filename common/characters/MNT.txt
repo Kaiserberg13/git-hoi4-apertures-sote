@@ -1,0 +1,21 @@
+characters={
+
+    MNT_president_Alexander_Ikonkev={ 
+        name = "Alexander Ikonkev" 
+        portraits = {
+            civilian = {
+                large = "GFX_MNT_president_Alexander_Ikonkev"
+            }
+            army = {
+                large = "GFX_MNT_president_Alexander_Ikonkev"
+                small = "GFX_idea_GFX_MNT_president_Alexander_Ikonkev_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

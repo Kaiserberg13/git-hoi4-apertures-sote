@@ -1,0 +1,31 @@
+state={
+	id=1174
+	name="STATE_1174"
+
+	history={
+		owner = TUR
+		victory_points = {
+			7454 1
+		}
+		victory_points = {
+			10403 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TUR
+		1953.3.7 = {
+			remove_claim_by = SOV
+
+		}
+
+	}
+
+	provinces={
+		7454 10403 10472 
+	}
+	manpower=396313
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

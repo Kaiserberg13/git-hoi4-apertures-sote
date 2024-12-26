@@ -1,0 +1,19 @@
+state={
+	id=1473
+	name="STATE_1473"
+	provinces={
+		2972 13064 16374 16379 16380 16388 16392 16399 16400 16410 16411 16413 16487 16488 16493 
+	}
+	history={
+		owner = YAK
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = YAK
+
+	}
+	manpower=5349617
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

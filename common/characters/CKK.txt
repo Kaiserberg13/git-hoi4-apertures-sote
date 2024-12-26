@@ -1,0 +1,21 @@
+characters={
+
+    CKK_president_Igor_Muhaev={ 
+        name = "Igor Muhaev" 
+        portraits = {
+            civilian = {
+                large = "GFX_CKK_president_Igor_Muhaev"
+            }
+            army = {
+                large = "GFX_CKK_president_Igor_Muhaev"
+                small = "GFX_idea_GFX_CKK_president_Igor_Muhaev_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

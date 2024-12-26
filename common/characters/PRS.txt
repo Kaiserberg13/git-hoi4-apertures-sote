@@ -1,0 +1,40 @@
+characters={
+
+    PRS_kaiser_Issac_Muller={ 
+        name = "Issac Muller" 
+        portraits = {
+            civilian = {
+                large = "GFX_PRS_kaiser_Issac_Muller"
+            }
+            army = {
+                large = "GFX_PRS_kaiser_Issac_Muller"
+                small = "GFX_idea_GFX_PRS_kaiser_Issac_Muller_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+
+    PRS_kaiser_Ronald_Mowrodi={ 
+        name = "Ronald Mowrodi" 
+        portraits = {
+            civilian = {
+                large = "GFX_PRS_kaiser_Ronald_Mowrodi"
+            }
+            army = {
+                large = "GFX_PRS_kaiser_Ronald_Mowrodi"
+                small = "GFX_idea_GFX_PRS_kaiser_Ronald_Mowrodi_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

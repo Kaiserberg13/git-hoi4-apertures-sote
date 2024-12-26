@@ -1,0 +1,21 @@
+characters={
+
+    FRA_president_Tristan_Bozonnet={ 
+        name = "Tristan Bozonnet" 
+        portraits = {
+            civilian = {
+                large = "GFX_FRA_president_Tristan_Bozonnet"
+            }
+            army = {
+                large = "GFX_FRA_president_Tristan_Bozonnet"
+                small = "GFX_idea_GFX_FRA_president_Tristan_Bozonnet_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

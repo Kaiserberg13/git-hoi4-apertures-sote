@@ -1,0 +1,28 @@
+
+state={
+	id=1059
+	name="STATE_1059"
+
+	history={
+		owner = NZL
+		victory_points = {
+			14303 1 
+		}
+		buildings = {
+			infrastructure = 1
+			14303 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		10564 14303 
+	}
+	manpower=141389
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=1215
+	name="STATE_1215"
+
+	history={
+		owner = CSA
+		victory_points = {
+			1719 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = CSA
+
+	}
+
+	provinces={
+		1719 1734 6767 6827 7896 12550 12588 13241 13242 13243 
+	}
+	manpower=1227489
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

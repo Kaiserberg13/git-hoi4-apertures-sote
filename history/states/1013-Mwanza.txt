@@ -1,0 +1,32 @@
+
+state={
+	id=1013
+	name="STATE_1013"
+
+	history={
+		owner = TZN
+		victory_points = {
+			10932 6 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = TZN
+		victory_points = {
+			14109 3
+		}
+		victory_points = {
+			15494 5
+		}
+
+	}
+
+	provinces={
+		5180 8144 10884 10932 11017 14102 14103 14105 14109 14110 14113 15441 15477 15494 15574 15575 
+	}
+	manpower=8954605
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

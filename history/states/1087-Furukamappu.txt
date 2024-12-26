@@ -1,0 +1,25 @@
+state={
+	id=1087
+	name="STATE_1087"
+
+	history={
+		set_demilitarized_zone = yes
+		owner = JAP
+		victory_points = {
+			13037 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = JAP
+
+	}
+
+	provinces={
+		13037 
+	}
+	manpower=156960
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

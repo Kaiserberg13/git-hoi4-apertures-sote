@@ -1,0 +1,33 @@
+
+state={
+	id=298
+	name="STATE_298"
+	resources={
+		chromium=2.000
+	}
+
+	history={
+		owner = TAN
+		victory_points = {
+			4680 3 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TAN
+		1945.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		1676 4680 7703 7731 7804 7819 10597 10627 10646 12610 12625 
+	}
+	manpower=5600099
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

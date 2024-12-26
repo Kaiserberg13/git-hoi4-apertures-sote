@@ -1,0 +1,35 @@
+
+state={
+	id=1372
+	name="STATE_1372"
+	provinces={
+		4579 7585 12386 14250 15475 15476 15482 15483 15493 15500 15501 15508 15509 15513 15514 15522 15526 15527 15534 15535 15541 15544 15545 15555 15556 15567 15573 15579 15595 15600 15607 15617 15623 15627 15633 15648 15649 15657 15666 15678 15681 16313 
+	}
+	history={
+		owner = OAS
+		victory_points = {
+			4579 7 
+		}
+		victory_points = {
+			15623 4
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			industrial_complex = 1
+			arms_factory = 1
+			4579 = {
+				naval_base = 1
+			}
+			15501 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = OAS
+
+	}
+	manpower=3475584
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

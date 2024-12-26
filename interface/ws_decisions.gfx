@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_ws_decisions_category_header_bg"
+		texturefile = "gfx/interface/decisionview/ws_category_header_bg.png"
+	}
+}

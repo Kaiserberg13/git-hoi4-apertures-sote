@@ -1,0 +1,39 @@
+
+state={
+	id=79
+	name="STATE_79"
+	resources={
+		aluminium=4.000
+		oil=3.000
+	}
+
+	history={
+		owner = ROM
+		victory_points = {
+			9606 3 
+		}
+		victory_points = {
+			11592 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = ROM
+		1946.1.1 = {
+			remove_claim_by = HUN
+
+		}
+
+	}
+
+	provinces={
+		646 662 9606 11592 11608 
+	}
+	manpower=1143872
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

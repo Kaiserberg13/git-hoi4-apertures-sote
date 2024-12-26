@@ -1,0 +1,28 @@
+
+state={
+	id=346
+	name="STATE_346"
+
+	history={
+		owner = USB
+		victory_points = {
+			10640 1 
+		}
+		victory_points = {
+			4723 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = USB
+
+	}
+
+	provinces={
+		1815 4610 4723 4794 4820 7688 7814 7888 10640 10711 12633 12561 12651 13196
+	}
+	manpower=4504671
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

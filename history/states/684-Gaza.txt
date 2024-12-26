@@ -1,0 +1,23 @@
+
+state={
+	id=684
+	name="STATE_684"
+
+	history={
+		owner = ENG
+		victory_points = {
+	        4088 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		4088
+	}
+	manpower=317589
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

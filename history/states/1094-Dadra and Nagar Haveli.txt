@@ -1,0 +1,30 @@
+state={
+	id=1094
+	name="STATE_1094"
+
+	history={
+		owner = POR
+		victory_points = {
+			14392 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		1950.1.1 = {
+
+		}
+		1956.1.1 = {
+			owner = RAJ
+
+		}
+
+	}
+
+	provinces={
+		14392 
+	}
+	manpower=289986
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

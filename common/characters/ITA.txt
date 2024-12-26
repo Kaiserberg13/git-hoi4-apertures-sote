@@ -1,0 +1,21 @@
+characters={
+
+    ITA_president_Alessio_Silvestre={ 
+        name = "Alessio Silvestre" 
+        portraits = {
+            civilian = {
+                large = "GFX_ITA_president_Alessio_Silvestre"
+            }
+            army = {
+                large = "GFX_ITA_president_Alessio_Silvestre"
+                small = "GFX_idea_GFX_ITA_president_Alessio_Silvestre_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

@@ -1,0 +1,21 @@
+characters={
+
+    LIB_president_Samson_Nkulu={ 
+        name = "Samson Nkulu" 
+        portraits = {
+            civilian = {
+                large = "GFX_LIB_president_Samson_Nkulu"
+            }
+            army = {
+                large = "GFX_LIB_president_Samson_Nkulu"
+                small = "GFX_idea_GFX_LIB_president_Samson_Nkulu_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

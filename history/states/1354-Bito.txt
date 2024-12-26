@@ -1,0 +1,32 @@
+state={
+	id=1354
+	name="STATE_1354"
+	provinces={
+		15557 15580 15589 15601 15625 15629 15630 
+	}
+	resources = {
+		steel = 1
+		oil = 1
+		tungsten = 1
+		chromium = 1
+		aluminium = 1
+		rubber = 1
+	}
+	history={
+		owner = OAS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			15557 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = OAS
+
+	}
+	manpower=1811000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

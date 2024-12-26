@@ -1,0 +1,39 @@
+
+state={
+	id=272
+	name="STATE_272"
+	resources={
+		rubber=11.000
+	}
+
+	history={
+		owner = OAS
+		victory_points = {
+			4401 9
+		}
+		victory_points = {
+			12232 3
+		}
+		victory_points = {
+			10232 2
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+			4401 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = OAS
+
+	}
+
+	provinces={
+		1396 1423 4401 7238 7347 10232 10261 12232 12288 
+	}
+	manpower=1299714
+	buildings_max_level_factor=1.000
+	state_category=town
+}

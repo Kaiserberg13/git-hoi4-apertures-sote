@@ -1,0 +1,21 @@
+state={
+	id=1528
+	name="STATE_1528"
+	provinces={
+		6190 9210 
+	}
+	history={
+		owner = RDR
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 3
+
+		}
+		add_core_of = RDR
+
+	}
+	manpower=210399
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

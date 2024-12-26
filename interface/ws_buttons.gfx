@@ -1,0 +1,47 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_ws_back_button"
+		texturefile = "gfx/interface/buttons/back_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ws_decisions_industry_button"
+		texturefile = "gfx/interface/buttons/decisions_industry_button.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ws_decisions_influence_button"
+		texturefile = "gfx/interface/buttons/decisions_influence_button.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ws_decisions_mobilization_button"
+		texturefile = "gfx/interface/buttons/decisions_mobilization_button.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ws_decisions_other_button"
+		texturefile = "gfx/interface/buttons/decisions_other_button.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ws_decisions_political_button"
+		texturefile = "gfx/interface/buttons/decisions_political_button.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ws_decisions_war_button"
+		texturefile = "gfx/interface/buttons/decisions_war_button.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ws_decisions_all_button"
+		texturefile = "gfx/interface/buttons/decisions_all_button.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_ws_decision_item_bg"
+		texturefile = "gfx/interface/buttons/decision_item_bg.png"
+		noOfFrames = 3
+	}
+}

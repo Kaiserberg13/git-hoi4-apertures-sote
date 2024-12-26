@@ -1,0 +1,27 @@
+state={
+	id=1177
+	name="STATE_1177"
+
+	history={
+		owner = CSA
+		victory_points = {
+			3834 5 
+		}
+		victory_points = {
+			10783 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = CSA
+
+	}
+
+	provinces={
+		3834 7920 10783 
+	}
+	manpower=158994
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=674
+	name="STATE_674"
+
+	history={
+		owner = LAT
+		victory_points = {
+			3254 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = POL
+		add_claim_by = LIT
+	}
+
+	provinces={
+		3254 12099 
+	}
+	manpower=197434
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

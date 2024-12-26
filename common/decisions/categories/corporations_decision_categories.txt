@@ -1,0 +1,8 @@
+camelia_influence = {
+	allowed = {
+		always = yes
+	}
+	visible = {
+		has_country_flag = filter_political_selected
+	}
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=708
+	name="STATE_708"
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SUD
+		add_claim_by = EGY
+
+	}
+
+	provinces={
+		7939 
+	}
+	manpower=471625
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

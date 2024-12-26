@@ -1,0 +1,24 @@
+state={
+	id=1226
+	name="STATE_1226"
+
+	history={
+		owner = ITA
+		victory_points = {
+			3923 1
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ITA
+
+	}
+
+	provinces={
+		3923 3966 
+	}
+	manpower=367349
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,20 @@
+state={
+	id=1459
+	name="STATE_1459"
+	provinces={
+		15023 16330 16331 16332 16333 
+	}
+	history={
+		owner = SEV
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = SEV
+
+	}
+
+	manpower=1238197
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

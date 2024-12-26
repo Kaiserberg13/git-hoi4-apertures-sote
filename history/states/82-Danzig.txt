@@ -1,0 +1,33 @@
+
+state={
+	id=82
+	name="STATE_82"
+
+	history={
+		owner = POL
+		victory_points = {
+			362 10 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			362 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = POL
+
+	}
+
+	provinces={
+		362 13265
+	}
+	manpower=281782
+	buildings_max_level_factor=1.000
+	state_category=city
+}

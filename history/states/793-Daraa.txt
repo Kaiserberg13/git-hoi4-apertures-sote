@@ -1,0 +1,24 @@
+state={
+	id=793
+	name="STATE_793"
+	
+	history={
+		owner = ISR
+		victory_points = {
+			1074 2
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_claim_by = ISR
+
+	}
+	
+	provinces={
+		1074 10907 
+	}
+	manpower=105410
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

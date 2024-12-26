@@ -1,0 +1,10 @@
+spriteTypes = {	
+	#AUS
+	#leaders
+	#advisors
+	spriteType = {
+	    name = "GFX_idea_AUS_portrait_advisor_Anna_Meyer"
+	    textureFile = "gfx/leaders/AUS/advisors/small/AUS_idea_portrait_advisor_Anna_Meyer.dds"
+	}
+
+}

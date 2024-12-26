@@ -1,0 +1,25 @@
+state={
+	id=869
+	name="STATE_869"
+	
+	history={
+		owner = SWI
+		victory_points = {
+			658 2
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SWI
+		add_claim_by = ITA
+
+	}
+	
+	provinces={
+		658 3660 3662 13367 
+	}
+	manpower=499546
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

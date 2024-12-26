@@ -1,0 +1,20 @@
+state={
+	id=1295
+	name="STATE_1295"
+	provinces={
+		265 3255 11358 
+	}
+	history={
+		owner = LAT
+		add_core_of = LAT
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+	manpower=129575
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=1.000
+}

@@ -1,0 +1,315 @@
+﻿division_template = {
+	name = "La Muraille"
+
+	division_names_group = FRA_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+		
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+
+		recon = { x = 1 y = 0 }
+		helicopter_support = { x = 1 y = 1 }
+		support_drones = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Vélites Modernes"
+
+	division_names_group = FRA_mot_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+
+		mechanized = { x = 3 y = 0 }
+		mechanized = { x = 3 y = 1 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+
+		light_tank_recon = { x = 1 y = 0 }
+		helicopter_support = { x = 1 y = 1 }
+		support_drones = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Chasseurs Alpins"
+
+	division_names_group = FRA_mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+
+		mountaineers = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Garde royale"
+
+	division_names_group = FRA_cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	
+	support = {
+		military_police = { x = 0 y = 0 }
+		support_drones = { x = 1 y = 0 }
+	}
+}
+
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "Victoire Éternelle"
+		location = 11465
+		division_template = "La Muraille"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "Aigle de Provence"
+		location = 9559
+		division_template = "La Muraille"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "Croix de Saint-Louis"
+		location = 11834
+		division_template = "La Muraille"
+		start_equipment_factor = 1.0
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "Fleur-de-Lys"
+		location = 9523
+		division_template = "La Muraille"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Gloire de la République"
+		location = 9737
+		division_template = "La Muraille"
+		start_equipment_factor = 0.76
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Éclats d’Or"
+		location = 3523
+		division_template = "La Muraille"
+		start_equipment_factor = 0.34
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Lances de la Patrie"
+		location = 620
+		division_template = "La Muraille"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Faucons de Champagne"
+		location = 6531
+		division_template = "La Muraille"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Légendes de Lorraine"
+		location = 6613
+		division_template = "La Muraille"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Tempête de l’Este"
+		location = 549
+		division_template = "Vélites Modernes"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Guerriers des Pyrénées"
+		location = 678
+		division_template = "Vélites Modernes"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Flammes de la Justice"
+		location = 6766
+		division_template = "Vélites Modernes"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Cavaliers de Minuit"
+		location = 9607
+		division_template = "Vélites Modernes"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Béliers d’Orléans"
+		location = 512
+		division_template = "Vélites Modernes"
+		start_equipment_factor = 0.68
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Flèches de la Liberté"
+		location = 9909
+		division_template = "Vélites Modernes"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.15
+	}
+
+	division = {
+		name = "Sabres d’Acier"
+		location = 6609
+		division_template = "Chasseurs Alpins"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Hurlements des Alpes"
+		location = 3764
+		division_template = "Chasseurs Alpins"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Griffes de Feu"
+		location = 9853
+		division_template = "Chasseurs Alpins"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Champs d’Honneur"
+		location = 743
+		division_template = "Chasseurs Alpins"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Garde royale"
+		location = 6529
+		division_template = "Garde royale"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.6
+	}
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "FRA"
+		}
+		requested_factories = 4
+		progress = 0.2
+		efficiency = 40
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_artillery_equipment_1
+			creator = "FRA"
+		}
+		requested_factories = 3
+		progress = 0.2
+		efficiency = 40
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_armor_equipment_0
+			creator = "FRA"
+		}
+		requested_factories = 5
+		progress = 0.5
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_2
+			creator = "FRA"
+		}
+		requested_factories = 3
+		progress = 0.5
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "FRA"
+			version_name = "Griffon"
+		}
+		requested_factories = 4
+		progress = 0.9
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "FRA"
+			version_name = "Panache"
+		}
+		requested_factories = 4
+		progress = 0.6
+		efficiency = 60
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "FRA"
+			version_name = "Trident"
+		}
+		requested_factories = 3
+		progress = 0.6
+		efficiency = 100
+	}
+}

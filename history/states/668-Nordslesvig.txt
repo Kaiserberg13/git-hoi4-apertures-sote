@@ -1,0 +1,24 @@
+
+state={
+	id=668
+	name="STATE_668"
+
+	history={
+		owner = DEN
+		victory_points = {
+			11251 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = DEN
+	}
+
+	provinces={
+		332 11251 
+	}
+	manpower=386726
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

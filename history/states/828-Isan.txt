@@ -1,0 +1,49 @@
+
+state={
+	id=828
+	name="STATE_828"
+
+	history={
+		owner = SIA
+		victory_points = {
+			12264 4 
+		}
+		victory_points = {
+			12360 2 
+		}
+		victory_points = {
+			7516 2 
+		}
+		buildings = {
+			infrastructure = 4
+			12264 = {
+				bunker = 1
+			}
+			7601 = {
+				bunker = 1
+			}
+			12417 = {
+				bunker = 1
+			}
+			1548 = {
+				bunker = 1
+			}
+			4511 = {
+				bunker = 1
+			}
+			7516 = {
+				bunker = 1
+			}
+
+		}
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		1357 1535 1548 4511 4582 7516 7601 10384 10425 10438 12195 12264 12360 12373 12388 12402 12417 12431 
+	}
+	manpower=2279208
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

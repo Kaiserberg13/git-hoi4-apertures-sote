@@ -1,0 +1,26 @@
+state={
+	id=1249
+	name="STATE_1249"
+
+	history={
+		owner = NOR
+		add_core_of = NOR
+		1940.5.10 = {
+			controller = GER
+
+		}
+		1946.1.1 = {
+			controller = NOR
+
+		}
+
+	}
+
+	provinces={
+		6204 
+	}
+	manpower=458550
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

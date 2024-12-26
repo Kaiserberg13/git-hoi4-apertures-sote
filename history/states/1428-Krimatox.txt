@@ -1,0 +1,19 @@
+state={
+	id=1428
+	name="STATE_1428"
+	provinces={
+		10908 14118 14122 14124 14127 14128 14130 14132 
+	}
+	history={
+		owner = UGA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = UGA
+
+	}
+	manpower=1681346
+	buildings_max_level_factor=1.000
+	state_category=town
+}

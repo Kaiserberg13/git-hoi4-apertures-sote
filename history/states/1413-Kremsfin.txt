@@ -1,0 +1,22 @@
+state={
+	id=1413
+	name="STATE_1413"
+	provinces={
+		7548 10025 12896 12945 14362 14438 14442 14445 15321 15335 15339 15358 15372 
+	}
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = COG
+		victory_points = {
+			10025 7
+		}
+
+	}
+	manpower=4782579
+	buildings_max_level_factor=1.000
+	state_category=town
+}

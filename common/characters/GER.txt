@@ -1,0 +1,40 @@
+characters={
+
+    GER_portrait_advisor_Clara_Vertag={ 
+        name = "advisor Clara Vertag" 
+        portraits = {
+            civilian = {
+                large = "GFX_GER_portrait_advisor_Clara_Vertag"
+            }
+            army = {
+                large = "GFX_GER_portrait_advisor_Clara_Vertag"
+                small = "GFX_idea_GFX_GER_portrait_advisor_Clara_Vertag_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+
+    GER_president_Felizia_Manteuffel={ 
+        name = "Felizia Manteuffel" 
+        portraits = {
+            civilian = {
+                large = "GFX_GER_president_Felizia_Manteuffel"
+            }
+            army = {
+                large = "GFX_GER_president_Felizia_Manteuffel"
+                small = "GFX_idea_GFX_GER_president_Felizia_Manteuffel_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

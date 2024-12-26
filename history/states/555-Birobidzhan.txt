@@ -1,0 +1,31 @@
+
+state={
+	id=555
+	name="STATE_555"
+	resources={
+		steel=18.000
+	}
+
+	history={
+		set_demilitarized_zone = yes
+		owner = JAP
+		add_core_of = PRC
+		add_core_of = FER
+		victory_points = {
+			7672 1
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		7672 10722 12678 14420 
+	}
+	manpower=373048
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

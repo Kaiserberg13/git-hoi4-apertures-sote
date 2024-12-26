@@ -1,0 +1,25 @@
+state={
+	id=1005
+	name="STATE_1005"
+
+	history={
+		owner = OAS
+		buildings = {
+			infrastructure = 0
+			14080 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = OAS
+
+	}
+
+	provinces={
+		14080 
+	}
+	manpower=484588
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=703
+	name="STATE_703"
+
+	history={
+		owner = ROM
+		victory_points = {
+			746 2 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ROM
+		1941.6.22 = {
+			owner = HUN
+
+		}
+		1945.1.1 = {
+			controller = ROM
+
+		}
+		1946.1.1 = {
+			owner = ROM
+			remove_claim_by = HUN
+
+		}
+
+	}
+
+	provinces={
+		727 746 9704 
+	}
+	manpower=379404
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

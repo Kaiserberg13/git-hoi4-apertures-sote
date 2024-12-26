@@ -1,0 +1,21 @@
+characters={
+
+    YAK_president_Simon_Krugachev={ 
+        name = "Simon Krugachev" 
+        portraits = {
+            civilian = {
+                large = "GFX_YAK_president_Simon_Krugachev"
+            }
+            army = {
+                large = "GFX_YAK_president_Simon_Krugachev"
+                small = "GFX_idea_GFX_YAK_president_Simon_Krugachev_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

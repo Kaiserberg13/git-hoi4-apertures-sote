@@ -1,0 +1,98 @@
+equipments = {
+
+	ws_motorized_equipment = {
+		year = 1936
+
+		is_archetype = yes
+		picture = archetype_ws_motorized_equipment		
+		is_buildable = no
+		type = {
+			#infantry #Removing inf type 
+			motorized
+		}
+		group_by = archetype
+		active = no
+		interface_category = interface_category_land
+		maximum_speed = 10
+		reliability = 0.6
+		breakthrough = 2	
+		hardness = 0.1
+
+		defense = 1		
+
+		breakthrough = 5
+		soft_attack = 12
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+
+		build_cost_ic = 2.8
+		resources = {
+			rubber = 1
+			steel = 1
+		}
+		
+		fuel_consumption = 1.2
+		supply_truck = yes
+	}
+
+	ws_motorized_equipment_0 = { # Introducing WW1 style trucks
+		year = 1936
+
+		archetype = ws_motorized_equipment
+		priority = 30
+		visual_level = 0
+
+	}
+
+	ws_motorized_equipment_1 = {
+		year = 1936
+
+		archetype = ws_motorized_equipment
+		parent = ws_motorized_equipment_0
+		priority = 30	
+		build_cost_ic = 2.75		
+		maximum_speed = 11
+		soft_attack = 14
+		reliability = 0.68
+		hardness = 0.15
+		breakthrough = 4
+		defense = 2
+		visual_level = 1
+	}
+	ws_motorized_equipment_2 = {
+		year = 1936
+
+		archetype = ws_motorized_equipment
+		parent = ws_motorized_equipment_1
+		priority = 30	
+		maximum_speed = 12	
+		reliability = 0.7	
+		hardness = 0.25
+		soft_attack = 15
+		breakthrough = 6
+		defense = 2
+		visual_level = 2
+	}
+	ws_motorized_equipment_3 = {
+		year = 1936
+
+		archetype = ws_motorized_equipment
+		parent = ws_motorized_equipment_2
+		priority = 30	
+		build_cost_ic = 2.8	
+		maximum_speed = 13	
+		reliability = 0.75
+		hardness = 0.35
+		breakthrough = 8
+		soft_attack = 16
+		defense = 4
+		resources = {
+			rubber = 1
+			steel = 1
+			aluminium = 2
+		}
+		visual_level = 3
+	}
+
+}

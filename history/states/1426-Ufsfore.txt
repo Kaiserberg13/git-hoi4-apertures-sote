@@ -1,0 +1,59 @@
+state={
+	id=1426
+	name="STATE_1426"
+	provinces={
+		1953 7996 10764 12719 14119 14180 15981 15996 15999 16000 
+	}
+	history={
+		owner = UGA
+		buildings = {
+			infrastructure = 1
+			15996 = {
+				bunker = 4
+			}
+			15999 = {
+				bunker = 4
+			}
+			12719 = {
+				bunker = 3
+			}
+			15981 = {
+				bunker = 2
+			}
+			14180 = {
+				bunker = 2
+			}
+			16000 = {
+				bunker = 3
+			}
+			1953 = {
+				bunker = 2
+			}
+			7996 = {
+				bunker = 3
+			}
+		}
+		add_core_of = UGA
+		add_claim_by = COG
+		victory_points = {
+			16000 9
+		}
+		victory_points = {
+			15981 4
+		}
+		victory_points = {
+			15999 3
+		}
+		
+		COG = {
+			set_province_controller = 14119
+			set_province_controller = 10764
+			set_province_controller = 15981
+		} 
+
+	}
+
+	manpower=614933
+	buildings_max_level_factor=1.000
+	state_category=town
+}

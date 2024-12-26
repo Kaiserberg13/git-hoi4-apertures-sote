@@ -1,0 +1,19 @@
+
+state={
+	id=291
+	name="STATE_291"
+
+	history={
+		owner = PRC
+		add_core_of = PRC
+
+	}
+
+	provinces={
+		2010 
+	}
+	manpower=469441
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

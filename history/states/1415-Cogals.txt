@@ -1,0 +1,22 @@
+state={
+	id=1415
+	name="STATE_1415"
+	provinces={
+		1731 2024 4128 7716 9986 10858 14439 14441 14443 14444 14446 14449 15432 15449 15459 15502 15510 15528 15536 15561 15568 15624 15634 
+	}
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = COG
+		victory_points = {
+			15536 5
+		}
+
+	}
+	manpower=7643964
+	buildings_max_level_factor=1.000
+	state_category=town
+}

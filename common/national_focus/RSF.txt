@@ -1,0 +1,15 @@
+focus_tree = {
+	id = RSF_start_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = RSF
+		}
+	}
+	
+	default = no
+
+}		

@@ -1,0 +1,21 @@
+characters={
+
+    GAB_president_Yao_Girma={ 
+        name = "Yao Girma" 
+        portraits = {
+            civilian = {
+                large = "GFX_GAB_president_Yao_Girma"
+            }
+            army = {
+                large = "GFX_GAB_president_Yao_Girma"
+                small = "GFX_idea_GFX_GAB_president_Yao_Girma_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

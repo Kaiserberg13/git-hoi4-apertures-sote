@@ -1,0 +1,26 @@
+
+state={
+	id=979
+	name="STATE_979"
+
+	history={
+		owner = LAT
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = LAT
+		add_core_of = LIT
+
+	}
+
+	provinces={
+		9274 13722 
+	}
+	manpower=264229
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

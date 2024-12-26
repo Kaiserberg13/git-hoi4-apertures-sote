@@ -1,0 +1,21 @@
+characters={
+
+    OMA_president_Rabah_Sharif={ 
+        name = "Rabah Sharif" 
+        portraits = {
+            civilian = {
+                large = "GFX_OMA_president_Rabah_Sharif"
+            }
+            army = {
+                large = "GFX_OMA_president_Rabah_Sharif"
+                small = "GFX_idea_GFX_OMA_president_Rabah_Sharif_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

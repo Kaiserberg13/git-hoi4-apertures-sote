@@ -1,0 +1,21 @@
+characters={
+
+    PRC_president_Wan_Huiqing={ 
+        name = "Wan Huiqing" 
+        portraits = {
+            civilian = {
+                large = "GFX_PRC_president_Wan_Huiqing"
+            }
+            army = {
+                large = "GFX_PRC_president_Wan_Huiqing"
+                small = "GFX_idea_GFX_PRC_president_Wan_Huiqing_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

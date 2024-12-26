@@ -1,0 +1,30 @@
+
+state={
+	id=1079
+	name="STATE_1079"
+
+	history={
+		owner = ANG
+		victory_points = {
+			14350 2 
+		}
+		buildings = {
+			infrastructure = 1
+			14350 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = ANG
+		add_claim_by = ZAM
+
+	}
+
+	provinces={
+		12391 12985 14349 14350 14351 
+	}
+	manpower=1529655
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

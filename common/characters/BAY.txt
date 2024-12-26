@@ -1,0 +1,21 @@
+characters={
+
+    BAY_president_Lera_Murnikova={ 
+        name = "Lera Murnikova" 
+        portraits = {
+            civilian = {
+                large = "GFX_BAY_president_Lera_Murnikova"
+            }
+            army = {
+                large = "GFX_BAY_president_Lera_Murnikova"
+                small = "GFX_idea_GFX_BAY_president_Lera_Murnikova_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

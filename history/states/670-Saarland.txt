@@ -1,0 +1,26 @@
+
+state={
+	id=670
+	name="STATE_670"
+
+	history={
+		owner = GER
+		victory_points = {
+			11531 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		11531 14694 14695 
+	}
+	manpower=243995
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

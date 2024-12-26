@@ -1,0 +1,2541 @@
+technologies = {
+	
+
+
+	basic_new_era_tech = {
+		
+		#Effect
+		local_resources_factor = 0.05
+		production_factory_max_efficiency_factor = 0.05
+
+
+		path = {
+			leads_to_tech = ws_nanotechnology
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_smart_cities
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_robotics_and_androids
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_automation
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = -1 y = 0 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+
+	ws_nanotechnology = {
+		
+		#Effect
+		research_speed_factor = 0.05
+		research_sharing_per_country_bonus_factor = 0.05
+		research_sharing_per_country_bonus = 0.05
+		production_speed_buildings_factor = 0.05
+		industrial_capacity_factory = 0.05
+		production_factory_max_efficiency_factor = 0.05
+
+		path = {
+			leads_to_tech = ws_nanotechnology2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = -1 y = 2 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_smart_cities = {
+		#Effect
+		consumer_goods_expected_value = -0.02
+		global_building_slots_factor = 0.15
+		industry_repair_factor = 0.1
+		supply_node_range = 0.015
+		mobilization_speed = 0.02
+		weekly_manpower = 5
+		
+		
+		path = {
+			leads_to_tech = ws_smart_cities2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_smart_industry
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_smart_cities2 = {
+		#Effect
+		production_speed_buildings_factor = 0.07
+		consumer_goods_expected_value = -0.02
+		global_building_slots_factor = 0.15
+		industry_repair_factor = 0.1
+		supply_node_range = 0.015
+		mobilization_speed = 0.02
+		weekly_manpower = 5
+
+		xor = {ws_smart_industry}
+		path = {
+			leads_to_tech = ws_smart_cities3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 1 y = 4 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_smart_cities3 = {
+		#Effect
+		global_building_slots_factor = 0.15
+		industry_repair_factor = 0.1
+		supply_node_range = 0.015
+		mobilization_speed = 0.02
+		weekly_manpower = 5
+		path = {
+			leads_to_tech = ws_smart_cities4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 1 y = 6 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_smart_cities4 = {
+		#Effect
+		production_speed_buildings_factor = 0.07
+		global_building_slots_factor = 0.15
+		industry_repair_factor = 0.1
+		supply_node_range = 0.015
+		mobilization_speed = 0.02
+		weekly_manpower = 5
+
+		path = {
+			leads_to_tech = ws_smart_cities5
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 1 y = 8 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_smart_cities5 = {
+		#Effect
+		global_building_slots_factor = 0.15
+		industry_repair_factor = 0.1
+		supply_node_range = 0.015
+		mobilization_speed = 0.02
+		weekly_manpower = 5
+
+		path = {
+			leads_to_tech = ws_smart_cities_to_industry
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 1 y = 10 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_smart_cities_to_industry = {
+		#Effect
+		production_speed_buildings_factor = 0.07
+		global_building_slots_factor = 0.15
+		industry_repair_factor = 0.1
+		supply_node_range = 0.015
+		mobilization_speed = 0.02
+		weekly_manpower = 5
+
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 1 y = 12 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	
+
+	ws_smart_industry = {
+		#Effect
+		global_building_slots_factor = 0.05
+		production_speed_buildings_factor = 0.05
+		production_speed_industrial_complex_factor = 0.01
+		industrial_capacity_dockyard = 0.02
+		industrial_capacity_factory = 0.02
+		production_oil_factor = 0.02
+		production_lack_of_resource_penalty_factor = -0.02
+		
+
+		xor = {ws_smart_cities2}
+		path = {
+			leads_to_tech = ws_smart_industry2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 3 y = 4 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+	ws_smart_industry2 = {
+		#Effect
+		global_building_slots_factor = 0.05
+		production_speed_buildings_factor = 0.05
+		production_speed_industrial_complex_factor = 0.01
+		industrial_capacity_dockyard = 0.02
+		industrial_capacity_factory = 0.02
+		production_oil_factor = 0.02
+		production_lack_of_resource_penalty_factor = -0.02
+
+		path = {
+			leads_to_tech = ws_smart_industry3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 3 y = 6 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+	ws_smart_industry3 = {
+		#Effect
+		global_building_slots_factor = 0.05
+		production_speed_buildings_factor = 0.1
+		production_speed_industrial_complex_factor = 0.01
+		industrial_capacity_dockyard = 0.02
+		industrial_capacity_factory = 0.02
+		production_oil_factor = 0.02
+		production_lack_of_resource_penalty_factor = -0.02
+		path = {
+			leads_to_tech = ws_smart_industry4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 3 y = 8 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_smart_industry4 = {
+		#Effect
+		global_building_slots_factor = 0.1
+		production_speed_buildings_factor = 0.1
+		production_speed_industrial_complex_factor = 0.01
+		industrial_capacity_dockyard = 0.02
+		industrial_capacity_factory = 0.02
+		production_oil_factor = 0.02
+		production_lack_of_resource_penalty_factor = -0.02
+		path = {
+			leads_to_tech = ws_smart_industry_to_cities
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 3 y = 10 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_smart_industry_to_cities = {
+		#Effect
+		global_building_slots_factor = 0.05
+		production_speed_buildings_factor = 0.1
+		production_speed_industrial_complex_factor = 0.01
+		industrial_capacity_dockyard = 0.02
+		industrial_capacity_factory = 0.02
+		production_oil_factor = 0.02
+		production_lack_of_resource_penalty_factor = -0.02
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 3 y = 12 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_nanotechnology2 = {
+		
+		#Effect
+		research_speed_factor = 0.05
+		research_sharing_per_country_bonus_factor = 0.05
+		research_sharing_per_country_bonus = 0.05
+		production_speed_buildings_factor = 0.05
+		industrial_capacity_factory = 0.05
+		production_factory_max_efficiency_factor = 0.05
+		path = {
+			leads_to_tech = ws_nanotechnology3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = -1 y = 4 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_nanotechnology3 = {
+		
+		#Effect
+		research_speed_factor = 0.05
+		research_sharing_per_country_bonus_factor = 0.05
+		research_sharing_per_country_bonus = 0.05
+		production_speed_buildings_factor = 0.05
+		industrial_capacity_factory = 0.05
+		production_factory_max_efficiency_factor = 0.05
+		path = {
+			leads_to_tech = ws_nanotechnology4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = -1 y = 6 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_nanotechnology4 = {
+		
+		#Effect
+		research_speed_factor = 0.05
+		research_sharing_per_country_bonus_factor = 0.05
+		research_sharing_per_country_bonus = 0.05
+		production_speed_buildings_factor = 0.05
+		industrial_capacity_factory = 0.05
+		production_factory_max_efficiency_factor = 0.05
+		path = {
+			leads_to_tech = ws_nanotechnology5
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = -1 y = 8 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_nanotechnology5 = {
+
+		#Effect
+		research_speed_factor = 0.05
+		research_sharing_per_country_bonus_factor = 0.05
+		research_sharing_per_country_bonus = 0.05
+		production_speed_buildings_factor = 0.05
+		industrial_capacity_factory = 0.05
+		production_factory_max_efficiency_factor = 0.05
+
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = -1 y = 10 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+
+	ws_robotics_and_androids = {
+		#Effect
+		monthly_population = 0.01
+		production_factory_efficiency_gain_factor = 0.03
+		production_factory_max_efficiency_factor = 0.04
+		production_factory_start_efficiency_factor = 0.04
+		line_change_production_efficiency_factor = 0.02
+		production_factory_efficiency_gain_factor = 0.05
+		research_speed_factor = 0.02
+		
+		
+		
+		path = {
+			leads_to_tech = ws_robotics_and_androids2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_space_industry
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 6 y = 2 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_robotics_and_androids2 = {
+		
+		#Effect
+		monthly_population = 0.01
+		production_factory_efficiency_gain_factor = 0.03
+		production_factory_max_efficiency_factor = 0.04
+		production_factory_start_efficiency_factor = 0.04
+		line_change_production_efficiency_factor = 0.02
+		production_factory_efficiency_gain_factor = 0.05
+		research_speed_factor = 0.02
+
+		path = {
+			leads_to_tech = ws_robotics_and_androids3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 5 y = 4 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_robotics_and_androids3 = {
+		#Effect
+		monthly_population = 0.01
+		production_factory_efficiency_gain_factor = 0.03
+		production_factory_max_efficiency_factor = 0.04
+		production_factory_start_efficiency_factor = 0.04
+		line_change_production_efficiency_factor = 0.02
+		production_factory_efficiency_gain_factor = 0.05
+		research_speed_factor = 0.02
+		
+		path = {
+			leads_to_tech = ws_robotics_and_androids4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 5 y = 6 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_robotics_and_androids4 = {
+		#Effect
+		monthly_population = 0.01
+		production_factory_efficiency_gain_factor = 0.03
+		production_factory_max_efficiency_factor = 0.04
+		production_factory_start_efficiency_factor = 0.04
+		line_change_production_efficiency_factor = 0.02
+		production_factory_efficiency_gain_factor = 0.05
+		research_speed_factor = 0.02
+		
+		path = {
+			leads_to_tech = ws_robotics_and_androids5
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 5 y = 8 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_robotics_and_androids5 = {
+		#Effect
+		research_speed_factor = 0.035
+		local_resources_factor = 0.05
+		army_attack_factor = 0.03
+		army_attack_speed_factor = 0.02
+		army_defence_factor = 0.03
+		
+		path = {
+			leads_to_tech = ws_robotics_and_androids6
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 5 y = 10 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+	ws_robotics_and_androids6 = {
+		#Effect
+		research_speed_factor = 0.035
+		local_resources_factor = 0.05
+		army_attack_factor = 0.03
+		army_attack_speed_factor = 0.02
+		army_defence_factor = 0.03
+		
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 5 y = 12 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+
+	ws_space_industry = {
+		#Effect
+		encryption_factor = 0.06
+		civilian_intel_decryption_bonus = 0.01
+		civilian_intel_to_others = -0.5
+		operation_cost = -0.02
+		operation_risk = 0.05
+
+		path = {
+			leads_to_tech = ws_space_industry2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_space_neotic_engine
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 7 y = 4 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_space_industry2 = {
+		#Effect
+		encryption_factor = 0.06
+		civilian_intel_decryption_bonus = 0.01
+		civilian_intel_to_others = -0.5
+		operation_cost = -0.02
+		operation_risk = 0.05
+		intel_from_combat_factor = 0.05
+		
+		path = {
+			leads_to_tech = ws_space_industry3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 7 y = 6 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_space_neotic_engine = {
+		#Effect
+		research_speed_factor = 0.05
+		production_factory_max_efficiency_factor = 0.03
+		production_factory_efficiency_gain_factor = 0.06
+		production_speed_buildings_factor = 0.03
+		army_speed_factor = 0.05
+		
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 9 y = 6 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_space_industry3 = {
+		#Effect
+		encryption_factor = 0.06
+		civilian_intel_decryption_bonus = 0.01
+		civilian_intel_to_others = -0.5
+		operation_cost = -0.02
+		operation_risk = 0.05
+		intel_from_combat_factor = 0.05
+		
+		path = {
+			leads_to_tech = ws_solar_energy_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_space_stations_expanded
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 7 y = 8 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_space_stations_expanded = {
+		#Effect
+		research_speed_factor = 0.04
+		
+		path = {
+			leads_to_tech = ws_big_space_stations
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 9 y = 10 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_big_space_stations = {
+		#Effect
+		research_speed_factor = 0.04
+		
+		path = {
+			leads_to_tech = ws_big_space_stations2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 9 y = 12 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_big_space_stations2 = {
+		#Effect
+		research_speed_factor = 0.04
+		
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 9 y = 14 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_solar_energy_tech = {
+		
+		
+		path = {
+			leads_to_tech = ws_solar_energy_tech2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 7 y = 10 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_solar_energy_tech2 = {
+		
+		
+
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 7 y = 12 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+
+	ws_automation = {
+		#Effect
+		production_factory_max_efficiency_factor = 0.05
+		production_factory_efficiency_gain_factor = 0.07
+		production_factory_start_efficiency_factor = 0.05
+		line_change_production_efficiency_factor = 0.05
+
+
+		path = {
+			leads_to_tech = ws_infarstucture
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_factories
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 11 y = 2 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_factories = {
+		production_speed_industrial_complex_factor = 0.03
+		production_speed_arms_factory_factor = 0.02
+		path = {
+			leads_to_tech = ws_factories2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_factories_building
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 13 y = 4 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_factories_building = {
+		
+		industrial_capacity_dockyard = 0.02
+		industrial_capacity_factory = 0.02
+		production_speed_industrial_complex_factor = 0.05
+
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 14 y = 4 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_factories3_building = {
+	
+		industrial_capacity_dockyard = 0.02
+		industrial_capacity_factory = 0.02
+		production_speed_industrial_complex_factor = 0.05
+
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 14 y = 6 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+	ws_factories2 = {
+		production_speed_industrial_complex_factor = 0.03
+		production_speed_arms_factory_factor = 0.02
+
+		path = {
+			leads_to_tech = ws_factories3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_factories3_building
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 13 y = 6 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_factories3 = {
+		production_speed_industrial_complex_factor = 0.03
+		production_speed_arms_factory_factor = 0.02
+
+		path = {
+			leads_to_tech = ws_factories4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 13 y = 8 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_factories4 = {
+		production_speed_industrial_complex_factor = 0.03
+		production_speed_arms_factory_factor = 0.02
+
+
+		path = {
+			leads_to_tech = ws_factories5
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 13 y = 10 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_factories5 = {
+		production_speed_industrial_complex_factor = 0.03
+		production_speed_arms_factory_factor = 0.02
+
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 13 y = 12 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_infarstucture = {
+		production_speed_infrastructure_factor = 0.05
+		path = {
+			leads_to_tech = ws_infarstucture2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 11 y = 4 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_infarstucture2 = {
+		production_speed_infrastructure_factor = 0.04
+
+		path = {
+			leads_to_tech = ws_infarstucture3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 11 y = 6 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_infarstucture3 = {
+		production_speed_infrastructure_factor = 0.03 
+		path = {
+			leads_to_tech = ws_infarstucture_bonus
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 11 y = 8 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_infarstucture_bonus = {
+		production_speed_infrastructure_factor = 0.05
+		
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 9 y = 8 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+
+	energy = {
+		
+		
+		path = {
+			leads_to_tech = ws_air_energy
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_null_energy
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = -1 y = 16 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_air_energy = {
+		
+		
+		path = {
+			leads_to_tech = ws_air_energy2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_air_energy3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_air_energy4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = -1 y = 18 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_air_energy2 = {
+		
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = -2 y = 18 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+	ws_air_energy3 = {
+		
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = -1 y = 19 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+	ws_air_energy4 = {
+		
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 0 y = 18 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_null_energy = {
+		path = {
+			leads_to_tech = ws_null_energy2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 2 y = 14 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_null_energy2 = {
+		path = {
+			leads_to_tech = ws_null_energy3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_solar_space_energy_station
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 4 y = 14 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_solar_space_energy_station = {
+
+		path = {
+			leads_to_tech = ws_solar_space_energy_station2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 4 y = 16 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_solar_space_energy_station2 = {
+
+
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 4 y = 18 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_null_energy3 = {
+
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 6 y = 14 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+
+	ws_weather_contol = {
+		#Effect
+		production_speed_buildings_factor = 0.04
+		navy_weather_penalty = -0.1
+		acclimatization_cold_climate_gain_factor = 0.08
+		acclimatization_hot_climate_gain_factor = 0.08
+
+		path = {
+			leads_to_tech = ws_weather_contol2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = -3 y = 12 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_weather_contol2 = {
+		#Effect
+		production_speed_buildings_factor = 0.04
+		navy_weather_penalty = -0.1
+		acclimatization_cold_climate_gain_factor = 0.08
+		acclimatization_hot_climate_gain_factor = 0.08
+		path = {
+			leads_to_tech = ws_weather_contol3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_resources_bonus
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = -3 y = 14 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_resources_bonus = {
+		#Effect
+		local_resources_factor = 0.12
+
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = -1 y = 14 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_weather_contol3 = {
+		#Effect
+		production_speed_buildings_factor = 0.04
+		navy_weather_penalty = -0.1
+		acclimatization_cold_climate_gain_factor = 0.08
+		acclimatization_hot_climate_gain_factor = 0.08
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = -3 y = 16 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+
+	ws_resources = {
+		
+		
+		path = {
+			leads_to_tech = ws_production_effort
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_resources_strip
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_buildings_speed_effort
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 19 y = 0 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_production_effort = {
+		#Effect
+		industrial_capacity_dockyard = 0.025
+		industrial_capacity_factory = 0.025
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_efficiency_gain_factor = 0.02
+		production_factory_max_efficiency_factor = 0.02
+		
+		path = {
+			leads_to_tech = ws_production_effort2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 16 y = 2 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_production_effort2 = {
+		#Effect
+		industrial_capacity_dockyard = 0.025
+		industrial_capacity_factory = 0.025
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_efficiency_gain_factor = 0.02
+		production_factory_max_efficiency_factor = 0.02
+		
+		path = {
+			leads_to_tech = ws_production_effort3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 16 y = 4 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_production_effort3 = {
+		#Effect
+		industrial_capacity_dockyard = 0.025
+		industrial_capacity_factory = 0.025
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_efficiency_gain_factor = 0.02
+		production_factory_max_efficiency_factor = 0.02
+		
+		path = {
+			leads_to_tech = ws_production_effort4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 16 y = 6 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_production_effort4 = {
+		#Effect
+		industrial_capacity_dockyard = 0.025
+		industrial_capacity_factory = 0.025
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_efficiency_gain_factor = 0.02
+		production_factory_max_efficiency_factor = 0.02
+		
+		path = {
+			leads_to_tech = ws_production_effort5
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_production_effort6
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 16 y = 8 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_production_effort5 = {
+		#Effect
+		industrial_capacity_dockyard = 0.025
+		industrial_capacity_factory = 0.025
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_efficiency_gain_factor = 0.02
+		production_factory_max_efficiency_factor = 0.02
+		
+		path = {
+			leads_to_tech = ws_production_effort5_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 15 y = 10 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_production_effort5_1 = {
+		#Effect
+		industrial_capacity_dockyard = 0.025
+		industrial_capacity_factory = 0.025
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_efficiency_gain_factor = 0.02
+		production_factory_max_efficiency_factor = 0.02
+
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 15 y = 12 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_production_effort6 = {
+		#Effect
+		industrial_capacity_dockyard = 0.025
+		industrial_capacity_factory = 0.025
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_efficiency_gain_factor = 0.02
+		production_factory_max_efficiency_factor = 0.02
+
+		path = {
+			leads_to_tech = ws_production_effort6_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 17 y = 10 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_production_effort6_1 = {
+		#Effect
+		industrial_capacity_dockyard = 0.025
+		industrial_capacity_factory = 0.025
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_efficiency_gain_factor = 0.02
+		production_factory_max_efficiency_factor = 0.02
+
+		path = {
+			leads_to_tech = ws_production_effort6_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 17 y = 12 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_production_effort6_2 = {
+		#Effect
+		industrial_capacity_dockyard = 0.025
+		industrial_capacity_factory = 0.025
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_efficiency_gain_factor = 0.02
+		production_factory_max_efficiency_factor = 0.02
+
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 17 y = 14 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+
+	ws_buildings_speed_effort = {
+		#Effect
+		production_cost_arms_factory_factor = -0.05
+		production_speed_industrial_complex_factor = 0.05
+		production_speed_buildings_factor = 0.07
+		
+		path = {
+			leads_to_tech = ws_buildings_speed_effort2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 18 y = 2 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_buildings_speed_effort2 = {
+		#Effect
+		production_speed_industrial_complex_factor = 0.02
+		production_speed_arms_factory_factor = 0.02
+		production_cost_infrastructure_factor = -0.05
+		production_speed_buildings_factor = 0.05
+		
+		path = {
+			leads_to_tech = ws_buildings_speed_effort3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 18 y = 4 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_buildings_speed_effort3 = {
+		#Effect
+		production_speed_infrastructure_factor = 0.02
+		production_speed_buildings_factor = 0.05
+		
+		path = {
+			leads_to_tech = ws_buildings_speed_effort4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 18 y = 6 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_buildings_speed_effort4 = {
+		#Effect
+		production_speed_infrastructure_factor = 0.02
+		production_speed_buildings_factor = 0.05
+		
+		path = {
+			leads_to_tech = ws_buildings_speed_effort5
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = ws_production_effort6
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 18 y = 8 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_buildings_speed_effort5 = {
+		#Effect
+		production_speed_buildings_factor = 0.1
+		
+		path = {
+			leads_to_tech = ws_buildings_speed_effort6
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 19 y = 10 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_buildings_speed_effort6 = {
+		#Effect
+		production_speed_buildings_factor = 0.1
+		
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 19 y = 12 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_resources_strip = {
+		local_resources_factor = 0.25
+		
+		path = {
+			leads_to_tech = ws_resources_strip2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 20 y = 2 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_resources_strip2 = {
+		local_resources_factor = 0.25
+		
+		path = {
+			leads_to_tech = ws_resources_strip3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ws_resource_extraction
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 20 y = 4 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_resources_strip3 = {
+		local_resources_factor = 0.25
+		
+		path = {
+			leads_to_tech = ws_resources_strip4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 20 y = 6 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_resources_strip4 = {
+		local_resources_factor = 0.25
+
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 20 y = 8 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_resource_extraction = {
+		local_resources_factor = 0.07
+		
+		path = {
+			leads_to_tech = ws_resource_extraction2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 22 y = 4 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_resource_extraction2 = {
+		local_resources_factor = 0.07
+		
+		path = {
+			leads_to_tech = ws_resource_extraction3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 22 y = 6 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_resource_extraction3 = {
+		local_resources_factor = 0.07
+		
+		path = {
+			leads_to_tech = ws_resource_extraction4
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 22 y = 8 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+
+	ws_resource_extraction4 = {
+		local_resources_factor = 0.07
+
+		research_cost = 1.0
+		start_year = 2971
+		folder = {
+			name = ws_industry_folder
+			position = { x = 22 y = 10 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 4
+				date > "2971.1.1"
+			}
+		}
+	}
+	
+}

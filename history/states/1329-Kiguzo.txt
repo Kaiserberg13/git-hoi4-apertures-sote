@@ -1,0 +1,30 @@
+
+state={
+	id=1329
+	name="STATE_1329"
+	provinces={
+		3616 15951 15953 15956 15958 15969 15973 15975 15977 15982 15984 15986 15989 15992 15993 15998 16002 16006 16010 16011 16013 
+	}
+	resources = {
+		steel = 4
+		oil = 1
+		tungsten = 1
+		chromium = 1
+		aluminium = 1
+		rubber = 1
+	}
+	history={
+		owner = OAS
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			industrial_complex = 2
+
+		}
+		add_core_of = OAS
+
+	}
+	manpower=6593194
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,23 @@
+state={
+	id=1104
+	name="STATE_1104"
+
+	history={
+		set_demilitarized_zone = yes
+		owner = JAP
+		add_core_of = PRC
+		add_core_of = FER
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		14428 14429 
+	}
+	manpower=454795
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

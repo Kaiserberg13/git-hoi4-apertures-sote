@@ -1,0 +1,32 @@
+
+state={
+	id=299
+	name="STATE_299"
+	resources={
+		steel=2.000
+		chromium=3.000
+	}
+
+	history={
+		owner = MON
+		victory_points = {
+			13929 10
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+
+		}
+		add_core_of = MON
+
+	}
+
+	provinces={
+		4732 4801 4862 7752 13918 13923 13926 13929 
+	}
+	manpower=1545276
+	buildings_max_level_factor=1.000
+	state_category=town
+}

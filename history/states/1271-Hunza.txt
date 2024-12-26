@@ -1,0 +1,29 @@
+state={
+	id=1271
+	name="STATE_1271"
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = RAJ
+		1950.1.1 = {
+			owner = PAK
+
+		}
+		1972.1.1 = {
+			remove_claim_by = PRC
+
+		}
+
+	}
+
+	provinces={
+		15190 
+	}
+	manpower=217333
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=190
+	name="STATE_190"
+	resources={
+		chromium=15.000
+	}
+
+	history={
+		owner = UKR
+		victory_points = {
+			3755 2 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = UKR
+
+	}
+
+	provinces={
+		568 721 737 767 3573 3755 6771 9712 11715 14488 
+	}
+	manpower=919848
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

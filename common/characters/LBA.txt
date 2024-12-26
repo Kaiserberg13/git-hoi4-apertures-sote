@@ -1,0 +1,21 @@
+characters={
+
+    LBA_president_Angela_Igwe={ 
+        name = "Angela Igwe" 
+        portraits = {
+            civilian = {
+                large = "GFX_LBA_president_Angela_Igwe"
+            }
+            army = {
+                large = "GFX_LBA_president_Angela_Igwe"
+                small = "GFX_idea_GFX_LBA_president_Angela_Igwe_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

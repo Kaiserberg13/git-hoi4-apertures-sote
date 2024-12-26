@@ -1,0 +1,25 @@
+state={
+	id=913
+	name="STATE_913"
+	
+	history={
+		owner = MAC
+		victory_points = {
+			13604 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = MAC
+		add_core_of = BUL
+
+	}
+	
+	provinces={
+		13604 
+	}
+	manpower=475637
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

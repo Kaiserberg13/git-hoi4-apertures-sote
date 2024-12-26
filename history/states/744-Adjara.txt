@@ -1,0 +1,31 @@
+state={
+	id=744
+	name="STATE_744"
+	
+	history={
+		owner = SOV
+		victory_points = {
+			3653 2
+		}
+		buildings = {
+			infrastructure = 1
+			3653 = {
+				naval_base = 2
+				coastal_bunker = 1
+
+			}
+
+		}
+		victory_points = {
+			3653 3 
+		}
+		add_core_of = SOV
+	}
+	
+	provinces={
+		3653 
+	}
+	manpower=163185
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

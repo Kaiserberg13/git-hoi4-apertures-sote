@@ -1,0 +1,35 @@
+state={
+	id=1374
+	name="STATE_1374"
+	provinces={
+		15323 
+	}
+	resources = {
+		oil = 12 
+		chromium = 9
+	}
+	history={
+		owner = JAP
+		victory_points = {
+			15323 14 
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 3
+			arms_factory = 1
+			dockyard = 1
+			15323 = {
+				naval_base = 5
+				bunker = 3
+			}
+
+		}
+		add_core_of = JAP
+		add_core_of = OAS
+		add_claim_by = AST
+
+	}
+	manpower=112707
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

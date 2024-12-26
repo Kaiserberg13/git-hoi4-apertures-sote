@@ -1,0 +1,30 @@
+
+state={
+	id=622
+	name="STATE_622"
+
+	history={
+		owner = SIA
+		victory_points = {
+			7965 3 
+		}
+		victory_points = {
+			15124 2 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SIA
+		add_claim_by = PRC
+
+	}
+
+	provinces={
+		5009 10413 10863 15124 
+	}
+	manpower=124398
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,21 @@
+characters={
+
+    OHO_president_Cristoph_Seattle={ 
+        name = "Cristoph Seattle" 
+        portraits = {
+            civilian = {
+                large = "GFX_OHO_president_Cristoph_Seattle"
+            }
+            army = {
+                large = "GFX_OHO_president_Cristoph_Seattle"
+                small = "GFX_idea_GFX_OHO_president_Cristoph_Seattle_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

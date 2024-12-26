@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_AUS_idea_national_burn"
+		texturefile = "gfx/interface/ideas/AUS/AUS_idea_national_burn.dds"
+	}
+}

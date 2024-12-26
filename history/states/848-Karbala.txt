@@ -1,0 +1,24 @@
+state={
+	id=848
+	name="STATE_848"
+	
+	history={
+		owner = IRQ
+		victory_points = {
+			13321 2
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = IRQ
+
+	}
+	
+	provinces={
+		13321 
+	}
+	manpower=158476
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

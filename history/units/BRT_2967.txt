@@ -1,0 +1,208 @@
+﻿division_template = {
+	name = "La Muraille"
+
+	division_names_group = BRT_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+
+		recon = { x = 1 y = 0 }
+		helicopter_support = { x = 1 y = 1 }
+		support_drones = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Vélites Modernes"
+
+	division_names_group = BRT_mot_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+
+		mechanized = { x = 3 y = 0 }
+		mechanized = { x = 3 y = 1 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+
+		light_tank_recon = { x = 1 y = 0 }
+		helicopter_support = { x = 1 y = 1 }
+		support_drones = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Chasseurs Alpins"
+
+	division_names_group = BRT_mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+
+		mountaineers = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Garde royale"
+
+	division_names_group = BRT_cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	
+	support = {
+		military_police = { x = 0 y = 0 }
+		support_drones = { x = 1 y = 0 }
+	}
+}
+
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "Cavaliers de Dunkerque"
+		location = 9495
+		division_template = "Garde royale"
+		start_equipment_factor = 0.9
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "Loups de Picardie"
+		location = 3552
+		division_template = "Garde royale"
+		start_equipment_factor = 0.9
+		start_experience_factor = 1.0
+	}
+
+	division = {
+		name = "Éperons d’Acier"
+		location = 527
+		division_template = "La Muraille"
+		start_equipment_factor = 0.9
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "Fleuve de Feu"
+		location = 11508
+		division_template = "La Muraille"
+		start_equipment_factor = 0.9
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "Esprits de Liberté"
+		location = 9510
+		division_template = "La Muraille"
+		start_equipment_factor = 0.9
+		start_experience_factor = 1.0
+	}
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "BRT"
+		}
+		requested_factories = 4
+		progress = 0.2
+		efficiency = 40
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_artillery_equipment_1
+			creator = "BRT"
+		}
+		requested_factories = 3
+		progress = 0.2
+		efficiency = 40
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_armor_equipment_0
+			creator = "BRT"
+		}
+		requested_factories = 5
+		progress = 0.5
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_2
+			creator = "BRT"
+		}
+		requested_factories = 3
+		progress = 0.5
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "BRT"
+			version_name = "Griffon"
+		}
+		requested_factories = 4
+		progress = 0.9
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "BRT"
+			version_name = "Panache"
+		}
+		requested_factories = 4
+		progress = 0.6
+		efficiency = 60
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "BRT"
+			version_name = "Trident"
+		}
+		requested_factories = 3
+		progress = 0.6
+		efficiency = 100
+	}
+}

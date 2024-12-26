@@ -1,0 +1,31 @@
+
+state={
+	id=106
+	name="STATE_106"
+	resources={
+		oil=9.000
+	}
+
+	history={
+		owner = CRO
+		victory_points = {
+			11581 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = CRO
+
+	}
+
+	provinces={
+		624 9611 11581 11594 
+	}
+	manpower=442708
+	buildings_max_level_factor=1.000
+	state_category=megapolis
+	local_supplies=0.000
+}

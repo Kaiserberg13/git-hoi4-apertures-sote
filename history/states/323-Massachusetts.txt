@@ -1,0 +1,37 @@
+
+state={
+	id=323
+	name="STATE_323"
+	resources={
+		steel=16.000
+	}
+
+	history={
+		owner = USB
+		victory_points = {
+			6732 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+			air_base = 8
+			6732 = {
+				naval_base = 8
+
+			}
+
+		}
+		add_core_of = USB
+		add_core_of = USA
+
+	}
+
+	provinces={
+		715 718 905 908 3710 3906 6732 
+	}
+	manpower=1178370
+	buildings_max_level_factor=1.000
+	state_category=city
+}

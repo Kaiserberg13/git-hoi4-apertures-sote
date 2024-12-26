@@ -1,0 +1,25 @@
+
+state={
+	id=652
+	name="STATE_652"
+
+	history={
+		owner = USB
+		victory_points = {
+			7629 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = USB
+	}
+
+	provinces={
+		4445 7629 9675 13158 
+	}
+	manpower=487955
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

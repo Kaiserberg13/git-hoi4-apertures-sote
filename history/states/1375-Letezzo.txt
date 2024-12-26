@@ -1,0 +1,35 @@
+state={
+	id=1375
+	name="STATE_1375"
+	provinces={
+		1222 1242 1283 1310 1389 2129 4393 4635 5135 7365 7614 10147 10251 10423 10954 11004 11018 12107 12123 12154 12193 12237 12240 12400 12428 12484 12931 
+	}
+	resources = {
+		oil = 31
+		steel = 2
+		tungsten = 41
+	}
+	history={
+		owner = OAS
+		victory_points = {
+			7365 5 
+		}
+		victory_points = {
+			12400 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+			12400 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = OAS
+
+	}
+	manpower=7117188
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,23 @@
+state={
+	id=1555
+	name="STATE_1555"
+	provinces={
+		16516 16520 16525 16526 16532 16533 16541 16546 16549 16554 16562 16569 
+	}
+	history={
+		owner = OMA
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			16533 3
+		}
+		add_core_of = OMA
+	
+	}
+	
+	manpower=6051261
+	buildings_max_level_factor=1.000
+	state_category=town
+}

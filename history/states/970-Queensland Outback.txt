@@ -1,0 +1,17 @@
+state={
+	id=970
+	name="STATE_970"
+	
+	history={
+		owner = AST
+		add_core_of = AST
+	}
+	
+	provinces={
+		10336 
+	}
+	manpower=217832
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=629
+	name="STATE_629"
+
+	history={
+		owner = PRC
+		victory_points = {
+			10490 2
+		}
+		victory_points = {
+			12815 1
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = PRC
+
+	}
+
+	provinces={
+		1882 2053 4536 4888 7270 10490 10817 11448 12732 12815 13146 14797 14802 
+	}
+	manpower=2639026
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

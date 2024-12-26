@@ -1,0 +1,24 @@
+monthly_unit_quality = {							#### monthly change of unit quality
+	color_type = good
+	value_type = percentage
+	precision = 2
+	postfix = none
+}
+unit_quality_target = {								#### target for unit quality
+	color_type = good
+	value_type = percentage
+	precision = 2
+	postfix = none
+}
+monthly_money = {							#### monthly change of money
+	color_type = good
+	value_type = percentage
+	precision = 2
+	postfix = none
+}
+money_target = {								#### target for money
+	color_type = good
+	value_type = percentage
+	precision = 2
+	postfix = none
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=1126
+	name="STATE_1126"
+
+	history={
+		owner = POL
+		victory_points = {
+			11274 1 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = POL
+
+	}
+
+	provinces={
+		11274 11329 13594 14591 
+	}
+	manpower=257890
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

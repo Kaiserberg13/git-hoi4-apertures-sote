@@ -1,0 +1,36 @@
+state={
+	id=1321
+	name="STATE_1321"
+	provinces={
+		7368 7440 10194 10294 12415 
+	}
+	resources = {
+		tungsten = 11
+		chromium = 14
+		aluminium = 27
+		rubber = 19
+	}
+	history={
+		owner = OAS
+		victory_points = {
+			10194 10 
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			industrial_complex = 4
+			arms_factory = 1
+			dockyard = 1
+			10194 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = OAS
+
+	}
+	manpower=2902128
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

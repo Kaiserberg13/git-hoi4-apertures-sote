@@ -1,0 +1,21 @@
+characters={
+
+    SAF_president_Mongrad_Kinograff={ 
+        name = "Mongrad Kinograff" 
+        portraits = {
+            civilian = {
+                large = "GFX_SAF_president_Mongrad_Kinograff"
+            }
+            army = {
+                large = "GFX_SAF_president_Mongrad_Kinograff"
+                small = "GFX_idea_GFX_SAF_president_Mongrad_Kinograff_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

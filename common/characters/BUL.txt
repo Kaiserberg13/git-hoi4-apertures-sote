@@ -1,0 +1,21 @@
+characters={
+
+    BUL_president_Anton_Ognena={ 
+        name = "Anton Ognena" 
+        portraits = {
+            civilian = {
+                large = "GFX_BUL_president_Anton_Ognena"
+            }
+            army = {
+                large = "GFX_BUL_president_Anton_Ognena"
+                small = "GFX_idea_GFX_BUL_president_Anton_Ognena_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

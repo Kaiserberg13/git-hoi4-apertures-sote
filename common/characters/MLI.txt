@@ -1,0 +1,21 @@
+characters={
+
+    MLI_president_Abdi_Nwankwo={ 
+        name = "Abdi Nwankwo" 
+        portraits = {
+            civilian = {
+                large = "GFX_MLI_president_Abdi_Nwankwo"
+            }
+            army = {
+                large = "GFX_MLI_president_Abdi_Nwankwo"
+                small = "GFX_idea_GFX_MLI_president_Abdi_Nwankwo_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

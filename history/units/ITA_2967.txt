@@ -1,0 +1,231 @@
+﻿division_template = {
+	name = "Divisione da combattimento standard"
+
+	division_names_group = ITA_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Divisione motorizzata"
+
+	division_names_group = ITA_mot_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+
+		light_armor = { x = 3 y = 0 }
+
+
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+
+		light_tank_recon = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Divisione cisterne motorizzate"
+
+	division_names_group = ITA_pnz_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+		light_armor = { x = 2 y = 2 }
+
+
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Divisione Montagna"
+
+	division_names_group = ITA_mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+
+	}
+	
+	support = {
+	}
+}
+
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "1. Divisione Difesa Nazionale"
+		location = 6631
+		division_template = "Divisione da combattimento standard"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Divisione Difesa Nazionale"
+		location = 656
+		division_template = "Divisione da combattimento standard"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.35
+	}
+	division = {
+		name = "3. Divisione Difesa Nazionale"
+		location = 628
+		division_template = "Divisione da combattimento standard"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4. Divisione Difesa Nazionale"
+		location = 628
+		division_template = "Divisione da combattimento standard"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "5. Divisione Difesa Nazionale"
+		location = 11891
+		division_template = "Divisione da combattimento standard"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1. Divisione Motorizzata del Gruppo Sud"
+		location = 6606
+		division_template = "Divisione motorizzata"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Divisione Motorizzata del Gruppo Sud"
+		location = 9904
+		division_template = "Divisione motorizzata"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.0
+	}
+	division = {
+		name = "3. Divisione Motorizzata del Gruppo Sud"
+		location = 10074
+		division_template = "Divisione motorizzata"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.0
+	}
+	division = {
+		name = "3. Divisione Motorizzata del Gruppo Sud"
+		location = 10074
+		division_template = "Divisione motorizzata"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "4. Divisione Motorizzata del Gruppo Sud"
+		location = 6946
+		division_template = "Divisione cisterne motorizzate"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.0
+	}
+
+	division = {
+		name = "1. Divisione Montagna"
+		location = 11570
+		division_template = "Divisione Montagna"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+	}
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "ITA"
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ITA"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_armor_equipment_0
+			creator = "ITA"
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_motorized_equipment_0
+			creator = "ITA"
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "ITA"
+			version_name = "LO-3-31"
+		}
+		requested_factories = 1
+		progress = 0.6
+		efficiency = 100
+	}
+}

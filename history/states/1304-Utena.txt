@@ -1,0 +1,28 @@
+state={
+	id=1304
+	name="STATE_1304"
+	provinces={
+		9246 11226 11498 
+	}
+	history={
+		owner = LAT
+		add_core_of = LAT
+		add_core_of = LIT
+		victory_points = {
+			9246 2
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			9317 = {
+				naval_base = 1
+			}
+
+		}
+
+	}
+	manpower=155685
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=1.000
+}

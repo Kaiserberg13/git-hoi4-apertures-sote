@@ -1,0 +1,127 @@
+capital = 1306
+
+set_oob = "AUS_2967" 
+
+add_ideas = {
+    AUS_idea_national_burn
+}
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1933.3.5"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    fascism = 20
+    darwinism = 10
+    democratic = 45
+    globalism = 15
+    communism = 10
+}
+
+set_variable = { CorporationCamelia = 54 }
+set_variable = { CorporationArtsotzka = 30 }
+set_variable = { CorporationRotatosk = 4 }
+set_variable = { CorporationZaphkiel = 9 }
+set_variable = { CorporationEquonics = 1 }
+set_variable = { CorporationOthers = 1 }
+set_variable = { CorporationSelf = 1 }
+
+recruit_character = AUS_president_Robert_Zioph
+
+recruit_character = AUS_Ferdinand_Wilhelm_von_Habsburg
+
+recruit_character = AUS_kaiser_Ferdinand_Wilhelm_von_Habsburg
+
+recruit_character = AUS_king_Otto_Friedrich_von_Osterreich
+
+recruit_character = AUS_portrait_advisor_Anna_Meyer
+
+recruit_character = AUS_portrait_advisor_Clara_Albrecht
+
+recruit_character = AUS_portrait_advisor_Emil_Richter
+
+recruit_character = AUS_portrait_advisor_Erik_Schuster
+
+recruit_character = AUS_portrait_advisor_Hans_Schmidt
+
+recruit_character = AUS_portrait_advisor_Julia_Neumann
+
+recruit_character = AUS_portrait_advisor_Karl_Bauer
+
+recruit_character = AUS_portrait_advisor_Max_Hoffmann
+
+recruit_character = AUS_portrait_advisor_Nora_Koenig
+
+recruit_character = AUS_portrait_advisor_Otto_Stein
+
+recruit_character = AUS_portrait_advisor_Paul_Weber
+
+recruit_character = AUS_portrait_Austrien_Waffen_SS_Adelheid_Sommerfeld
+
+recruit_character = AUS_portrait_Austrien_Waffen_SS_Johann_Falkenstein
+
+recruit_character = AUS_portrait_Emil_Braun
+
+recruit_character = AUS_portrait_Fridrih_Hermann
+
+recruit_character = AUS_portrait_Karl_Friedrich_Stahl
+
+recruit_character = AUS_portrait_Katarina_Loewenstein
+
+recruit_character = AUS_portrait_Leo_Stein
+
+recruit_character = AUS_portrait_Lukas_Schneider
+
+recruit_character = AUS_portrait_Maks_Muller
+
+recruit_character = AUS_portrait_Martin_Fischer
+
+recruit_character = AUS_portrait_Oskar_Hartmann
+
+recruit_character = AUS_portrait_Tomas_Beckery
+
+
+set_technology = {
+    ws_engineer_company = 1
+    ws_recon_company = 1
+    ws_logistics_company = 1
+    ws_military_police = 1
+    maintenance_company = 1
+    helicopter_technology = 1
+    drones_technology = 1
+    infantry_armor = 1
+    energy_weapons = 1
+    special_forces = 1
+    marines = 1
+    mountaineers = 1
+    common_support = 1
+    ws_modern_support = 1
+    ws_support_drones = 1
+    ws_common_train = 1
+    ws_basic_chassis = 1
+    gw_artillery = 1
+    ws_modern_anti_air = 1
+    ws_basic_electromics = 1
+    basic_new_era_tech = 1
+    ws_cyberimplants = 1
+    ws_armored_car = 1
+    ws_armored_car_3 = 1
+}
+
+if = {
+    limit = {
+        has_dlc = "No Step Back"
+    }
+    create_equipment_variant = {
+         name = "Eisendrache"
+         type = ws_light_tank_equipment_0
+         modules = {
+             tank_modules_gun_slot = tank_gun_two
+             tank_modules_movement_slot = tank_movement_chassis
+             tank_modules_armor_slot = tank_armor_default
+         }
+         icon = "GFX_ENG_improved_light_tank_medium"
+    }
+}

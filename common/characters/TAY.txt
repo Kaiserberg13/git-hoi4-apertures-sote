@@ -1,0 +1,21 @@
+characters={
+
+    TAY_president_Timofei_Bashmakov={ 
+        name = "Timofei Bashmakov" 
+        portraits = {
+            civilian = {
+                large = "GFX_TAY_president_Timofei_Bashmakov"
+            }
+            army = {
+                large = "GFX_TAY_president_Timofei_Bashmakov"
+                small = "GFX_idea_GFX_TAY_president_Timofei_Bashmakov_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

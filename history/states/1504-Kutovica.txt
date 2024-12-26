@@ -1,0 +1,23 @@
+state={
+	id=1504
+	name="STATE_1504"
+	provinces={
+		315 371 11229 11298 11325 
+	}
+	history={
+		owner = BLR
+		victory_points = {
+			11271 3
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = BLR
+		add_core_of = SOV
+
+	}
+	manpower=871588
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

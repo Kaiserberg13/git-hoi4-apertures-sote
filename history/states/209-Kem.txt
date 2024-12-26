@@ -1,0 +1,28 @@
+
+state={
+	id=209
+	name="STATE_209"
+	resources={
+		steel=30.000
+	}
+
+	history={
+		owner = RDR
+		victory_points = {
+			155 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = RDR
+
+	}
+
+	provinces={
+		86 94 155 170 176 3008 3189 6021 6029 9195 11045 11175 
+	}
+	manpower=5593885
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

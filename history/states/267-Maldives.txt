@@ -1,0 +1,28 @@
+
+state={
+	id=267
+	name="STATE_267"
+
+	history={
+		owner = ENG
+		victory_points = {
+			13510 2
+		}
+		buildings = {
+			infrastructure = 1
+			4967 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4967 13508 13509 13510 
+	}
+	manpower=483824
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

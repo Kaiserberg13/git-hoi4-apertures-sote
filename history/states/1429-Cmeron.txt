@@ -1,0 +1,22 @@
+state={
+	id=1429
+	name="STATE_1429"
+	provinces={
+		1974 3165 5084 11108 13741 13822 13823 13825 13828 13829 13831 13835 13836 13838 13840 13841 
+	}
+	history={
+		owner = CAR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CAR
+		victory_points = {
+			1974 5
+		}
+
+	}
+	manpower=7308244
+	buildings_max_level_factor=1.000
+	state_category=town
+}

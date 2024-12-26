@@ -1,0 +1,21 @@
+characters={
+
+    PRU_president_Puerto_Macron={ 
+        name = "Puerto Macron" 
+        portraits = {
+            civilian = {
+                large = "GFX_PRU_president_Puerto_Macron"
+            }
+            army = {
+                large = "GFX_PRU_president_Puerto_Macron"
+                small = "GFX_idea_GFX_PRU_president_Puerto_Macron_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

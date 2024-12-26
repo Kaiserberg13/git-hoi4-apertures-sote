@@ -1,0 +1,197 @@
+﻿division_template = {
+	name = "Arca de Acél"
+
+	division_names_group = ROM_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+
+		turret = { x = 1 y = 0 }
+		support_drones = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Rendőrség"
+
+	division_names_group = ROM_mil_01
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+
+	}
+	
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Vulturii Pannonici"
+
+	division_names_group = ROM_mot_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		light_tank_recon = { x = 1 y = 0 }
+	}
+}
+
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "1. Forţă Apărare Teritorială"
+		location = 6761
+		division_template = "Arca de Acél"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2. Forţă Apărare Teritorială"
+		location = 6727
+		division_template = "Arca de Acél"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3. Forţă Apărare Teritorială"
+		location = 11705
+		division_template = "Arca de Acél"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4. Forţă Apărare Teritorială"
+		location = 9704
+		division_template = "Arca de Acél"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5. Divizia Motoinfanterie Erdély"
+		location = 9716
+		division_template = "Vulturii Pannonici"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "6. Divizia Lupii Pannonici"
+		location = 9617
+		division_template = "Vulturii Pannonici"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "7. Legiunea Cavalerilor Pusta"
+		location = 6652
+		division_template = "Vulturii Pannonici"
+		start_equipment_factor = 1.0
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "8. Brigada Furtună Dunăreană"
+		location = 9635
+		division_template = "Vulturii Pannonici"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "9. Rendőrség"
+		location = 6600
+		division_template = "Vulturii Pannonici"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+	}
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "ROM"
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_artillery_equipment_1
+			creator = "ROM"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_motorized_equipment_0
+			creator = "ROM"
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_armor_equipment_0
+			creator = "ROM"
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_2
+			creator = "ROM"
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "ROM"
+			version_name = "Flamma Ardealului"
+		}
+		requested_factories = 1
+		progress = 0.9
+		efficiency = 100
+	}
+}

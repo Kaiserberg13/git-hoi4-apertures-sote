@@ -1,0 +1,29 @@
+
+state={
+	id=603
+	name="STATE_603"
+
+	history={
+		owner = JAP
+		victory_points = {
+			7290 1
+		}
+		buildings = {
+			infrastructure = 1
+			7290 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = JAP
+
+	}
+
+	provinces={
+		7290 
+	}
+	manpower=102117
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

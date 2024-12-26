@@ -1,0 +1,85 @@
+capital = 123
+set_politics = {
+    ruling_party = democratic
+    last_election = "1933.3.5"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    fascism = 0
+    darwinism = 0
+    democratic = 100
+    globalism = 0
+    communism = 0
+}
+
+recruit_character = ENG_president_Arthur_Winslow
+
+recruit_character = ENG_british_council
+
+recruit_character = ENG_king_BRS_Sebastian_Graves
+
+recruit_character = ENG_king_dictator_Samuel_Knight
+
+recruit_character = ENG_king_president_Zestial_Morgan
+
+recruit_character = ENG_king_Roosvel_The_Britania_old
+
+recruit_character = ENG_king_Roosvel_The_Britania_young
+
+recruit_character = ENG_portrait_advisor_BRS_Emily_Moolain
+
+recruit_character = ENG_portrait_army_advisors_Scott_Millow
+
+recruit_character = ENG_portrait_army_Christine_Lomange
+
+recruit_character = ENG_portrait_army_MAD_German_Sugerioir
+
+recruit_character = ENG_portrait_army_SCO_Oswald_Moreday
+
+recruit_character = ENG_portrait_BRS_Chloe_Benson
+
+recruit_character = ENG_portrait_BRS_Samuel_Brooks
+
+recruit_character = ENG_portrait_BRS_Sulman_Rozgh
+
+recruit_character = ENG_portrait_BRS_Walter_Hill
+
+recruit_character = ENG_portrait_BRS_William_Afton
+
+recruit_character = ENG_portrait_Erwin_Mouel
+
+recruit_character = ENG_portrait_Joseph_Scarlett_Lawson
+
+recruit_character = ENG_portrait_Nicolas_Brown
+
+
+
+
+
+set_technology = {
+    ws_engineer_company = 1
+    ws_recon_company = 1
+    ws_logistics_company = 1
+    ws_military_police = 1
+    maintenance_company = 1
+    helicopter_technology = 1
+    drones_technology = 1
+    infantry_armor = 1
+    energy_weapons = 1
+    special_forces = 1
+    marines = 1
+    mountaineers = 1
+    common_support = 1
+    ws_modern_support = 1
+    ws_support_drones = 1
+    ws_common_train = 1
+    ws_basic_chassis = 1
+    gw_artillery = 1
+    ws_modern_anti_air = 1
+    ws_basic_electromics = 1
+    basic_new_era_tech = 1
+    ws_cyberimplants = 1
+    ws_armored_car = 1
+    ws_armored_car_3 = 1
+}

@@ -1,0 +1,169 @@
+﻿division_template = {
+	name = "Пехотна дивизия"
+
+	division_names_group = SER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
+		artillery_brigade = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+		irregular_infantry = { x = 1 y = 2 }
+
+
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+
+		turret = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Горская Пехотна дивизия"
+
+	division_names_group = SER_mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+
+
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Танкая дивизия"
+
+	division_names_group = SER_pnz_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+
+		mot_artillery_brigade = { x = 2 y = 0 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		attack_drones = { x = 0 y = 2 }
+	}
+}
+
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "1-я пехотна дивизия ордена Сербии"
+		location = 11586
+		division_template = "Пехотна дивизия"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "2-я пехотна дивизия"
+		location = 9874
+		division_template = "Пехотна дивизия"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "1-я танкая дивизия"
+		location = 797
+		division_template = "Танкая дивизия"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "2-я танкая дивизия"
+		location = 3649
+		division_template = "Танкая дивизия"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1-я Черногорская пехотна дивизия"
+		location = 13597
+		division_template = "Горская Пехотна дивизия"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+	}
+
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "SER"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_artillery_equipment_1
+			creator = "SER"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_armor_equipment_0
+			creator = "SER"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_2
+			creator = "SER"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_2
+			creator = "SER"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "SER"
+			version_name = "З-13"
+		}
+		requested_factories = 1
+		progress = 0.9
+		efficiency = 100
+	}
+}

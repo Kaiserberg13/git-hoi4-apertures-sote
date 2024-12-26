@@ -1,0 +1,36 @@
+
+state={
+	id=515
+	name="STATE_515"
+	resources={
+		steel=7.000
+	}
+
+	history={
+		owner = PRC
+		victory_points = {
+			11913 20 
+		}
+		victory_points = {
+			10076 5
+		}
+		victory_points = {
+			11982 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 6
+
+		}
+		add_core_of = PRC
+
+	}
+
+	provinces={
+		996 7120 10034 10076 11913 11982 12052 13142 
+	}
+	manpower=12853516
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

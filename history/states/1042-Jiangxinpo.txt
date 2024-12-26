@@ -1,0 +1,31 @@
+
+state={
+	id=1042
+	name="STATE_1042"
+
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 1
+			14994 = {
+				bunker = 1
+			}
+			4318 = {
+				bunker = 1
+			}
+			14994 = {
+				bunker = 1
+			}
+		}
+		add_core_of = SIA
+		add_claim_by = PRC	
+
+	}
+
+	provinces={
+		1934 4226 4318 4996 14279 14993 14994 
+	}
+	manpower=526598
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

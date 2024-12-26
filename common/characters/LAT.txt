@@ -1,0 +1,40 @@
+characters={
+
+    LAT_gercog_Edward_Riiga={ 
+        name = "Edward Riiga" 
+        portraits = {
+            civilian = {
+                large = "GFX_LAT_gercog_Edward_Riiga"
+            }
+            army = {
+                large = "GFX_LAT_gercog_Edward_Riiga"
+                small = "GFX_idea_GFX_LAT_gercog_Edward_Riiga_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+
+    LAT_president_Rikos_Magjes={ 
+        name = "Rikos Magjes" 
+        portraits = {
+            civilian = {
+                large = "GFX_LAT_president_Rikos_Magjes"
+            }
+            army = {
+                large = "GFX_LAT_president_Rikos_Magjes"
+                small = "GFX_idea_GFX_LAT_president_Rikos_Magjes_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

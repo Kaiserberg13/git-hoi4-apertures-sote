@@ -1,0 +1,33 @@
+
+state={
+	id=758
+	name="STATE_758"
+
+	history={
+		owner = MON
+		victory_points = {
+			12695 1 
+		}
+		victory_points = {
+			13941 1 
+		}
+		victory_points = {
+			12520 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = MON
+
+	}
+
+	provinces={
+		1774 4751 6216 7773 7843 10539 10669 12520 12695 13915 13927 13939 13941 13942 13945 13950 15203 
+	}
+	manpower=4061542
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=1468
+	name="STATE_1468"
+	provinces={
+		3169 11098 12502 16438 16448 16464 
+	}
+	history={
+		owner = KOM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = KOM
+
+	}
+
+	manpower=1295302
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=264
+	name="STATE_264"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = ETH
+		victory_points = {
+			13520 10 
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = ETH
+		1939.9.1 = {
+			owner = ITA
+
+		}
+		1942.11.22 = {
+			owner = ETH
+
+		}
+
+	}
+
+	provinces={
+		5010 5041 5097 13520 13521 16086 16088 
+	}
+	manpower=1948921
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

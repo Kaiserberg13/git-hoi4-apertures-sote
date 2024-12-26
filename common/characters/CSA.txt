@@ -1,0 +1,21 @@
+characters={
+
+    CSA_president_fallen_government={ 
+        name = "fallen government" 
+        portraits = {
+            civilian = {
+                large = "GFX_CSA_president_fallen_government"
+            }
+            army = {
+                large = "GFX_CSA_president_fallen_government"
+                small = "GFX_idea_GFX_CSA_president_fallen_government_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

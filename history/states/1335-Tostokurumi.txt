@@ -1,0 +1,26 @@
+
+state={
+	id=1335
+	name="STATE_1335"
+	provinces={
+		1335 4338 7371 7387 7415 10269 12171 12243 13302 14258 
+	}
+	history={
+		set_demilitarized_zone = yes
+		owner = OAS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			12243 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = OAS
+
+	}
+	manpower=1397726
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

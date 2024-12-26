@@ -1,0 +1,21 @@
+characters={
+
+    ETH_president_Bekele_Langa={ 
+        name = "Bekele Langa" 
+        portraits = {
+            civilian = {
+                large = "GFX_ETH_president_Bekele_Langa"
+            }
+            army = {
+                large = "GFX_ETH_president_Bekele_Langa"
+                small = "GFX_idea_GFX_ETH_president_Bekele_Langa_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

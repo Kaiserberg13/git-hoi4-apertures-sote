@@ -1,0 +1,480 @@
+﻿division_template = {
+	name = "Honeme Saikatse"
+
+	division_names_group = OAS_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		turret = { x = 0 y = 1 }
+		artillery = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Kazagiri"
+
+	division_names_group = OAS_kzg_01
+
+	regiments = {
+		kazagiri = { x = 0 y = 0 }
+		kazagiri = { x = 0 y = 1 }
+
+		kazagiri = { x = 1 y = 0 }
+		kazagiri = { x = 1 y = 1 }
+
+		kazagiri = { x = 2 y = 0 }
+		kazagiri = { x = 2 y = 1 }
+
+		kazagiri = { x = 3 y = 0 }
+		kazagiri = { x = 3 y = 1 }
+		
+	}
+	
+	support = {
+		helicopter_support = { x = 0 y = 0 }
+		light_tank_recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		attack_drones = { x = 0 y = 3 }
+		
+		engineer = { x = 1 y = 0 }
+		maintenance_company = { x = 1 y = 1 }
+
+	}
+}
+
+division_template = {
+	name = "Motori Honeme Saikatse"
+
+	division_names_group = OAS_mot_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+        motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+
+		helicopter_support = { x = 1 y = 0 }
+		attack_drones = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Panzeri Saikatse"
+
+	division_names_group = OAS_pnz_01
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+
+		attack_drones_brigade = { x = 3 y = 0 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		light_tank_recon = { x = 0 y = 1 }
+		helicopter_support = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Herikopto no saioni wa Saikatse"
+
+	division_names_group = OAS_pnz_01
+
+	regiments = {
+		light_helicopter_brigade = { x = 0 y = 0 }
+		light_helicopter_brigade = { x = 0 y = 1 }
+
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+
+		light_helicopter_brigade = { x = 3 y = 0 }
+		light_helicopter_brigade = { x = 3 y = 1 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Zwenaikone atari'zus wa saikatse"
+
+	division_names_group = OAS_bic_01
+
+	regiments = {
+		bicycle_battalion = { x = 0 y = 0 }
+		bicycle_battalion = { x = 0 y = 1 }
+		bicycle_battalion = { x = 0 y = 2 }
+
+		bicycle_battalion = { x = 1 y = 0 }
+	}
+	
+	support = {
+		military_police = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Dakiyo no orde"
+
+	division_names_group = OAS_mil_01
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2}
+	}
+	
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "AWASHI'ZUS HONEME NO 1"
+		location = 1274
+		division_template = "Honeme Saikatse"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+
+	}
+	division = {
+		name = "AWASHI'ZUS HONEME NO 2"
+		location = 7231
+		division_template = "Honeme Saikatse"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+
+	}
+	division = {
+		name = "AWASHI'ZUS HONEME NO 3"
+		location = 15988
+		division_template = "Honeme Saikatse"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+
+	}
+	division = {
+		name = "AWASHI'ZUS HONEME NO 4"
+		location = 1605
+		division_template = "Honeme Saikatse"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+
+	}
+	division = {
+		name = "AWASHI'ZUS HONEME NO 5"
+		location = 15345
+		division_template = "Honeme Saikatse"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+
+	}
+	division = {
+		name = "AWASHI'ZUS HONEME NO 6"
+		location = 10135
+		division_template = "Honeme Saikatse"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+
+	}
+
+	division = {
+		name = "MOTORI HONEME NO 1"
+		location = 12209
+		division_template = "Motori Honeme Saikatse"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.75
+
+	}
+	division = {
+		name = "MOTORI HONEME NO 2"
+		location = 4273
+		division_template = "Motori Honeme Saikatse"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.75
+
+	}
+	division = {
+		name = "MOTORI HONEME NO 3"
+		location = 1306
+		division_template = "Motori Honeme Saikatse"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.75
+
+	}
+	division = {
+		name = "MOTORI HONEME NO 4"
+		location = 15549
+		division_template = "Motori Honeme Saikatse"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.75
+
+	}
+	division = {
+		name = "MOTORI HONEME NO 5"
+		location = 10194
+		division_template = "Motori Honeme Saikatse"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.75
+
+	}
+	### 11 divisions
+	division = {
+		name = "KAZAGIRI NO SIRIUS"
+		location = 12209
+		division_template = "Kazagiri"
+		start_equipment_factor = 1.0
+		start_experience_factor = 1.0
+
+	}
+	division = {
+		name = "KAZAGIRI NO ARISU"
+		location = 4273
+		division_template = "Kazagiri"
+		start_equipment_factor = 1.0
+		start_experience_factor = 1.0
+
+	}
+	division = {
+		name = "KAZAGIRI NO PASIFIKA"
+		location = 13301
+		division_template = "Kazagiri"
+		start_equipment_factor = 1.0
+		start_experience_factor = 1.0
+
+	}
+	### 14 divisions
+	division = {
+		name = "Rukobe'des no 1"
+		location = 7308
+		division_template = "Panzeri Saikatse"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+
+	}
+	division = {
+		name = "Rukobe'des no 2"
+		location = 15806
+		division_template = "Panzeri Saikatse"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+
+	}
+	division = {
+		name = "Rukobe'des no 3"
+		location = 15121
+		division_template = "Panzeri Saikatse"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+
+	}
+	division = {
+		name = "Rukobe'des no 4"
+		location = 1291
+		division_template = "Panzeri Saikatse"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+
+	}
+	### 18 divisions
+	division = {
+		name = "Zwenaikone'des saikatse no 3"
+		location = 4297
+		division_template = "Zwenaikone atari'zus wa saikatse"
+		start_equipment_factor = 0.5
+		start_experience_factor = 0.1
+
+	}
+	division = {
+		name = "Zwenaikone'des saikatse no 8"
+		location = 10313
+		division_template = "Zwenaikone atari'zus wa saikatse"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.2
+
+	}
+	### 20 divisions
+	division = {
+		name = "Dakiyo no Dazai"
+		location = 10282
+		division_template = "Dakiyo no orde"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.2
+
+	}
+	division = {
+		name = "Dakiyo no Muyuse"
+		location = 10436
+		division_template = "Dakiyo no orde"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.2
+
+	}
+	division = {
+		name = "Dakiyo no Fukimoto"
+		location = 10436
+		division_template = "Dakiyo no orde"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.2
+
+	}
+	division = {
+		name = "Kussewa"
+		location = 7293
+		division_template = "Herikopto no saioni wa Saikatse"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.0
+
+	}
+	division = {
+		name = "Iribion"
+		location = 15893
+		division_template = "Herikopto no saioni wa Saikatse"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.1
+
+	}
+	division = {
+		name = "Mizuru"
+		location = 15542
+		division_template = "Herikopto no saioni wa Saikatse"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.1
+
+	}
+	division = {
+		name = "Kuzenaino"
+		location = 15854
+		division_template = "Herikopto no saioni wa Saikatse"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.1
+
+	}
+	division = {
+		name = "Isuyakon"
+		location = 12400
+		division_template = "Herikopto no saioni wa Saikatse"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.1
+
+	}
+	
+}
+
+### 35 factories
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "OAS"
+		}
+		requested_factories = 7
+		progress = 0.1
+		efficiency = 90
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_armor_equipment_0
+			creator = "OAS"
+		}
+		requested_factories = 7
+		progress = 0.3
+		efficiency = 90
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_mechanized_equipment_1
+			creator = "OAS"
+		}
+		requested_factories = 2
+		progress = 0.6
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_motorized_equipment_0
+			creator = "OAS"
+		}
+		requested_factories = 3
+		progress = 0.3
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "OAS"
+			version_name = "Akame Klassi"
+		}
+		requested_factories = 4
+		progress = 0.7
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_helicopter_equipment_1
+			creator = "OAS"
+		}
+		requested_factories = 2
+		progress = 0.9
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "OAS"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_attack_drones_equipment_0
+			creator = "OAS"
+		}
+		requested_factories = 1
+		progress = 0.9
+		efficiency = 80
+	}
+}

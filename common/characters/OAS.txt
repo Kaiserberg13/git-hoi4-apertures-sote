@@ -1,0 +1,40 @@
+characters={
+
+    OAS_president_Dazai_De_Fales={ 
+        name = "Dazai De Fales" 
+        portraits = {
+            civilian = {
+                large = "GFX_OAS_president_Dazai_De_Fales"
+            }
+            army = {
+                large = "GFX_OAS_president_Dazai_De_Fales"
+                small = "GFX_idea_GFX_OAS_president_Dazai_De_Fales_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+
+    OAS_president_Fukimoto_De_Fales={ 
+        name = "Fukimoto De Fales" 
+        portraits = {
+            civilian = {
+                large = "GFX_OAS_president_Fukimoto_De_Fales"
+            }
+            army = {
+                large = "GFX_OAS_president_Fukimoto_De_Fales"
+                small = "GFX_idea_GFX_OAS_president_Fukimoto_De_Fales_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

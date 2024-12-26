@@ -1,0 +1,25 @@
+state={
+	id=1268
+	name="STATE_1268"
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 0
+			2093 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = NOR
+
+	}
+
+	provinces={
+		2093 
+	}
+	manpower=469800
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

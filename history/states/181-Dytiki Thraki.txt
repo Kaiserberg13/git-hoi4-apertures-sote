@@ -1,0 +1,35 @@
+
+state={
+	id=181
+	name="STATE_181"
+	resources={
+		chromium=11.000
+	}
+
+	history={
+		owner = GRE
+		victory_points = {
+			11774 1
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = GRE
+		1941.6.22 = {
+			controller = BUL
+
+		}
+		1945.1.1 = {
+			controller = GRE
+
+		}
+	}
+
+	provinces={
+		11774 13646 
+	}
+	manpower=346410
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

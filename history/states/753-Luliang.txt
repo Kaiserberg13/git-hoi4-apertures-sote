@@ -1,0 +1,40 @@
+state={
+	id=753
+	name="STATE_753"
+	history={
+		owner = SHX
+		victory_points = {
+			10367 2
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SHX
+		1939.9.1 = {
+			controller = EHB
+
+		}
+		1940.5.10 = {
+			controller = RNG
+
+		}
+		1946.1.1 = {
+			controller = SHX
+
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+			remove_core_of = SHX
+
+		}
+
+	}
+	provinces={
+		1034 1531 4074 10367 10507 12300 
+	}
+	manpower=996401
+	buildings_max_level_factor=1.000
+	state_category=town
+}

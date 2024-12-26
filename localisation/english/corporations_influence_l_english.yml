@@ -1,0 +1,25 @@
+﻿l_english:
+ corporation_influence_corporations_index_title:0 "Corporations"
+ corporation_influence_general_view_title:0 "General View"
+ corporation_influence_dilemmas_title:0 "Dilemmas"
+
+ CI_Camelia_current_value:0 "Current value is §Y[?CI_Camelia]§!"
+ Camelia_current_value:0 "Current value is §Y[?Camelia]§!"
+
+ corporationID.1_p:0 "[?CorporationCamelia]%"
+ corporationID.2_p:0 "[?CorporationArtsotzka]%"
+ corporationID.3_p:0 "[?CorporationRotatosk]%"
+ corporationID.4_p:0 "[?CorporationZaphkiel]%"
+ corporationID.5_p:0 "[?CorporationEquonics]%"
+ corporationID.6_p:0 "[?CorporationOthers]%"
+ corporationID.7_p:0 "[?CorporationSelf]%"
+
+ corporationID.1:0 "§p == §!  CAMELIA SYNESIS"
+ corporationID.2:0 "§W == §!  ARSTOTZKA CORPORATION"
+ corporationID.3:0 "§Z == §!  ROTATOSK CONCERN"
+ corporationID.4:0 "§X == §!  ZAPHKIEL ENTERPRISES"
+ corporationID.5:0 "§s == §!  EQUONICS INCORPORATED"
+ corporationID.6:0 "§g == §!  OTHERS"
+ corporationID.7:0 "§P == §!  NATIONALIZED"
+
+

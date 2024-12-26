@@ -1,0 +1,39 @@
+
+state={
+	id=456
+	name="STATE_456"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = TZN
+		victory_points = {
+			2196 10 
+		}
+		victory_points = {
+			8205 5 
+		}
+		victory_points = {
+			8183 4 
+		}
+		buildings = {
+			infrastructure = 6
+			2196 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = TZN
+
+	}
+
+	provinces={
+		2196 8183 8201 8205 12967 14095 14097 14100 15325 15327 15330 15336 15369 15404 15419 
+	}
+	manpower=6300204
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

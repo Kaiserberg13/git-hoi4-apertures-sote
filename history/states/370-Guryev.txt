@@ -1,0 +1,26 @@
+
+state={
+	id=370
+	name="STATE_370"
+
+	history={
+		owner = KAZ
+		victory_points = {
+			3618 2
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+		
+		add_core_of = KAZ
+
+	}
+
+	provinces={
+		554 642 3618 6615 7322 9453 11442 11455 11469 11591 13008 
+	}
+	manpower=1510443
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

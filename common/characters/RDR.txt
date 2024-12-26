@@ -1,0 +1,21 @@
+characters={
+
+    RDR_president_Vladimir_Rukachinskii={ 
+        name = "Vladimir Rukachinskii" 
+        portraits = {
+            civilian = {
+                large = "GFX_RDR_president_Vladimir_Rukachinskii"
+            }
+            army = {
+                large = "GFX_RDR_president_Vladimir_Rukachinskii"
+                small = "GFX_idea_GFX_RDR_president_Vladimir_Rukachinskii_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

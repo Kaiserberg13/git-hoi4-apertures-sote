@@ -1,0 +1,27 @@
+state={
+	id=963
+	name="STATE_963"
+	
+	history={
+		owner = HOL
+		victory_points = {
+			13696 1
+		}
+		buildings = {
+			infrastructure = 1
+			13696 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		13696 
+	}
+	manpower=113594
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

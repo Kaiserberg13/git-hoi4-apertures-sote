@@ -1,0 +1,639 @@
+guiTypes = {
+	
+	containerWindowType = {
+		name = "ws_top_bar_swap_default_window"
+		position = { x= 0 y = 1}
+		clipping = no
+		Orientation = UPPER_LEFT
+
+		background = {
+			name = "bg"
+			spriteType = ""
+		}
+			
+		buttonType = {
+			name = "swap_buttons_default"
+			position = { x = 1425 y = 5 }
+			quadTextureSprite = "GFX_ws_swap_stats"
+			Orientation = "UPPER_LEFT"
+		}
+	}
+
+
+	containerWindowType = {
+		name = "ws_top_bar_swap_industry_window"
+		position = { x= 0 y = 1}
+		clipping = no
+		Orientation = UPPER_LEFT
+
+		background = {
+			name = "bg"
+			spriteType = ""
+		}
+			
+		buttonType = {
+			name = "swap_buttons_industry"
+			position = { x = 1425 y = 5 }
+			quadTextureSprite = "GFX_ws_swap_stats"
+			Orientation = "UPPER_LEFT"
+		}
+
+		# civ
+		
+		iconType = {
+			name = "ws_civ_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 785 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_civ_ui_icon"
+			spriteType = "GFX_IB_civ_fac"
+			position = { x= 790 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="TOPBAR_ue"
+			position = { x= 805 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_CIV_FAC"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_CIV_FAC_TOOLTIP"
+		}
+
+
+		# mil
+
+		iconType = {
+			name = "ws_mil_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 865 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_mil_ui_icon"
+			spriteType = "GFX_IB_mil_fac"
+			position = { x= 870 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_mil_fac_value"
+			position = { x= 885 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_MIL_FAC"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_MIL_FAC_TOOLTIP"
+		}
+
+		# dockyard
+
+		iconType = {
+			name = "ws_dockyard_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 945 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_dockyard_ui_icon"
+			spriteType = "GFX_IB_dockyard"
+			position = { x= 950 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_dockyard_value"
+			position = { x= 965 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_DOCKYARD"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_DOCKYARD_TOOLTIP"
+		}
+
+
+		# office
+
+		iconType = {
+			name = "ws_office_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 1025 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_office_ui_icon"
+			spriteType = "GFX_IB_office"
+			position = { x= 1030 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_office_value"
+			position = { x= 1045 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_OFFICE"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_OFFICE_TOOLTIP"
+		}
+
+
+		# states
+
+		iconType = {
+			name = "ws_states_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 1105 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_states_ui_icon"
+			spriteType = "GFX_IB_states"
+			position = { x= 1110 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_states_fac_value"
+			position = { x= 1130 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_STATES"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_STATES_TOOLTIP"
+		}
+
+
+		# total infrastructure
+
+		iconType = {
+			name = "ws_total_infrastructure_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 1185 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_total_infrastructure_ui_icon"
+			spriteType = "GFX_IB_total_infrastructure"
+			position = { x= 1190 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_total_infrastructure_value"
+			position = { x= 1205 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_TOTAL_INFRASTRUCTURE"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_TOTAL_INFRASTRUCTURE_TOOLTIP"
+		}
+
+		# total tech
+
+		iconType = {
+			name = "ws_total_tech_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 1265 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_total_tech_ui_icon"
+			spriteType = "GFX_IB_total_tech"
+			position = { x= 1270 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_total_tech_fac_value"
+			position = { x= 1285 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_TOTAL_TECH"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_TOTAL_TECH_TOOLTIP"
+		}
+
+		# capital
+
+		iconType = {
+			name = "ws_capital_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 1345 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_captial_ui_icon"
+			spriteType = "GFX_IB_total_tech"
+			position = { x= 1350 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}
+			
+		instantTextBoxType = {
+			name ="IB_capital_value"
+			position = { x= 1365 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_CAPITAL"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_CAPITAL_TOOLTIP"
+		}
+	}
+
+
+	containerWindowType = {
+		name = "ws_top_bar_swap_army_window"
+		position = { x= 0 y = 1}
+		clipping = no
+		Orientation = UPPER_LEFT
+
+		background = {
+			name = "bg"
+			spriteType = ""
+		}
+			
+		buttonType = {
+			name = "swap_buttons_army"
+			position = { x = 1425 y = 5 }
+			quadTextureSprite = "GFX_ws_swap_stats"
+			Orientation = "UPPER_LEFT"
+		}
+
+		# divison
+		
+		iconType = {
+			name = "ws_divison_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 785 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_divison_ui_icon"
+			spriteType = "GFX_IB_divison"
+			position = { x= 790 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_divisions_value"
+			position = { x= 805 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_DIVISIONS"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_DIVISIONS_TOOLTIP"
+		}
+
+
+		# planes
+
+		iconType = {
+			name = "ws_planes_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 865 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_planes_ui_icon"
+			spriteType = "GFX_IB_planes"
+			position = { x= 870 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_planes_value"
+			position = { x= 885 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_PLANES"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_PLANES_TOOLTIP"
+		}
+
+		# ships
+
+		iconType = {
+			name = "ws_ships_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 945 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_ships_ui_icon"
+			spriteType = "GFX_IB_ships"
+			position = { x= 950 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_ships_value"
+			position = { x= 965 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_SHIPS"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_SHIPS_TOOLTIP"
+		}
+
+
+		# manpower
+
+		iconType = {
+			name = "ws_manpower_ui_bg"
+			spriteType = "GFX_ws_stats_large_bg"
+			position = { x= 1025 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_manpower_ui_icon"
+			spriteType = "GFX_IB_manpower"
+			position = { x= 1030 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_manpower_fac_value"
+			position = { x= 1060 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_MANPOWER"
+			format = center
+			maxWidth = 100
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_MANPOWER_TOOLTIP"
+		}
+
+
+		# casualties
+
+		iconType = {
+			name = "ws_casualties_ui_bg"
+			spriteType = "GFX_ws_stats_large_bg"
+			position = { x= 1185 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_casualties_ui_icon"
+			spriteType = "GFX_IB_casualties"
+			position = { x= 1190 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_casualties_fac_value"
+			position = { x= 1220 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_CASUALTIES"
+			format = center
+			maxWidth = 100
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_CASUALTIES_TOOLTIP"
+		}
+
+
+		# war_support
+
+		iconType = {
+			name = "ws_war_support_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 1345 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_war_support_ui_icon"
+			spriteType = "GFX_IB_war_support"
+			position = { x= 1350 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_war_support_fac_value"
+			position = { x= 1365 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_WAR_SUPPORT"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_WAR_SUPPORT_TOOLTIP"
+		}
+	}
+
+	containerWindowType = {
+		name = "ws_top_bar_swap_country_window"
+		position = { x= 0 y = 1}
+		clipping = no
+		Orientation = UPPER_LEFT
+
+		background = {
+			name = "bg"
+			spriteType = ""
+		}
+			
+		buttonType = {
+			name = "swap_buttons_country"
+			position = { x = 1425 y = 5 }
+			quadTextureSprite = "GFX_ws_swap_stats"
+			Orientation = "UPPER_LEFT"
+		}
+
+		# stability
+		
+		iconType = {
+			name = "ws_stability_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 785 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_stability_ui_icon"
+			spriteType = "GFX_IB_stability"
+			position = { x= 790 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_stability_value"
+			position = { x= 805 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_STABILITY"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_STABILITY_TOOLTIP"
+		}
+
+
+		# political
+
+		iconType = {
+			name = "ws_political_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 865 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_political_ui_icon"
+			spriteType = "GFX_IB_political"
+			position = { x= 870 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_political_value"
+			position = { x= 885 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_POLITICAL_POWER"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_POLITICAL_POWER_TOOLTIP"
+		}
+
+		# money
+
+		iconType = {
+			name = "ws_money_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 945 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_money_ui_icon"
+			spriteType = "GFX_IB_money"
+			position = { x= 950 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_money_value"
+			position = { x= 965 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_MONEY"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_MONEY_TOOLTIP"
+		}
+
+
+		# debt
+
+		iconType = {
+			name = "ws_debt_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 1025 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "ws_debt_ui_icon"
+			spriteType = "GFX_IB_debt"
+			position = { x= 1030 y = 7 }
+			Orientation = "UPPER_LEFT"
+			#alwaystransparent=yes
+		}		
+		
+		instantTextBoxType = {
+			name ="IB_debt_value"
+			position = { x= 1045 y = 7 }
+			font = "hoi_18mbs"
+			text = "TOPBAR_DEBT"
+			format = center
+			maxWidth = 46
+			maxHeight = 24
+			fixedsize = yes
+			#alwaystransparent=yes
+			pdx_tooltip = "TOPBAR_DEBT_TOOLTIP"
+		}
+
+		# nn0
+
+		iconType = {
+			name = "ws_nn0_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 1105 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		# nn
+
+		iconType = {
+			name = "ws_nn_ui_bg"
+			spriteType = "GFX_ws_stats_large_bg"
+			position = { x= 1185 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+
+
+		# nn2
+
+		iconType = {
+			name = "ws_nn2_ui_bg"
+			spriteType = "GFX_ws_stats_bg"
+			position = { x= 1345 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+	}
+}

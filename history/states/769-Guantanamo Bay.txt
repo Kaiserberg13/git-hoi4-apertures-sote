@@ -1,0 +1,23 @@
+state={
+	id=769
+	name="STATE_769"
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			8206 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+	provinces={
+		8206 
+	}
+	manpower=455273
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

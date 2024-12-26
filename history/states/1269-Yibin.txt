@@ -1,0 +1,25 @@
+state={
+	id=1269
+	name="STATE_1269"
+
+	history={
+		owner = PRC
+		victory_points = {
+			11972 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = PRC
+
+	}
+
+	provinces={
+		11972 
+	}
+	manpower=218834
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

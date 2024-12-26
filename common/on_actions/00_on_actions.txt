@@ -1,0 +1,69 @@
+# MORALITY
+# TOTAL_MANPOWER_IN_STATES
+# TOTAL_CASUALTIES
+on_actions = { 
+    on_startup = {
+		effect = {
+		    every_country={
+                set_variable = { TOTAL_CORPSES_PER_STATE = 0}	
+                set_variable = { TOTAL_CORPSES = casualties_k}	
+                set_variable = { MORALITY = 0.001}	
+                set_variable = { TOTAL_INFRASTRUCTURE_VAR = 0}
+                set_variable = { TOTAL_CASUALTIES = 0}
+
+
+                set_variable = { TOTAL_OFFICE = total_constructed_office}
+                set_variable = { TOTAL_OFFICE = 0}
+
+                every_owned_state = {
+                    add_to_variable = { PREV.TOTAL_INFRASTRUCTURE_VAR = building_level@infrastructure}
+                    add_to_variable = { PREV.TOTAL_OFFICE = building_level@office}
+                }
+                set_variable = { TOTAL_INFRASTRUCTURE_STATES_VAR = 0}	
+                set_variable = { TOTAL_MAX_INFRASTRUCTURE_IN_ALL_STATES = 0}	
+                set_variable = { TOTAL_MAX_INFRASTRUCTURE_IN_ALL_STATES = num_owned_states}	
+                multiply_variable = { TOTAL_MAX_INFRASTRUCTURE_IN_ALL_STATES = 10}	
+                divide_variable = { TOTAL_INFRASTRUCTURE_VAR = TOTAL_MAX_INFRASTRUCTURE_IN_ALL_STATES }
+                multiply_variable = { TOTAL_INFRASTRUCTURE_VAR = 100}	
+		    }
+	    }
+    }
+
+    on_monthly = {
+        effect = {
+            # TOPBAR
+            # TOTAL INFRASTRUCTURE
+
+            every_country = {
+
+
+                set_variable = { TOTAL_INFRASTRUCTURE_STATES_VAR = 0}	
+                set_variable = { TOTAL_MAX_INFRASTRUCTURE_IN_ALL_STATES = 0}	
+                set_variable = { TOTAL_INFRASTRUCTURE_VAR = 0}
+
+                set_variable = { TOTAL_OFFICE = 0}
+
+                set_variable = { TOTAL_MANPOWER_IN_STATES = 0}
+
+                every_owned_state = {
+                    add_to_variable = { PREV.TOTAL_INFRASTRUCTURE_VAR = building_level@infrastructure}
+                    add_to_variable = { PREV.TOTAL_OFFICE = building_level@office}
+                    add_to_variable = { PREV.TOTAL_MANPOWER_IN_STATES = state_population_k }
+                }
+
+                # casualties
+                multiply_variable = { TOTAL_MANPOWER_IN_STATES = MORALITY}	
+                divide_variable = { TOTAL_MANPOWER_IN_STATES = 1000}	
+                add_to_variable = { TOTAL_CASUALTIES = TOTAL_MANPOWER_IN_STATES}
+                
+
+                # infrastructure
+                set_variable = { TOTAL_MAX_INFRASTRUCTURE_IN_ALL_STATES = num_owned_states}	
+                multiply_variable = { TOTAL_MAX_INFRASTRUCTURE_IN_ALL_STATES = 10}	
+                divide_variable = { TOTAL_INFRASTRUCTURE_VAR = TOTAL_MAX_INFRASTRUCTURE_IN_ALL_STATES }
+                multiply_variable = { TOTAL_INFRASTRUCTURE_VAR = 100}
+
+            }
+        }
+    }
+}

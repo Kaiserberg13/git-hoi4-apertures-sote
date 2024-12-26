@@ -1,0 +1,33 @@
+state={
+	id=748
+	name="STATE_748"
+	
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 1
+			
+		}
+		add_core_of = GRE
+		1941.6.22 = {
+			controller = GER
+
+		}
+		1944.6.20 = {
+			controller = BUL
+
+		}
+		1945.1.1 = {
+			controller = GRE
+
+		}
+
+	}
+	
+	provinces={
+		895 3526 3936 
+	}
+	manpower=453987
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

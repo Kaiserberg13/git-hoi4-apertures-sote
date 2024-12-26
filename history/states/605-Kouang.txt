@@ -1,0 +1,29 @@
+
+state={
+	id=605
+	name="STATE_605"
+
+	history={
+		owner = PRC
+		victory_points = {
+			11981 2
+		}
+		buildings = {
+			infrastructure = 1
+			11981 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = PRC
+
+	}
+
+	provinces={
+		11981 
+	}
+	manpower=216057
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

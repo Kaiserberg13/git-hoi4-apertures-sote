@@ -1,0 +1,35 @@
+
+state={
+	id=447
+	name="STATE_447"
+
+	history={
+		set_demilitarized_zone = yes
+		owner = JAP
+		victory_points = {
+			10125 20
+		}
+		victory_points = {
+			7087 5
+		}
+		victory_points = {
+			12097 5
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 0
+			dockyard = 1
+			industrial_complex = 2
+
+		}
+		add_core_of = JAP
+
+	}
+
+	provinces={
+		4069 4172 7087 7157 7187 10100 10125 12072 12097 
+	}
+	manpower=969541
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

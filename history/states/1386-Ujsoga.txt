@@ -1,0 +1,29 @@
+
+state={
+	id=1386
+	name="STATE_1386"
+	provinces={
+		2308 3854 7088 12989 13891 13892 14026 14027 14028 14029 15796 
+	}
+	history={
+		owner = UGA
+		buildings = {
+			infrastructure = 3
+			14028 = {
+				bunker = 2
+			}
+
+		}
+		add_core_of = UGA
+		victory_points = {
+			14027 10
+		}
+		victory_points = {
+			12989 5
+		}
+
+	}
+	manpower=3460454
+	buildings_max_level_factor=1.000
+	state_category=town
+}

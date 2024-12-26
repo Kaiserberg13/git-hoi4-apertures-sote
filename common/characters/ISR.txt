@@ -1,0 +1,21 @@
+characters={
+
+    ISR_portrait_Maria_Duels={ 
+        name = "Maria Duels" 
+        portraits = {
+            civilian = {
+                large = "GFX_ISR_portrait_Maria_Duels"
+            }
+            army = {
+                large = "GFX_ISR_portrait_Maria_Duels"
+                small = "GFX_idea_GFX_ISR_portrait_Maria_Duels_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

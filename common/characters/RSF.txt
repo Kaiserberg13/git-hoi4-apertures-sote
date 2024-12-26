@@ -1,0 +1,21 @@
+characters={
+
+    RSF_president_Adrian_Karas={ 
+        name = "Adrian Karas" 
+        portraits = {
+            civilian = {
+                large = "GFX_RSF_president_Adrian_Karas"
+            }
+            army = {
+                large = "GFX_RSF_president_Adrian_Karas"
+                small = "GFX_idea_GFX_RSF_president_Adrian_Karas_small"
+            }
+        }
+
+    country_leader = {
+        ideology = leninism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

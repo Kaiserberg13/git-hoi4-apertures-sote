@@ -1,0 +1,12 @@
+scripted_gui = {
+	corporations_influence_cards_grid = {
+		context_type = player_context
+
+		window_name = "corporation_card_entry"
+		parent_window_token = top_bar
+
+		visible = {
+			always = yes
+		}
+	}
+}

@@ -1,0 +1,373 @@
+characters={
+
+    AUS_kaiser_Ferdinand_Wilhelm_von_Habsburg={ 
+        name = "Ferdinand Wilhelm von Habsburg" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_kaiser_Ferdinand_Wilhelm_von_Habsburg"
+            }
+            army = {
+                large = "GFX_AUS_kaiser_Ferdinand_Wilhelm_von_Habsburg"
+                small = "GFX_idea_GFX_AUS_kaiser_Ferdinand_Wilhelm_von_Habsburg_small"
+            }
+        }
+    }
+
+    AUS_king_Otto_Friedrich_von_Osterreich={ 
+        name = "Otto Friedrich von Osterreich" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_king_Otto_Friedrich_von_Osterreich"
+            }
+            army = {
+                large = "GFX_AUS_king_Otto_Friedrich_von_Osterreich"
+                small = "GFX_idea_GFX_AUS_king_Otto_Friedrich_von_Osterreich_small"
+            }
+        }
+    }
+
+    AUS_portrait_advisor_Anna_Meyer={ 
+        name = "ANNA MEYER" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_president_Robert_Zioph"
+            }
+            army = {
+                large = "GFX_AUS_president_Robert_Zioph"
+                small = "GFX_AUS_portrait_advisor_Anna_Meyer"
+            }
+        }
+        advisor = {
+            slot = theorist
+            idea_token = AUS_portrait_advisor_Anna_Meyer_token
+            ledger = army
+            traits = { military_theorist }
+        }
+    }
+
+    AUS_portrait_advisor_Clara_Albrecht={ 
+        name = "CLARA ALBRECHT" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_president_Robert_Zioph"
+                small = "GFX_AUS_portrait_advisor_Anna_Meyer"
+            }
+            army = {
+                large = "GFX_AUS_president_Robert_Zioph"
+                small = "GFX_AUS_portrait_advisor_Anna_Meyer"
+            }
+        }
+         advisor = {
+            slot = political_advisor
+            idea_token = AUS_portrait_advisor_Anna_Meyer_token
+            desc = AUS_portrait_advisor_Clara_Albrecht_desc
+            ledger = army
+            traits = { captain_of_industry }
+            on_add = {
+                set_portraits = {
+                    character = FROM
+                    army = { small ="GFX_idea_AUS_portrait_advisor_Anna_Meyer" }
+                    civilian = { large ="GFX_idea_AUS_portrait_advisor_Anna_Meyer" }
+                }
+            }
+            on_remove = {
+                set_portraits = {
+                    character = FROM
+                    army = { small ="GFX_AUS_portrait_advisor_Anna_Meyer" }
+                    civilian = { large ="GFX_AUS_portrait_advisor_Anna_Meyer" }
+                }
+            }
+        }
+    }
+
+    AUS_portrait_advisor_Emil_Richter={ 
+        name = "advisor Emil Richter" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_advisor_Emil_Richter"
+            }
+            army = {
+                large = "GFX_AUS_portrait_advisor_Emil_Richter"
+                small = "GFX_idea_GFX_AUS_portrait_advisor_Emil_Richter_small"
+            }
+        }
+    }
+
+    AUS_portrait_advisor_Erik_Schuster={ 
+        name = "advisor Erik Schuster" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_advisor_Erik_Schuster"
+            }
+            army = {
+                large = "GFX_AUS_portrait_advisor_Erik_Schuster"
+                small = "GFX_idea_GFX_AUS_portrait_advisor_Erik_Schuster_small"
+            }
+        }
+    }
+
+    AUS_portrait_advisor_Hans_Schmidt={ 
+        name = "advisor Hans Schmidt" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_advisor_Hans_Schmidt"
+            }
+            army = {
+                large = "GFX_AUS_portrait_advisor_Hans_Schmidt"
+                small = "GFX_idea_GFX_AUS_portrait_advisor_Hans_Schmidt_small"
+            }
+        }
+    }
+
+    AUS_portrait_advisor_Julia_Neumann={ 
+        name = "advisor Julia Neumann" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_advisor_Julia_Neumann"
+            }
+            army = {
+                large = "GFX_AUS_portrait_advisor_Julia_Neumann"
+                small = "GFX_idea_GFX_AUS_portrait_advisor_Julia_Neumann_small"
+            }
+        }
+    }
+
+    AUS_portrait_advisor_Karl_Bauer={ 
+        name = "advisor Karl Bauer" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_advisor_Karl_Bauer"
+            }
+            army = {
+                large = "GFX_AUS_portrait_advisor_Karl_Bauer"
+                small = "GFX_idea_GFX_AUS_portrait_advisor_Karl_Bauer_small"
+            }
+        }
+    }
+
+    AUS_portrait_advisor_Max_Hoffmann={ 
+        name = "advisor Max Hoffmann" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_advisor_Max_Hoffmann"
+            }
+            army = {
+                large = "GFX_AUS_portrait_advisor_Max_Hoffmann"
+                small = "GFX_idea_GFX_AUS_portrait_advisor_Max_Hoffmann_small"
+            }
+        }
+    }
+
+    AUS_portrait_advisor_Nora_Koenig={ 
+        name = "advisor Nora Koenig" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_advisor_Nora_Koenig"
+            }
+            army = {
+                large = "GFX_AUS_portrait_advisor_Nora_Koenig"
+                small = "GFX_idea_GFX_AUS_portrait_advisor_Nora_Koenig_small"
+            }
+        }
+    }
+
+    AUS_portrait_advisor_Otto_Stein={ 
+        name = "advisor Otto Stein" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_advisor_Otto_Stein"
+            }
+            army = {
+                large = "GFX_AUS_portrait_advisor_Otto_Stein"
+                small = "GFX_idea_GFX_AUS_portrait_advisor_Otto_Stein_small"
+            }
+        }
+    }
+
+    AUS_portrait_advisor_Paul_Weber={ 
+        name = "advisor Paul Weber" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_advisor_Paul_Weber"
+            }
+            army = {
+                large = "GFX_AUS_portrait_advisor_Paul_Weber"
+                small = "GFX_idea_GFX_AUS_portrait_advisor_Paul_Weber_small"
+            }
+        }
+    }
+
+    AUS_portrait_Austrien_Waffen_SS_Adelheid_Sommerfeld={ 
+        name = "Austrien Waffen SS Adelheid Sommerfeld" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_Austrien_Waffen_SS_Adelheid_Sommerfeld"
+            }
+            army = {
+                large = "GFX_AUS_portrait_Austrien_Waffen_SS_Adelheid_Sommerfeld"
+                small = "GFX_idea_GFX_AUS_portrait_Austrien_Waffen_SS_Adelheid_Sommerfeld_small"
+            }
+        }
+    }
+
+    AUS_portrait_Austrien_Waffen_SS_Johann_Falkenstein={ 
+        name = "Austrien Waffen SS Johann Falkenstein" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_Austrien_Waffen_SS_Johann_Falkenstein"
+            }
+            army = {
+                large = "GFX_AUS_portrait_Austrien_Waffen_SS_Johann_Falkenstein"
+                small = "GFX_idea_GFX_AUS_portrait_Austrien_Waffen_SS_Johann_Falkenstein_small"
+            }
+        }
+    }
+
+    AUS_portrait_Emil_Braun={ 
+        name = "Emil Braun" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_Emil_Braun"
+            }
+            army = {
+                large = "GFX_AUS_portrait_Emil_Braun"
+                small = "GFX_idea_GFX_AUS_portrait_Emil_Braun_small"
+            }
+        }
+    }
+
+    AUS_portrait_Fridrih_Hermann={ 
+        name = "Fridrih Hermann" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_Fridrih_Hermann"
+            }
+            army = {
+                large = "GFX_AUS_portrait_Fridrih_Hermann"
+                small = "GFX_idea_GFX_AUS_portrait_Fridrih_Hermann_small"
+            }
+        }
+    }
+
+    AUS_portrait_Karl_Friedrich_Stahl={ 
+        name = "Karl Friedrich Stahl" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_Karl_Friedrich_Stahl"
+            }
+            army = {
+                large = "GFX_AUS_portrait_Karl_Friedrich_Stahl"
+                small = "GFX_idea_GFX_AUS_portrait_Karl_Friedrich_Stahl_small"
+            }
+        }
+    }
+
+    AUS_portrait_Katarina_Loewenstein={ 
+        name = "Katarina Loewenstein" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_Katarina_Loewenstein"
+            }
+            army = {
+                large = "GFX_AUS_portrait_Katarina_Loewenstein"
+                small = "GFX_idea_GFX_AUS_portrait_Katarina_Loewenstein_small"
+            }
+        }
+    }
+
+    AUS_portrait_Leo_Stein={ 
+        name = "Leo Stein" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_Leo_Stein"
+            }
+            army = {
+                large = "GFX_AUS_portrait_Leo_Stein"
+                small = "GFX_idea_GFX_AUS_portrait_Leo_Stein_small"
+            }
+        }
+    }
+
+    AUS_portrait_Lukas_Schneider={ 
+        name = "Lukas Schneider" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_Lukas_Schneider"
+            }
+            army = {
+                large = "GFX_AUS_portrait_Lukas_Schneider"
+                small = "GFX_idea_GFX_AUS_portrait_Lukas_Schneider_small"
+            }
+        }
+    }
+
+    AUS_portrait_Maks_Muller={ 
+        name = "Maks Muller" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_Maks_Muller"
+            }
+            army = {
+                large = "GFX_AUS_portrait_Maks_Muller"
+                small = "GFX_idea_GFX_AUS_portrait_Maks_Muller_small"
+            }
+        }
+    }
+
+    AUS_portrait_Martin_Fischer={ 
+        name = "Martin Fischer" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_Martin_Fischer"
+            }
+            army = {
+                large = "GFX_AUS_portrait_Martin_Fischer"
+                small = "GFX_idea_GFX_AUS_portrait_Martin_Fischer_small"
+            }
+        }
+    }
+
+    AUS_portrait_Oskar_Hartmann={ 
+        name = "Oskar Hartmann" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_Oskar_Hartmann"
+            }
+            army = {
+                large = "GFX_AUS_portrait_Oskar_Hartmann"
+                small = "GFX_idea_GFX_AUS_portrait_Oskar_Hartmann_small"
+            }
+        }
+    }
+
+    AUS_portrait_Tomas_Beckery={ 
+        name = "Tomas Beckery" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_portrait_Tomas_Beckery"
+            }
+            army = {
+                large = "GFX_AUS_portrait_Tomas_Beckery"
+                small = "GFX_idea_GFX_AUS_portrait_Tomas_Beckery_small"
+            }
+        }
+    }
+
+    AUS_president_Robert_Zioph={ 
+        name = "Robert Zioph" 
+        portraits = {
+            civilian = {
+                large = "GFX_AUS_president_Robert_Zioph"
+            }
+            army = {
+                large = "GFX_AUS_president_Robert_Zioph"
+                small = "GFX_idea_GFX_AUS_president_Robert_Zioph_small"
+            }
+        }
+        country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = AUS_president_Robert_Zioph_desc
+        }
+    }
+}

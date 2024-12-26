@@ -1,0 +1,25 @@
+state={
+	id=925
+	name="STATE_925"
+	
+	history={
+		owner = UKR
+		victory_points = {
+			13634 2
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = UKR
+		add_core_of = HUN
+
+	}
+	
+	provinces={
+		13634 
+	}
+	manpower=265115
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

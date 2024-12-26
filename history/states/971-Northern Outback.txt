@@ -1,0 +1,19 @@
+
+state={
+	id=971
+	name="STATE_971"
+
+	history={
+		owner = AST
+		add_core_of = AST
+
+	}
+
+	provinces={
+		8165 8237 13132 
+	}
+	manpower=383491
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

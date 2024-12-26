@@ -1,0 +1,26 @@
+
+state={
+	id=59
+	name="STATE_59"
+
+	history={
+		owner = GER
+		victory_points = {
+			9388 2
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		349 3340 9388 13262 
+	}
+	manpower=365101
+	buildings_max_level_factor=1.000
+	state_category=town
+}

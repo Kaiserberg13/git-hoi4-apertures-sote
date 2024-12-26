@@ -1,0 +1,28 @@
+
+state={
+	id=449
+	name="STATE_449"
+
+	history={
+		set_demilitarized_zone = yes
+		owner = JAP
+		victory_points = {
+			1117 5
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+
+		}
+		add_core_of = JAP
+
+	}
+
+	provinces={
+		1117 9952 10128 11930 11989 12007 
+	}
+	manpower=943859
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,26 @@
+state={
+	id=640
+	name="STATE_640"
+
+	history={
+		owner = SLV
+		victory_points = {
+			9627 10
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = SLV
+
+	}
+	
+	provinces={
+		6650 9627
+	}
+	manpower=199072
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,21 @@
+characters={
+
+    FOC_president_Marc_Tilgner={ 
+        name = "Marc Tilgner" 
+        portraits = {
+            civilian = {
+                large = "GFX_FOC_president_Marc_Tilgner"
+            }
+            army = {
+                large = "GFX_FOC_president_Marc_Tilgner"
+                small = "GFX_idea_GFX_FOC_president_Marc_Tilgner_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

@@ -1,0 +1,19 @@
+state={
+	id=1487
+	name="STATE_1487"
+	provinces={
+		16068 16073 16077 
+	}
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ETH
+
+	}
+	manpower=274782
+	buildings_max_level_factor=1.000
+	state_category=town
+}

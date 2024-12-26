@@ -1,0 +1,27 @@
+
+state={
+	id=864
+	name="STATE_864"
+
+	history={
+		owner = ALB
+		victory_points = {
+			914 2 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = ALB
+		add_core_of = GRE
+
+	}
+
+	provinces={
+		914 3448 6900 
+	}
+	manpower=478783
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

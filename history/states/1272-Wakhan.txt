@@ -1,0 +1,24 @@
+state={
+	id=1272
+	name="STATE_1272"
+
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = AFG
+		1972.1.1 = {
+			remove_claim_by = PRC
+
+		}
+	}
+
+	provinces={
+		7519 
+	}
+	manpower=360979
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

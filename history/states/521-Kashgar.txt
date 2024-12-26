@@ -1,0 +1,30 @@
+
+state={
+	id=521
+	name="STATE_521"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+	}
+
+	history={
+		owner = PRC
+		victory_points = {
+			5016 5
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = PRC
+
+	}
+
+	provinces={
+		1970 2015 5016 5087 7949 14852 15192 
+	}
+	manpower=1792680
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

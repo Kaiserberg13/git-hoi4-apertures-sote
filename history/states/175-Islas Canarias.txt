@@ -1,0 +1,33 @@
+
+state={
+	id=175
+	name="STATE_175"
+
+	history={
+		owner = SPR
+		victory_points = {
+			13071 2 
+		}
+		victory_points = {
+			13258 2 
+		}
+		buildings = {
+			infrastructure = 1
+			13071 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SPR
+		
+
+	}
+
+	provinces={
+		13071 13258 
+	}
+	manpower=312489
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

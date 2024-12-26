@@ -1,0 +1,31 @@
+
+state={
+	id=1317
+	name="STATE_1317"
+	provinces={
+		1928 1981 3284 4526 4934 4942 4980 4982 5008 5056 5088 5214 5317 7915 7968 8024 8080 8107 8113 10736 10767 10823 10849 10855 10879 10906 10912 12716 12828 12885 12926 13680 13681 13682 13683 13684 13685 13686 13688 13689 14293 14294 14295 14508 14510 14513 14932 14933 14934 14938 14939 14940 14942 14943 14946 14947 14948 14949 
+	}
+	history={
+		owner = COL
+		victory_points = {
+			10767 5 
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 6
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 4
+			10767 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = COL
+
+	}
+	manpower=6438036
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

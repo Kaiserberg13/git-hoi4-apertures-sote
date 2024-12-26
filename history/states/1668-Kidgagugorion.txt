@@ -1,0 +1,23 @@
+
+state={
+	id=1668
+	name="STATE_1668"
+	provinces={
+		16128 16166 16168 16828 16855 16875 16883 16893 16921 16932 16944 16967 
+	}
+	history={
+		owner = NGR
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			16883 10
+		}
+		add_core_of = NGR
+
+	}
+	manpower=1650510
+	buildings_max_level_factor=1.000
+	state_category=town
+}

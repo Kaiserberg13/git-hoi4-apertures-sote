@@ -1,0 +1,28 @@
+state={
+	id=1505
+	name="STATE_1505"
+	provinces={
+		591 3592 3596 3601 6611 11901 
+	}
+	history={
+		owner = CRO
+		victory_points = {
+			3596 1 
+		}
+		victory_points = {
+			3592 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = CRO
+
+	}
+	manpower=753282
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

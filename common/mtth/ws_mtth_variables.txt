@@ -1,0 +1,42 @@
+
+# this mtth entries can be used as variables
+# example set_variable = { a = mtth:entry_name }
+# and define entry_name here
+#
+# entry_name = {
+# 	base = 50
+# 	
+# 	modifier = {
+# 		tag = GER
+# 		add = 50
+# 	}
+# }
+
+
+unit_quality_1 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { unit_quality = unit_quality_variable }
+		add_to_temp_variable = { unit_quality = 0.5 }
+		
+		add = unit_quality
+	}
+}
+unit_quality_2 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { unit_quality = modifier@unit_quality_target }
+		add_to_temp_variable = { unit_quality = 0.5 }
+		
+		add = unit_quality
+	}
+}
+unit_quality_variable_bad = {
+	base = 0
+	modifier = {
+		set_temp_variable = { unit_quality_bad = unit_quality_variable }
+		multiply_temp_variable = { unit_quality_bad = -1 }
+		
+		add = unit_quality_bad
+	}
+}

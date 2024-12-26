@@ -1,0 +1,21 @@
+characters={
+
+    SER_president_Stanislav_Rudskoii={ 
+        name = "Stanislav Rudskoii" 
+        portraits = {
+            civilian = {
+                large = "GFX_SER_president_Stanislav_Rudskoii"
+            }
+            army = {
+                large = "GFX_SER_president_Stanislav_Rudskoii"
+                small = "GFX_idea_GFX_SER_president_Stanislav_Rudskoii_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

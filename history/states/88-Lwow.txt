@@ -1,0 +1,32 @@
+
+state={
+	id=88
+	name="STATE_88"
+	resources={
+		oil=6.000
+		steel=8.000
+	}
+
+	history={
+		
+		owner = UKR
+		victory_points = {
+			11479 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 3
+			air_base = 5
+
+		}
+		add_core_of = UKR
+	}
+
+	provinces={
+		536 9468 9558 11479 
+	}
+	manpower=493913
+	buildings_max_level_factor=1.000
+	state_category=megapolis
+}

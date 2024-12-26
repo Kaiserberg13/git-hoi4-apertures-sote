@@ -1,0 +1,33 @@
+
+state={
+	id=944
+	name="STATE_944"
+
+	history={
+		owner = NOR
+		victory_points = {
+			6184 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = NOR
+		1940.5.10 = {
+			controller = GER
+
+		}
+		1946.1.1 = {
+			controller = NOR
+
+		}
+
+	}
+
+	provinces={
+		27 144 3183 6080 6184 9032 9157 11028 11037 11135 
+	}
+	manpower=1465350
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

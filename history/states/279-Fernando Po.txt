@@ -1,0 +1,29 @@
+
+state={
+	id=279
+	name="STATE_279"
+
+	history={
+		owner = MAD
+		victory_points = {
+			1903 2
+		}
+		buildings = {
+			infrastructure = 1
+			1903 = {
+				naval_base = 1
+
+			}
+			
+		}
+		add_core_of = MAD
+
+	}
+
+	provinces={
+		1903 
+	}
+	manpower=178150
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

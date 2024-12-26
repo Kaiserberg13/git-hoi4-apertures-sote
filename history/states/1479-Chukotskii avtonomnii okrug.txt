@@ -1,0 +1,19 @@
+state={
+	id=1479
+	name="STATE_1479"
+	provinces={
+		4744 5264 13063 13204 14400 14403 16371 16373 16378 16386 16389 16391 16407 16408 16494 
+	}
+	history={
+		owner = CKK
+		buildings = {
+			infrastructure = 2
+			arms_factory = 4
+		}
+		add_core_of = CKK
+
+	}
+	manpower=734846
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

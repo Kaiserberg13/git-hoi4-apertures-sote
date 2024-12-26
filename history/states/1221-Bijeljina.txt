@@ -1,0 +1,29 @@
+state={
+	id=1221
+	name="STATE_1221"
+
+	history={
+		owner = BOS
+		victory_points = {
+			606 1 
+		}
+		victory_points = {
+			982 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = BOS
+
+	}
+
+	provinces={
+		606 953 982 11741 11845 
+	}
+	manpower=1426559
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

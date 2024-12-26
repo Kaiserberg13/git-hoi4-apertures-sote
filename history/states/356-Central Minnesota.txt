@@ -1,0 +1,32 @@
+
+state={
+	id=356
+	name="STATE_356"
+	resources={
+		steel=110.000
+	}
+
+	history={
+		owner = CSA
+		victory_points = {
+			1866 5 
+		}
+		victory_points = {
+			4664 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = CSA
+
+	}
+
+	provinces={
+		1866 1867 4664 4807 6752 7536 9880 10719 12577 12693 
+	}
+	manpower=1578833
+	buildings_max_level_factor=1.000
+	state_category=city
+}

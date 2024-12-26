@@ -1,0 +1,18 @@
+state={
+	id=1434
+	name="STATE_1434"
+	provinces={
+		16098 16315 16316 16317 
+	}
+	history={
+		owner = NGR
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=326782
+	buildings_max_level_factor=1.000
+	state_category=town
+}

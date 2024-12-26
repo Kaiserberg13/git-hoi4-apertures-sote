@@ -1,0 +1,21 @@
+characters={
+
+    BRH_president_Timur_Akladenko={ 
+        name = "Timur Akladenko" 
+        portraits = {
+            civilian = {
+                large = "GFX_BRH_president_Timur_Akladenko"
+            }
+            army = {
+                large = "GFX_BRH_president_Timur_Akladenko"
+                small = "GFX_idea_GFX_BRH_president_Timur_Akladenko_small"
+            }
+        }
+
+    country_leader = {
+        ideology = oligarchism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

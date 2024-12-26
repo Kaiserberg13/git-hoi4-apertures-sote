@@ -1,0 +1,23 @@
+
+state={
+	id=69
+	name="STATE_69"
+
+	history={
+		owner = CZE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = CZE
+		add_claim_by = POL
+	}
+
+	provinces={
+		9567 
+	}
+	manpower=234665
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

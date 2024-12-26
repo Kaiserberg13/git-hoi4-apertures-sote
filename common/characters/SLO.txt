@@ -1,0 +1,21 @@
+characters={
+
+    SLO_president_Irina_Mozaikovna={ 
+        name = "Irina Mozaikovna" 
+        portraits = {
+            civilian = {
+                large = "GFX_SLO_president_Irina_Mozaikovna"
+            }
+            army = {
+                large = "GFX_SLO_president_Irina_Mozaikovna"
+                small = "GFX_idea_GFX_SLO_president_Irina_Mozaikovna_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

@@ -1,0 +1,21 @@
+characters={
+
+    ROM_president_Servius_Plotius_Varus={ 
+        name = "Servius Plotius Varus" 
+        portraits = {
+            civilian = {
+                large = "GFX_ROM_president_Servius_Plotius_Varus"
+            }
+            army = {
+                large = "GFX_ROM_president_Servius_Plotius_Varus"
+                small = "GFX_idea_GFX_ROM_president_Servius_Plotius_Varus_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

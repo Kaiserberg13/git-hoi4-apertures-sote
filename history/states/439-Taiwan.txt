@@ -1,0 +1,45 @@
+
+state={
+	id=439
+	name="STATE_439"
+
+	history={
+		owner = JAP
+		victory_points = {
+			7186 10
+		}
+		victory_points = {
+			11959 3 
+		}
+		victory_points = {
+			12068 2 
+		}
+		victory_points = {
+			9955 1 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			air_base = 6
+			12068 = {
+				naval_base = 10
+
+			}
+			7186 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = PRC
+		add_core_of = JAP
+
+	}
+
+	provinces={
+		1091 1175 4096 7186 7214 9955 11914 11959 12027 12068 
+	}
+	manpower=1331843
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

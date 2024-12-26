@@ -1,0 +1,39 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_ws_texticon_camelia"
+		texturefile = "gfx/texticons/ideas_and_decisions_pictures/corporations_texticon_camelia.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ws_texticon_arstotzka"
+		texturefile = "gfx/texticons/ideas_and_decisions_pictures/corporations_texticon_arstotzka.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ws_texticon_rotatosk"
+		texturefile = "gfx/texticons/ideas_and_decisions_pictures/corporations_texticon_rotatosk.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ws_texticon_zaphkiel"
+		texturefile = "gfx/texticons/ideas_and_decisions_pictures/corporations_texticon_zaphkiel.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ws_texticon_equonics"
+		texturefile = "gfx/texticons/ideas_and_decisions_pictures/corporations_texticon_equonics.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ws_texticon_others"
+		texturefile = "gfx/texticons/ideas_and_decisions_pictures/corporations_texticon_others.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ws_texticon_self"
+		texturefile = "gfx/texticons/ideas_and_decisions_pictures/corporations_texticon_self.png"
+		legacy_lazy_load = no
+	}
+
+}

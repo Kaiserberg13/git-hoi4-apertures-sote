@@ -1,0 +1,36 @@
+
+state={
+	id=794
+	name="STATE_794"
+
+	history={
+		owner = FRA
+		victory_points = {
+			1606 3 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		1950.1.1 = {
+			owner = SYR
+
+		}
+		1960.1.1 = {
+			owner = EGY
+
+		}
+		1972.1.1 = {
+			owner = SYR
+
+		}
+
+	}
+
+	provinces={
+		1606 14585 14586 
+	}
+	manpower=493533
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

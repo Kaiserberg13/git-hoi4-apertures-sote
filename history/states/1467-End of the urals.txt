@@ -1,0 +1,21 @@
+
+state={
+	id=1467
+	name="STATE_1467"
+	provinces={
+		7824 7898 10551 10677 10723 12393 16423 16437 
+	}
+	history={
+		owner = BRH
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = BRH
+
+	}
+
+	manpower=1134134
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

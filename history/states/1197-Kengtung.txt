@@ -1,0 +1,24 @@
+state={
+	id=1197
+	name="STATE_1197"
+
+	history={
+		owner = SIA
+		victory_points = {
+			7909 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		4175 7400 7647 7909 7974 
+	}
+	manpower=521154
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

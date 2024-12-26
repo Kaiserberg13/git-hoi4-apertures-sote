@@ -1,0 +1,31 @@
+state={
+	id=1387
+	name="STATE_1387"
+	provinces={
+		2034 11934 14482 15961 15965 16314 
+	}
+	history={
+		owner = COG
+		buildings = {
+			infrastructure = 3
+			11934 = {
+				bunker = 1
+			}
+			2034 = {
+				bunker = 2
+			}
+
+		}
+		add_core_of = COG
+		victory_points = {
+			16314 8
+		}
+		victory_points = {
+			15965 1
+		}
+
+	}
+	manpower=968579
+	buildings_max_level_factor=1.000
+	state_category=town
+}

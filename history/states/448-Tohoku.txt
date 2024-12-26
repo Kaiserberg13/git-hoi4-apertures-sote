@@ -1,0 +1,42 @@
+
+state={
+	id=448
+	name="STATE_448"
+	resources={
+		steel=27.000
+	}
+
+	history={
+		set_demilitarized_zone = yes
+		owner = JAP
+		victory_points = {
+			7169 10 
+		}
+		victory_points = {
+			1024 3 
+		}
+		victory_points = {
+			6994 2 
+		}
+		buildings = {
+			dockyard = 1
+			industrial_complex = 2
+			infrastructure = 4
+			air_base = 6
+			9859 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = JAP
+
+	}
+
+	provinces={
+		1024 1063 1165 3848 4067 4118 4122 4153 6870 6873 6994 7169 9807 9859 9865 11847 12056 
+	}
+	manpower=3656572
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

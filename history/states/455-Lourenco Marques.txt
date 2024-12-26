@@ -1,0 +1,33 @@
+
+state={
+	id=455
+	name="STATE_455"
+
+	history={
+		owner = MZB
+		victory_points = {
+			8245 5 
+		}
+		victory_points = {
+			5212 2 
+		}
+		buildings = {
+			infrastructure = 1
+			8245 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = MZB
+
+	}
+
+	provinces={
+		2193 5177 8245 14261 
+	}
+	manpower=455402
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

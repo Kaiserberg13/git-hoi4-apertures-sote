@@ -1,0 +1,28 @@
+
+state={
+	id=667
+	name="STATE_667"
+
+	history={
+		owner = FRA
+		victory_points = {
+			12029 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		1939.9.1 = {
+			owner = TUR
+
+		}
+
+	}
+
+	provinces={
+		12029 14522 
+	}
+	manpower=314390
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

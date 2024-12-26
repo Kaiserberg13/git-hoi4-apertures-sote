@@ -1,0 +1,26 @@
+state={
+	id=1029
+	name="STATE_1029"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+			14183 = {
+				naval_base = 2
+				coastal_bunker = 1
+
+			}
+
+		}
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		14183 
+	}
+	manpower=169909
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

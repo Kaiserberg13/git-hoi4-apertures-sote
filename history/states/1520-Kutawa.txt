@@ -1,0 +1,33 @@
+state={
+	id=1520
+	name="STATE_1520"
+	provinces={
+		7965 7976 12789 12898 
+	}
+	history={
+		owner = SIA
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			air_base = 1
+			7976 = {
+				bunker = 1
+			}
+			7965 = {
+				bunker = 3
+			}
+			12789 = {
+				bunker = 1
+			}
+		}
+		add_core_of = SIA
+		add_claim_by = PRC
+
+	}
+
+	manpower=338245
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

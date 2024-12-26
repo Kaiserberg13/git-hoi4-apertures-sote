@@ -1,0 +1,21 @@
+characters={
+
+    SUD_president_Lawrence_Taha={ 
+        name = "Lawrence Taha" 
+        portraits = {
+            civilian = {
+                large = "GFX_SUD_president_Lawrence_Taha"
+            }
+            army = {
+                large = "GFX_SUD_president_Lawrence_Taha"
+                small = "GFX_idea_GFX_SUD_president_Lawrence_Taha_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

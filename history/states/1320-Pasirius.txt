@@ -1,0 +1,57 @@
+state={
+	id=1320
+	name="STATE_1320"
+	provinces={
+		1274 1313 1342 4276 4320 4361 7308 10150 10322 12138 12165 12209 
+	}
+	resources={
+		rubber=200.000
+		steel=34.000
+		tungsten=31.000
+		aluminium=13.000
+		chromium = 4
+		oil = 3
+		elysium = 15
+	}
+	history={
+		owner = OAS
+		victory_points = {
+			12209 50 
+		}
+		victory_points = {
+			7308 30
+		}
+		victory_points = {
+			4320 15
+		}
+		victory_points = {
+			1313 15
+		}
+		victory_points = {
+			1274 10
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 6
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 4
+			12209 = {
+				naval_base = 6
+				landmark_camelia_office = {
+                    level = 1
+                    allowed = {
+                        has_dlc = "Gotterdammerung"
+                    }
+                }
+			}
+
+
+		}
+		add_core_of = OAS
+
+	}
+	manpower=35564423
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,25 @@
+state={
+	id=1559
+	name="STATE_1559"
+	provinces={
+		5081 5093 13592 16604 16614 16622 16630 16632 16639 16645 16646 16647 
+	}
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+		victory_points = {
+			16647 8
+		}
+		add_core_of = OMA
+		add_core_of = SAU
+	
+	}
+	
+	manpower=4993695
+	buildings_max_level_factor=1.000
+	state_category=town
+}

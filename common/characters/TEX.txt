@@ -1,0 +1,21 @@
+characters={
+
+    TEX_president_Mike_Dick={ 
+        name = "Mike Dick" 
+        portraits = {
+            civilian = {
+                large = "GFX_TEX_president_Mike_Dick"
+            }
+            army = {
+                large = "GFX_TEX_president_Mike_Dick"
+                small = "GFX_idea_GFX_TEX_president_Mike_Dick_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

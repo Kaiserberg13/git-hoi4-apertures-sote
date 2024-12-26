@@ -1,0 +1,10 @@
+	defined_text = { 
+		name = GetCINameSlot1
+		text = { trigger = { check_variable = { corporate_id^0 = 1 } } localization_key = CorporateID_1_TITLE }
+		text = { trigger = { check_variable = { corporate_id^0 = 2 } } localization_key = CorporateID_2_TITLE }
+		text = { trigger = { check_variable = { corporate_id^0 = 3 } } localization_key = CorporateID_3_TITLE }
+		text = { trigger = { check_variable = { corporate_id^0 = 4 } } localization_key = CorporateID_4_TITLE }
+		text = { trigger = { check_variable = { corporate_id^0 = 5 } } localization_key = CorporateID_5_TITLE }
+		text = { trigger = { check_variable = { corporate_id^0 = 6 } } localization_key = CorporateID_6_TITLE }
+		text = { trigger = { check_variable = { corporate_id^0 = 7 } } localization_key = CorporateID_7_TITLE }
+	}

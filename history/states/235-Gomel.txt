@@ -1,0 +1,28 @@
+
+state={
+	id=235
+	name="STATE_235"
+
+	history={
+		owner = BLR
+		victory_points = {
+			9288 10 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 3
+
+		}
+		add_core_of = BLR
+
+	}
+
+	provinces={
+		9288 9342 13738 
+	}
+	manpower=364230
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

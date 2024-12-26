@@ -1,0 +1,29 @@
+
+state={
+	id=600
+	name="STATE_600"
+
+	history={
+		owner = FIN
+		victory_points = {
+			9140 1
+		}
+		buildings = {
+			infrastructure = 1
+			9140 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = FIN
+
+	}
+
+	provinces={
+		6012 6183 9140 11142 
+	}
+	manpower=468106
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

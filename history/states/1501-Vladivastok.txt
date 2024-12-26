@@ -1,0 +1,29 @@
+state={
+	id=1501
+	name="STATE_1501"
+	provinces={
+		957 
+	}
+	history={
+		set_demilitarized_zone = yes
+		owner = JAP
+		add_core_of = FER
+		victory_points = {
+			957 10 
+		}
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			industrial_complex = 1
+			957 = {
+				naval_base = 8
+				coastal_bunker = 3
+
+			}
+		}
+
+	}
+	manpower=195622
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,25 @@
+state={
+	id=1287
+	name="STATE_1287"
+	provinces={
+		308 6178 6381 
+	}
+	history={
+		owner = LAT
+		add_core_of = LAT
+		add_core_of = EST
+		victory_points = {
+			6178 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=198998
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=1.000
+}

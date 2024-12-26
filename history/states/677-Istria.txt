@@ -1,0 +1,31 @@
+
+state={
+	id=677
+	name="STATE_677"
+
+	history={
+		owner = SLV
+		victory_points = {
+			11735 1 
+		}
+		buildings = {
+			infrastructure = 1
+			11735 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = SLV
+		add_core_of = CRO
+		add_claim_by = ITA
+
+	}
+
+	provinces={
+		11735 14576 
+	}
+	manpower=230302
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

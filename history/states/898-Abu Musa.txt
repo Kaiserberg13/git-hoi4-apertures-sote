@@ -1,0 +1,29 @@
+state={
+	id=898
+	name="STATE_898"
+	
+	history={
+		owner = UAE
+		buildings = {
+			infrastructure = 0
+			13583 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = UAE
+		1972.1.1 = {
+			owner = PER
+
+		}
+
+	}
+	
+	provinces={
+		13583 
+	}
+	manpower=314408
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

@@ -1,0 +1,21 @@
+characters={
+
+    FIN_queen_Eine_Savolainen={ 
+        name = "Eine Savolainen" 
+        portraits = {
+            civilian = {
+                large = "GFX_FIN_queen_Eine_Savolainen"
+            }
+            army = {
+                large = "GFX_FIN_queen_Eine_Savolainen"
+                small = "GFX_idea_GFX_FIN_queen_Eine_Savolainen_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

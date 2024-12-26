@@ -1,0 +1,33 @@
+
+state={
+	id=450
+	name="STATE_450"
+	resources={
+		steel=27.000
+		tungsten=8.000
+	}
+
+	history={
+		set_demilitarized_zone = yes
+		owner = JAP
+		victory_points = {
+			10032 5
+		}
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+			infrastructure = 1
+			dockyard = 1
+
+		}
+		add_core_of = JAP
+
+	}
+
+	provinces={
+		998 7102 7217 10015 10032 
+	}
+	manpower=641879
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,46 @@
+spriteTypes = {	
+
+	#### Tank
+	SpriteType = {
+		name = "GFX_equipmentdesigner_tank_bg"
+		texturefile = "gfx/interface/equipmentdesigner/tank/ws_tank_designer_popup_bg.png"
+	}	
+	SpriteType = {
+		name = "GFX_ws_tank_designer_popup_modules_bg"
+		texturefile = "gfx/interface/equipmentdesigner/tank/ws_tank_designer_popup_modules_bg.png"
+	}
+	SpriteType = {
+		name = "GFX_ws_equipment_module_ss_bg"
+		texturefile = "gfx/interface/equipmentdesigner/ws_equipment_module_bg.png"
+	}
+	SpriteType = {
+		name = "GFX_ws_equipment_module_locked"
+		texturefile = "gfx/interface/equipmentdesigner/ws_equipment_module_locked.png"
+	}
+	SpriteType = {
+		name = "GFX_equipment_designer_equipment_expand_bg"
+		texturefile = "gfx/interface/equipmentdesigner/equipment_designer_equipment_expand_bg.png"
+	}
+	SpriteType = {
+		name = "GFX_equipment_designer_equipment_name_bg"
+		texturefile = "gfx/interface/equipmentdesigner/equipment_designer_equipment_name_bg.png"
+	}
+	SpriteType = {
+		name = "GFX_rotatosk_equipment_designer_close_button"
+		texturefile = "gfx/interface/equipmentdesigner/rotatosk_equipment_designer_close_button.png"
+	}
+	SpriteType = {
+		name = "GFX_rotatosk_equipment_designer_blueprints_button"
+		texturefile = "gfx/interface/equipmentdesigner/rotatosk_equipment_designer_blueprints_button.png"
+	}
+	SpriteType = {
+		name = "GFX_ws_equipment_module_entry_bg"
+		texturefile = "gfx/interface/equipmentdesigner/ws_equipment_module_entry_bg.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_equipment_designer_buttons"
+		texturefile = "gfx/interface/equipmentdesigner/equipment_designer_buttons.png"
+		noOfFrames = 4
+	}
+}

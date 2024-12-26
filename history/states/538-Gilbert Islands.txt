@@ -1,0 +1,41 @@
+
+state={
+	id=538
+	name="STATE_538"
+
+	history={
+		owner = AST
+		victory_points = {
+			13021 1
+		}
+		buildings = {
+			infrastructure = 1
+			13022 = {
+				naval_base = 1
+
+			}
+			4387 = {
+				naval_base = 1
+
+			}
+			13020 = {
+				naval_base = 1
+
+			}
+			13021 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = AST
+
+	}
+
+	provinces={
+		4387 7393 13020 13021 13022 
+	}
+	manpower=1176319
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

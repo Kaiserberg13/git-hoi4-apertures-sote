@@ -1,0 +1,21 @@
+characters={
+
+    UGA_president_Khalid_Mutombo={ 
+        name = "Khalid Mutombo" 
+        portraits = {
+            civilian = {
+                large = "GFX_UGA_president_Khalid_Mutombo"
+            }
+            army = {
+                large = "GFX_UGA_president_Khalid_Mutombo"
+                small = "GFX_idea_GFX_UGA_president_Khalid_Mutombo_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

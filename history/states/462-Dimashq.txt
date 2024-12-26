@@ -1,0 +1,37 @@
+
+state={
+	id=462
+	name="STATE_462"
+
+	history={
+		owner = FRA
+		victory_points = {
+			4111 15
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+
+		}
+		1950.1.1 = {
+			owner = SYR
+
+		}
+		1960.1.1 = {
+			owner = EGY
+
+		}
+		1972.1.1 = {
+			owner = SYR
+
+		}
+
+	}
+
+	provinces={
+		4111 7184 8128 13223 13224 
+	}
+	manpower=1294331
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

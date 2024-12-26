@@ -1,0 +1,19 @@
+state={
+	id=1515
+	name="STATE_1515"
+	provinces={
+		10877 14137 14140 14141 14146 14181 
+	}
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SUD
+
+	}
+	manpower=899498
+	buildings_max_level_factor=1.000
+	state_category=town
+}

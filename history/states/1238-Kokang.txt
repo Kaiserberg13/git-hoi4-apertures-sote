@@ -1,0 +1,26 @@
+state={
+	id=1238
+	name="STATE_1238"
+
+	history={
+		owner = SIA
+		victory_points = {
+			15123 1
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+
+		}
+		add_core_of = SIA
+		add_claim_by = PRC
+
+	}
+
+	provinces={
+		15123 
+	}
+	manpower=302984
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

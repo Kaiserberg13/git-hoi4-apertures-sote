@@ -1,0 +1,21 @@
+characters={
+
+    ICE_president_Ari_Diokharosdottir={ 
+        name = "Ari Diokharosdottir" 
+        portraits = {
+            civilian = {
+                large = "GFX_ICE_president_Ari_Diokharosdottir"
+            }
+            army = {
+                large = "GFX_ICE_president_Ari_Diokharosdottir"
+                small = "GFX_idea_GFX_ICE_president_Ari_Diokharosdottir_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

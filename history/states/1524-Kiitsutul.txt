@@ -1,0 +1,24 @@
+state={
+	id=1524
+	name="STATE_1524"
+	provinces={
+		6670 6700 11625 
+	}
+	history={
+		owner = HUN
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		add_core_of = HUN
+
+	}
+
+	manpower=154032
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

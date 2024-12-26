@@ -1,0 +1,25 @@
+
+state={
+	id=92
+	name="STATE_92"
+
+	history={
+		owner = BLR
+		victory_points = {
+			9304 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = BLR
+
+	}
+
+	provinces={
+		3309 3556 6280 6306 9236 9304 9359 11341 13725 14593 
+	}
+	manpower=1415590
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

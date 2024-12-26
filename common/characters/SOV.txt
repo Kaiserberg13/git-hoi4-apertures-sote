@@ -1,0 +1,59 @@
+characters={
+
+    SOV_portrait_Ivan_Kirskii={ 
+        name = "Ivan Kirskii" 
+        portraits = {
+            civilian = {
+                large = "GFX_SOV_portrait_Ivan_Kirskii"
+            }
+            army = {
+                large = "GFX_SOV_portrait_Ivan_Kirskii"
+                small = "GFX_idea_GFX_SOV_portrait_Ivan_Kirskii_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+
+    SOV_president_Fyodor_Arian_Iris={ 
+        name = "Fyodor Arian Iris" 
+        portraits = {
+            civilian = {
+                large = "GFX_SOV_president_Fyodor_Arian_Iris"
+            }
+            army = {
+                large = "GFX_SOV_president_Fyodor_Arian_Iris"
+                small = "GFX_idea_GFX_SOV_president_Fyodor_Arian_Iris_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+
+    SOV_queen_Sophia_Arian_Iris={ 
+        name = "Sophia Arian Iris" 
+        portraits = {
+            civilian = {
+                large = "GFX_SOV_queen_Sophia_Arian_Iris"
+            }
+            army = {
+                large = "GFX_SOV_queen_Sophia_Arian_Iris"
+                small = "GFX_idea_GFX_SOV_queen_Sophia_Arian_Iris_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

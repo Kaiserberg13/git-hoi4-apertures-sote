@@ -1,0 +1,4 @@
+graphical_culture = saf_union_gfx
+graphical_culture_2d = saf_union_2d
+
+color= { 155 200 100 }

@@ -1,0 +1,21 @@
+characters={
+
+    KAZ_president_Armen_Mugaliev={ 
+        name = "Armen Mugaliev" 
+        portraits = {
+            civilian = {
+                large = "GFX_KAZ_president_Armen_Mugaliev"
+            }
+            army = {
+                large = "GFX_KAZ_president_Armen_Mugaliev"
+                small = "GFX_idea_GFX_KAZ_president_Armen_Mugaliev_small"
+            }
+        }
+
+    country_leader = {
+        ideology = fascism_ideology
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

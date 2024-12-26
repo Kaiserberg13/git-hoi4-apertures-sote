@@ -1,0 +1,100 @@
+spriteTypes = {
+
+	### Motorized
+	SpriteType = {
+		name = "GFX_ws_motorized_equipment_medium"
+		texturefile = "gfx/interface/technologies/mobile/ws_motorized_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_ws_motorized_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/mobile/ws_motorized_equipment_0.dds"
+	}
+
+
+	### Infantry
+	SpriteType = {
+		name = "GFX_ws_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/ground/ws_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_ws_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/ground/ws_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ws_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/ground/ws_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ws_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/ground/ws_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ws_infantry_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/ground/ws_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ws_infantry_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/ground/ws_infantry_equipment_5.dds"
+	}
+	### Infantry Armor
+	SpriteType = {
+		name = "GFX_ws_infantry_armor_equipment_medium"
+		texturefile = "gfx/interface/technologies/ground/ws_infantry_armor_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_ws_infantry_armor_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/ground/ws_infantry_armor_equipment_0.dds"
+	}
+
+	### Armor
+	SpriteType = {
+		name = "GFX_ws_light_tank_equipment_medium"
+		texturefile = "gfx/interface/technologies/armor/generic/generic_light_tank_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_ws_light_tank_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/armor/generic/generic_light_tank_0.dds"
+	}
+
+
+
+
+	### Tech tree
+
+	### Motorized tech
+	SpriteType = {
+		name = "GFX_ws_armored_car_medium"
+		texturefile = "gfx/interface/technologies/mobile/ws_motorized_equipment_0_tech.dds"
+	}
+
+	### Infantry tech
+	SpriteType = {
+		name = "GFX_energy_weapons_medium"
+		texturefile = "gfx/interface/technologies/ground/ws_infantry_equipment_0_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_energy_weapons2_medium"
+		texturefile = "gfx/interface/technologies/ground/ws_infantry_equipment_1_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_energy_weapons3_medium"
+		texturefile = "gfx/interface/technologies/ground/ws_infantry_equipment_2_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_energy_weapons4_medium"
+		texturefile = "gfx/interface/technologies/ground/ws_infantry_equipment_3_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_energy_weapons6_medium"
+		texturefile = "gfx/interface/technologies/ground/ws_infantry_equipment_4_tech.dds"
+	}
+	SpriteType = {
+		name = "GFX_energy_weapons5_medium"
+		texturefile = "gfx/interface/technologies/ground/ws_infantry_equipment_5_tech.dds"
+	}
+	### Infantry Armor tech
+	SpriteType = {
+		name = "GFX_infantry_armor_medium"
+		texturefile = "gfx/interface/technologies/ground/ws_infantry_armor_equipment_0_tech.dds"
+	}
+}

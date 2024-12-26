@@ -1,0 +1,21 @@
+characters={
+
+    SLV_president_Natalya_Svernova={ 
+        name = "Natalya Svernova" 
+        portraits = {
+            civilian = {
+                large = "GFX_SLV_president_Natalya_Svernova"
+            }
+            army = {
+                large = "GFX_SLV_president_Natalya_Svernova"
+                small = "GFX_idea_GFX_SLV_president_Natalya_Svernova_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

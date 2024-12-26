@@ -1,0 +1,21 @@
+characters={
+
+    BKO_president_Leonard_Travin={ 
+        name = "Leonard Travin" 
+        portraits = {
+            civilian = {
+                large = "GFX_BKO_president_Leonard_Travin"
+            }
+            army = {
+                large = "GFX_BKO_president_Leonard_Travin"
+                small = "GFX_idea_GFX_BKO_president_Leonard_Travin_small"
+            }
+        }
+
+    country_leader = {
+        ideology = Imperialist_Darwinism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

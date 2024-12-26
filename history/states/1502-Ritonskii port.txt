@@ -1,0 +1,30 @@
+state={
+	id=1502
+	name="STATE_1502"
+	provinces={
+		11575 11719 
+	}
+	history={
+		set_demilitarized_zone = yes
+		owner = JAP
+		add_core_of = FER
+		victory_points = {
+			11719 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+			11719 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+	manpower=163670
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=1.000
+}

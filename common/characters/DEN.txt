@@ -1,0 +1,21 @@
+characters={
+
+    DEN_king_Stefan_Petersen={ 
+        name = "Stefan Petersen" 
+        portraits = {
+            civilian = {
+                large = "GFX_DEN_king_Stefan_Petersen"
+            }
+            army = {
+                large = "GFX_DEN_king_Stefan_Petersen"
+                small = "GFX_idea_GFX_DEN_king_Stefan_Petersen_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

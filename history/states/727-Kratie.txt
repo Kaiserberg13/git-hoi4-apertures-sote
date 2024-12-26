@@ -1,0 +1,25 @@
+
+state={
+	id=727
+	name="STATE_727"
+
+	history={
+		owner = OAS
+		victory_points = {
+		    7645 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = OAS
+
+	}
+
+	provinces={
+		1620 4330 4596 7645 10204 12150 12167 12260 13296 
+	}
+	manpower=1378981
+	buildings_max_level_factor=1.000
+	state_category=town
+}

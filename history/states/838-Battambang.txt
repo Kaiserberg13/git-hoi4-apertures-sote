@@ -1,0 +1,28 @@
+state={
+	id=838
+	name="STATE_838"
+	
+	history={
+		owner = OAS
+		set_demilitarized_zone = yes
+		victory_points = {
+		    13299 3
+		}
+		victory_points = {
+		    4251 2
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = OAS
+
+	}
+	
+	provinces={
+		4251 10134 10467 12460 13298 13299 13300 
+	}
+	manpower=849393
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

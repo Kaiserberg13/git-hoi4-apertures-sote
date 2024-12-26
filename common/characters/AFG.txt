@@ -1,0 +1,21 @@
+characters={
+
+    AFG_president_Yahir_Sarwar={ 
+        name = "Yahir Sarwar" 
+        portraits = {
+            civilian = {
+                large = "GFX_AFG_president_Yahir_Sarwar"
+            }
+            army = {
+                large = "GFX_AFG_president_Yahir_Sarwar"
+                small = "GFX_idea_GFX_AFG_president_Yahir_Sarwar_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

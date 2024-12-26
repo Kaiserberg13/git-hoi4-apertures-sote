@@ -1,0 +1,36 @@
+
+state={
+	id=718
+	name="STATE_718"
+
+	history={
+		set_demilitarized_zone = yes
+		owner = PRC
+		victory_points = {
+			4925 10 
+		}
+		victory_points = {
+			7240 3
+		}
+		victory_points = {
+			12705 2
+		}
+		victory_points = {
+			12141 2
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 1
+
+		}
+		add_core_of = PRC
+
+	}
+
+	provinces={
+		1395 4925 7240 12141 12705 12819 15181 15184 
+	}
+	manpower=1825915
+	buildings_max_level_factor=1.000
+	state_category=town
+}

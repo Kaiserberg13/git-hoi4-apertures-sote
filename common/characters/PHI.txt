@@ -1,0 +1,21 @@
+characters={
+
+    PHI_president_Muyuse_De_Fales={ 
+        name = "Muyuse De Fales" 
+        portraits = {
+            civilian = {
+                large = "GFX_PHI_president_Muyuse_De_Fales"
+            }
+            army = {
+                large = "GFX_PHI_president_Muyuse_De_Fales"
+                small = "GFX_idea_GFX_PHI_president_Muyuse_De_Fales_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

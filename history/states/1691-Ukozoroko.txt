@@ -1,0 +1,22 @@
+state={
+	id=1691
+	name="STATE_1691"
+	provinces={
+		13759 13760 13762 16749 16759 16765 
+	}
+	history={
+		owner = MRT
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			13759 14
+		}
+		add_core_of = MRT
+
+	}
+	manpower=1886334
+	buildings_max_level_factor=1.000
+	state_category=town
+}

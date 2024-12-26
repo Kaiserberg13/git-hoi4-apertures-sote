@@ -1,0 +1,21 @@
+state={
+	id=1471
+	name="STATE_1471"
+	provinces={
+		1729 4733 7781 10635 
+	}
+	history={
+		owner = SYA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = SYA
+
+	}
+	manpower=237925
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

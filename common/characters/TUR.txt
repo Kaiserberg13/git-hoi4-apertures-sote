@@ -1,0 +1,21 @@
+characters={
+
+    TUR_president_Michalis_Barbidis={ 
+        name = "Michalis Barbidis" 
+        portraits = {
+            civilian = {
+                large = "GFX_TUR_president_Michalis_Barbidis"
+            }
+            army = {
+                large = "GFX_TUR_president_Michalis_Barbidis"
+                small = "GFX_idea_GFX_TUR_president_Michalis_Barbidis_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

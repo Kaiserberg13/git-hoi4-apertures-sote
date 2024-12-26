@@ -1,0 +1,172 @@
+﻿division_template = {
+	name = "Stahlmauer"
+
+	division_names_group = AUS_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+		militia = { x = 2 y = 0 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		light_tank_recon = { x = 0 y = 1}
+	}
+}
+
+division_template = {
+	name = "Grenadierbrigade"
+
+	division_names_group = AUS_Inf_01
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		military_police = { x = 1 y = 0}
+	}
+}
+
+division_template = {
+	name = "Schnelltruppen"
+
+	division_names_group = AUS_mot_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+
+		motorized = { x = 1 y = 0 }
+		mot_artillery_brigade = { x = 1 y = 1 }
+
+	}
+	
+	support = {
+		mot_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Eisenspeer"
+
+	division_names_group = AUS_pnz_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+
+	}
+	
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+
+		artillery = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Kavalleriedivision"
+
+	division_names_group = AUS_cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+	
+	support = {
+		maintenance_company = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "Sturmabteilung Schwarz"
+		location = 688
+		division_template = "Stahlmauer"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.07
+	}
+	division = {
+		name = "Grenzwacht"
+		location = 9648
+		division_template = "Stahlmauer"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.15
+	}
+	
+	division = {
+		name = "Feldadler"
+		location = 11666
+		division_template = "Eisenspeer"
+		start_equipment_factor = 0.95
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Sturmlöwen"
+		location = 11598
+		division_template = "Schnelltruppen"
+		start_equipment_factor = 0.3
+		start_experience_factor = 0.0
+	}
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "AUS"
+			version_name = "Eisendrache"
+		}
+		requested_factories = 1
+		progress = 0.8
+		efficiency = 95
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "AUS"
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 40
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_artillery_equipment_1
+			creator = "AUS"
+		}
+		requested_factories = 2
+		progress = 0.0
+		efficiency = 0
+	}
+}

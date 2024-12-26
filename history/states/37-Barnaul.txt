@@ -1,0 +1,26 @@
+
+state={
+	id=37
+	name="STATE_37"
+
+	history={
+		owner = BKO
+		victory_points = {
+			1794 3 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+
+		}
+		add_core_of = BKO
+
+	}
+
+	provinces={
+		1297 1779 1794 1797 4803 7680 10537 10546 11410 12515 12528 12613 
+	}
+	manpower=5169920
+	buildings_max_level_factor=1.000
+	state_category=town
+}

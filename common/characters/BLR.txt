@@ -1,0 +1,21 @@
+characters={
+
+    BLR_president_Vadim_Ierohov={ 
+        name = "Vadim Ierohov" 
+        portraits = {
+            civilian = {
+                large = "GFX_BLR_president_Vadim_Ierohov"
+            }
+            army = {
+                large = "GFX_BLR_president_Vadim_Ierohov"
+                small = "GFX_idea_GFX_BLR_president_Vadim_Ierohov_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

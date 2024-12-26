@@ -1,0 +1,21 @@
+characters={
+
+    MOR_president_Government={ 
+        name = "Government" 
+        portraits = {
+            civilian = {
+                large = "GFX_MOR_president_Government"
+            }
+            army = {
+                large = "GFX_MOR_president_Government"
+                small = "GFX_idea_GFX_MOR_president_Government_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

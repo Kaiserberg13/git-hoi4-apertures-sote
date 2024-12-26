@@ -1,0 +1,21 @@
+characters={
+
+    USB_president_Donald_Jeaessey={ 
+        name = "Donald Jeaessey" 
+        portraits = {
+            civilian = {
+                large = "GFX_USB_president_Donald_Jeaessey"
+            }
+            army = {
+                large = "GFX_USB_president_Donald_Jeaessey"
+                small = "GFX_idea_GFX_USB_president_Donald_Jeaessey_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

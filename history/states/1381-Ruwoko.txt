@@ -1,0 +1,32 @@
+state={
+	id=1381
+	name="STATE_1381"
+	provinces={
+		4288 10272 14677 16095 16096 
+	}
+	history={
+		owner = PHI
+		victory_points = {
+			10272 5 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			industrial_complex = 1
+			arms_factory = 1
+			16095 = {
+				naval_base = 1
+
+			}
+			10272 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = PHI
+
+	}
+	manpower=1749576
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

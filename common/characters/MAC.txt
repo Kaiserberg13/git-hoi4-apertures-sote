@@ -1,0 +1,21 @@
+characters={
+
+    MAC_president_Kiril_Uzelov={ 
+        name = "Kiril Uzelov" 
+        portraits = {
+            civilian = {
+                large = "GFX_MAC_president_Kiril_Uzelov"
+            }
+            army = {
+                large = "GFX_MAC_president_Kiril_Uzelov"
+                small = "GFX_idea_GFX_MAC_president_Kiril_Uzelov_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

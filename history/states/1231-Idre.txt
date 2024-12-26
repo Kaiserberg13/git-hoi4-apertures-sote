@@ -1,0 +1,21 @@
+state={
+	id=1231
+	name="STATE_1231"
+
+	history={
+		owner = SWE
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SWE
+
+	}
+
+	provinces={
+		202 6123 9068 
+	}
+	manpower=238066
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

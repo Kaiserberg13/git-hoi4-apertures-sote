@@ -1,0 +1,22 @@
+
+state={
+	id=1023
+	name="STATE_1023"
+
+	history={
+		owner = SUD
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SUD
+
+	}
+
+	provinces={
+		14153 14161 14182 
+	}
+	manpower=146556
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,412 @@
+﻿division_template = {
+	name = "Wehrmachtkorps"
+
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+		maintenance_company = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		support_drones = { x = 0 y = 2 }
+
+		mot_recon = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Feldsturm"
+
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+
+        irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 1 y = 2 }
+
+        irregular_infantry = { x = 2 y = 0 }
+		irregular_infantry = { x = 2 y = 1 }
+		irregular_infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+		maintenance_company = { x = 0 y = 0 }
+
+		artillery = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Blitzjäger"
+
+	division_names_group = GER_mot_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+
+		motorized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+	}
+	
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+
+		artillery = { x = 1 y = 0 }
+		helicopter_support = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Eiserne Kolonne"
+
+	division_names_group = GER_mch_01
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+
+	}
+	
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+
+		artillery = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Flammenwolf"
+
+	division_names_group = GER_pnz_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+
+	}
+	
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		helicopter_support = { x = 0 y = 2 }
+
+		attack_drones = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Felsbrecher"
+
+	division_names_group = GER_pnz_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+
+		medium_armor = { x = 2 y = 0 }
+		medium_armor = { x = 2 y = 1 }
+
+	}
+	
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Donnerschnellkorps"
+
+	division_names_group = GER_mch_01
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+
+		light_tank_recon = { x = 1 y = 0 }
+		attack_drones = { x = 1 y = 1 }
+	}
+}
+
+
+division_template = {
+	name = "Kampfsperber"
+
+	division_names_group = GER_hcp_01
+
+	regiments = {
+		light_helicopter_brigade = { x = 0 y = 0 }
+		light_helicopter_brigade = { x = 0 y = 1 }
+
+		light_helicopter_brigade = { x = 1 y = 0 }
+		light_helicopter_brigade = { x = 1 y = 1 }
+
+		attack_drones_brigade = { x = 2 y = 0 }
+
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		support_drones = { x = 0 y = 3 }
+
+		military_police = { x = 1 y = 0 }
+	}
+}
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "Schwarzer Falke"
+		location = 6521
+		division_template = "Blitzjäger"
+		start_equipment_factor = 1.0
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "Schwarzer Falke - Bezirk"
+		location = 692
+		division_template = "Blitzjäger"
+		start_equipment_factor = 1.0
+		start_experience_factor = 1.0
+	}
+
+	division = {
+		name = "Zerberuskorps"
+		location = 3500
+		division_template = "Wehrmachtkorps"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.82
+
+	}
+	division = {
+		name = "Höllenhunde"
+		location = 11531
+		division_template = "Wehrmachtkorps"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.15
+
+	}
+	division = {
+		name = "Schattenwächter"
+		location = 6712
+		division_template = "Wehrmachtkorps"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+
+	}
+	division = {
+		name = "Nordwölfe"
+		location = 3558
+		division_template = "Wehrmachtkorps"
+		start_equipment_factor = 0.7
+		start_experience_factor = 0.1
+
+	}
+
+	division = {
+		name = "Kreuzbrecher"
+		location = 707
+		division_template = "Feldsturm"
+		start_equipment_factor = 0.65
+		start_experience_factor = 0.1
+
+	}
+	division = {
+		name = "Wolfenfeste"
+		location = 11638
+		division_template = "Feldsturm"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.1
+
+	}
+
+	division = {
+		name = "Sturmvogel"
+		location = 6488
+		division_template = "Blitzjäger"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.2
+
+	}
+	division = {
+		name = "Schattendrachen"
+		location = 6377
+		division_template = "Blitzjäger"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.2
+
+	}
+
+	division = {
+		name = "Flammensturm"
+		location = 9347
+		division_template = "Flammenwolf"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.4
+
+	}
+	division = {
+		name = "Blutrotor"
+		location = 587
+		division_template = "Flammenwolf"
+		start_equipment_factor = 1.0
+		start_experience_factor = 0.05
+
+	}
+	division = {
+		name = "Blutrotor"
+		location = 6469
+		division_template = "Flammenwolf"
+		start_equipment_factor = 0.8
+		start_experience_factor = 0.0
+
+	}
+	division = {
+		name = "Eisige Klingen"
+		location = 9496
+		division_template = "Felsbrecher"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.0
+
+	}
+	division = {
+		name = "Nachtklinge"
+		location = 9517
+		division_template = "Kampfsperber"
+		start_equipment_factor = 0.57
+		start_experience_factor = 0.03
+
+	}
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "GER"
+		}
+		requested_factories = 5
+		progress = 0.2
+		efficiency = 40
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_armor_equipment_0
+			creator = "GER"
+		}
+		requested_factories = 4
+		progress = 0.5
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_artillery_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_2
+			creator = "GER"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_helicopter_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_attack_drones_equipment_0
+			creator = "GER"
+		}
+		requested_factories = 2
+		progress = 0.35
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_support_drones_equipment_0
+			creator = "GER"
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 95
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "GER"
+			version_name = "Schwarzer Blitz"
+		}
+		requested_factories = 3
+		progress = 0.9
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_medium_tank_equipment_0
+			creator = "GER"
+			version_name = "Blitzsturm"
+		}
+		requested_factories = 1
+		progress = 0.9
+		efficiency = 100
+	}
+}

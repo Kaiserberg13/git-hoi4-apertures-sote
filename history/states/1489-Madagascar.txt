@@ -1,0 +1,21 @@
+state={
+	id=1489
+	name="STATE_1489"
+	provinces={
+		8180 10158 10217 12201 12956 13355 13483 13495 14270 14404 
+	}
+	history = {
+		owner = MAD
+		add_core_of = MAD
+		buildings = {
+			infrastructure = 3
+			naval_base = {
+				10158 = 1
+			}
+		}
+	}
+	manpower=3477260
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

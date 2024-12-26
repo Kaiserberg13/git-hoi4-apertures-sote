@@ -1,0 +1,18 @@
+state={
+	id=1255
+	name="STATE_1255"
+
+	history={
+		owner = SAF
+		add_core_of = SAF
+
+	}
+
+	provinces={
+		15217 
+	}
+	manpower=470643
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

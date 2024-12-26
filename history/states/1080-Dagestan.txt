@@ -1,0 +1,27 @@
+state={
+	id=1080
+	name="STATE_1080"
+
+	history={
+		owner = SOV
+		victory_points = {
+			3668 3
+		}
+		victory_points = {
+			3682 2
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		700 712 728 1450 3668 3682 3711 4463 6689 6701 6730 6748 7554 7624 9645 
+	}
+	manpower=701955
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

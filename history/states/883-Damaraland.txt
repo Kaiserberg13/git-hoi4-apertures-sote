@@ -1,0 +1,25 @@
+
+state={
+	id=883
+	name="STATE_883"
+
+	history={
+		owner = NAM
+		victory_points = {
+			13455 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = NAM
+	}
+
+	provinces={
+		13455 13459 15232 
+	}
+	manpower=156861
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

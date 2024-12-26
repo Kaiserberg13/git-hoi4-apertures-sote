@@ -1,0 +1,171 @@
+﻿division_template = {
+	name = "Infanteriedivision"
+
+	division_names_group = CZE_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		light_tank_recon = { x = 0 y = 1}
+	}
+}
+
+division_template = {
+	name = "Panzerdivision"
+
+	division_names_group = CZE_pnz_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		light_tank_recon = { x = 0 y = 1}
+	}
+}
+
+division_template = {
+	name = "Kavalleriedivision"
+
+	division_names_group = CZE_cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+	
+	support = {
+		maintenance_company = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "1. Infanteriedivision"
+		location = 11542
+		division_template = "Infanteriedivision"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2. Infanteriedivision"
+		location = 3569
+		division_template = "Infanteriedivision"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3. Infanteriedivision"
+		location = 6470
+		division_template = "Infanteriedivision"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4. Infanteriedivision"
+		location = 6590
+		division_template = "Infanteriedivision"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1. Panzerdivision"
+		location = 14679
+		division_template = "Panzerdivision"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2. Panzerdivision"
+		location = 9414
+		division_template = "Panzerdivision"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3. Panzerdivision"
+		location = 557
+		division_template = "Panzerdivision"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4. Panzerdivision"
+		location = 583
+		division_template = "Panzerdivision"
+		start_equipment_factor = 0.9
+		start_experience_factor = 0.2
+	}
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "CZE"
+			version_name = "Eisendrache"
+		}
+		requested_factories = 1
+		progress = 0.8
+		efficiency = 95
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "CZE"
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 40
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_artillery_equipment_1
+			creator = "CZE"
+		}
+		requested_factories = 2
+		progress = 0.0
+		efficiency = 0
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_light_tank_equipment_0
+			creator = "CZE"
+			version_name = "Wolfsjäger"
+		}
+		requested_factories = 1
+		progress = 0.9
+		efficiency = 100
+	}
+}

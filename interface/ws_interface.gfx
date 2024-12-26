@@ -1,0 +1,217 @@
+spriteTypes = {
+
+	### Main menu
+	# Background
+	frameAnimatedSpriteType = {
+		name = "GFX_main_menu_1"
+		texturefile = "gfx/loadingscreens/MainMenu/load_main_menu_1.dds"
+		noOfFrames = 22
+		animation_rate_fps = 14
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_main_menu_2"
+		texturefile = "gfx/loadingscreens/MainMenu/load_main_menu_2.dds"
+		noOfFrames = 22
+		animation_rate_fps = 14
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_main_menu_3"
+		texturefile = "gfx/loadingscreens/MainMenu/load_main_menu_3.dds"
+		noOfFrames = 22
+		animation_rate_fps = 14
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_main_menu_4"
+		texturefile = "gfx/loadingscreens/MainMenu/load_main_menu_4.dds"
+		noOfFrames = 22
+		animation_rate_fps = 14
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_main_menu_5"
+		texturefile = "gfx/loadingscreens/MainMenu/load_main_menu_5.dds"
+		noOfFrames = 22
+		animation_rate_fps = 14
+		looping = yes
+		play_on_show = yes
+	}
+	# Sprites
+	SpriteType = {
+		name = "GFX_main_menu_country_selection_menu_bg"
+		texturefile = "gfx/interface/main_menu/main_menu_country_selection_menu_bg.dds"
+	}
+	# Buttons
+	SpriteType = {
+		name = "GFX_main_menu_card_button_1"
+		texturefile = "gfx/interface/buttons/main_menu_card_button_1.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_main_menu_card_button_2"
+		texturefile = "gfx/interface/buttons/main_menu_card_button_2.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_main_menu_single_player"
+		texturefile = "gfx/interface/buttons/main_menu_single_player.dds"
+		noOfFrames = 3
+	}
+	SpriteType = {
+		name = "GFX_main_menu_multiplayer"
+		texturefile = "gfx/interface/buttons/main_menu_multiplayer.dds"
+		noOfFrames = 3
+	}
+	SpriteType = {
+		name = "GFX_main_menu_options"
+		texturefile = "gfx/interface/buttons/main_menu_options.dds"
+		noOfFrames = 3
+	}
+	SpriteType = {
+		name = "GFX_main_menu_quit"
+		texturefile = "gfx/interface/buttons/main_menu_quit.dds"
+		noOfFrames = 3
+	}
+	SpriteType = {
+		name = "GFX_main_menu_discord"
+		texturefile = "gfx/interface/buttons/main_menu_discord.dds"
+		noOfFrames = 3
+	}
+	SpriteType = {
+		name = "GFX_main_menu_nudge"
+		texturefile = "gfx/interface/buttons/main_menu_nudge.dds"
+		noOfFrames = 3
+	}
+	SpriteType = {
+		name = "GFX_main_menu_continue"
+		texturefile = "gfx/interface/buttons/main_menu_continue.dds"
+		noOfFrames = 3
+	}
+	SpriteType = {
+		name = "GFX_main_menu_new_game"
+		texturefile = "gfx/interface/buttons/main_menu_new_game.dds"
+		noOfFrames = 3
+	}
+	SpriteType = {
+		name = "GFX_main_menu_load"
+		texturefile = "gfx/interface/buttons/main_menu_load.dds"
+		noOfFrames = 3
+	}
+	SpriteType = {
+		name = "GFX_main_menu_back"
+		texturefile = "gfx/interface/buttons/main_menu_back.dds"
+		noOfFrames = 3
+	}
+
+
+	#countrypoliticsview
+	### FIX
+	SpriteType = {
+		name = "GFX_goal_generic_trade"
+		texturefile = "gfx/interface/thisisdog.dds"
+	}
+	### Sprites 
+	SpriteType = {
+		name = "GFX_corp_button"
+		texturefile = "gfx/interface/countrypolitics/CorpButton.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_national_focus_button"
+		texturefile = "gfx/interface/countrypolitics/NationalFocusButton.dds"
+		noOfFrames = 3
+	}
+	SpriteType = {
+		name = "GFX_economic_button"
+		texturefile = "gfx/interface/countrypolitics/EconomicButton.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_exile_government_button"
+		texturefile = "gfx/interface/countrypolitics/ExileGovernmentButton.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_ws_puppet_button"
+		texturefile = "gfx/interface/countrypolitics/PuppetButton.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_resistance_button"
+		texturefile = "gfx/interface/countrypolitics/ResistanceButton.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_ws_countrypoliticsview_bg"
+		texturefile = "gfx/interface/countrypolitics/PoliticalBG.dds"
+	}
+	SpriteType = {
+		name = "GFX_delete_faction_button"
+		texturefile = "gfx/interface/countrypolitics/DeleteFactionButton.dds"
+	}
+	SpriteType = {
+		name = "GFX_country_leader_portrait_frame"
+		texturefile = "gfx/interface/countrypolitics/PortraitFrame.dds"
+	}
+	SpriteType = {
+		name = "GFX_tab_header_bg"
+		texturefile = "gfx/interface/countrypolitics/TabHeader.dds"
+	}
+	SpriteType = {
+		name = "GFX_ws_category_header_bg"
+		texturefile = "gfx/interface/countrypolitics/WSCategoryHeader.dds"
+	}
+	SpriteType = {
+		name = "GFX_close_button_header"
+		texturefile = "gfx/interface/countrypolitics/CloseButton.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_box_BG"
+		texturefile = "gfx/interface/countrypolitics/FocusBoxBG.dds"
+	}
+	SpriteType = {
+		name = "GFX_copro_arstotzka_button"
+		texturefile = "gfx/interface/corporations/corporation_arstotzka_button.dds"
+	}
+	SpriteType = {
+		name = "GFX_copro_rotatosk_button"
+		texturefile = "gfx/interface/corporations/corporation_rotatosk_button.dds"
+	}
+	SpriteType = {
+		name = "GFX_copro_camelia_button"
+		texturefile = "gfx/interface/corporations/corporation_camelia_button.dds"
+	}
+	SpriteType = {
+		name = "GFX_copro_zaphkiel_button"
+		texturefile = "gfx/interface/corporations/corporation_zaphkiel_button.dds"
+	}
+	SpriteType = {
+		name = "GFX_copro_euqonics_button"
+		texturefile = "gfx/interface/corporations/corporation_euqonics_button.dds"
+	}
+	SpriteType = {
+		name = "GFX_copro_sphere_of_influence_card"
+		texturefile = "gfx/interface/corporations/corporation_sphere_of_influence_card.png"
+	}
+	SpriteType = {
+		name = "GFX_copro_reduce_influence_button"
+		texturefile = "gfx/interface/corporations/corporation_reduce_influence_button.png"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_copro_add_influence_button"
+		texturefile = "gfx/interface/corporations/corporation_add_influence_button.png"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_copro_cards_content_icon"
+		texturefile = "gfx/interface/corporations/corporations_cards_content.png"
+		noOfFrames = 19
+	}
+}

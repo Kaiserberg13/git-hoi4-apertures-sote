@@ -1,0 +1,21 @@
+characters={
+
+    POL_portrait_Nikitich_Krokoviec={ 
+        name = "Nikitich Krokoviec" 
+        portraits = {
+            civilian = {
+                large = "GFX_POL_portrait_Nikitich_Krokoviec"
+            }
+            army = {
+                large = "GFX_POL_portrait_Nikitich_Krokoviec"
+                small = "GFX_idea_GFX_POL_portrait_Nikitich_Krokoviec_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

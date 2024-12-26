@@ -1,0 +1,21 @@
+characters={
+
+    USA_president_Armani_Weber={ 
+        name = "Armani Weber" 
+        portraits = {
+            civilian = {
+                large = "GFX_USA_president_Armani_Weber"
+            }
+            army = {
+                large = "GFX_USA_president_Armani_Weber"
+                small = "GFX_idea_GFX_USA_president_Armani_Weber_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

@@ -1,0 +1,49 @@
+capital = 410
+set_politics = {
+    ruling_party = democratic
+    last_election = "1933.3.5"
+    election_frequency = 48
+    elections_allowed = no
+}
+set_popularities = {
+    fascism = 0
+    darwinism = 0
+    democratic = 100
+    globalism = 0
+    communism = 0
+}
+
+
+recruit_character = EGY_president_Fatma_Ba
+
+
+
+
+
+
+set_technology = {
+    ws_engineer_company = 1
+    ws_recon_company = 1
+    ws_logistics_company = 1
+    ws_military_police = 1
+    maintenance_company = 1
+    helicopter_technology = 1
+    drones_technology = 1
+    infantry_armor = 1
+    energy_weapons = 1
+    special_forces = 1
+    marines = 1
+    mountaineers = 1
+    common_support = 1
+    ws_modern_support = 1
+    ws_support_drones = 1
+    ws_common_train = 1
+    ws_basic_chassis = 1
+    gw_artillery = 1
+    ws_modern_anti_air = 1
+    ws_basic_electromics = 1
+    basic_new_era_tech = 1
+    ws_cyberimplants = 1
+    ws_armored_car = 1
+    ws_armored_car_3 = 1
+}

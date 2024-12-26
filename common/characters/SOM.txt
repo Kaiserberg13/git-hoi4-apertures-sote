@@ -1,0 +1,21 @@
+characters={
+
+    SOM_president_Listoph_Wolfder={ 
+        name = "Listoph Wolfder" 
+        portraits = {
+            civilian = {
+                large = "GFX_SOM_president_Listoph_Wolfder"
+            }
+            army = {
+                large = "GFX_SOM_president_Listoph_Wolfder"
+                small = "GFX_idea_GFX_SOM_president_Listoph_Wolfder_small"
+            }
+        }
+
+    country_leader = {
+        ideology = liberalism
+        traits = { }
+        desc = generic_president_desc
+    }
+    }
+}

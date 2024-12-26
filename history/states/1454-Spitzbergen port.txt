@@ -1,0 +1,20 @@
+state={
+	id=1454
+	name="STATE_1454"
+	provinces={
+		16334 
+	}
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = ENG
+
+	}
+
+	manpower=268164
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

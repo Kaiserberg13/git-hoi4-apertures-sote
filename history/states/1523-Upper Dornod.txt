@@ -1,0 +1,24 @@
+state={
+	id=1523
+	name="STATE_1523"
+	provinces={
+		4792 7885 10708 12533 12665 13921 13930 13933 13936 13938 13943 
+	}
+	history={
+		owner = MON
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = MON
+
+	}
+
+	manpower=3165969
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}
