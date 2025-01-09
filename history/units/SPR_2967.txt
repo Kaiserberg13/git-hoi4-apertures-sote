@@ -1,0 +1,47 @@
+﻿division_template = {
+	name = "Пехотная дивизия"
+
+	division_names_group = SLO_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	### start_experience_factor = { 0.1, 0.3, 0.75, 0.9 }
+	division = {
+		name = "1-я Пехотная дивизия"
+		location = 3581
+		division_template = "Пехотная дивизия"
+		start_equipment_factor = 1.0
+		start_experience_factor = 1.0
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_equipment_0
+			creator = "SLO"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ws_infantry_armor_equipment_0
+			creator = "SLO"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}

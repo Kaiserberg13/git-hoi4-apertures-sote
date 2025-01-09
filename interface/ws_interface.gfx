@@ -5,40 +5,40 @@ spriteTypes = {
 	frameAnimatedSpriteType = {
 		name = "GFX_main_menu_1"
 		texturefile = "gfx/loadingscreens/MainMenu/load_main_menu_1.dds"
-		noOfFrames = 22
-		animation_rate_fps = 14
+		noOfFrames = 24
+		animation_rate_fps = 15
 		looping = yes
 		play_on_show = yes
 	}
 	frameAnimatedSpriteType = {
 		name = "GFX_main_menu_2"
 		texturefile = "gfx/loadingscreens/MainMenu/load_main_menu_2.dds"
-		noOfFrames = 22
-		animation_rate_fps = 14
+		noOfFrames = 24
+		animation_rate_fps = 15
 		looping = yes
 		play_on_show = yes
 	}
 	frameAnimatedSpriteType = {
 		name = "GFX_main_menu_3"
 		texturefile = "gfx/loadingscreens/MainMenu/load_main_menu_3.dds"
-		noOfFrames = 22
-		animation_rate_fps = 14
+		noOfFrames = 24
+		animation_rate_fps = 15
 		looping = yes
 		play_on_show = yes
 	}
 	frameAnimatedSpriteType = {
 		name = "GFX_main_menu_4"
 		texturefile = "gfx/loadingscreens/MainMenu/load_main_menu_4.dds"
-		noOfFrames = 22
-		animation_rate_fps = 14
+		noOfFrames = 24
+		animation_rate_fps = 15
 		looping = yes
 		play_on_show = yes
 	}
 	frameAnimatedSpriteType = {
 		name = "GFX_main_menu_5"
 		texturefile = "gfx/loadingscreens/MainMenu/load_main_menu_5.dds"
-		noOfFrames = 22
-		animation_rate_fps = 14
+		noOfFrames = 24
+		animation_rate_fps = 15
 		looping = yes
 		play_on_show = yes
 	}

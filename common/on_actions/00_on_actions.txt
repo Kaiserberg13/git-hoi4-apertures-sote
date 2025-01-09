@@ -5,6 +5,7 @@ on_actions = {
     on_startup = {
 		effect = {
 		    every_country={
+                set_variable = { TOTAL_CASUALTIES_NUM_VAR = 0}	
                 set_variable = { TOTAL_CORPSES_PER_STATE = 0}	
                 set_variable = { TOTAL_CORPSES = casualties_k}	
                 set_variable = { MORALITY = 0.001}	
@@ -34,7 +35,6 @@ on_actions = {
             # TOPBAR
             # TOTAL INFRASTRUCTURE
 
-            every_country = {
 
 
                 set_variable = { TOTAL_INFRASTRUCTURE_STATES_VAR = 0}	
@@ -44,7 +44,6 @@ on_actions = {
                 set_variable = { TOTAL_OFFICE = 0}
 
                 set_variable = { TOTAL_MANPOWER_IN_STATES = 0}
-
                 every_owned_state = {
                     add_to_variable = { PREV.TOTAL_INFRASTRUCTURE_VAR = building_level@infrastructure}
                     add_to_variable = { PREV.TOTAL_OFFICE = building_level@office}
@@ -52,10 +51,27 @@ on_actions = {
                 }
 
                 # casualties
-                multiply_variable = { TOTAL_MANPOWER_IN_STATES = MORALITY}	
-                divide_variable = { TOTAL_MANPOWER_IN_STATES = 1000}	
+                set_variable = { TOTAL_CASUALTIES_NUM_VAR = 0}	
+                set_variable = { TOTAL_CASUALTIES_EXACT = TOTAL_MANPOWER_IN_STATES}	
+                multiply_variable = { TOTAL_MANPOWER_IN_STATES = MORALITY}
+                round_variable = TOTAL_MANPOWER_IN_STATES
                 add_to_variable = { TOTAL_CASUALTIES = TOTAL_MANPOWER_IN_STATES}
-                
+                if = {
+                    limit = {
+                        check_variable = { TOTAL_MANPOWER_IN_STATES > 100 }
+                    }
+                    divide_variable = { TOTAL_MANPOWER_IN_STATES = 1000 }
+                    set_variable = { TOTAL_CASUALTIES_NUM_VAR = 1}	
+                    set_variable = {TOTAL_CASUALTIES = TOTAL_MANPOWER_IN_STATES}
+                }
+                set_variable = { TOTAL_CASUALTIES_MANPOWER_TO_BE_REMOVED = TOTAL_CASUALTIES }	
+                divide_variable = { TOTAL_CASUALTIES_MANPOWER_TO_BE_REMOVED = owned_controlled_states }
+                multiply_variable = { TOTAL_CASUALTIES_MANPOWER_TO_BE_REMOVED = 0.75 }
+                round_variable = TOTAL_CASUALTIES_MANPOWER_TO_BE_REMOVED
+                every_owned_state = {
+                    add_manpower = TOTAL_CASUALTIES_MANPOWER_TO_BE_REMOVED
+                }
+
 
                 # infrastructure
                 set_variable = { TOTAL_MAX_INFRASTRUCTURE_IN_ALL_STATES = num_owned_states}	
@@ -63,7 +79,6 @@ on_actions = {
                 divide_variable = { TOTAL_INFRASTRUCTURE_VAR = TOTAL_MAX_INFRASTRUCTURE_IN_ALL_STATES }
                 multiply_variable = { TOTAL_INFRASTRUCTURE_VAR = 100}
 
-            }
         }
     }
 }

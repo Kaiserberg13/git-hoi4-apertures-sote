@@ -1,17 +1,15 @@
-
 defined_text = {
-	name = IB_OIL_TEXT
+	name = TOPBAR_CASUALTIES_NUM_TEXT
 	text = {
 		trigger = {
-			check_variable = {resource_imported@oil > 0 }
-			check_variable = {resource@oil > resource_imported@oil }
+			check_variable = {TOTAL_CASUALTIES_NUM_VAR = 0 }
 		}
-		localization_key = "[?resource@oil|0Y]"
+		localization_key = TOPBAR_CASUALTIES_K
 	}
 	text = {
 		trigger = {
-			always=yes
+			check_variable = {TOTAL_CASUALTIES_NUM_VAR = 1 }
 		}
-		localization_key = "[?resource@oil|0+]"
+		localization_key = TOPBAR_CASUALTIES_M
 	}
 }
