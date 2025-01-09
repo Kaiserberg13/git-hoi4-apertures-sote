@@ -17,7 +17,7 @@ set_autonomy = {
     target = PHI
     autonomous_state = autonomy_dominion
 }
-
+set_variable = { MORALITY = 1}	
 set_variable = { CorporationCamelia = 45 }
 set_variable = { CorporationArtsotzka = 25 }
 set_variable = { CorporationRotatosk = 10 }

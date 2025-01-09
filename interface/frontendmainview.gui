@@ -59,7 +59,7 @@ guiTypes = {
 	### MAIN MENU PANEL (upperleft)
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
-		position = { x=0 y =-200 }
+		position = { x=2200 y =-200 }
 		show_position = { x=0 y =-1 }
 		animation_type = decelerated
 		animation_time = 1000
@@ -132,7 +132,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "sp_continue_button"
-			position = { x = 200 y = 50 }
+			position = { x = -800 y = 50 }
 			quadTextureSprite ="GFX_main_menu_continue"	
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -141,7 +141,7 @@ guiTypes = {
 		iconType = {
 			name = "sp_continue_flag_left"
 			quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= 265 y = 73 }
+			position = { x= -750 y = 65 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -149,14 +149,14 @@ guiTypes = {
 		iconType = {
 			name = "sp_continue_flag_right"
 			quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= 485 y = 73 }
+			position = { x= -400 y = 65 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
 		
 		ButtonType = {
 			name = "sp_new_button"
-			position = {  x= 210 y = 150 }
+			position = {  x= -800 y = 150 }
 			quadTextureSprite ="GFX_main_menu_new_game"	
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -164,7 +164,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "sp_load_button"
-			position = {  x = 220 y = 250 }
+			position = {  x = -800 y = 250 }
 			quadTextureSprite ="GFX_main_menu_load"	
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -173,7 +173,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "sp_back_button"
-			position = { x = 230 y = 450 }
+			position = { x = -800 y = 450 }
 			quadTextureSprite ="GFX_main_menu_back"	
 			clicksound = click_close
 			oversound = ui_menu_over
@@ -197,7 +197,7 @@ guiTypes = {
 			
 		ButtonType = {
 			name = "single_player_button"
-			position = { x = 200 y = 50 }
+			position = { x = -800 y = 50 }
 			quadTextureSprite ="GFX_main_menu_single_player"			
 			clicksound = click_default			
 			oversound = ui_menu_over
@@ -205,13 +205,13 @@ guiTypes = {
 
 		ButtonType = {
 			name = "multi_player_button"
-			position = { x = 210 y = 150}
+			position = { x = -800 y = 150}
 			quadTextureSprite ="GFX_main_menu_multiplayer"		
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
 
-		@warn_icon_x = 280
+		@warn_icon_x = -800
 		iconType = {
 			name = "single_player_button_warn"
 			position = { x = @warn_icon_x y = 22 }
@@ -221,7 +221,7 @@ guiTypes = {
 		instantTextBoxType = {
 
 			name ="version_label"
-			position = { x = -365 y = -185 }
+			position = { x = -645 y = -100 }
 			textureFile = ""
 			font = "hoi_18b_x"
 			borderSize = {x = 0 y = 0}
@@ -236,7 +236,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "settings_button"
-			position = { x = 220 y = 250 }
+			position = { x = -800 y = 250 }
 			quadTextureSprite ="GFX_main_menu_options"	
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -275,23 +275,23 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 350 y = -290 }
+			position = { x = 0 y = -290 }
 			quadTextureSprite ="GFX_main_menu_nudge"	
 		}
 
 		ButtonType = {
 			name = "discord_button"
-			position = { x = 230 y = 350 }
+			position = { x = -800 y = 350 }
 			quadTextureSprite ="GFX_main_menu_discord"			
 			clicksound = click_default
 			oversound = ui_menu_over
-			web_link = "https://discord.gg/RPCYVFJQpC"
+			web_link = "https://discord.gg/dsjZaxu5na"
 			
 		}
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 240 y = 450 }
+			position = { x =  -800 y = 450 }
 			quadTextureSprite ="GFX_main_menu_quit"			
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -301,7 +301,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "subscription_widget"
-			position = { x = 1500 y = 352 }
+			position = { x = 2500 y = 352 }
 			size = { width = 288 height = 108 }
 
 			ButtonType = {
@@ -316,7 +316,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "subscription_widget_subscribed"
-			position = { x = 1500 y = 352 }
+			position = { x = 2500 y = 352 }
 			size = { width = 288 height = 108 }
 
 			ButtonType = {

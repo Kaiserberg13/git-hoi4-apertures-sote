@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = OAS
+		set_demilitarized_zone = yes
 		victory_points = {
 		    7645 1
 		}
